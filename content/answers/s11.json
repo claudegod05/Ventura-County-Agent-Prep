@@ -37,12 +37,12 @@
         {
           "q": "Under County SOAR, what is needed to re-designate unincorporated Agricultural land for development?",
           "choices": [
-            "A Board of Supervisors 4/5 vote",
             "A countywide vote",
+            "A Board of Supervisors 4/5 vote",
             "Coastal Commission approval",
             "LAFCo approval only"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "County SOAR requires a countywide vote to change Agricultural, Open Space or Rural designations."
         },
         {
@@ -84,11 +84,11 @@
           "q": "What does a CURB do in a Ventura County SOAR city?",
           "choices": [
             "Caps rents at the boundary",
-            "Requires a citywide vote for urban development beyond the line",
             "Bans all development inside the city",
-            "Sets coastal setbacks"
+            "Sets coastal setbacks",
+            "Requires a citywide vote for urban development beyond the line"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "Urban development beyond the CURB generally requires a citywide vote."
         },
         {
@@ -129,12 +129,12 @@
         {
           "q": "What is the state default density for lower-income housing element sites in a 'suburban' jurisdiction?",
           "choices": [
+            "20 du/ac",
             "10 du/ac",
             "15 du/ac",
-            "20 du/ac",
             "30 du/ac"
           ],
-          "answer": 2,
+          "answer": 0,
           "explain": "Suburban jurisdictions use 20 du/ac. Metropolitan ones use 30 du/ac."
         },
         {
@@ -177,10 +177,10 @@
           "choices": [
             "Yes, up to 4 units",
             "Yes, but only with a lot split",
-            "No, SB 9 applies only in single-family zones",
-            "Only in the coastal zone"
+            "Only in the coastal zone",
+            "No, SB 9 applies only in single-family zones"
           ],
-          "answer": 2,
+          "answer": 3,
           "explain": "SB 9 is limited to single-family residential zones."
         },
         {
@@ -197,12 +197,12 @@
         {
           "q": "A developer demolishes 10 Oxnard pre-1995 rent-stabilized units for a density-bonus project. What is the key state obligation?",
           "choices": [
-            "None, if the project is all market-rate",
             "Replace the protected units and offer tenants a right to return",
+            "None, if the project is all market-rate",
             "Pay a $1,000 fee per unit",
             "Obtain a countywide SOAR vote"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Density bonus law and the Housing Crisis Act require replacing protected units and give displaced tenants rights."
         }
       ]
@@ -233,22 +233,22 @@
           "q": "When does the builder's remedy apply?",
           "choices": [
             "When a city has rent control",
-            "When a city lacks a substantially compliant housing element",
             "Only in the coastal zone",
+            "When a city lacks a substantially compliant housing element",
             "Only to 100% market-rate projects"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "The remedy applies when the jurisdiction's housing element is not in substantial compliance."
         },
         {
           "q": "Which 2024 bill revised builder's-remedy affordability and density rules, effective 2025?",
           "choices": [
-            "AB 1893",
             "SB 9",
             "AB 1482",
-            "SB 721"
+            "SB 721",
+            "AB 1893"
           ],
-          "answer": 0,
+          "answer": 3,
           "explain": "AB 1893 restructured the builder's remedy effective January 1, 2025."
         }
       ]
@@ -294,12 +294,12 @@
         {
           "q": "A 20-unit building converts storage space. What is the maximum number of conversion ADUs?",
           "choices": [
+            "5",
             "1",
             "2",
-            "5",
             "8"
           ],
-          "answer": 2,
+          "answer": 0,
           "explain": "Conversions are allowed up to 25% of existing units: 25% × 20 = 5."
         },
         {
@@ -341,22 +341,22 @@
           "q": "What did AB 1505 (2017) do?",
           "choices": [
             "Banned inclusionary zoning",
-            "Restored cities' ability to require affordable units in rental projects",
             "Created SB 9 lot splits",
-            "Set statewide rent caps"
+            "Set statewide rent caps",
+            "Restored cities' ability to require affordable units in rental projects"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "AB 1505 overturned the Palmer limitation and allowed rental inclusionary, with alternatives."
         },
         {
           "q": "Above what rental inclusionary percentage can HCD require a feasibility study?",
           "choices": [
             "5%",
-            "10%",
             "15%",
+            "10%",
             "25%"
           ],
-          "answer": 2,
+          "answer": 1,
           "explain": "HCD may require an economic feasibility study for rental requirements above 15% lower-income."
         }
       ]
@@ -396,16 +396,16 @@
         {
           "q": "What did AB 602 (2021) change about housing impact fees?",
           "choices": [
-            "Eliminated school fees",
             "Required fees to be scaled to square footage in new nexus studies",
+            "Eliminated school fees",
             "Capped all fees at $10,000/unit",
             "Applied only to ADUs"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "AB 602 requires nexus studies adopted after July 1, 2022 to generally calculate fees proportionally to square footage."
         },
         {
-          "q": "What impact fee does an 700-sf ADU pay?",
+          "q": "What impact fee does a 700-sf ADU pay?",
           "choices": [
             "Full per-unit fees",
             "50% of fees",
@@ -444,10 +444,10 @@
           "choices": [
             "2",
             "3",
-            "5",
-            "No limit"
+            "No limit",
+            "5"
           ],
-          "answer": 2,
+          "answer": 3,
           "explain": "The Housing Crisis Act caps hearings at five for compliant projects."
         },
         {
@@ -493,23 +493,23 @@
         {
           "q": "What is the most objective public source for comparing cities' housing production?",
           "choices": [
-            "Yelp reviews",
             "HCD Annual Progress Reports (permits vs. RHNA)",
+            "Yelp reviews",
             "Council campaign websites",
             "Zillow listings"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "HCD APRs report permits and entitlements by income category against RHNA targets."
         },
         {
           "q": "What happens to a city that falls behind on its RHNA progress?",
           "choices": [
             "It is exempt from state law",
-            "It becomes subject to SB 35/SB 423 streamlining for qualifying projects",
             "It must adopt rent control",
+            "It becomes subject to SB 35/SB 423 streamlining for qualifying projects",
             "It loses SOAR protection"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "Jurisdictions behind on RHNA must ministerially approve qualifying projects under SB 35 / SB 423."
         }
       ]
@@ -525,42 +525,31 @@
         "Mello Act: replacement of affordable units in the coastal zone",
         "Coastal areas: Ventura beachfront, Oxnard shores and harbor, Port Hueneme, Hollywood Beach, Silver Strand"
       ],
-      "sources": [
-        {
-          "title": "City of Ventura - Short-Term Vacation Rentals",
-          "url": "https://www.cityofventura.ca.gov/STVR",
-          "date": "2026"
-        },
-        {
-          "title": "Citizen Portal - Port Hueneme council directs staff to revise short term rental rules",
-          "url": "https://cp.soar.com/articles/7002424/Port-Hueneme-City/Ventura-County/California/Port-Hueneme-council-directs-staff-to-revise-short-term-rental-rules-removes-separation-requirement",
-          "date": "2025-11"
-        }
-      ],
+      "sources": [],
       "lastVerified": "2026-10-27",
       "confidence": "medium",
-      "verify": "Coastal Commission pages could not be fetched this session. Confirm each city's LCP certification status and appeal-jurisdiction maps on the Coastal Commission's LCP pages and city coastal zone maps. Check the specific parcel on the Commission's jurisdictional map before advising.",
+      "verify": "No source could be fetched for this answer (Coastal Commission pages returned 404/403 this session); it rests on settled Coastal Act law. Coastal Commission pages could not be fetched this session. Confirm each city's LCP certification status and appeal-jurisdiction maps on the Coastal Commission's LCP pages and city coastal zone maps. Check the specific parcel on the Commission's jurisdictional map before advising.",
       "drills": [
         {
           "q": "Who issues a Coastal Development Permit once a city's LCP is certified?",
           "choices": [
             "Always the Coastal Commission",
-            "The city (with possible appeal to the Commission)",
             "HCD",
-            "The county assessor"
+            "The county assessor",
+            "The city (with possible appeal to the Commission)"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "After LCP certification, the local government issues CDPs. Some decisions are appealable to the Commission."
         },
         {
           "q": "Which state law can require replacing affordable units demolished in the coastal zone?",
           "choices": [
-            "Mello Act (Gov. Code 65590)",
             "Ellis Act",
+            "Mello Act (Gov. Code 65590)",
             "SB 721",
             "AB 1482"
           ],
-          "answer": 0,
+          "answer": 1,
           "explain": "The Mello Act requires replacement of low- and moderate-income units converted or demolished in the coastal zone, where feasible."
         }
       ]
@@ -590,23 +579,23 @@
         {
           "q": "Where are a city's parcel-level housing opportunity sites listed?",
           "choices": [
-            "The general plan circulation element",
             "The housing element sites inventory",
+            "The general plan circulation element",
             "The SOAR measure",
             "The Coastal Act"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "The housing element sites inventory lists parcels, zoning, density and capacity."
         },
         {
           "q": "What does 'no net loss' (Gov. Code 65863) require?",
           "choices": [
-            "Cities must replace site capacity if they approve sites at lower density than planned",
             "Landlords cannot reduce rents",
             "No ADU can be demolished",
+            "Cities must replace site capacity if they approve sites at lower density than planned",
             "Cities cannot lose population"
           ],
-          "answer": 0,
+          "answer": 2,
           "explain": "If capacity drops below what's needed for remaining RHNA, the city must identify replacement sites."
         }
       ]
@@ -614,7 +603,7 @@
     {
       "id": 156,
       "summary": "Water is a real constraint in Ventura County. There are four main supply systems: Casitas (Ventura River and Ojai, mostly local supply), Calleguas (imported State Water for southeastern cities), United Water and the Fox Canyon groundwater agency (Oxnard Plain and Santa Clara Valley), and the City of Ventura's own system. Will-serve letters and offset fees, not formal moratoria, are what usually bite.",
-      "answer": "| Supplier / area | Source | What to watch |\n|---|---|---|\n| **Casitas MWD**: Ojai Valley, western Ventura, Ventura River area | Lake Casitas plus local groundwater; no state imports | Drought stages (the district has a Stage 1 framework), allocation rules, lake level; supply depends on local rain |\n| **Calleguas MWD**: southeastern county (Thousand Oaks, Simi Valley, Camarillo, Moorpark, Oxnard in part, Port Hueneme) | Imported **State Water Project** via Metropolitan WD, plus local water; about **615,000 people through 19 retail purveyors** | SWP allocation cuts in drought; Water Shortage Contingency Plan (2025) |\n| **United Water Conservation District / Fox Canyon GMA**: Oxnard Plain, Santa Paula, Fillmore, Piru | Santa Clara River diversions and groundwater recharge | Fox Canyon limits on groundwater extraction; seawater intrusion on the Oxnard Plain |\n| **City of Ventura (Ventura Water)** | Ventura River, Lake Casitas, groundwater; working on State Water access and potable reuse | New development may need to offset its water demand; check current city rules |\n\n### Development effects\n- **Will-serve letters:** developers need a commitment from the retail purveyor. In drought, some districts slow new connections or require **offsets**: paying for conservation or supply elsewhere to cover the new demand.\n- **SB 610 / SB 221:** projects of 500+ units need a formal **water supply assessment** or verification.\n- **Capacity and connection fees** can be large per unit.\n- **ADUs** are generally exempt from new connection fees in some cases (conversions), and get proportional fees otherwise.\n\n### So what\nBefore underwriting new units or ADUs:\n1. Identify the retail water purveyor for the parcel. It is often not the city.\n2. Get its current drought stage and connection policy, and the capacity fee.\n3. In Ojai and western Ventura, factor in Casitas's dependence on local rain.\n\nFor existing buildings, also check drought-stage limits on landscaping and the cost of submetering.",
+      "answer": "| Supplier / area | Source | What to watch |\n|---|---|---|\n| **Casitas MWD**: Ojai Valley, western Ventura, Ventura River area | Lake Casitas plus local groundwater; no state imports | Drought stages (the district has a Stage 1 framework), allocation rules, lake level; supply depends on local rain |\n| **Calleguas MWD**: southeastern county (Thousand Oaks, Simi Valley, Camarillo, Moorpark, Oxnard in part, Port Hueneme) | Imported **State Water Project** via Metropolitan WD, plus local water; about **615,000 people through 19 retail purveyors** | SWP allocation cuts in drought; Water Shortage Contingency Plan (2025) |\n| **United Water Conservation District / Fox Canyon GMA**: Oxnard Plain, Santa Paula, Fillmore, Piru | Santa Clara River diversions and groundwater recharge | Fox Canyon limits on groundwater extraction; seawater intrusion on the Oxnard Plain |\n| **City of Ventura (Ventura Water)** | Ventura River, Lake Casitas, groundwater; working on State Water access and potable reuse | New development may need to offset its water demand; check current city rules |\n\n### Development effects\n- **Will-serve letters:** developers need a commitment from the retail purveyor. In drought, some districts slow new connections or require **offsets**: paying for conservation or supply elsewhere to cover the new demand.\n- **SB 610 / SB 221:** projects of 500+ units need a formal **water supply assessment** or verification.\n- **Capacity and connection fees** can be large per unit.\n- **ADUs:** state law generally bars new connection or capacity fees for ADUs converted within existing space; other ADUs pay fees proportional to their size.\n\n### So what\nBefore underwriting new units or ADUs:\n1. Identify the retail water purveyor for the parcel. It is often not the city.\n2. Get its current drought stage and connection policy, and the capacity fee.\n3. In Ojai and western Ventura, factor in Casitas's dependence on local rain.\n\nFor existing buildings, also check drought-stage limits on landscaping and the cost of submetering.",
       "keyPoints": [
         "Casitas MWD: Lake Casitas plus local water, no state imports; drought-stage framework",
         "Calleguas MWD: imported SWP water; about 615,000 people through 19 purveyors in SE Ventura County",
@@ -642,11 +631,11 @@
           "q": "Which district imports State Water Project supplies for southeastern Ventura County?",
           "choices": [
             "Casitas MWD",
-            "Calleguas MWD",
             "United Water Conservation District",
-            "Ojai Basin GMA"
+            "Ojai Basin GMA",
+            "Calleguas MWD"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "Calleguas wholesales imported SWP water (via Metropolitan) to about 615,000 people through 19 purveyors."
         },
         {
@@ -663,12 +652,12 @@
         {
           "q": "Projects of what size need an SB 610 water supply assessment?",
           "choices": [
+            "500+ units",
             "5+ units",
             "50+ units",
-            "500+ units",
             "Any ADU"
           ],
-          "answer": 2,
+          "answer": 0,
           "explain": "SB 610 / SB 221 apply to residential projects of 500 or more units."
         }
       ]

@@ -61,12 +61,12 @@
         {
           "q": "Which two Ventura County cities have apartment rent caps stricter than AB 1482?",
           "choices": [
-            "Ventura and Thousand Oaks",
             "Oxnard and Ojai",
+            "Ventura and Thousand Oaks",
             "Oxnard and Port Hueneme",
             "Camarillo and Simi Valley"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Oxnard (2022) and Ojai (2023) both cap increases at 4% a year on covered units."
         },
         {
@@ -84,11 +84,11 @@
           "q": "What does unincorporated Ventura County regulate locally?",
           "choices": [
             "Apartment rents in all unincorporated areas",
-            "Mobile home park space rents only",
             "Single-family rentals owned by corporations",
-            "Nothing beyond AB 1482"
+            "Nothing beyond AB 1482",
+            "Mobile home park space rents only"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "The county's Ordinance 4620 covers 25 mobile home parks. Apartments fall under state law."
         }
       ]
@@ -96,7 +96,7 @@
     {
       "id": 133,
       "summary": "The two apartment ordinances are both 4% caps on older buildings with fair-return petitions. Oxnard's is the more administratively heavy: it requires a registry and annual fees, and just cause starts after only 30 days of tenancy.",
-      "answer": "### Oxnard: Rent Stabilization (RSO) and Just Cause and Tenant Protection Ordinance\n- **Adopted:** April 2022. **Effective:** June 2-3, 2022. Codified at City Code Chapter 27.\n- **Cap:** 4% per year, with no more than one increase in any 12 months. Owners can seek more through a **Fair Return Petition**; the council adopted rules for these petitions on February 3, 2026.\n- **\"Fully covered\" units:** about 13,600 units, built on or before **February 1, 1995**. They get both the rent cap and just cause.\n- **\"Partially covered\" units:** about 8,700 units built after 1995, plus most single-family homes, condos and ADUs. They get just cause only.\n- **Exempt:** deed-restricted affordable units, mobile homes (covered by a separate program), permitted short-term rentals, owner-occupied single-family homes renting up to two bedrooms, owner-occupied duplexes, and housing in institutions.\n- **Just cause** applies after 30 days of tenancy. A no-fault termination requires paying the greater of **2 months' rent or $5,000**, and the notice must be filed with the city within 5 days.\n\n### Ojai: Rent Stabilization and Just Cause Tenant Protection (Ord. 937, Title 11)\n- **Adopted:** March 28, 2023 on a 3-2 vote. **Effective:** about April 28, 2023.\n- **Cap:** 4% per year, once per 12 months. Exemptions are in Ojai Municipal Code §11-1.08. Secondary sources say coverage is limited to multifamily buildings older than 1995, consistent with Costa-Hawkins.\n- **Just cause:** applies after 1 year of tenancy. No-fault relocation is the greater of 2 months' rent or $5,000, paid within 15 days.\n\n### Mobile home rent ordinances\nThese cover space rents only, not apartments:\n- **Unincorporated county:** Ord. 4620, first adopted 1983, amended in 2023. Increases track the Social Security COLA within a 2-8% band; the 2027 maximum is **3.6%**.\n- **Cities:** Thousand Oaks (since about 1980, updated recently) and Santa Paula (it has a rent stabilization commission). Camarillo reportedly adopted a mobile home ordinance in April 2026, which is unverified.\n\n### So what\nFor an Oxnard deal, ask the seller for:\n- Registry compliance\n- Rent history since June 2022\n- Any filed termination notices\n\nThe city says rent increases are not allowed until a unit complies with the program.",
+      "answer": "### Oxnard: Rent Stabilization (RSO) and Just Cause and Tenant Protection Ordinance\n- **Adopted:** April 2022. **Effective:** June 2-3, 2022. Codified at City Code Chapter 27.\n- **Cap:** 4% per year, with no more than one increase in any 12 months. Owners can seek more through a **Fair Return Petition**; the council adopted rules for these petitions on February 3, 2026.\n- **\"Fully covered\" units:** about 13,600 units, built on or before **February 1, 1995**. They get both the rent cap and just cause.\n- **\"Partially covered\" units:** about 8,700 units built after 1995, plus most single-family homes, condos and ADUs. They get just cause only.\n- **Exempt:** deed-restricted affordable units, mobile homes, permitted STRs, owner-occupied SFRs renting up to two bedrooms, owner-occupied duplexes, and institutional housing.\n- **Just cause** applies after 30 days of tenancy. A no-fault termination requires paying the greater of **2 months' rent or $5,000**, and the notice must be filed with the city within 5 days.\n\n### Ojai: Rent Stabilization and Just Cause Tenant Protection (Ord. 937, Title 11)\n- **Adopted:** March 28, 2023 on a 3-2 vote. **Effective:** about April 28, 2023.\n- **Cap:** 4% per year, once per 12 months. Exemptions are in Ojai Municipal Code §11-1.08. Secondary sources say coverage is limited to multifamily buildings older than 1995, consistent with Costa-Hawkins.\n- **Just cause:** applies after 1 year of tenancy. No-fault relocation is the greater of 2 months' rent or $5,000, paid within 15 days.\n\n### Mobile home rent ordinances\nThese cover space rents only, not apartments:\n- **Unincorporated county:** Ord. 4620, first adopted 1983, amended in 2023. Increases track the Social Security COLA within a 2-8% band; the 2027 maximum is **3.6%**.\n- **Cities:** Thousand Oaks (since about 1980, recently updated) and Santa Paula (rent stabilization commission). Camarillo reportedly adopted one in April 2026 (unverified).\n\n### So what\nFor an Oxnard deal, ask the seller for:\n- Registry compliance\n- Rent history since June 2022\n- Any filed termination notices\n\nThe city says rent increases are not allowed until a unit complies with the program.",
       "keyPoints": [
         "Oxnard: 4% cap; 2 months' rent or $5,000 (whichever is greater) for no-fault terminations; just cause after 30 days",
         "Oxnard covers about 13,618 fully covered and 8,682 partially covered units",
@@ -174,23 +174,23 @@
         {
           "q": "An Oxnard fourplex received its certificate of occupancy in 1998. Which rules apply?",
           "choices": [
+            "Just cause only (partially covered)",
             "Both the 4% cap and just cause",
             "Neither ordinance",
-            "Just cause only (partially covered)",
             "4% cap only"
           ],
-          "answer": 2,
+          "answer": 0,
           "explain": "Units built after February 1, 1995 are partially covered: they get just cause protections but not the rent cap."
         },
         {
           "q": "What is the 2027 maximum ministerial space-rent increase for mobile home parks in unincorporated Ventura County?",
           "choices": [
             "2.5%",
-            "3.6%",
             "4%",
+            "3.6%",
             "8%"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "The county set 3.6% for January-December 2027, based on the CPI-W change, within the 2-8% band."
         }
       ]
@@ -246,10 +246,10 @@
           "choices": [
             "$1,800",
             "$3,600",
-            "$5,000",
-            "$5,400"
+            "$5,400",
+            "$5,000"
           ],
-          "answer": 2,
+          "answer": 3,
           "explain": "Two months is $3,600, which is less than the $5,000 floor. The greater amount, $5,000, applies."
         },
         {
@@ -315,12 +315,12 @@
         {
           "q": "What is the registration deadline for Oxnard's proposed 2026-27 rental program fees?",
           "choices": [
-            "June 19, 2025",
             "November 1, 2026",
+            "June 19, 2025",
             "January 30, 2027",
             "July 1, 2027"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Units and tenancies must be registered by November 1, 2026. Payment is due January 30, 2027."
         },
         {
@@ -431,12 +431,12 @@
         {
           "q": "What is the statutory damages amount under Oxnard's Tenant Anti-Harassment Ordinance?",
           "choices": [
+            "$10,000 per violation or actual damages, whichever is greater",
             "$1,000 per violation",
             "$2,000 per violation",
-            "$10,000 per violation or actual damages, whichever is greater",
             "$50,000 per property"
           ],
-          "answer": 2,
+          "answer": 0,
           "explain": "Oxnard's TAHO sets the greater of $10,000 per violation or actual damages, plus $5,000 more for seniors or disabled tenants."
         },
         {
@@ -503,10 +503,10 @@
           "choices": [
             "7-0",
             "5-2",
-            "3-2",
-            "4-3"
+            "4-3",
+            "3-2"
           ],
-          "answer": 2,
+          "answer": 3,
           "explain": "Ojai's council adopted the ordinance 3-2. Councilmember Francina voted no."
         },
         {
@@ -584,11 +584,11 @@
           "q": "What is the best way to gauge future tenant-protection votes in a city?",
           "choices": [
             "Campaign mailers",
-            "Official roll-call votes in council minutes",
             "Landlord association ratings alone",
+            "Official roll-call votes in council minutes",
             "Social media posts"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "The answer relies only on recorded votes. Advocacy-group characterizations are context, not evidence."
         }
       ]
@@ -650,32 +650,32 @@
           "choices": [
             "4% flat",
             "5% + CPI, max 10%",
-            "Lesser of 60% of CPI or 3%",
-            "100% of CPI"
+            "100% of CPI",
+            "Lesser of 60% of CPI or 3%"
           ],
-          "answer": 2,
+          "answer": 3,
           "explain": "The ordinance adopted Sept 29, 2026 caps increases at the lesser of 60% of CPI or 3%, with a 0% floor."
         },
         {
           "q": "Which of these is a difference between Santa Barbara and Oxnard?",
           "choices": [
             "Only Santa Barbara has a registry",
-            "Only Oxnard covers pre-1995 buildings",
             "Santa Barbara's cap is CPI-linked and lower; Oxnard's is a flat 4%",
+            "Only Oxnard covers pre-1995 buildings",
             "Oxnard has a rent freeze"
           ],
-          "answer": 2,
+          "answer": 1,
           "explain": "Both have registries and pre-1995 coverage. Santa Barbara's cap is the lesser of 60% of CPI or 3%, while Oxnard's is a flat 4%."
         },
         {
           "q": "What base-rent date does Santa Barbara use?",
           "choices": [
-            "February 1, 1995",
             "December 16, 2025",
+            "February 1, 1995",
             "January 1, 2027",
             "June 2, 2022"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "The rent actually paid on December 16, 2025 is each unit's base rent. June 2, 2022 is Oxnard's effective date."
         }
       ]
@@ -740,22 +740,22 @@
           "q": "Which city expanded its smoking ban to multifamily units and common areas in August 2025?",
           "choices": [
             "Oxnard",
-            "Port Hueneme",
             "Ojai",
+            "Port Hueneme",
             "Camarillo"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "Port Hueneme approved the multifamily smoking ban on August 18, 2025."
         },
         {
           "q": "Under Oxnard's rent ordinances, what is the first enforcement step for violations?",
           "choices": [
             "Misdemeanor prosecution",
-            "A civil citation",
             "License revocation",
-            "Receivership"
+            "Receivership",
+            "A civil citation"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "Oxnard's guide says violations are first handled with a civil citation before misdemeanor or injunction options."
         }
       ]
@@ -786,22 +786,22 @@
           "q": "Which Ventura County city has a mandatory soft-story retrofit ordinance like Los Angeles?",
           "choices": [
             "Oxnard",
+            "None found",
             "Simi Valley",
-            "Thousand Oaks",
-            "None found"
+            "Thousand Oaks"
           ],
-          "answer": 3,
+          "answer": 1,
           "explain": "Research found no mandatory soft-story ordinance in Ventura County cities. LA-area cities have them."
         },
         {
           "q": "What state law authorized cities to mandate soft-story retrofits?",
           "choices": [
-            "SB 721",
             "AB 304 (2005)",
+            "SB 721",
             "AB 1482",
             "SB 9"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "AB 304 (2005) expressly authorized cities to adopt mandatory soft-story retrofit standards."
         }
       ]
@@ -859,10 +859,10 @@
           "choices": [
             "City of Oxnard",
             "City of Port Hueneme",
-            "County of Ventura (unincorporated, coastal zone)",
-            "City of Ventura"
+            "City of Ventura",
+            "County of Ventura (unincorporated, coastal zone)"
           ],
-          "answer": 2,
+          "answer": 3,
           "explain": "They have Oxnard mailing addresses but are unincorporated, so county and Coastal Act rules apply."
         }
       ]

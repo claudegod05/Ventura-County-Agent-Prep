@@ -1,0 +1,1213 @@
+{
+  "section": 5,
+  "answers": [
+    {
+      "id": 59,
+      "summary": "Ventura County apartments are trading at roughly a 5.0%-5.4% cap rate on in-place income right now. Matthews' H1 2026 average was 5.37%. Newer institutional product prices tighter, and older 5-20 unit buildings mostly land between 5.0% and 5.75%.",
+      "answer": "### Where caps are (2025-2026 data)\nThe best countywide figure is **Matthews' H1 2026 average of 5.37%**, built from 11 trades totaling about $199M. Matthews' Q3 2025 report said caps \"held near 5.0%.\" For Q1 2026, Colliers reported a Tri-County range running from 4.02% in Pismo Beach up to **5.79% in Ventura**, the high end of the region. Ventura County therefore trades at a yield premium to Santa Barbara and SLO.\n\n| Segment | Working range | Evidence |\n|---|---|---|\n| Countywide average | 5.0%-5.4% | Matthews Q3 2025 (~5.0%), H1 2026 (5.37%) |\n| Class A, post-2010, 100+ units | ~4.75%-5.25% (est.) | Unleveraged BlackRock buy of 2023-built Santal (Oct 2025) |\n| 1970s-1990s garden, 100+ units | ~5.0%-5.5% (est.) | Cypress Point (1990), Allure, FPA Conejo buys |\n| 5-32 units, older | 5.0%-5.75% | LAAA closings: Ventura 8u at 5.02% (2024), Oxnard 18u at 5.47% (2025), Ojai 32u at 5.63% (2025) |\n| 2-4 units | ~3.75%-4.75% (est.) | Priced off residential comps, not NOI |\n\n### Submarket and vintage pattern\n- **Conejo Valley** (Thousand Oaks, Westlake Village, Oak Park) trades at the lowest caps.\n- **Ventura and Camarillo** sit in the middle.\n- **Oxnard, Port Hueneme, Santa Paula and Fillmore** usually trade about 25-50 bps higher (estimate).\n- Newer vintages command tighter caps. CBRE's Q1 2026 data shows 2010s-built product renting for $2,890 a month, against $2,471 for 1970s-built product.\n\n### So what\nToday's caps sit close to the 5.5%-6.25% cost of permanent debt that Colliers reported in mid-2026, so most buyers get little or no positive leverage. Pitch sellers on value at a 5.0%-5.5% going-in cap, not the 4% caps of 2021-2022. With only 11 trades in the H1 sample, one large deal can move the average.",
+      "keyPoints": [
+        "Matthews H1 2026 countywide average cap rate: 5.37% (11 trades, ~$199M)",
+        "Colliers Q1 2026 Tri-County range: 4.02% (Pismo Beach) to 5.79% (Ventura)",
+        "LAAA small-deal closings: 5.02% (Ventura 8u), 5.47% (Oxnard 18u), 5.63% (Ojai 32u)",
+        "Conejo Valley trades tightest; Oxnard and the Santa Clara River Valley trade highest",
+        "Permanent debt at 5.5%-6.25% (mid-2026) means little or no positive leverage at a 5.4% cap"
+      ],
+      "sources": [
+        {
+          "title": "Matthews - Ventura County Multifamily Market Report H1 2026",
+          "url": "https://www.matthews.com/insights/ventura-county-multifamily-market-report-h1-2026-rents-vacancy-sales-trends",
+          "date": "2026-08"
+        },
+        {
+          "title": "Matthews - Ventura, CA Multifamily Market Report Q3 2025",
+          "url": "https://www.matthews.com/insights/ventura-ca-multifamily-market-report-q3-2025",
+          "date": "2025-10"
+        },
+        {
+          "title": "Pacific Coast Business Times - Colliers (Mike Lopus) Central Coast multifamily commentary, Q1 2026",
+          "url": "https://www.pacbiztimes.com/?p=98486",
+          "date": "2026-06"
+        },
+        {
+          "title": "LAAA (Marcus & Millichap team) - Ventura & Santa Barbara Apartment Building Sales",
+          "url": "https://www.laaa.com/markets/ventura-santa-barbara",
+          "date": "2026-05"
+        },
+        {
+          "title": "CBRE Research - Ventura Multifamily Figures Q1 2026",
+          "url": "https://mktgdocs.cbre.com/2299/ab862b9f-1e9a-44f0-a3ad-58310f164d96-224289790/Ventura_Multifamily_Snapshot_Q.pdf",
+          "date": "2026-04"
+        },
+        {
+          "title": "ConnectCRE - BlackRock makes Ventura County's first unleveraged institutional deal",
+          "url": "https://www.connectcre.com/stories/blackrock-makes-ventura-countys-first-unleveraged-institutional-deal/",
+          "date": "2025-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Matthews' sample is small (11 trades). Pull CoStar Sales Comps for Ventura County multifamily, last 12 months, split by city, unit count (5-20, 21-99, 100+) and year built, to confirm the submarket and vintage ranges marked (est.).",
+      "drills": [
+        {
+          "q": "What average cap rate did Matthews report for Ventura County multifamily in H1 2026?",
+          "choices": [
+            "4.19%",
+            "4.61%",
+            "5.37%",
+            "6.70%"
+          ],
+          "answer": 2,
+          "explain": "Matthews' H1 2026 report shows a 5.37% average cap rate across 11 trades, about $199M in total."
+        },
+        {
+          "q": "Which Ventura County submarket group typically trades at the LOWEST cap rates?",
+          "choices": [
+            "Oxnard and Port Hueneme",
+            "Thousand Oaks, Westlake Village and Oak Park",
+            "Santa Paula and Fillmore",
+            "Ojai"
+          ],
+          "answer": 1,
+          "explain": "The Conejo Valley has the highest rents and the scarcest new supply, so it trades at the tightest caps. Oxnard and the Santa Clara River Valley price at higher yields."
+        },
+        {
+          "q": "In Colliers' Q1 2026 Tri-County data, which market had the highest cap rate in the range?",
+          "choices": [
+            "Ventura at 5.79%",
+            "Pismo Beach at 4.02%",
+            "Santa Barbara at 5.25%",
+            "Goleta at 4.5%"
+          ],
+          "answer": 0,
+          "explain": "Colliers reported caps from 4.02% in Pismo Beach to 5.79% in Ventura, which puts Ventura County at the high-yield end of the region."
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "summary": "Large institutional deals are clearing at about $375K-$585K per unit depending on vintage and city. Older 5-30 unit buildings mostly trade at $250K-$365K per unit. Matthews' H1 2026 countywide average was $306K per unit.",
+      "answer": "### Per-unit pricing by submarket (closed sales seen in reporting)\n| Submarket | Recent trades | Working range |\n|---|---|---|\n| Thousand Oaks / Westlake | Santal (2023 build, 142u) ~$584.5K/u, Oct 2025; FPA's Oakview/Biltmore (1965-70) ~$374K/u, Feb 2024 | $375K-$600K |\n| Camarillo | Allure (165u) ~$421K/u, Mar 2026; 4-plex at 1917 Colonia Pl $363,750/u, H1 2026 | $350K-$450K |\n| Oxnard | Tempo at RiverPark (2015, 235u) ~$446.8K/u, Jan 2026; 18u at 1200 N H St ~$258K/u, 2025; 160-unit portfolio ~$261K/u, 2024 | $250K-$450K |\n| Ventura | Cypress Point (1990, 268u) ~$373K/u, Aug 2025; 8u at 40 N Brent ~$311K/u, 2024 | $275K-$400K |\n| Simi Valley / Moorpark | Landing at Arroyo ~$448K/u, Aug 2024; Ranch at Moorpark ~$354K/u, Apr 2024 | $325K-$450K |\n| Ojai | 32u at E Oak St / Grand Ave ~$258K/u, 2025 | $250K-$325K |\n\nPer-unit figures are computed from the reported price and unit count.\n\n### Averages\n- **Matthews H1 2026:** $306K per unit countywide. Smaller-asset trades in Q2 averaged about **$270K per unit**.\n- **Matthews, earlier years:** $309,740 per unit in 2022 and $337,287 in 2023.\n\n### Price per square foot\nMatthews reported averages of **$394.86/SF in 2022** and **$377.60/SF in 2023**. The Vines at RiverPark, a large 3-bedroom product, sold for $414/SF in 2022. For older small buildings today, about **$300-$425/SF** is a reasonable working range (estimate).\n\n### So what\nPer-unit price depends heavily on unit mix and vintage. A 1960s building full of one-bedrooms and a 2015 building with mostly 3-bedrooms are not comparable. Always pair $/unit with $/SF and rent per unit before quoting a number to a client.",
+      "keyPoints": [
+        "Matthews H1 2026 countywide average: ~$306K/unit; Q2 2026 small-asset trades ~$270K/unit",
+        "Santal Thousand Oaks (new build): ~$584.5K/unit, the top of the market",
+        "Large 1990s-2015 product: ~$373K-$447K/unit (Cypress Point, Allure, Tempo)",
+        "Older small buildings in Oxnard and Ojai: ~$258K/unit",
+        "Average $/SF: $394.86 (2022) and $377.60 (2023), per Matthews"
+      ],
+      "sources": [
+        {
+          "title": "Matthews - Ventura County Multifamily Market Report H1 2026",
+          "url": "https://www.matthews.com/insights/ventura-county-multifamily-market-report-h1-2026-rents-vacancy-sales-trends",
+          "date": "2026-08"
+        },
+        {
+          "title": "Matthews - 2024 Market Update: Ventura and Santa Barbara County",
+          "url": "https://www.matthews.com/insights/2024-market-update-ventura-and-santa-barbara-county",
+          "date": "2024-02"
+        },
+        {
+          "title": "Bisnow - BlackRock-run account buys Ventura County apartments for $83M",
+          "url": "https://www.bisnow.com/news/los-angeles/multifamily/thousand-oaks-apartments-blackrock-latigo-group-131569",
+          "date": "2025-10"
+        },
+        {
+          "title": "Traded - 390 Paseo Camarillo multifamily sale",
+          "url": "https://traded.co/deals/california/multifamily/sale/390-paseo-camarillo/",
+          "date": "2026-03"
+        },
+        {
+          "title": "ConnectCRE - Bascom venture sells Oxnard apartments to Hines for $105M",
+          "url": "https://www.connectcre.com/stories/bascom-venture-sells-oxnard-apartments-to-hines-for-105m/",
+          "date": "2026-01"
+        },
+        {
+          "title": "ConnectCRE - IPA represents original developer in $100M Ventura apartment sale",
+          "url": "https://www.connectcre.com/stories/ipa-represents-original-developer-in-100m-ventura-apartment-sale/",
+          "date": "2025-08"
+        },
+        {
+          "title": "LAAA (Marcus & Millichap team) - Ventura & Santa Barbara Apartment Building Sales",
+          "url": "https://www.laaa.com/markets/ventura-santa-barbara",
+          "date": "2026-05"
+        },
+        {
+          "title": "Business Wire - IPA brokers $95 million multifamily sale in Greater Los Angeles (The Landing at Arroyo, Simi Valley)",
+          "url": "https://www.businesswire.com/news/home/20240829477044/en/Marcus-Millichap%E2%80%99s-Institutional-Property-Advisors-Brokers-95-Million-Multifamily-Sale-in-Greater-Los-Angeles",
+          "date": "2024-08"
+        },
+        {
+          "title": "The Real Deal - Decron sells Moorpark apartment complex for $133M",
+          "url": "https://therealdeal.com/la/2024/04/11/decron-sells-moorpark-apartment-complex-for-133m",
+          "date": "2024-04"
+        },
+        {
+          "title": "Commercial Observer - FPA Multifamily now owns a big chunk of Ventura County's apartment market",
+          "url": "https://commercialobserver.com/2024/02/calif-fpa-multifamily-ventura-county-multifamily-sale/",
+          "date": "2024-02"
+        },
+        {
+          "title": "Pacific Coast Business Times - Five-property apartment portfolio in Oxnard sold for $41M",
+          "url": "https://www.pacbiztimes.com/?p=92604",
+          "date": "2024-03"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "No current $/SF series was found. Pull CoStar Sales Comps (5+ units, last 12 months) by city and report median $/unit and $/SF. Confirm the Santal price, which comes from Traded because Newmark did not disclose it.",
+      "drills": [
+        {
+          "q": "Which recent Ventura County sale set the high-water mark on a per-unit basis?",
+          "choices": [
+            "Cypress Point, Ventura",
+            "Santal Thousand Oaks",
+            "Allure at Camarillo",
+            "Tempo at RiverPark, Oxnard"
+          ],
+          "answer": 1,
+          "explain": "Santal, a 142-unit building completed in 2023, traded for a reported $83M, or about $584.5K per unit."
+        },
+        {
+          "q": "About what did smaller-asset multifamily trades average per unit in Q2 2026, per Matthews?",
+          "choices": [
+            "$170K",
+            "$270K",
+            "$420K",
+            "$585K"
+          ],
+          "answer": 1,
+          "explain": "Matthews reported about $9.9M of smaller-asset trades in Q2 2026, averaging roughly $270K per unit."
+        },
+        {
+          "q": "Matthews' average multifamily price per square foot in Ventura County for 2023 was about:",
+          "choices": [
+            "$278",
+            "$318",
+            "$378",
+            "$478"
+          ],
+          "answer": 2,
+          "explain": "Matthews reported $377.60/SF for 2023, down from $394.86/SF in 2022."
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "summary": "The countywide average GRM is about 11.4x. Matthews' H1 2026 figure was 11.44, down from about 15.6x in 2022. Oxnard-area product generally trades around 10-12x, and the Conejo Valley and Ojai at 12-14x.",
+      "answer": "### The data\n| Period | Avg GRM (Ventura County) | Source |\n|---|---|---|\n| 2022 | 15.56 | Matthews |\n| 2023 | 13.90 | Matthews |\n| H1 2026 | 11.44 | Matthews |\n\nGRMs have compressed about 4 turns since 2022. Two forces drove it: prices stopped rising as rates went up, and rents kept climbing (Matthews puts rent growth at more than 15% over five years). The result is that a buyer now pays less for each dollar of gross rent.\n\n### By submarket (working ranges, estimated)\n- **Oxnard, Port Hueneme, Santa Paula, Fillmore:** ~10-12x\n- **Ventura, Camarillo, Simi Valley, Moorpark:** ~11-13x\n- **Thousand Oaks, Westlake Village, Oak Park, Ojai, beach-adjacent Ventura:** ~12-14x+\n- **2-4 units:** often 14-17x, because they are priced off home values rather than rent\n\n### Reading a GRM\nGRM = price / gross scheduled annual rent. It ignores expenses, so use it as a quick screen, not for valuation. A quick conversion: if NOI is about 60% of gross rent after vacancy and a 35%-40% expense load, then **cap rate is roughly 0.60 / GRM**. At 11.44x that works out to about 5.2%, which is consistent with the reported 5.37% average cap.\n\n### So what\n- A **high GRM with a low cap rate** usually means one of two things: rents are well below market, or expenses are heavy (old systems, owner-paid utilities, high property tax after a recent sale).\n- In a listing pitch, show both metrics. Sellers anchored on 2021-2022 trades tend to remember 15-16x and will overprice.",
+      "keyPoints": [
+        "Matthews average GRM: 15.56 (2022), 13.90 (2023), 11.44 (H1 2026)",
+        "GRM = price / gross annual rent and ignores expenses",
+        "Rule of thumb: cap rate ≈ 0.60 / GRM, so 11.44x ≈ 5.2%",
+        "Oxnard area ~10-12x; Conejo Valley and Ojai ~12-14x (estimate)",
+        "2-4 units trade at higher GRMs because they are priced off residential comps"
+      ],
+      "sources": [
+        {
+          "title": "Matthews - Ventura County Multifamily Market Report H1 2026",
+          "url": "https://www.matthews.com/insights/ventura-county-multifamily-market-report-h1-2026-rents-vacancy-sales-trends",
+          "date": "2026-08"
+        },
+        {
+          "title": "Matthews - 2024 Market Update: Ventura and Santa Barbara County",
+          "url": "https://www.matthews.com/insights/2024-market-update-ventura-and-santa-barbara-county",
+          "date": "2024-02"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "Only countywide averages were found. For submarket GRMs, pull CoStar or MLS sold comps (5-20 units, last 12-18 months) for Oxnard, Ventura, Camarillo, Simi Valley and Thousand Oaks, and calculate price / scheduled gross income from the offering memoranda.",
+      "drills": [
+        {
+          "q": "What was Matthews' average GRM for Ventura County multifamily in H1 2026?",
+          "choices": [
+            "9.8",
+            "11.44",
+            "13.90",
+            "15.56"
+          ],
+          "answer": 1,
+          "explain": "Matthews reported an 11.44 average GRM in H1 2026. It was 13.90 in 2023 and 15.56 in 2022."
+        },
+        {
+          "q": "Using the rule of thumb cap ≈ 0.60 / GRM, a building at a 12x GRM implies roughly what cap rate?",
+          "choices": [
+            "3.5%",
+            "4.2%",
+            "5.0%",
+            "7.2%"
+          ],
+          "answer": 2,
+          "explain": "0.60 / 12 = 0.050, or 5.0%."
+        },
+        {
+          "q": "Why can a property show a high GRM but a low cap rate?",
+          "choices": [
+            "Rents are above market",
+            "Expenses are heavy or rents are far below market",
+            "The building is newly constructed",
+            "The loan has a low interest rate"
+          ],
+          "answer": 1,
+          "explain": "GRM ignores expenses. Heavy expenses, or rents far below market, push NOI down relative to gross rent, which lowers the cap rate for a given GRM."
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "summary": "Ventura County cap rates have expanded about 100-120 bps since 2022, from roughly 4.2% to roughly 5.4%. GRMs fell from about 15.6x to about 11.4x. Rent growth has cushioned the hit to per-unit values.",
+      "answer": "### The path\n| Period | Avg cap rate | Avg GRM | Source |\n|---|---|---|---|\n| 2022 | 4.19% | 15.56 | Matthews (2024 update) |\n| 2023 | 4.66% | 13.90 | Matthews (2024 update) |\n| Q3 2025 | ~5.0% (narrative) | n/a | Matthews Q3 2025 |\n| H1 2026 | 5.37% | 11.44 | Matthews H1 2026 |\n\nThat is roughly **+120 bps** from 2022 to H1 2026. The 10-year Treasury, which was under 2% in early 2022, was running 4.4%-4.7% in mid-2026, and Colliers put permanent multifamily debt at 5.5%-6.25%. Caps did not rise as much as rates did, so the spread between cap rate and Treasury yield is now very thin.\n\n### Why prices did not fall as much as caps imply\nRents kept rising. Matthews reports rents up more than 15% over five years, so higher NOI offset part of the cap expansion. Matthews' average price per unit went from **$309,740 in 2022 to $337,287 in 2023**. In H1 2026 it was about $306K, but that sample was weighted toward smaller assets.\n\n### Volume took the real hit\nMatthews counted **36 sales in 2022 and 26 in 2023**. In January 2024 it reported zero Q1 sales against 26 listings. Volume came back in 2024, to about $725M per Matthews, and then fell again in 2025.\n\n### 2026 direction\nCBRE's H1 2026 survey found cap rates broadly flat nationally, but respondents were most bearish on infill multifamily. Expect Ventura caps to stay roughly level, around 5.0%-5.5%, rather than compress, unless the 10-year moves meaningfully lower.\n\n### So what\nA seller who bought, or was appraised, in 2021-2022 at a 4% cap needs to hear the math plainly: holding NOI constant, moving from a 4.2% cap to a 5.4% cap is about a **22% value reduction**. Rent growth has offset part of that.",
+      "keyPoints": [
+        "Matthews average cap: 4.19% (2022), 4.66% (2023), ~5.0% (Q3 2025), 5.37% (H1 2026)",
+        "Net expansion of about 100-120 bps since 2022",
+        "GRM compressed from 15.56 to 11.44",
+        "Rents up more than 15% over five years (Matthews) partly offset the value hit",
+        "Constant NOI from a 4.2% to a 5.4% cap is about a 22% value decline"
+      ],
+      "sources": [
+        {
+          "title": "Matthews - 2024 Market Update: Ventura and Santa Barbara County",
+          "url": "https://www.matthews.com/insights/2024-market-update-ventura-and-santa-barbara-county",
+          "date": "2024-02"
+        },
+        {
+          "title": "Matthews - Ventura, CA Multifamily Market Report Q3 2025",
+          "url": "https://www.matthews.com/insights/ventura-ca-multifamily-market-report-q3-2025",
+          "date": "2025-10"
+        },
+        {
+          "title": "Matthews - Ventura County Multifamily Market Report H1 2026",
+          "url": "https://www.matthews.com/insights/ventura-county-multifamily-market-report-h1-2026-rents-vacancy-sales-trends",
+          "date": "2026-08"
+        },
+        {
+          "title": "Pacific Coast Business Times - Colliers (Mike Lopus) Central Coast multifamily commentary, Q1 2026",
+          "url": "https://www.pacbiztimes.com/?p=98486",
+          "date": "2026-06"
+        },
+        {
+          "title": "CRE Daily - CBRE H1 2026 Cap Rate Survey finds sentiment split",
+          "url": "https://www.credaily.com/briefs/cbre-h1-2026-cap-rate-survey-finds-sentiment-split/",
+          "date": "2026-08"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Matthews' annual averages come from small samples. Confirm the trend with CoStar's Ventura County multifamily market cap rate time series (2021 to Q3 2026) and the CBRE H2 2025 and H1 2026 cap rate surveys for the Los Angeles and Ventura region.",
+      "drills": [
+        {
+          "q": "What average cap rate did Matthews report for Ventura County in 2022?",
+          "choices": [
+            "3.58%",
+            "4.19%",
+            "4.66%",
+            "5.37%"
+          ],
+          "answer": 1,
+          "explain": "Matthews reported 4.19% in 2022 and 4.66% in 2023. The 3.58% figure is Santa Barbara County's 2022 average."
+        },
+        {
+          "q": "Holding NOI constant, a move from a 4.2% cap to a 5.4% cap reduces value by about:",
+          "choices": [
+            "5%",
+            "12%",
+            "22%",
+            "35%"
+          ],
+          "answer": 2,
+          "explain": "Value = NOI / cap. 4.2 / 5.4 = 0.78, which is about a 22% decline."
+        },
+        {
+          "q": "Why did per-unit prices fall less than cap-rate expansion alone would imply?",
+          "choices": [
+            "Property taxes fell",
+            "Rents grew more than 15% over five years, raising NOI",
+            "Insurance costs dropped",
+            "Construction surged"
+          ],
+          "answer": 1,
+          "explain": "Rising NOI from rent growth offset part of the valuation hit from higher cap rates."
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "summary": "Deals that close are clearing at about 94-95% of list price, based on 11 MLS-recorded closings in the 12 months to September 2026. Many listings priced off 2021-2022 cap rates don't sell at all. The effective bid-ask gap on unsold listings is about 5-10% of price, or 25-50 bps of cap rate.",
+      "answer": "### What the closed data shows\nOn October 27, 2026 we pulled Flexmls market statistics for Ventura County, multifamily property type, for October 2025 through September 2026. The window had **11 closed sales**:\n- **Sale-to-original-list ratio:** about **94.3%** (weighted). Monthly readings ranged from 90.9% to 101%.\n- **Sale-to-final-list ratio:** about **95.1%**. Most sellers cut price before going into escrow.\n\nThis is a thin sample from one MLS feed, so treat it as directional.\n\n### Where the gap comes from\n- **Sellers** remember 4%-4.5% caps and 15x GRMs from 2021-2022. Matthews reports a 4.19% average cap and a 15.56 GRM for 2022.\n- **Buyers** need yield close to their cost of debt. Colliers put permanent multifamily debt at **5.5%-6.25%** in mid-2026, and Matthews' H1 2026 average cap was **5.37%**.\n- That puts the gap at roughly **25-75 bps of cap rate**, or about 5%-12% of price, on listings that are not trading.\n\n### How it has evolved\nThe gap was widest in 2023. In January 2024, Matthews counted zero Ventura County sales for the quarter against 26 properties on the market. It narrowed through 2024, which ran about $725M in volume, and again into 2026 as sellers adjusted. Institutional deals such as Tempo ($105M) and Allure ($69.5M) are clearing with competitive bidding.\n\n### So what\n- **Price within about 5% of where you expect it to clear.** The data shows closings at roughly 94%-95% of original list, so a 10%-15% cushion is too much.\n- **Set expectations in the listing agreement** with a reduction schedule at 30 and 60 days.\n- **Anchor on the cap rate.** Buyers underwrite yield, not $/unit.",
+      "keyPoints": [
+        "Flexmls Ventura multifamily, Oct 2025-Sep 2026: 11 closings at ~94.3% of original list and ~95.1% of final list",
+        "Gap on unsold listings: ~25-75 bps of cap rate (~5%-12% of price)",
+        "Buyers' cost of debt: 5.5%-6.25% (Colliers, mid-2026) against a 5.37% average cap",
+        "Peak gap was in 2023: Matthews found 0 sales vs. 26 listings in January 2024",
+        "Price within about 5% of the expected clearing level"
+      ],
+      "sources": [
+        {
+          "title": "Matthews - Ventura County Multifamily Market Report H1 2026",
+          "url": "https://www.matthews.com/insights/ventura-county-multifamily-market-report-h1-2026-rents-vacancy-sales-trends",
+          "date": "2026-08"
+        },
+        {
+          "title": "Matthews - 2024 Market Update: Ventura and Santa Barbara County",
+          "url": "https://www.matthews.com/insights/2024-market-update-ventura-and-santa-barbara-county",
+          "date": "2024-02"
+        },
+        {
+          "title": "Pacific Coast Business Times - Colliers (Mike Lopus) Central Coast multifamily commentary, Q1 2026",
+          "url": "https://www.pacbiztimes.com/?p=98486",
+          "date": "2026-06"
+        },
+        {
+          "title": "ConnectCRE - Bascom venture sells Oxnard apartments to Hines for $105M",
+          "url": "https://www.connectcre.com/stories/bascom-venture-sells-oxnard-apartments-to-hines-for-105m/",
+          "date": "2026-01"
+        },
+        {
+          "title": "The Registry SoCal - Jackson Square Properties acquires 165-unit Allure at Camarillo for $69.5MM",
+          "url": "https://theregistrysocal.com/jackson-square-properties-acquires-165-unit-allure-at-camarillo-for-69-5mm-closing-nuveens-eight-year-hold/",
+          "date": "2026-03"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "The Flexmls sample (11 sales) is small and may not include CRMLS or commercial-only listings. Pull sale-to-list ratios for 5+ unit sales from CRMLS and from CoStar (asking vs. sale price, last 12 months, Ventura County) and compare the two.",
+      "drills": [
+        {
+          "q": "In the Flexmls sample (Oct 2025-Sep 2026), closed Ventura multifamily sales averaged about what share of ORIGINAL list price?",
+          "choices": [
+            "85%",
+            "90%",
+            "94%",
+            "102%"
+          ],
+          "answer": 2,
+          "explain": "The weighted sale-to-original-list ratio was about 94.3% across 11 closings."
+        },
+        {
+          "q": "What range did Colliers report for permanent multifamily debt in mid-2026?",
+          "choices": [
+            "3.5%-4.25%",
+            "4.4%-4.7%",
+            "5.5%-6.25%",
+            "7.0%-7.75%"
+          ],
+          "answer": 2,
+          "explain": "Colliers put permanent debt at 5.5%-6.25%. The 4.4%-4.7% range was the 10-year Treasury."
+        },
+        {
+          "q": "What signal in January 2024 showed how wide the bid-ask gap was?",
+          "choices": [
+            "Record sales volume",
+            "Zero Q1 sales with 26 properties on the market",
+            "Caps compressing to 3.5%",
+            "List prices rising 10%"
+          ],
+          "answer": 1,
+          "explain": "Matthews found zero Ventura County multifamily sales against 26 listings, a near-frozen market."
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "summary": "In the MLS data, Ventura County multifamily listings that sold in the 12 months to September 2026 averaged about 57 days on market, with a range of 16 to 225 days. The prior 12 months averaged about 34 days. Properly priced 5+ unit deals typically reach contract in 30-90 days.",
+      "answer": "### Data (Flexmls market statistics, Ventura County, multifamily, pulled 2026-10-27)\n| 12 months ending | Closed sales | Avg DOM (weighted) | Range |\n|---|---|---|---|\n| Sep 2025 | 13 | ~34 days | 1-199 |\n| Sep 2026 | 11 | ~57 days | 16-225 |\n\n### Interpreting it\n- **DOM has lengthened.** It went from roughly one month to roughly two. That fits a market where buyers underwrite more carefully and sellers come down in steps.\n- **The very low readings (1-2.5 days) are telling.** They usually mean the deal was pre-marketed or sold off-market and then entered in the MLS for the record.\n- **Outliers like 225 days** are overpriced listings that eventually cut price.\n- **DOM resets** when a listing is cancelled and relisted. True market time is often longer than the reported number, so check cumulative DOM and the listing history.\n\n### Commercial-marketed deals\nLarger 5+ unit offerings marketed by investment brokers on CoStar/LoopNet, Crexi or a broker's own platform usually follow this rhythm:\n- 3-6 weeks of marketing to a call-for-offers date\n- 30-60 day escrow, plus a 15-30 day due diligence contingency\n\nThat adds up to about **75-120 days from launch to close** (estimate based on typical practice).\n\n### So what\n- **Tell sellers to plan on 3-4 months to close.**\n- **A listing past 60 DOM without an offer is a pricing problem,** not a marketing problem.\n- **Track your competitors' DOM** to find listings that are about to expire. They are good prospecting targets.",
+      "keyPoints": [
+        "Avg DOM, 12 months to Sep 2026: ~57 days (11 MLS sales); prior year ~34 days",
+        "Very low DOM (1-3 days) usually signals a pre-marketed or off-market deal recorded in the MLS",
+        "DOM resets on relist, so check cumulative DOM and listing history",
+        "Typical launch-to-close for a marketed 5+ deal: ~75-120 days",
+        "60+ DOM without offers usually means the price is wrong"
+      ],
+      "sources": [
+        {
+          "title": "Matthews - 2024 Market Update: Ventura and Santa Barbara County",
+          "url": "https://www.matthews.com/insights/2024-market-update-ventura-and-santa-barbara-county",
+          "date": "2024-02"
+        },
+        {
+          "title": "Matthews - Ventura County Multifamily Market Report H1 2026",
+          "url": "https://www.matthews.com/insights/ventura-county-multifamily-market-report-h1-2026-rents-vacancy-sales-trends",
+          "date": "2026-08"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "The Flexmls feed has thin Ventura coverage, since many Ventura agents list in CRMLS. Pull average and median DOM/CDOM for residential income (2-4 and 5+ units) from CRMLS (Ventura County, last 12 months), and from CoStar's 'time on market' for sold multifamily listings.",
+      "drills": [
+        {
+          "q": "Roughly what was average days on market for Ventura County MLS multifamily sales in the 12 months to September 2026?",
+          "choices": [
+            "About 15 days",
+            "About 34 days",
+            "About 57 days",
+            "About 180 days"
+          ],
+          "answer": 2,
+          "explain": "The weighted average across 11 Flexmls closings was about 57 days, up from about 34 days in the prior 12 months."
+        },
+        {
+          "q": "What does a DOM of 1-2 days on a sold multifamily listing usually indicate?",
+          "choices": [
+            "A data error",
+            "A pre-marketed or off-market deal entered in the MLS for the record",
+            "A foreclosure",
+            "A 1031 exchange"
+          ],
+          "answer": 1,
+          "explain": "Very short DOM usually means the deal was arranged before or outside the MLS and recorded afterward."
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "summary": "There is no published expiration rate. MLS data suggests only about 40-50% of multifamily listings sell within a year. In the 12 months to September 2026 there were 24 new listings and 11 sales. Expect about half of listings to expire, be withdrawn, or relist.",
+      "answer": "### Proxy from MLS flow (Flexmls, Ventura County, multifamily)\n| 12 months ending | New listings | Closed sales | Sales ÷ new listings |\n|---|---|---|---|\n| Sep 2025 | 32 | 13 | ~41% |\n| Sep 2026 | 24 | 11 | ~46% |\n\nThis is not an exact expiration rate. New listings and closings in a given window come from different cohorts, and relists count as new listings. Still, it points the same way every time: **roughly half or more of listings do not close within the year.** Active inventory held at 3-8 listings a month while sales ran 0-3 a month.\n\n### Supporting evidence\n- In January 2024, Matthews counted **26 Ventura County multifamily properties on the market and zero closed sales** that quarter. That was the peak of the bid-ask freeze.\n- In the 12 months to September 2026, closings averaged about 94% of original list, so listings that do sell usually needed a price cut. Listings that never cut tend to expire.\n\n### Why listings fail here\n1. **Pricing off 2021-2022 caps.** Sellers expect 4%-4.5% caps, but trades are clearing around 5.0%-5.4%.\n2. **Below-market rents with AB 1482 limits** on how quickly a buyer can raise them.\n3. **Deferred maintenance and SB 721 balcony inspection findings** that turn up in due diligence.\n4. **\"Testing the market\" sellers** with no real motivation.\n\n### So what\n- **Expired and withdrawn listings are prime prospecting targets.** The owner has already decided to sell and has just learned the price.\n- **Pull the expireds every month** from CRMLS and from CoStar/LoopNet \"off market\" status, and approach with a pricing analysis.",
+      "keyPoints": [
+        "MLS flow: 24 new listings vs. 11 sales in 12 months to Sep 2026 (~46%)",
+        "Prior year: 32 new listings vs. 13 sales (~41%)",
+        "Working assumption: about half of listings expire, are withdrawn, or relist",
+        "January 2024 freeze: 26 listings, 0 sales (Matthews)",
+        "Expireds are high-value prospects because the owner has already shown intent to sell"
+      ],
+      "sources": [
+        {
+          "title": "Matthews - 2024 Market Update: Ventura and Santa Barbara County",
+          "url": "https://www.matthews.com/insights/2024-market-update-ventura-and-santa-barbara-county",
+          "date": "2024-02"
+        },
+        {
+          "title": "Matthews - Ventura County Multifamily Market Report H1 2026",
+          "url": "https://www.matthews.com/insights/ventura-county-multifamily-market-report-h1-2026-rents-vacancy-sales-trends",
+          "date": "2026-08"
+        },
+        {
+          "title": "Pacific Coast Business Times - Colliers (Mike Lopus) Central Coast multifamily commentary, Q1 2026",
+          "url": "https://www.pacbiztimes.com/?p=98486",
+          "date": "2026-06"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "Run a CRMLS status report (Expired + Withdrawn + Cancelled vs. Sold) for Ventura County residential income and 5+ unit listings over the last 12 months, and check CoStar's 'removed from market' multifamily listings. Confirm the SB 721 balcony inspection deadline currently in force.",
+      "drills": [
+        {
+          "q": "In the 12 months to September 2026, about how many Ventura multifamily sales occurred per new MLS listing?",
+          "choices": [
+            "About 1 sale per 10 listings",
+            "About 1 sale per 2 listings",
+            "About 1 sale per listing",
+            "About 2 sales per listing"
+          ],
+          "answer": 1,
+          "explain": "There were 11 sales against 24 new listings, about 46%."
+        },
+        {
+          "q": "Why are expired listings good prospecting targets?",
+          "choices": [
+            "They have no mortgage",
+            "The owner has shown intent to sell and has now seen market pricing",
+            "They are always distressed",
+            "They are exempt from AB 1482"
+          ],
+          "answer": 1,
+          "explain": "An expired listing means a motivated owner whose price expectations have just been tested by the market."
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "summary": "Ventura County's 5+ unit sales volume peaked around 2021-2022. It dropped sharply in 2023, rebounded to about $725M in 2024 on large institutional trades, and fell to about $397M through Q3 2025. H1 2026 came in around $199M, based on 11 sales.",
+      "answer": "### Best available series (sources differ in methodology)\n| Year | Transactions | Dollar volume | Source / note |\n|---|---|---|---|\n| 2022 | 36 sales | n/a | Matthews (its tracked sample) |\n| 2023 | 26 sales | ~$372M trailing 12 months as of Q3 2023 | Matthews; historical average cited at $277.9M |\n| 2024 | n/a | ~$725M | Matthews Q3 2025 narrative |\n| 2025 | n/a | ~$397M year to date through Q3 (about 45% below 2024's pace) | Matthews; CBRE quarterly totals: Q3 $202.3M, Q4 $129.9M |\n| 2026 | 11 sales in H1 | ~$199M in H1 | Matthews. CBRE: Q1 $184.4M (later revised to $194.2M), none recorded in Q2. Colliers: Q1 $236M |\n\n### Why the numbers disagree\n- **CBRE (MSCI-based)** counts larger deals, roughly $5M and up, so a quarter can show $0.\n- **Matthews and CoStar** include smaller trades.\n- **Colliers** uses its own Tri-County tally.\n\nDon't splice the series together. Quote one source and name it.\n\n### The story\n- **2021-2022:** low rates, peak pricing (4.19% average cap in 2022).\n- **2023:** a frozen bid-ask gap.\n- **2024:** big portfolio sales, including FPA's $171M and $153M Conejo portfolios, Ranch at Moorpark at $133.2M, and The Landing at Arroyo at $95M.\n- **2025:** smaller volume, though it included Cypress Point ($100M) and Santal ($83M).\n- **2026:** opened strong with Tempo ($105M) and Allure ($69.5M) in Q1, then went quiet among large deals in Q2.\n\n### So what\nA handful of $70M-$170M deals drives the annual totals. The small-building market, where most of your listings will come from, is steadier: roughly 20-40 trades a year.",
+      "keyPoints": [
+        "2024 was the recent high-water mark, ~$725M (Matthews)",
+        "2025 through Q3: ~$397M, about 45% below 2024",
+        "H1 2026: ~$199M across 11 sales (Matthews)",
+        "CBRE quarterly: Q3 2025 $202.3M, Q4 2025 $129.9M, Q1 2026 ~$184-194M, Q2 2026 none recorded",
+        "Annual totals swing on a few $70M+ institutional deals"
+      ],
+      "sources": [
+        {
+          "title": "Matthews - Ventura, CA Multifamily Market Report Q3 2025",
+          "url": "https://www.matthews.com/insights/ventura-ca-multifamily-market-report-q3-2025",
+          "date": "2025-10"
+        },
+        {
+          "title": "Matthews - Ventura County Multifamily Market Report H1 2026",
+          "url": "https://www.matthews.com/insights/ventura-county-multifamily-market-report-h1-2026-rents-vacancy-sales-trends",
+          "date": "2026-08"
+        },
+        {
+          "title": "Matthews - 2024 Market Update: Ventura and Santa Barbara County",
+          "url": "https://www.matthews.com/insights/2024-market-update-ventura-and-santa-barbara-county",
+          "date": "2024-02"
+        },
+        {
+          "title": "Matthews - Multifamily Market Report, Ventura County, CA (Q3 2023)",
+          "url": "https://www.matthews.com/insights/market-report-multifamily-ventura-county-ca",
+          "date": "2023-07"
+        },
+        {
+          "title": "CBRE Research - Ventura Multifamily Figures Q4 2025",
+          "url": "https://mktgdocs.cbre.com/2299/934d1e30-5d49-4bf9-a85b-09bc71ae6ddc-366174246/Ventura_Multifamily_Snapshot_Q.pdf",
+          "date": "2026-01"
+        },
+        {
+          "title": "CBRE Research - Ventura Multifamily Figures Q1 2026",
+          "url": "https://mktgdocs.cbre.com/2299/ab862b9f-1e9a-44f0-a3ad-58310f164d96-224289790/Ventura_Multifamily_Snapshot_Q.pdf",
+          "date": "2026-04"
+        },
+        {
+          "title": "CBRE Research - Ventura Multifamily Figures Q2 2026",
+          "url": "https://mktgdocs.cbre.com/2299/dec75ad2-1739-499f-b76f-559255509b56-27776285/Ventura_Multifamily_Snapshot_Q.pdf",
+          "date": "2026-07"
+        },
+        {
+          "title": "Pacific Coast Business Times - Colliers (Mike Lopus) Central Coast multifamily commentary, Q1 2026",
+          "url": "https://www.pacbiztimes.com/?p=98486",
+          "date": "2026-06"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "There is no consistent five-year series. Pull CoStar Sales Analytics for Ventura County multifamily (5+ units), with annual count and dollar volume for 2021-2025 plus 2026 YTD, using one consistent filter, and replace this table. Also confirm the 2021 and 2022 dollar volume.",
+      "drills": [
+        {
+          "q": "Which year had the highest recent Ventura County multifamily sales volume, about $725M per Matthews?",
+          "choices": [
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "answer": 2,
+          "explain": "Matthews puts 2024 volume at about $725M, driven by large portfolio sales. 2025 ran about 45% lower through Q3."
+        },
+        {
+          "q": "Why might CBRE report no multifamily investment sales for Q2 2026 while other sources show trades?",
+          "choices": [
+            "CBRE excludes Ventura County",
+            "CBRE's data tracks mainly larger deals, so small trades don't register",
+            "All Q2 deals were 2-4 units",
+            "CBRE reports only listings"
+          ],
+          "answer": 1,
+          "explain": "CBRE's quarterly figures are based on larger investment sales, so a quarter with only small trades can show zero."
+        },
+        {
+          "q": "About how many multifamily properties traded in H1 2026, per Matthews?",
+          "choices": [
+            "3",
+            "11",
+            "36",
+            "110"
+          ],
+          "answer": 1,
+          "explain": "Matthews counted 11 trades totaling about $199M in H1 2026."
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "summary": "The biggest confirmed Ventura County trades in the last 24 months are Tempo at RiverPark ($105M), Cypress Point ($100M), Santal Thousand Oaks (~$83M) and Allure at Camarillo ($69.5M). Matthews also cites an $88M Sofi Ventura sale. The rest of a true top 10 needs a CoStar pull.",
+      "answer": "### Confirmed large sales, November 2024 to October 2026\n| # | Property (city) | Units | Price | ~$/unit | Date | Buyer | Seller |\n|---|---|---|---|---|---|---|---|\n| 1 | Tempo at RiverPark (Oxnard), built 2015 | 235 | $105M | $447K | Jan 2026 | Hines-led venture | Bascom-affiliated venture (bought for $75.25M in 2018) |\n| 2 | Cypress Point (Ventura), built 1990 | 268 | $100M | $373K | Aug 2025 | Raintree Partners | County Center LP (original developer, held since 1990) |\n| 3 | Sofi Ventura (Ventura) | n/a | $88M (per Matthews) | n/a | 2025 | Not confirmed | Not confirmed |\n| 4 | Santal Thousand Oaks, built 2023 | 142 | ~$83M (Traded) | $585K | Oct 2025 | BlackRock-managed account | The Latigo Group |\n| 5 | Allure at Camarillo | 165 | $69.5M | $421K | Mar 2026 | Jackson Square Properties | Nuveen (8-year hold) |\n\n**Brokers:**\n- Tempo: JLL\n- Cypress Point: IPA (Marcus & Millichap)\n- Santal and Allure: Newmark\n\nNewmark called the Santal deal Ventura County's **first unleveraged institutional purchase**.\n\n### Just outside the window\n- The Landing at Arroyo, Simi Valley: $95M, 212 units, August 2024.\n- Ranch at Moorpark: $133.2M, 376 units, April 2024. AEW bought it from Decron.\n- FPA Multifamily's Conejo portfolios: $171.3M in December 2023 and $153M in February 2024.\n\n### Patterns to remember\n- **Buyers are national and global capital:** Hines, BlackRock, Raintree, Jackson Square, AEW.\n- **Sellers are mostly funds and developers exiting** at the end of a hold: Bascom, Nuveen, Latigo, and Decron's SoCal exit.\n- **Pricing:** older garden assets at about $370K-$450K per unit, and new construction near $585K.\n\n### So what\n- These deals set the institutional ceiling, but your 5-20 unit clients trade at roughly half the per-unit price.\n- Use the buyer names when you prospect for 1031 upleg buyers and for co-brokerage relationships.",
+      "keyPoints": [
+        "Tempo at RiverPark, Oxnard: $105M, 235 units, Jan 2026, Hines venture from Bascom",
+        "Cypress Point, Ventura: $100M, 268 units, Aug 2025, Raintree from the original 1990 developer",
+        "Santal Thousand Oaks: ~$83M, 142 units, Oct 2025, BlackRock account from Latigo (first unleveraged institutional deal in the county)",
+        "Allure at Camarillo: $69.5M, 165 units, Mar 2026, Jackson Square from Nuveen",
+        "Large-deal sellers are mostly funds and developers exiting after 8-35 year holds"
+      ],
+      "sources": [
+        {
+          "title": "ConnectCRE - Bascom venture sells Oxnard apartments to Hines for $105M",
+          "url": "https://www.connectcre.com/stories/bascom-venture-sells-oxnard-apartments-to-hines-for-105m/",
+          "date": "2026-01"
+        },
+        {
+          "title": "ConnectCRE - IPA represents original developer in $100M Ventura apartment sale",
+          "url": "https://www.connectcre.com/stories/ipa-represents-original-developer-in-100m-ventura-apartment-sale/",
+          "date": "2025-08"
+        },
+        {
+          "title": "ConnectCRE - BlackRock makes Ventura County's first unleveraged institutional deal",
+          "url": "https://www.connectcre.com/stories/blackrock-makes-ventura-countys-first-unleveraged-institutional-deal/",
+          "date": "2025-10"
+        },
+        {
+          "title": "Bisnow - BlackRock-run account buys Ventura County apartments for $83M",
+          "url": "https://www.bisnow.com/news/los-angeles/multifamily/thousand-oaks-apartments-blackrock-latigo-group-131569",
+          "date": "2025-10"
+        },
+        {
+          "title": "Newmark - Newmark arranges sale of Santal Thousand Oaks",
+          "url": "https://www.nmrk.com/insights/press-releases/newmark-arranges-sale-of-santal-thousand-oaks-a-premier-ventura-county-multifamily-property",
+          "date": "2025-10"
+        },
+        {
+          "title": "The Registry SoCal - Jackson Square Properties acquires 165-unit Allure at Camarillo for $69.5MM",
+          "url": "https://theregistrysocal.com/jackson-square-properties-acquires-165-unit-allure-at-camarillo-for-69-5mm-closing-nuveens-eight-year-hold/",
+          "date": "2026-03"
+        },
+        {
+          "title": "Traded - 390 Paseo Camarillo multifamily sale",
+          "url": "https://traded.co/deals/california/multifamily/sale/390-paseo-camarillo/",
+          "date": "2026-03"
+        },
+        {
+          "title": "Matthews - Ventura, CA Multifamily Market Report Q3 2025",
+          "url": "https://www.matthews.com/insights/ventura-ca-multifamily-market-report-q3-2025",
+          "date": "2025-10"
+        },
+        {
+          "title": "Business Wire - IPA brokers $95 million multifamily sale in Greater Los Angeles (The Landing at Arroyo, Simi Valley)",
+          "url": "https://www.businesswire.com/news/home/20240829477044/en/Marcus-Millichap%E2%80%99s-Institutional-Property-Advisors-Brokers-95-Million-Multifamily-Sale-in-Greater-Los-Angeles",
+          "date": "2024-08"
+        },
+        {
+          "title": "The Real Deal - Decron sells Moorpark apartment complex for $133M",
+          "url": "https://therealdeal.com/la/2024/04/11/decron-sells-moorpark-apartment-complex-for-133m",
+          "date": "2024-04"
+        },
+        {
+          "title": "Commercial Observer - FPA Multifamily now owns a big chunk of Ventura County's apartment market",
+          "url": "https://commercialobserver.com/2024/02/calif-fpa-multifamily-ventura-county-multifamily-sale/",
+          "date": "2024-02"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "Only 4-5 deals in the window could be confirmed. Run a CoStar Sales Comps search (Ventura County, multifamily, sale date 11/2024-10/2026, sorted by price) to complete the top 10 with buyer and seller entities. Confirm the Sofi Ventura price, date and parties, which Matthews cites but no deal report confirmed.",
+      "drills": [
+        {
+          "q": "Who bought Tempo at RiverPark in Oxnard for $105M in January 2026?",
+          "choices": [
+            "Raintree Partners",
+            "A Hines-led venture",
+            "BlackRock-managed account",
+            "FPA Multifamily"
+          ],
+          "answer": 1,
+          "explain": "A Hines-led venture bought the 235-unit, 2015-built Tempo at RiverPark from a Bascom-affiliated venture. JLL brokered the deal."
+        },
+        {
+          "q": "What was notable about the Cypress Point seller?",
+          "choices": [
+            "It was a REIT",
+            "It was the original developer, which had owned the property since 1990",
+            "It was a lender selling after foreclosure",
+            "It was the City of Ventura"
+          ],
+          "answer": 1,
+          "explain": "County Center LP, the original developer, sold after a roughly 35-year hold. Raintree Partners bought the property for $100M."
+        },
+        {
+          "q": "Newmark described the Santal Thousand Oaks sale as Ventura County's first what?",
+          "choices": [
+            "Off-market sale",
+            "Unleveraged institutional purchase",
+            "Sale above $1M per unit",
+            "Build-to-rent sale"
+          ],
+          "answer": 1,
+          "explain": "A BlackRock-managed account bought Santal all-cash, which Newmark called the county's first unleveraged institutional deal."
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "summary": "The handful of verifiable 5-20 unit comps cluster at $255K-$365K per unit and 5.0%-5.5% caps. Examples: an 18-unit building in Oxnard at about $258K per unit and a 5.47% cap (2025), and an 8-unit building in Ventura at about $311K per unit and a 5.02% cap (2024). For a city-by-city comp book, pull CoStar.",
+      "answer": "### Closed comps found in public reporting\n| City | Address | Units | Price | ~$/unit | Cap | Year |\n|---|---|---|---|---|---|---|\n| Oxnard | 1200 N H St | 18 | $4,647,332 | $258K | 5.47% | 2025 |\n| Ventura | 40 N Brent St | 8 | $2,487,000 | $311K | 5.02% | 2024 |\n| Ojai | 514-516 E Oak St & 601 Grand Ave | 32 | $8,250,000 | $258K | 5.63% | 2025 |\n| Camarillo | 1917 Colonia Pl | 4 | $1,455,000 | $364K | n/a | H1 2026 |\n| Ventura County | Tradewinds Apartments | 38 | $9.8M | $258K | n/a | 2024 |\n\nThe first three are LAAA team closings. The Camarillo sale is cited by Matthews. Tradewinds (Beachside Partners, both sides) is above the 5-20 unit band but is a useful marker.\n\n### Listing benchmarks (asking, not sold)\n- **186 Bell Way, Ventura:** marketed at a **4.88% current / 5.88% market** cap. The 100 bps spread is typical of older, under-rented buildings.\n- **Other October 2026 asking prices:** a 12-unit building on E Main St in Ventura at a 4.29% asking cap, and a 20-unit building in Thousand Oaks at 5.27%. Asking caps run about 25-75 bps below where deals close.\n\n### How to build the comp set for each city\n1. In CoStar, set Sales Comps to Multifamily, 5-20 units, the last 18 months, and one city at a time: Oxnard, Ventura, Camarillo, Simi Valley, Thousand Oaks, Santa Paula, Port Hueneme.\n2. Cross-check against CRMLS closed residential income and Crexi sold comps.\n3. Normalize the set to $/unit, $/SF, GRM, in-place and pro forma cap, and year built.\n4. Call the listing brokers to confirm rents and condition. Reported caps are often based on pro forma rents.\n\n### So what\n- For older small buildings, **$250K-$320K per unit in Oxnard, Ojai and Santa Paula** and **$300K-$375K in Ventura and Camarillo** are reasonable starting anchors.\n- Conejo Valley small assets trade higher (estimate).",
+      "keyPoints": [
+        "Oxnard, 1200 N H St (18u): $4.65M, ~$258K/unit, 5.47% cap (2025)",
+        "Ventura, 40 N Brent St (8u): $2.487M, ~$311K/unit, 5.02% cap (2024)",
+        "Ojai, 32 units: $8.25M, ~$258K/unit, 5.63% cap (2025)",
+        "Camarillo 4-plex, 1917 Colonia Pl: $1.455M, ~$364K/unit (H1 2026)",
+        "Asking caps run about 25-75 bps below closing caps; check whether a cap is in-place or pro forma"
+      ],
+      "sources": [
+        {
+          "title": "LAAA (Marcus & Millichap team) - Ventura & Santa Barbara Apartment Building Sales",
+          "url": "https://www.laaa.com/markets/ventura-santa-barbara",
+          "date": "2026-05"
+        },
+        {
+          "title": "Matthews - Ventura County Multifamily Market Report H1 2026",
+          "url": "https://www.matthews.com/insights/ventura-county-multifamily-market-report-h1-2026-rents-vacancy-sales-trends",
+          "date": "2026-08"
+        },
+        {
+          "title": "Pacific Coast Business Times - 38-unit Ventura County apartment complex nets $9.8M",
+          "url": "https://www.pacbiztimes.com/?p=92400",
+          "date": "2024-02"
+        },
+        {
+          "title": "Crexi - 186 Bell Way, Ventura, CA listing",
+          "url": "https://www.crexi.com/properties/2641743/california-186-bell-way",
+          "date": "2026-10"
+        },
+        {
+          "title": "LoopNet - Multifamily properties for sale in Ventura County, CA",
+          "url": "https://www.loopnet.com/search/multifamily-properties/ventura-county-ca/for-sale/",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "Public reporting yields only a few verified 5-20 unit comps. Pull CoStar Sales Comps (multifamily, 5-20 units, last 18 months) for each city: Oxnard, Ventura, Camarillo, Simi Valley, Thousand Oaks, Moorpark, Santa Paula, Port Hueneme, Fillmore and Ojai. Add CRMLS closed residential income sales. Confirm the listing figures cited, which are asking prices from October 2026 searches.",
+      "drills": [
+        {
+          "q": "At what cap rate did the 18-unit building at 1200 N H St in Oxnard close in 2025?",
+          "choices": [
+            "4.29%",
+            "5.02%",
+            "5.47%",
+            "6.70%"
+          ],
+          "answer": 2,
+          "explain": "LAAA reports 1200 N H St (18 units) closed at $4,647,332 and a 5.47% cap."
+        },
+        {
+          "q": "The 186 Bell Way, Ventura listing shows 4.88% current vs. 5.88% market cap. What does that spread mean?",
+          "choices": [
+            "Rents are above market",
+            "In-place rents are well below market, leaving upside",
+            "The building is new",
+            "Expenses are unusually low"
+          ],
+          "answer": 1,
+          "explain": "A market cap 100 bps above the current cap means NOI rises meaningfully when rents reach market."
+        },
+        {
+          "q": "Which source is best for building a 5-20 unit comp set by city?",
+          "choices": [
+            "Census ACS",
+            "CoStar Sales Comps filtered by units and city, cross-checked with CRMLS",
+            "CBRE quarterly snapshot",
+            "Assessor's roll totals"
+          ],
+          "answer": 1,
+          "explain": "CoStar Sales Comps filtered by unit count and city, verified against MLS closings and the listing brokers, is the standard method."
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "summary": "Turnkey buildings trade at roughly 50-100 bps lower cap rates than comparable value-add product. That is about 10%-20% more per unit, and new construction sits well above both. The premium is narrower than in 2021, because buyers now pay for in-place income rather than upside.",
+      "answer": "### Evidence of the spread\n- **Vintage rent gap:** CBRE Q1 2026 average rents run **$2,890 for 2010s-built** product against **$2,471 for 1970s-built**, a 17% difference.\n- **Price gap:** Santal Thousand Oaks (built 2023) traded at about **$585K per unit**. Older Conejo garden product went at about **$374K per unit** (FPA's 1965-70 Oakview and Biltmore). Smaller older assets countywide averaged about **$270K per unit** in Q2 2026 (Matthews).\n- **Current vs. market cap on a value-add listing:** 186 Bell Way in Ventura is marketed at a 4.88% current / 5.88% market cap. The buyer of a value-add building pays today for income that only shows up after renovation and turnover.\n\n### How to think about the premium (working ranges, estimated)\n| Condition | Going-in cap | $/unit vs. value-add |\n|---|---|---|\n| Value-add (original systems, deferred work) | 5.5%-6.0%+ | baseline |\n| Clean, updated, no deferred maintenance | 5.0%-5.4% | +10%-20% |\n| New construction (post-2015) | ~4.75%-5.25% | +40%-100% |\n\n### What drives the turnkey premium now\n1. **Financing.** Lenders size loans on in-place NOI at a 1.20-1.25x DSCR. Clean buildings get bigger loans.\n2. **Insurance.** Carriers price older roofs, electrical and plumbing punitively, or decline them.\n3. **Compliance.** SB 721 balcony inspections, and seismic or wiring issues, turn up as due-diligence surprises.\n4. **AB 1482 and SB 567 limit the upside.** Renovation evictions are harder, so value-add returns depend on natural turnover.\n\n### So what\n- **For a clean listing,** document capex with dates and costs, the SB 721 report, and insurance quotes. That is how you earn the premium.\n- **For a value-add listing,** price at a cap rate on in-place income and sell the upside in the story, not in the price.",
+      "keyPoints": [
+        "Turnkey vs. value-add spread: ~50-100 bps of cap rate, or ~10%-20% per unit (estimate)",
+        "CBRE Q1 2026 rents: 2010s product $2,890 vs. 1970s product $2,471 (+17%)",
+        "New Santal ~$585K/unit vs. older Conejo garden ~$374K/unit",
+        "Lenders size on in-place NOI, which favors clean buildings",
+        "Document capex, SB 721 compliance and insurability to earn the premium"
+      ],
+      "sources": [
+        {
+          "title": "CBRE Research - Ventura Multifamily Figures Q1 2026",
+          "url": "https://mktgdocs.cbre.com/2299/ab862b9f-1e9a-44f0-a3ad-58310f164d96-224289790/Ventura_Multifamily_Snapshot_Q.pdf",
+          "date": "2026-04"
+        },
+        {
+          "title": "Bisnow - BlackRock-run account buys Ventura County apartments for $83M",
+          "url": "https://www.bisnow.com/news/los-angeles/multifamily/thousand-oaks-apartments-blackrock-latigo-group-131569",
+          "date": "2025-10"
+        },
+        {
+          "title": "Commercial Observer - FPA Multifamily now owns a big chunk of Ventura County's apartment market",
+          "url": "https://commercialobserver.com/2024/02/calif-fpa-multifamily-ventura-county-multifamily-sale/",
+          "date": "2024-02"
+        },
+        {
+          "title": "Matthews - Ventura County Multifamily Market Report H1 2026",
+          "url": "https://www.matthews.com/insights/ventura-county-multifamily-market-report-h1-2026-rents-vacancy-sales-trends",
+          "date": "2026-08"
+        },
+        {
+          "title": "Crexi - 186 Bell Way, Ventura, CA listing",
+          "url": "https://www.crexi.com/properties/2641743/california-186-bell-way",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "No published Ventura-specific premium study exists. Pair CoStar comps by building condition (renovated vs. original, using sale notes) within the same city and vintage, and confirm with two or three local investment brokers or appraisers. Confirm current SB 721 and SB 567 requirements.",
+      "drills": [
+        {
+          "q": "Per CBRE Q1 2026, how did average rent in 2010s-built Ventura product compare with 1970s-built product?",
+          "choices": [
+            "About the same",
+            "About 17% higher ($2,890 vs. $2,471)",
+            "About 40% higher",
+            "Lower"
+          ],
+          "answer": 1,
+          "explain": "CBRE lists $2,890 for 2010s-built vs. $2,471 for 1970s-built, roughly 17% higher."
+        },
+        {
+          "q": "Why do clean, no-deferred-maintenance buildings command a premium in today's market?",
+          "choices": [
+            "They are exempt from rent control",
+            "Lenders size loans on in-place NOI and insurers favor updated systems",
+            "They have no property tax",
+            "They always sell off-market"
+          ],
+          "answer": 1,
+          "explain": "Financing and insurance both reward clean buildings, while AB 1482 and SB 567 make value-add upside slower to capture."
+        },
+        {
+          "q": "A typical turnkey vs. value-add cap rate spread in this market is about:",
+          "choices": [
+            "5-10 bps",
+            "50-100 bps",
+            "200-300 bps",
+            "There is no spread"
+          ],
+          "answer": 1,
+          "explain": "Working estimate: about 50-100 bps, which is roughly 10%-20% on price per unit."
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "summary": "Buildings with deep below-market rents and long-term tenants trade on in-place NOI, not on the market-rent story. That usually puts them 15%-30% below a stabilized value. Buyers pay a modest premium for upside, because AB 1482 and SB 567 make that upside slow and uncertain.",
+      "answer": "### Why the discount exists\n- **AB 1482** caps annual increases on most buildings older than 15 years at **5% + CPI, maximum 10%**, and requires just cause for eviction. A unit at $1,800 when market is $2,600 can take years to close the gap.\n- **SB 567** (2024) tightened the \"substantial remodel\" no-fault eviction path, so a buyer cannot quickly turn a building over.\n- **City rules** add more limits where they apply. Check each city's current ordinances, including Oxnard's.\n\n### Worked example (10 units, illustrative)\n| | In-place | At market |\n|---|---|---|\n| Avg rent | $1,900 | $2,500 |\n| Gross income | $228,000 | $300,000 |\n| Expenses (~$91K) | $91,200 | $91,200 |\n| NOI | $136,800 | $208,800 |\n| Value at 5.25% | **$2.61M** | **$3.98M** |\n\nThe roughly $1.37M gap is the **\"loss to lease\" value**. Buyers typically pay for in-place income at a slightly lower cap, around 5.0%, which works out to about **$2.74M**. That captures only a fraction of the upside. The discount relative to stabilized value is about 30%.\n\n### Long-term tenants specifically\n- Turnover in rent-capped units is low, so buyers model about **5%-10% annual turnover** for those units (estimate).\n- Elderly or long-tenured tenants raise relocation and reputational risk.\n- Buyers will ask for estoppels and an analysis of rent increase history. Missed AB 1482 increases cannot be recaptured.\n\n### How to market it\n1. Show a **unit-by-unit rent roll with tenure** and the gap to market for each unit.\n2. **Model the realistic path to market:** AB 1482 increases plus turnover, not an instant mark-to-market.\n3. **Target the right buyer:** long-hold private capital and 1031 buyers who want stability, not value-add funds on 3-5 year timelines.\n4. **If the seller has time,** implement the allowable annual increases before listing, because every dollar of NOI is worth about 19-20x at a 5%-5.25% cap.",
+      "keyPoints": [
+        "Price on in-place NOI; the upside earns only a modest premium",
+        "AB 1482: increases capped at 5% + CPI, max 10%, plus just cause",
+        "SB 567 (2024) narrowed renovation (substantial remodel) evictions",
+        "Typical discount to stabilized value for deeply under-rented buildings: ~15%-30% (estimate)",
+        "Each $1 of added NOI is worth ~$19-20 of value at a 5%-5.25% cap"
+      ],
+      "sources": [
+        {
+          "title": "Matthews - Ventura County Multifamily Market Report H1 2026",
+          "url": "https://www.matthews.com/insights/ventura-county-multifamily-market-report-h1-2026-rents-vacancy-sales-trends",
+          "date": "2026-08"
+        },
+        {
+          "title": "Crexi - 186 Bell Way, Ventura, CA listing",
+          "url": "https://www.crexi.com/properties/2641743/california-186-bell-way",
+          "date": "2026-10"
+        },
+        {
+          "title": "LAAA (Marcus & Millichap team) - Ventura & Santa Barbara Apartment Building Sales",
+          "url": "https://www.laaa.com/markets/ventura-santa-barbara",
+          "date": "2026-05"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "The discount ranges are estimates. Verify with paired CoStar comps (same city and vintage, high vs. low in-place-to-market rent ratio from the OMs). Check the current AB 1482 cap for the Los Angeles-area CPI period and any Oxnard or other city rent ordinances, through city housing departments and the California AG tenant guidance.",
+      "drills": [
+        {
+          "q": "Under AB 1482, what is the maximum annual rent increase on a covered unit?",
+          "choices": [
+            "3%",
+            "5% + CPI, max 10%",
+            "CPI only",
+            "No limit"
+          ],
+          "answer": 1,
+          "explain": "AB 1482 caps annual increases at 5% plus regional CPI, with a 10% ceiling."
+        },
+        {
+          "q": "In the example, the building's NOI is $136,800 at in-place rents. What is it worth at a 5.25% cap?",
+          "choices": [
+            "About $1.9M",
+            "About $2.61M",
+            "About $3.98M",
+            "About $5.2M"
+          ],
+          "answer": 1,
+          "explain": "$136,800 / 0.0525 is about $2.61M."
+        },
+        {
+          "q": "Which buyer type is usually the best fit for a long-tenured, under-rented building?",
+          "choices": [
+            "3-year value-add fund",
+            "Long-hold private or 1031 buyer",
+            "Condo converter",
+            "Short-term flipper"
+          ],
+          "answer": 1,
+          "explain": "Long-hold private and 1031 buyers can wait out slow turnover, while value-add funds need faster rent growth."
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "summary": "2-4 unit buildings are priced like houses. Owner-occupant buyers can use residential loans, so caps often run 3.75%-4.75% and GRMs are high. 5+ unit buildings are priced on NOI and commercial debt, around 5.0%-5.5% caps, and draw a smaller, more yield-driven pool of investors.",
+      "answer": "### The two markets\n| | 2-4 units | 5+ units |\n|---|---|---|\n| Financing | Residential: 30-year fixed, conforming or FHA/VA if owner-occupied | Commercial: 5-10 year fixed or hybrid, 25-30 year amortization |\n| Loan sizing | Borrower income and credit plus property rent | Property NOI, typically 1.20-1.25x DSCR and ~55%-65% LTV |\n| Pricing basis | Comps and replacement cost per door | Cap rate on in-place NOI |\n| Typical buyer | Owner-occupants, house-hackers, first-time investors | Private investors, 1031 exchangers, family offices, funds |\n| Typical cap | ~3.75%-4.75% (est.) | ~5.0%-5.5% (Matthews H1 2026 average 5.37%) |\n\n### Local evidence\n- A **Camarillo fourplex at 1917 Colonia Pl** sold for $1,455,000 in H1 2026, about **$364K per unit**.\n- Q2 2026 smaller-asset trades averaged about **$270K per unit** (Matthews).\n- The fourplex therefore commanded about a 35% per-door premium.\n\n### Why appetite differs right now\n- **Residential rates sit below commercial bridge debt,** and owner-occupants accept low or negative cash flow because they are also buying a home.\n- **5+ buyers need yield near their cost of debt.** Colliers put permanent debt at 5.5%-6.25% in mid-2026, which keeps their bids disciplined.\n- **The 5+ buyer pool is smaller,** so DOM is longer and price reductions are more common (see Q63-Q64).\n\n### So what\n- **Selling a 4-plex:** market it through the MLS to owner-users, with residential-style photos and FHA-friendly terms.\n- **Selling 5-10 units:** you will usually lose the owner-occupant buyer and face investor underwriting. A 5-unit building can be worth less per door than a 4-plex next door.\n- **1031 buyers trading up** from 2-4 units into 5+ are a reliable buyer pool for 5-20 unit listings.",
+      "keyPoints": [
+        "2-4 units: residential financing and owner-occupant buyers, priced like homes",
+        "5+ units: priced on NOI, commercial loans sized at ~1.20-1.25x DSCR",
+        "Camarillo 4-plex at ~$364K/unit vs. ~$270K/unit average for small 5+ trades (Q2 2026)",
+        "Caps: ~3.75%-4.75% for 2-4 units (est.) vs. ~5.0%-5.5% for 5+",
+        "A 5-unit building can be worth less per door than a 4-plex"
+      ],
+      "sources": [
+        {
+          "title": "Matthews - Ventura County Multifamily Market Report H1 2026",
+          "url": "https://www.matthews.com/insights/ventura-county-multifamily-market-report-h1-2026-rents-vacancy-sales-trends",
+          "date": "2026-08"
+        },
+        {
+          "title": "Pacific Coast Business Times - Colliers (Mike Lopus) Central Coast multifamily commentary, Q1 2026",
+          "url": "https://www.pacbiztimes.com/?p=98486",
+          "date": "2026-06"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "The 2-4 unit cap range is an estimate. Pull CRMLS closed 2-4 unit sales (last 12 months, Ventura County) for median $/unit, GRM and cap, and compare with CoStar 5-20 unit comps. Confirm current residential loan limits for 2-4 unit properties and the commercial lender DSCR and LTV norms.",
+      "drills": [
+        {
+          "q": "How are 2-4 unit properties primarily financed and priced?",
+          "choices": [
+            "Commercial loans priced on NOI",
+            "Residential loans, priced off home-style comps, often to owner-occupants",
+            "All-cash only",
+            "Agency loans with 10-year terms"
+          ],
+          "answer": 1,
+          "explain": "2-4 unit properties qualify for residential financing, and owner-occupants price them like houses."
+        },
+        {
+          "q": "Per the H1 2026 data, about how did the Camarillo fourplex's per-unit price compare with average small 5+ trades?",
+          "choices": [
+            "About the same",
+            "About 35% higher (~$364K vs. ~$270K)",
+            "About 50% lower",
+            "About 3x higher"
+          ],
+          "answer": 1,
+          "explain": "$1,455,000 / 4 is about $364K per unit, vs. about $270K for smaller-asset trades in Q2 2026."
+        },
+        {
+          "q": "Commercial lenders on 5+ unit deals typically size loans by:",
+          "choices": [
+            "Borrower W-2 income only",
+            "Property NOI at a ~1.20-1.25x debt service coverage ratio",
+            "Assessed value",
+            "Replacement cost"
+          ],
+          "answer": 1,
+          "explain": "Commercial multifamily loans are sized on property NOI and DSCR, with LTV limits."
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "summary": "Off-market deals in Ventura County usually trade at or slightly below where a fully marketed deal would. The seller gives up competitive tension in exchange for certainty, privacy and speed. There are exceptions: the Vines at RiverPark set a county record off-market at about $567K per unit in 2022.",
+      "answer": "### General pattern\n- **Marketed deals** create competition through a call-for-offers process. That usually produces the best price and terms, especially for clean, well-located assets.\n- **Off-market deals** typically clear **0%-5% below** what a marketed process would achieve (estimate). In return, the seller gets:\n  - **Certainty and speed:** a known buyer, often 1031 or all-cash\n  - **Privacy:** tenants, staff and family don't learn about the sale\n  - **Lower friction:** fewer re-trades and no exposure as a stale listing if the deal fails\n\n### Local examples\n- **The Vines at RiverPark, Oxnard (2022):** sold **off-market for $93M**, more than $567K per unit and $414/SF. Interstate Equities bought it from Champion Real Estate, with Berkadia advising the seller. A strong off-market price is possible when a motivated buyer pre-empts a process.\n- **Alturas, Oxnard (2021):** CGI+ bought it off-market for $50.7M, about $300K per unit, from FPA Multifamily. FPA had paid $34M in 2018.\n- In the MLS data, sold multifamily listings with **1-3 days on market** are usually deals arranged before or outside the MLS (see Q64).\n\n### When off-market makes sense for a seller\n1. A known buyer at or near the target price, especially one up against a 1031 deadline\n2. Sensitive situations: estate, partnership disputes, long-term tenants\n3. Small buildings where a marketed process would not attract many more bidders\n\n### When to push for full marketing\n1. A clean, institutional-quality or rare asset, such as Conejo Valley or beach-adjacent Ventura\n2. A seller who is price-maximizing and has time\n3. Multiple likely buyer types, such as 1031, local private and funds\n\n### So what\n- **Offer both.** Run a quiet \"pocket\" test with 10-20 qualified buyers first, then go to full market if the price isn't there.\n- **Document the strategy in writing** to protect your fiduciary position.",
+      "keyPoints": [
+        "Off-market typically clears ~0%-5% below a marketed process (estimate)",
+        "Sellers trade price for certainty, speed and privacy",
+        "Vines at RiverPark: $93M off-market (2022), >$567K/unit, a county record at the time",
+        "Alturas, Oxnard: $50.7M off-market (2021), ~$300K/unit",
+        "Best practice: a quiet pocket test, then full marketing if the price isn't there"
+      ],
+      "sources": [
+        {
+          "title": "Berkadia - The Vines at Riverpark, Oxnard, sold by Berkadia",
+          "url": "https://berkadia.com/news/the-vines-at-riverpark-oxnard-ca-sold-by-berkadia-2022/",
+          "date": "2022-08"
+        },
+        {
+          "title": "REBusinessOnline - CGI buys Alturas multifamily community in Oxnard for $50.7M",
+          "url": "https://rebusinessonline.com/cgi-buys-alturas-multifamily-community-in-oxnard-california-for-50-7m/",
+          "date": "2021-11"
+        },
+        {
+          "title": "Matthews - Ventura County Multifamily Market Report H1 2026",
+          "url": "https://www.matthews.com/insights/ventura-county-multifamily-market-report-h1-2026-rents-vacancy-sales-trends",
+          "date": "2026-08"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "There is no Ventura-specific study of off-market pricing. Compare CoStar comps flagged 'off-market' or with no marketing period against marketed comps (same city, vintage and size, last 24 months) to estimate the price difference. Check current MLS policy on office-exclusive and pocket listings with your MLS.",
+      "drills": [
+        {
+          "q": "What do sellers typically gain by selling off-market?",
+          "choices": [
+            "Always a higher price",
+            "Certainty, speed and privacy",
+            "Exemption from reassessment",
+            "Lower transfer tax"
+          ],
+          "answer": 1,
+          "explain": "Off-market deals trade competitive tension for certainty, speed and confidentiality."
+        },
+        {
+          "q": "The Vines at RiverPark in Oxnard sold off-market in 2022 for about:",
+          "choices": [
+            "$41.8M",
+            "$50.7M",
+            "$93M",
+            "$133.2M"
+          ],
+          "answer": 2,
+          "explain": "Berkadia reported a $93M off-market sale, more than $567K per unit and $414/SF."
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "summary": "No one publishes this. Comparing MLS counts with broker-tracked trades suggests most Ventura 5+ unit sales never go through the MLS. Our working estimate is that about 20%-35% are true off-market or pocket deals. Most of the rest are marketed by investment brokers on CoStar/LoopNet, Crexi or private email lists.",
+      "answer": "### What the data hints at\n- **MLS:** Flexmls recorded only **11 multifamily closings in Ventura County** in the 12 months to September 2026.\n- **Broker-tracked trades:** Matthews counted **11 trades in H1 2026 alone** (about $199M). Matthews counted 26 sales in 2023, and other trackers record more. Most institutional deals (Tempo, Cypress Point, Santal, Allure) were run by JLL, IPA or Newmark through their own processes, not the MLS.\n\n### Rough breakdown (estimated)\n| Channel | Share of 5+ unit sales |\n|---|---|\n| Marketed by investment brokers (OM, CoStar/LoopNet, Crexi, email blasts), not MLS | ~40%-55% |\n| Listed on MLS (often cross-listed with LoopNet) | ~15%-25% |\n| True off-market or pocket (no broad marketing) | ~20%-35% |\n\nFor 2-4 unit properties the MLS share is far higher, since that segment is largely residential.\n\n### Why the off-market share stays meaningful here\n- **A small owner base with long holds.** Many owners are approached directly by buyers or brokers they know.\n- **1031 buyers** often pre-empt with clean offers.\n- **Deals reported as off-market** include the Vines ($93M, 2022) and Alturas ($50.7M, 2021).\n\n### So what\n- **Being on the MLS alone misses most of the market.** Get CoStar and Crexi comps and build your own owner database.\n- **Off-market deal flow comes from relationships.** That is why direct owner outreach (Section 7) pays off.",
+      "keyPoints": [
+        "No published statistic exists; the shares here are estimates",
+        "MLS: only 11 Ventura multifamily closings in 12 months (Flexmls), vs. 11 broker-tracked trades in H1 2026 alone",
+        "Most institutional deals run through broker processes (JLL, IPA, Newmark), not MLS",
+        "Estimated true off-market or pocket share of 5+ unit sales: ~20%-35%",
+        "The 2-4 unit segment runs mostly through MLS"
+      ],
+      "sources": [
+        {
+          "title": "Matthews - Ventura County Multifamily Market Report H1 2026",
+          "url": "https://www.matthews.com/insights/ventura-county-multifamily-market-report-h1-2026-rents-vacancy-sales-trends",
+          "date": "2026-08"
+        },
+        {
+          "title": "Matthews - 2024 Market Update: Ventura and Santa Barbara County",
+          "url": "https://www.matthews.com/insights/2024-market-update-ventura-and-santa-barbara-county",
+          "date": "2024-02"
+        },
+        {
+          "title": "ConnectCRE - Bascom venture sells Oxnard apartments to Hines for $105M",
+          "url": "https://www.connectcre.com/stories/bascom-venture-sells-oxnard-apartments-to-hines-for-105m/",
+          "date": "2026-01"
+        },
+        {
+          "title": "ConnectCRE - IPA represents original developer in $100M Ventura apartment sale",
+          "url": "https://www.connectcre.com/stories/ipa-represents-original-developer-in-100m-ventura-apartment-sale/",
+          "date": "2025-08"
+        },
+        {
+          "title": "The Registry SoCal - Jackson Square Properties acquires 165-unit Allure at Camarillo for $69.5MM",
+          "url": "https://theregistrysocal.com/jackson-square-properties-acquires-165-unit-allure-at-camarillo-for-69-5mm-closing-nuveens-eight-year-hold/",
+          "date": "2026-03"
+        },
+        {
+          "title": "Berkadia - The Vines at Riverpark, Oxnard, sold by Berkadia",
+          "url": "https://berkadia.com/news/the-vines-at-riverpark-oxnard-ca-sold-by-berkadia-2022/",
+          "date": "2022-08"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "Pull all CoStar-recorded Ventura County 5+ unit sales for the last 24 months and match each against CRMLS and Flexmls closings and CoStar/LoopNet and Crexi listing histories. Classify each as MLS, marketed (non-MLS) or no-marketing, and replace these estimates with the actual shares.",
+      "drills": [
+        {
+          "q": "Roughly how many Ventura multifamily closings did Flexmls record in the 12 months to September 2026?",
+          "choices": [
+            "11",
+            "45",
+            "110",
+            "300"
+          ],
+          "answer": 0,
+          "explain": "Only 11 closings, a small share of total trades. Matthews alone counted 11 in H1 2026."
+        },
+        {
+          "q": "How are most large institutional Ventura apartment sales marketed?",
+          "choices": [
+            "Through the MLS",
+            "By investment brokerage teams (e.g., JLL, IPA, Newmark) through their own processes",
+            "Through public auction",
+            "By the county assessor"
+          ],
+          "answer": 1,
+          "explain": "Large deals like Tempo, Cypress Point and Allure were run by investment brokerage teams, not the MLS."
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "summary": "Base case for the next 12 months: values flat to +3%, cap rates holding around 5.0%-5.5%, and modestly higher volume. Supply has dropped sharply, occupancy is about 96%, and rent growth is about 1%. The swing factor is the 10-year Treasury.",
+      "answer": "### Fundamentals (as of mid-2026)\n- **Supply is drying up.** Matthews counts **502 units under construction, 1.3% of inventory**, vs. 2.7% nationally. CBRE recorded **zero completions in Q2 2026** after 585 in Q1.\n- **Occupancy is tight.** CBRE reports **96.1%** in Q2 2026. Matthews reports vacancy of **4.2%, down 60 bps** year over year, and expects it to stay stable through 2026.\n- **Rent growth is soft but positive.** About **+1.2% year over year** (Matthews), with an average of **$2,769** (CBRE Q2 2026). NAI flagged rising vacant units in late 2025 while new supply leased up.\n\n### Capital markets\n- **Rates:** The 10-year Treasury was at 4.4%-4.7% and permanent debt at 5.5%-6.25% in mid-2026 (Colliers). Caps sit roughly at the cost of debt.\n- **Survey sentiment:** CBRE's H1 2026 survey found caps flat nationally, with **infill multifamily drawing the most bearish outlook**.\n- **Buyers are active:** BlackRock bought unleveraged, and Hines, Raintree and Jackson Square all bought in the past 12 months.\n\n### Scenarios (12 months, illustrative)\n| Scenario | 10-yr Treasury | Cap rates | Values |\n|---|---|---|---|\n| Bull | Below 4.0% | -25 bps | +5%-8% |\n| Base | 4.0%-4.75% | Flat | Flat to +3% (NOI growth) |\n| Bear | Above 5.0% | +25-50 bps | -5% to -10% |\n\n### Drivers to watch\n1. Treasury yields and lender spreads\n2. Absorption of the remaining 2025-2026 deliveries in Camarillo, Oxnard and Simi Valley\n3. Insurance and property tax growth\n4. State and local rent and eviction rules\n5. Local economy, including Naval Base Ventura County, Amgen (Matthews notes its $600M R&D expansion) and agriculture\n\n### So what\n- **Low new supply is the long-term bull case.** Ventura is hard to build in.\n- **Tell sellers waiting for 2021 pricing that it is not coming back.** Their real choice is between selling at today's 5%-5.5% caps or holding for NOI growth.",
+      "keyPoints": [
+        "Pipeline: 502 units under construction, 1.3% of inventory (Matthews)",
+        "Occupancy 96.1% (CBRE Q2 2026); vacancy 4.2%, down 60 bps YoY (Matthews)",
+        "Rent growth about +1.2% YoY; average rent about $2,769 (CBRE Q2 2026)",
+        "Base case: cap rates flat at ~5.0%-5.5%, values flat to +3%",
+        "Biggest swing factor: the 10-year Treasury (4.4%-4.7% in mid-2026)"
+      ],
+      "sources": [
+        {
+          "title": "Matthews - Ventura County Multifamily Market Report H1 2026",
+          "url": "https://www.matthews.com/insights/ventura-county-multifamily-market-report-h1-2026-rents-vacancy-sales-trends",
+          "date": "2026-08"
+        },
+        {
+          "title": "CBRE Research - Ventura Multifamily Figures Q2 2026",
+          "url": "https://mktgdocs.cbre.com/2299/dec75ad2-1739-499f-b76f-559255509b56-27776285/Ventura_Multifamily_Snapshot_Q.pdf",
+          "date": "2026-07"
+        },
+        {
+          "title": "CBRE Research - Ventura Multifamily Figures Q1 2026",
+          "url": "https://mktgdocs.cbre.com/2299/ab862b9f-1e9a-44f0-a3ad-58310f164d96-224289790/Ventura_Multifamily_Snapshot_Q.pdf",
+          "date": "2026-04"
+        },
+        {
+          "title": "Pacific Coast Business Times - Colliers (Mike Lopus) Central Coast multifamily commentary, Q1 2026",
+          "url": "https://www.pacbiztimes.com/?p=98486",
+          "date": "2026-06"
+        },
+        {
+          "title": "Pacific Coast Business Times - New supply reshapes Ventura County's multifamily market (NAI Capital, Q4 2025)",
+          "url": "https://www.pacbiztimes.com/2026/02/13/cre-new-supply-reshapes-ventura-countys-multifamily-market/",
+          "date": "2026-02"
+        },
+        {
+          "title": "CRE Daily - CBRE H1 2026 Cap Rate Survey finds sentiment split",
+          "url": "https://www.credaily.com/briefs/cbre-h1-2026-cap-rate-survey-finds-sentiment-split/",
+          "date": "2026-08"
+        },
+        {
+          "title": "Matthews - Ventura, CA Multifamily Market Report Q3 2025",
+          "url": "https://www.matthews.com/insights/ventura-ca-multifamily-market-report-q3-2025",
+          "date": "2025-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "The scenarios are illustrative. Update with the Q3 2026 CBRE and Matthews Ventura reports when released, the current 10-year Treasury and lender quotes, and any NAI Capital or Marcus & Millichap 2027 forecast.",
+      "drills": [
+        {
+          "q": "How many units were under construction in Ventura County per Matthews H1 2026, and what share of inventory is that?",
+          "choices": [
+            "2,500 units, 6%",
+            "502 units, 1.3%",
+            "1,431 units, 3.4%",
+            "0 units, 0%"
+          ],
+          "answer": 1,
+          "explain": "Matthews counts 502 units under construction, 1.3% of inventory, vs. 2.7% nationally."
+        },
+        {
+          "q": "What occupancy rate did CBRE report for Ventura multifamily in Q2 2026?",
+          "choices": [
+            "91.0%",
+            "93.5%",
+            "96.1%",
+            "99.0%"
+          ],
+          "answer": 2,
+          "explain": "CBRE reported 96.1% occupancy in Q2 2026, up 0.1% from Q1."
+        },
+        {
+          "q": "Which variable is the biggest swing factor for 12-month values?",
+          "choices": [
+            "The 10-year Treasury yield and lender spreads",
+            "Local sales tax",
+            "Number of MLS agents",
+            "Tourism"
+          ],
+          "answer": 0,
+          "explain": "With caps near the cost of debt, Treasury yields and spreads drive cap rates and therefore values."
+        }
+      ]
+    }
+  ]
+}
