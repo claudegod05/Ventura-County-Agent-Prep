@@ -42,33 +42,33 @@
           "q": "What is the status of Ventura Housing's (City of Ventura) Housing Choice Voucher waiting list?",
           "choices": [
             "Open year-round",
-            "Closed, with over 10,000 applicants",
             "Open only to veterans",
+            "Closed, with over 10,000 applicants",
             "Abolished in 2025"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "Ventura Housing reports its HCV waiting lists are closed and hold over 10,000 applicants."
         },
         {
           "q": "Why do housing authorities often serve as managing general partner in LIHTC deals?",
           "choices": [
             "To avoid HUD inspections",
-            "To deliver public land and property-tax (welfare) exemption benefits",
             "Because CTCAC requires it",
-            "To collect developer fees tax-free"
+            "To collect developer fees tax-free",
+            "To deliver public land and property-tax (welfare) exemption benefits"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "Authority participation can provide public land and help secure the welfare exemption, improving feasibility."
         },
         {
           "q": "What type of payment standard does Ventura Housing use?",
           "choices": [
-            "Countywide flat FMR",
             "Small Area Fair Market Rents by ZIP code",
+            "Countywide flat FMR",
             "Market rent with no cap",
             "50th percentile statewide FMR"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Ventura Housing publishes FY 2025-26 Small Area FMR payment standards."
         }
       ]
@@ -76,7 +76,7 @@
     {
       "id": 188,
       "summary": "CTCAC's project list (active awards through September 2026) shows about **120 LIHTC projects** in Ventura County with **~10,100 low-income units**. About 1,930 of those units are in projects still at preliminary reservation. About **1,180 units come from 1993-1999 awards** and are hitting federal 30-year marks now. A full count of all deed-restricted units (inclusionary, HUD, USDA, RDA) isn't published in one place.",
-      "answer": "### LIHTC inventory (CTCAC list, active through Sept 2026)\n- **~120 distinct awards**, 10,257 total units, **10,084 low-income units**.\n- **Pipeline:** 15 awards (about 1,930 units) are still at preliminary reservation.\n- **Mix:**\n  - 84 four-percent and 48 nine-percent records.\n  - Mostly large-family, then seniors.\n  - 30 acquisition or rehab awards (about 3,000 units).\n\n| City | LIHTC low-income units |\n|---|---|\n| Oxnard | 3,569 |\n| Ventura | 1,725 |\n| Simi Valley | 1,407 |\n| Camarillo | 955 |\n| Santa Paula | 673 |\n| Thousand Oaks | 608 |\n| Moorpark | 429 |\n| Somis (farmworker) | 356 |\n| Fillmore / Piru / Ojai | 194 / 99 / 69 |\n\n### When restrictions run out\n| Award years | Low-income units | Status |\n|---|---|---|\n| 1993-1999 | ~1,176 | Past the 15-year compliance period; at or near the **30-year** federal extended-use mark |\n| 2000-2009 | ~2,271 | Federal 30-year mark around 2030-2039 |\n| 2010-2019 | ~3,231 | Federal mark in the 2040s |\n| 2020-2026 | ~3,406 | New or in pipeline |\n\nFederal law requires 30 years (15 + 15). **California awards usually carry longer, typically 55-year, CTCAC regulatory agreements.** So most Ventura County LIHTC units are restricted well past the federal date, but **older 1990s deals and HUD/USDA-only properties are the real risk pool**.\n\n### Statewide context (California Housing Partnership, April 2026)\n- **6,000+** subsidized homes could lose affordability within about a year.\n- **46,000+** within 10 years.\n- Nearly **18,000** lost since 2000.\n\n**So what:**\n- **Pre-2000 LIHTC and HUD Section 8 properties** are where the preservation sales, opt-outs and recapitalizations happen.\n- **Buyers:** Read the recorded regulatory agreement, not the marketing package.",
+      "answer": "### LIHTC inventory (CTCAC list, active through Sept 2026)\n- **~120 distinct awards**, 10,257 total units, **10,084 low-income units**.\n- **Pipeline:** 15 awards (about 1,930 units) are still at preliminary reservation.\n- **Mix:** 84 four-percent and 48 nine-percent records; mostly large-family, then seniors; 30 acquisition or rehab awards (about 3,000 units).\n\n| City | LIHTC low-income units |\n|---|---|\n| Oxnard | 3,569 |\n| Ventura | 1,725 |\n| Simi Valley | 1,407 |\n| Camarillo | 955 |\n| Santa Paula | 673 |\n| Thousand Oaks | 608 |\n| Moorpark | 429 |\n| Somis (farmworker) | 356 |\n| Fillmore / Piru / Ojai | 194 / 99 / 69 |\n\n### When restrictions run out\n| Award years | Low-income units | Status |\n|---|---|---|\n| 1993-1999 | ~1,176 | Past the 15-year compliance period; at or near the **30-year** federal extended-use mark |\n| 2000-2009 | ~2,271 | Federal 30-year mark around 2030-2039 |\n| 2010-2019 | ~3,231 | Federal mark in the 2040s |\n| 2020-2026 | ~3,406 | New or in pipeline |\n\nFederal law requires 30 years (15 + 15). **California awards usually carry longer, typically 55-year, CTCAC regulatory agreements.** So most Ventura County LIHTC units are restricted well past the federal date, but **older 1990s deals and HUD/USDA-only properties are the real risk pool**.\n\n### Statewide context (California Housing Partnership, April 2026)\n- **6,000+** subsidized homes could lose affordability within about a year.\n- **46,000+** within 10 years.\n- Nearly **18,000** lost since 2000.\n\n**So what:**\n- **Pre-2000 LIHTC and HUD Section 8 properties** are where the preservation sales, opt-outs and recapitalizations happen.\n- **Buyers:** Read the recorded regulatory agreement, not the marketing package.",
       "keyPoints": [
         "About 120 LIHTC awards and ~10,084 low-income units in Ventura County (CTCAC, through Sept 2026)",
         "Oxnard has the most LIHTC units (~3,569), then Ventura (~1,725) and Simi Valley (~1,407)",
@@ -114,11 +114,11 @@
           "q": "Roughly how many LIHTC low-income units does CTCAC list for Ventura County (active through Sept 2026)?",
           "choices": [
             "About 2,500",
-            "About 5,000",
             "About 10,000",
+            "About 5,000",
             "About 25,000"
           ],
-          "answer": 2,
+          "answer": 1,
           "explain": "The CTCAC list shows about 10,084 low-income units across roughly 120 awards."
         },
         {
@@ -136,11 +136,11 @@
           "q": "Why do California LIHTC properties usually stay restricted beyond the federal 30-year period?",
           "choices": [
             "HUD extends them automatically",
-            "CTCAC regulatory agreements typically require 55 years",
             "Prop 13 requires it",
-            "They convert to public housing"
+            "They convert to public housing",
+            "CTCAC regulatory agreements typically require 55 years"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "California typically records 55-year regulatory agreements, longer than the federal 15+15 minimum."
         }
       ]
@@ -185,12 +185,12 @@
         {
           "q": "What do HUD Section 8 tenants typically receive when an owner opts out of the contract?",
           "choices": [
-            "Nothing",
             "Enhanced vouchers that can pay up to market rent",
+            "Nothing",
             "A lump-sum relocation of $5,000",
             "Automatic transfer to public housing"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Enhanced vouchers let tenants stay while the owner receives up to market rent."
         },
         {
@@ -208,11 +208,11 @@
           "q": "What is the most common outcome when LIHTC restrictions near expiration?",
           "choices": [
             "Immediate condo conversion",
-            "Recapitalization with new credits and a new long-term restriction",
             "Demolition",
+            "Recapitalization with new credits and a new long-term restriction",
             "Transfer to the state"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "Most at-risk LIHTC deals are re-syndicated or sold to preservation buyers with new restrictions."
         }
       ]
@@ -220,7 +220,7 @@
     {
       "id": 190,
       "summary": "Farmworker housing is financed mainly with HCD's **Joe Serna Jr. grants**, **USDA Section 514/516** loans and grants, and **LIHTC**. It is regulated under the state **Employee Housing Act**. Mostly nonprofits and housing authorities own it. The flagship recent Ventura County deal is **Somis Ranch**: about 356 LIHTC farmworker units, placed in service in 2024 (AMCAL / Las Palmas Foundation).",
-      "answer": "### Financing stack\n| Source | Terms (key points) |\n|---|---|\n| **Joe Serna, Jr. Farmworker Housing Grant** (HCD) | Deferred or forgivable loans for new construction, rehab and acquisition of rental or owner housing for agricultural workers. Rental restrictions up to **55 years**. Now awarded through HCD's Multifamily Super NOFA. |\n| **USDA Rural Development 514/516** | Section 514 low-interest farm labor housing loans, 516 grants, and Section 521 rental assistance for eligible farmworker tenants |\n| **LIHTC (9% and 4%)** | Most large projects. AB 2270 (2026, reported signed) adds farmworker housing to tax-credit scoring. |\n| **Prop 1 (Nov 2026)** | **$450M** to the Joe Serna fund, including help for farmworkers displaced from labor camps and mobilehome parks, if voters approve |\n| Local | Housing Trust Fund Ventura County, county and city funds, Ventura County grower partnerships |\n\n### Regulation\n- **Employee Housing Act (H&SC 17000+):** HCD or the local enforcement agency issues permits to operate employee housing for five or more employees. Annual fees and inspections apply.\n- **By-right zoning:** H&SC 17021.5 and 17021.6 require jurisdictions to treat small employee housing as a residential use and agricultural employee housing (up to 36 beds or 12 units) as an agricultural use, without a discretionary permit.\n- **H-2A:** Employers must provide housing that meets federal standards at no cost to H-2A guest workers. This is a major driver of grower demand for housing.\n\n### Who owns it in Ventura County (CTCAC-listed farmworker projects)\n| Project | City | LI units | Owner/GP |\n|---|---|---|---|\n| Somis Ranch Farmworker Housing (Ph. I + II) | Somis | ~356 | AMCAL / Las Palmas Foundation (2024) |\n| Santa Paula Farmworker Apartments | Santa Paula | 40 | Corporation for Better Housing (2007) |\n\nNonprofits such as Cabrillo EDC and People's Self-Help Housing also build rural family LIHTC housing in the Santa Clara River Valley (Piru, Fillmore, Santa Paula) that serves many farmworker households, though it isn't labeled farmworker housing in the CTCAC list.\n\n**So what:** Farmworker deals are subsidy-driven and almost never trade to market-rate buyers. The investor angle is the **H-2A housing demand** that growers create, which can mean master leases of motels or apartments in Oxnard and Santa Paula. Check the zoning and Employee Housing permit before underwriting that use.",
+      "answer": "### Financing stack\n| Source | Terms (key points) |\n|---|---|\n| **Joe Serna, Jr. Farmworker Housing Grant** (HCD) | Deferred or forgivable loans for new construction, rehab and acquisition of rental or owner housing for agricultural workers. Rental restrictions up to **55 years**. |\n| **USDA Rural Development 514/516** | Section 514 low-interest farm labor housing loans, 516 grants, and Section 521 rental assistance for eligible farmworker tenants |\n| **LIHTC (9% and 4%)** | Most large projects. AB 2270 (2026, reported signed) adds farmworker housing to tax-credit scoring. |\n| **Prop 1 (Nov 2026)** | **$450M** to the Joe Serna fund, including help for farmworkers displaced from labor camps and mobilehome parks, if voters approve |\n| Local | Housing Trust Fund Ventura County; county and city funds |\n\n### Regulation\n- **Employee Housing Act (H&SC 17000+):** HCD or the local enforcement agency issues permits to operate employee housing for five or more employees.\n- **By-right zoning:** H&SC 17021.5 and 17021.6 require jurisdictions to treat small employee housing as a residential use and agricultural employee housing (up to 36 beds or 12 units) as an agricultural use, without a discretionary permit.\n- **H-2A:** Employers must provide housing that meets federal standards at no cost to H-2A guest workers. This is a major driver of grower demand for housing.\n\n### Who owns it in Ventura County (CTCAC-listed farmworker projects)\n| Project | City | LI units | Owner/GP |\n|---|---|---|---|\n| Somis Ranch Farmworker Housing (Ph. I + II) | Somis | ~356 | AMCAL / Las Palmas Foundation (2024) |\n| Santa Paula Farmworker Apartments | Santa Paula | 40 | Corporation for Better Housing (2007) |\n\nCabrillo EDC and People's Self-Help Housing also build rural family LIHTC housing in the Santa Clara River Valley that many farmworker households live in.\n\n**So what:** Farmworker deals are subsidy-driven and almost never trade to market-rate buyers. The investor angle is the **H-2A housing demand** that growers create, which can mean master leases of motels or apartments in Oxnard and Santa Paula. Check zoning and permits first.",
       "keyPoints": [
         "Joe Serna Jr. (HCD): grants/deferred loans; rental restrictions up to 55 years",
         "USDA 514 loans + 516 grants + 521 rental assistance for farm labor housing",
@@ -268,33 +268,33 @@
           "q": "Which state program is dedicated to farmworker housing grants and loans?",
           "choices": [
             "CalHome",
-            "Joe Serna, Jr. Farmworker Housing Grant",
             "Homekey",
-            "Portfolio Reinvestment Program"
+            "Portfolio Reinvestment Program",
+            "Joe Serna, Jr. Farmworker Housing Grant"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "HCD's Joe Serna, Jr. program funds farmworker rental and ownership housing."
         },
         {
           "q": "What is the largest recent LIHTC farmworker project in Ventura County?",
           "choices": [
-            "Valle Naranjal, Piru",
             "Somis Ranch Farmworker Housing Community",
+            "Valle Naranjal, Piru",
             "Santa Paula Farmworker Apartments",
             "Villa Cesar Chavez"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Somis Ranch (AMCAL / Las Palmas Foundation) totals about 356 low-income units across two phases placed in service in 2024."
         },
         {
           "q": "How much would Prop 1 (Nov 2026) put into the Joe Serna farmworker fund?",
           "choices": [
             "$100 million",
-            "$250 million",
             "$450 million",
+            "$250 million",
             "$1.15 billion"
           ],
-          "answer": 2,
+          "answer": 1,
           "explain": "SB 417 allocates $450 million to the Joe Serna, Jr. Farmworker Housing Grant Fund."
         }
       ]
@@ -330,11 +330,11 @@
           "q": "How is Basic Allowance for Housing (BAH) set?",
           "choices": [
             "A fixed national amount by rank",
-            "By DoD from local rental market surveys per Military Housing Area, rank and dependents",
             "By the county housing authority",
+            "By DoD from local rental market surveys per Military Housing Area, rank and dependents",
             "By landlords' asking rents"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "BAH is set by DoD using surveys of local rents and utilities, so it tracks the local market."
         },
         {
@@ -342,10 +342,10 @@
           "choices": [
             "AB 1482",
             "Costa-Hawkins",
-            "Servicemembers Civil Relief Act (SCRA)",
-            "Fair Housing Act"
+            "Fair Housing Act",
+            "Servicemembers Civil Relief Act (SCRA)"
           ],
-          "answer": 2,
+          "answer": 3,
           "explain": "The SCRA allows lease termination with qualifying military orders."
         }
       ]
@@ -400,12 +400,12 @@
         {
           "q": "Which nonprofit acquired and rehabbed Shadow Hills, Villa Garcia and Schillo Gardens in Thousand Oaks?",
           "choices": [
+            "Many Mansions",
             "Cabrillo EDC",
             "People's Self-Help Housing",
-            "Many Mansions",
             "Mercy Housing"
           ],
-          "answer": 2,
+          "answer": 0,
           "explain": "CTCAC records list Many Mansions on those 2015-16 acquisition/rehab awards."
         },
         {
@@ -423,11 +423,11 @@
           "q": "What portfolio does Cabrillo EDC report?",
           "choices": [
             "300 apartments in 5 properties",
-            "1,314 apartments in 27 properties",
             "5,000 apartments in 60 properties",
+            "1,314 apartments in 27 properties",
             "Only farmworker dorms"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "CEDC's site reports 1,314 apartment homes across 27 properties."
         }
       ]
@@ -435,7 +435,7 @@
     {
       "id": 193,
       "summary": "Acquisition money for affordability comes from **4% LIHTC and tax-exempt bonds** for acquisition/rehab, HCD's **Portfolio Reinvestment** and Super NOFA programs, **Homekey/Homekey+** for converting buildings into homeless housing, and local gap lenders like the **Housing Trust Fund Ventura County**. If **Prop 1** passes on November 3, it adds a dedicated **$200M** program to buy and restrict unrestricted units plus **$750M** for portfolio reinvestment.",
-      "answer": "### Main tools\n| Program | Who uses it | Acquisition angle |\n|---|---|---|\n| **4% LIHTC + tax-exempt bonds** (CTCAC/CDLAC) | Nonprofits, housing authorities, for-profit affordable buyers | The workhorse for acquisition/rehab. About 3,000 Ventura County units were financed this way. The 2025 federal law's lower bond test (see Q166) stretches bond cap. |\n| **Homekey** (HCD) | Public entities with nonprofit partners | Bought motels, hotels and apartments for homeless housing. **261 projects / 15,962 homes statewide** (Sept 2026). Closed; succeeded by **Homekey+**. AB 2320 (2026) lets Homekey fund adaptive reuse. |\n| **Multifamily Housing Program (MHP)** | Developers | 55-year, 3% deferred loans for new construction, rehab and conversion of nonresidential buildings. Now runs through the Multifamily Super NOFA. |\n| **Portfolio Reinvestment Program** (HCD) | Owners of older HCD-funded portfolios | Recapitalizes and extends affordability |\n| **CalHFA Mixed-Income Program** | Developers | Subordinate loans, 30-120% AMI, **new construction only**. 2026 round: 13 developments, ~1,768 units, $63M. |\n| **Housing Trust Fund Ventura County** | Local nonprofits | CDFI offering early-stage, low-cost flexible loans (predevelopment and acquisition bridge). Prop 1 adds **$200M** statewide for local trust fund matching grants. |\n| **2026 state laws** (reported signed) | Various | **SB 1091** buy-and-rehab affordability program; **AB 750** funding for at-risk affordable developments |\n\n### Prop 1 (on the November 3, 2026 ballot) acquisition-relevant buckets\n- **$200M** to acquire and rehab **unrestricted** units and attach long-term affordability, with anti-displacement safeguards. This is the most direct \"buy existing apartments\" money.\n- **$750M** Portfolio Reinvestment Program.\n- **Up to 15% of $1.15B** in supportive-housing funds may go to acquiring or converting interim housing, or buying affordability covenants.\n- **$200M** to local housing trust funds.\n\n### Middle-income JPA bond deals\nSome California JPAs used tax-exempt bonds to buy market-rate buildings and cap rents at 80-120% AMI, with property-tax exemptions. Results have been mixed. I found no current Ventura County JPA deal; verify before citing.\n\n**So what:** For a seller of an older, below-market Oxnard or Ventura building, a mission buyer with **4% credits, Housing Trust Fund bridge money and (if passed) Prop 1 acquisition funds** can be a credible bidder. They pay on restricted-rent value plus subsidy, and close slower.",
+      "answer": "### Main tools\n| Program | Who uses it | Acquisition angle |\n|---|---|---|\n| **4% LIHTC + tax-exempt bonds** (CTCAC/CDLAC) | Nonprofits, housing authorities, for-profit affordable buyers | The workhorse for acquisition/rehab. About 3,000 Ventura County units were financed this way. The 2025 federal law's lower bond test (see Q166) stretches bond cap. |\n| **Homekey** (HCD) | Public entities with nonprofit partners | Bought motels, hotels and apartments for homeless housing. **261 projects / 15,962 homes statewide** (Sept 2026). Closed; succeeded by **Homekey+**. AB 2320 (2026) lets Homekey fund adaptive reuse. |\n| **Multifamily Housing Program (MHP)** | Developers | 55-year, 3% deferred loans for new construction, rehab and conversion of nonresidential buildings. Now runs through the Multifamily Super NOFA. |\n| **Portfolio Reinvestment Program** (HCD) | Owners of older HCD-funded portfolios | Recapitalizes and extends affordability |\n| **CalHFA Mixed-Income Program** | Developers | Subordinate loans, 30-120% AMI, **new construction only**. 2026 round: 13 developments, ~1,768 units, $63M. |\n| **Housing Trust Fund Ventura County** | Local nonprofits | CDFI offering early-stage, low-cost flexible loans (predevelopment and acquisition bridge). Prop 1 adds **$200M** statewide for local trust fund matching grants. |\n| **2026 state laws** (reported signed) | Various | **SB 1091** buy-and-rehab affordability program; **AB 750** funding for at-risk affordable developments |\n\n### Prop 1 (on the November 3, 2026 ballot) acquisition-relevant buckets\n- **$200M** to acquire and rehab **unrestricted** units and attach long-term affordability, with anti-displacement safeguards. This is the most direct \"buy existing apartments\" money.\n- **$750M** Portfolio Reinvestment Program.\n- **Up to 15% of $1.15B** in supportive-housing funds may go to acquiring or converting interim housing, or buying affordability covenants.\n- **$200M** to local housing trust funds.\n\n**So what:** For a seller of an older, below-market Oxnard or Ventura building, a mission buyer with **4% credits, Housing Trust Fund bridge money and (if passed) Prop 1 acquisition funds** can be a credible bidder. They pay on restricted-rent value plus subsidy, and close slower.",
       "keyPoints": [
         "4% LIHTC + tax-exempt bonds: the main acquisition/rehab tool (~3,000 Ventura County units)",
         "Homekey: 261 projects / 15,962 homes statewide; closed, replaced by Homekey+",
@@ -503,11 +503,11 @@
           "q": "Which Prop 1 bucket most directly funds buying existing unrestricted apartments and adding affordability?",
           "choices": [
             "$5.1B MHP",
-            "$200M acquisition-and-rehab program for unrestricted units",
             "$600M CalHome",
-            "$350M student housing"
+            "$350M student housing",
+            "$200M acquisition-and-rehab program for unrestricted units"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "SB 417 sets aside $200M to acquire and rehab unrestricted units and attach long-term affordability."
         },
         {
