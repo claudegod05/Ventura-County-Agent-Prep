@@ -47,23 +47,23 @@
         {
           "q": "In CBRE's Q2 2026 Ventura report, which submarket has the largest tracked inventory?",
           "choices": [
+            "Oxnard",
             "Ventura",
             "Thousand Oaks",
-            "Simi Valley/Moorpark",
-            "Oxnard"
+            "Simi Valley/Moorpark"
           ],
-          "answer": 3,
+          "answer": 0,
           "explain": "Oxnard has 13,297 tracked units, ahead of Ventura at 10,791."
         },
         {
           "q": "Which towns make up the Heritage Valley?",
           "choices": [
             "Ojai, Meiners Oaks, Oak View",
-            "Santa Paula, Fillmore, Piru",
             "Camarillo, Somis, Moorpark",
-            "El Rio, Saticoy, Port Hueneme"
+            "El Rio, Saticoy, Port Hueneme",
+            "Santa Paula, Fillmore, Piru"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "Heritage Valley is the SR-126 corridor: Santa Paula, Fillmore and Piru."
         }
       ]
@@ -130,12 +130,12 @@
         {
           "q": "Roughly what share of county acquisition volume over five years came from institutional/REIT buyers, per Matthews?",
           "choices": [
-            "About 5%",
             "About 30%",
+            "About 5%",
             "About 60%",
             "About 85%"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Matthews estimates about 30% over the past five years."
         }
       ]
@@ -176,21 +176,21 @@
           "choices": [
             "93004",
             "93003",
-            "93001",
-            "93060"
+            "93060",
+            "93001"
           ],
-          "answer": 2,
+          "answer": 3,
           "explain": "93001 (Downtown, Pierpont, Keys, Westside) is 55% renter-occupied."
         },
         {
           "q": "Why is ACS median gross rent lower than CBRE's asking rent for Ventura?",
           "choices": [
             "ACS excludes utilities",
-            "ACS counts in-place leases, including long-tenured below-market tenants",
             "CBRE includes commercial space",
+            "ACS counts in-place leases, including long-tenured below-market tenants",
             "ACS only surveys new buildings"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "ACS reports what current tenants pay. CBRE reports asking rents on large managed complexes."
         }
       ]
@@ -239,12 +239,12 @@
         {
           "q": "Which Oxnard buildings are exempt from the city's 4% rent cap?",
           "choices": [
-            "All buildings with 4 or fewer units",
             "Buildings with certificates of occupancy issued after Feb 1, 1995",
+            "All buildings with 4 or fewer units",
             "Buildings in the Coastal Zone",
             "Buildings owned by individuals"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "The RSO exempts residential property with a certificate of occupancy issued after Feb 1, 1995."
         },
         {
@@ -262,11 +262,11 @@
           "q": "When does Oxnard's rent stabilization ordinance sunset unless extended?",
           "choices": [
             "Dec 31, 2026",
-            "Dec 31, 2030",
             "June 4, 2032",
+            "Dec 31, 2030",
             "It has no sunset"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "The ordinances, adopted in 2022, expire Dec 31, 2030 unless extended."
         }
       ]
@@ -311,23 +311,23 @@
         {
           "q": "About how many housing units sit in 5+ unit buildings in the City of Ojai (ACS 2020-24)?",
           "choices": [
-            "About 290",
             "About 2,900",
+            "About 290",
             "About 1,200",
             "About 50"
           ],
-          "answer": 0,
+          "answer": 1,
           "explain": "ACS shows roughly 290 units in 5+ unit buildings in Ojai."
         },
         {
           "q": "What annual rent increase cap applies under Ojai's Ordinance 937?",
           "choices": [
+            "4%",
             "5% + CPI, max 10%",
             "3%",
-            "4%",
             "No cap"
           ],
-          "answer": 2,
+          "answer": 0,
           "explain": "Ojai caps increases at 4% a year, one increase per 12 months, with a fair-return petition process."
         }
       ]
@@ -389,12 +389,12 @@
         {
           "q": "Which two cities together hold about 47% of the county's 5+ unit stock?",
           "choices": [
-            "Thousand Oaks and Simi Valley",
             "Oxnard and Ventura",
+            "Thousand Oaks and Simi Valley",
             "Camarillo and Moorpark",
             "Ventura and Thousand Oaks"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Oxnard (26.8%) plus Ventura (20.1%) is about 47%."
         }
       ]
@@ -435,11 +435,11 @@
           "q": "Which vintage has the lowest average rent in CBRE's Q2 2026 Ventura data?",
           "choices": [
             "1960s",
-            "1970s",
             "1990s",
-            "2010s"
+            "2010s",
+            "1970s"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "1970s-built properties average $2,460, the lowest of the vintages CBRE shows."
         },
         {
@@ -457,11 +457,11 @@
           "q": "Where do the largest share of Ventura County renter households live?",
           "choices": [
             "5-19 unit buildings",
-            "20+ unit buildings",
             "Single-family homes",
+            "20+ unit buildings",
             "Mobile homes"
           ],
-          "answer": 2,
+          "answer": 1,
           "explain": "About 44% of renter households live in single-family detached or attached homes."
         }
       ]
@@ -495,12 +495,12 @@
         {
           "q": "Which ZIP has the most units in 2-4 unit buildings?",
           "choices": [
-            "93036",
             "93003",
+            "93036",
             "91360",
             "93041"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "93003 (Ventura Midtown/east) has 1,824 units in 2-4 unit buildings."
         },
         {
@@ -508,10 +508,10 @@
           "choices": [
             "93001 Ventura Westside",
             "93060 Santa Paula",
-            "93036 North Oxnard/RiverPark",
-            "93023 Ojai"
+            "93023 Ojai",
+            "93036 North Oxnard/RiverPark"
           ],
-          "answer": 2,
+          "answer": 3,
           "explain": "93036 has 1,636 units in 50+ unit buildings, the most of any county ZIP."
         }
       ]
@@ -557,12 +557,12 @@
         {
           "q": "Which Oxnard area is in the Coastal Zone?",
           "choices": [
+            "Mandalay Bay / Channel Islands Harbor",
             "RiverPark",
             "La Colonia",
-            "Mandalay Bay / Channel Islands Harbor",
             "College Park"
           ],
-          "answer": 2,
+          "answer": 0,
           "explain": "Oxnard's beach neighborhoods (Mandalay, Oxnard Shores, Channel Islands Harbor) are coastal."
         },
         {
@@ -570,10 +570,10 @@
           "choices": [
             "The county Board of Supervisors",
             "HCD",
-            "The California Coastal Commission",
-            "SCAG"
+            "SCAG",
+            "The California Coastal Commission"
           ],
-          "answer": 2,
+          "answer": 3,
           "explain": "The Coastal Commission certifies LCPs and keeps appeal jurisdiction over some projects."
         }
       ]
@@ -681,32 +681,32 @@
           "choices": [
             "Oxnard",
             "Port Hueneme",
-            "Oak Park",
-            "Santa Paula"
+            "Santa Paula",
+            "Oak Park"
           ],
-          "answer": 2,
+          "answer": 3,
           "explain": "About 40% of Oak Park workers work outside the county, mostly in LA."
         },
         {
           "q": "About what share of all county workers work outside the county?",
           "choices": [
             "5%",
-            "17%",
             "35%",
+            "17%",
             "50%"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "ACS 2020-24 shows about 17% of county workers commute out of county."
         },
         {
           "q": "Which corridor ties Simi Valley and Moorpark to the San Fernando Valley?",
           "choices": [
             "SR-126",
-            "SR-33",
             "SR-118",
+            "SR-33",
             "SR-150"
           ],
-          "answer": 2,
+          "answer": 1,
           "explain": "The SR-118 (Ronald Reagan Freeway) connects Simi and Moorpark to Chatsworth and Northridge."
         }
       ]
@@ -714,7 +714,7 @@
     {
       "id": 12,
       "summary": "Ventura County is the bigger, cheaper and higher-yielding market: about $306K per unit at a roughly 5.4% cap rate, versus Santa Barbara County at about $351K-$471K per unit and a 4.9-5.1% cap rate. Asking rents are similar countywide, but Santa Barbara city runs much higher. On regulation, both counties have local 4% caps (Oxnard, Ojai), and Santa Barbara city is working on its own.",
-      "answer": "### Market comparison (mid-2026)\n| Metric | Ventura County | Santa Barbara County |\n|---|---|---|\n| Average asking rent | $2,487 (Matthews H1) / $2,769 (CBRE Q2) | $2,602 (Lee Q2) |\n| Vacancy | 4.2% (Matthews) / 3.9% (CBRE) | 4.7% (Lee) / 4.6% (Matthews) |\n| Average price per unit | $306K (Matthews H1 trades) | $351K (Lee/CoStar); $471K (Matthews H1 trades) |\n| Cap rate | 5.37% (Matthews H1) | 4.90% (Lee); 5.06% (Matthews) |\n| Inventory | 42,163 units (CBRE large complexes) | 21,859 units (Lee/CoStar) |\n| Under construction | 502 units, 1.3% of stock | 499-667 units, about 2.3% |\n\n### Inside Santa Barbara County\nThe South Coast is the high end. Santa Barbara city averages **$2,906 rent at 2.8% vacancy**, and small Goleta and Carpinteria assets trade at $400K-$700K per unit. Santa Maria has $2,374 rent and **9.4% vacancy** after the Las Brisas lease-up. Ventura's coastal cities sit between the two.\n\n### Regulation\n- **Both:** AB 1482 (5% + CPI, max 10%), just cause, SB 567, and the Coastal Commission on the coast.\n- **Ventura County:** **Oxnard** (4% cap, pre-Feb 1995 buildings, through 2030) and **Ojai** (4% cap, 2023) have local rent control.\n- **Santa Barbara:** In July 2026 the City Council gave staff direction on a rent stabilization ordinance with a rental registry and new construction exempt, targeting Jan 1. Landlords have sued, and the election could change the timeline.\n\n### So what for your clients\n- A Santa Barbara owner selling at a sub-5% cap can often **trade into 5-5.5% yields** in Ventura, Oxnard or Camarillo within an hour's drive.\n- The added yield comes with more supply (Ventura delivered about 1,400 units in the trailing year) and Oxnard's rent cap.\n- Ventura County also has deeper institutional liquidity on larger assets.",
+      "answer": "### Market comparison (mid-2026)\n| Metric | Ventura County | Santa Barbara County |\n|---|---|---|\n| Average asking rent | $2,487 (Matthews H1) / $2,769 (CBRE Q2) | $2,602 (Lee Q2) |\n| Vacancy | 4.2% (Matthews) / 3.9% (CBRE) | 4.7% (Lee) / 4.6% (Matthews) |\n| Average price per unit | $306K (Matthews H1 trades) | $351K (Lee/CoStar); $471K (Matthews H1 trades) |\n| Cap rate | 5.37% (Matthews H1) | 4.90% (Lee); 5.06% (Matthews) |\n| Inventory | 42,163 units (CBRE large complexes) | 21,859 units (Lee/CoStar) |\n| Under construction | 502 units, 1.3% of stock | 499-667 units, about 2.3% |\n\n### Inside Santa Barbara County\nThe South Coast is the high end. Santa Barbara city averages **$2,906 rent at 2.8% vacancy**, and small Goleta and Carpinteria assets trade at $400K-$700K per unit. Santa Maria has $2,374 rent and **9.4% vacancy** after the Las Brisas lease-up. Ventura's coastal cities sit between the two.\n\n### Regulation\n- **Both:** AB 1482 (5% + CPI, max 10%), just cause, SB 567, and the Coastal Commission on the coast.\n- **Ventura County:** **Oxnard** (4% cap, pre-Feb 1995 buildings, through 2030) and **Ojai** (4% cap, 2023) have local rent control.\n- **Santa Barbara:** In July 2026 the City Council gave staff direction on a rent stabilization ordinance with a rental registry and new construction exempt, targeting Jan 1. Landlords have sued, and the election could change the timeline.\n\n### So what for your clients\n- A Santa Barbara owner selling at a sub-5% cap can often **trade into 5-5.5% yields** in Ventura, Oxnard or Camarillo within an hour's drive.\n- The added yield comes with more supply (Ventura County delivered roughly 1,000-1,400 units over the trailing year, per CBRE and Matthews) and Oxnard's rent cap.\n- Ventura County also has deeper institutional liquidity on larger assets.",
       "keyPoints": [
         "Ventura County: about $306K/unit at a 5.37% cap (Matthews H1 2026)",
         "Santa Barbara County: $351K/unit and a 4.90% cap (Lee Q2 2026); $471K/unit and 5.06% (Matthews H1 trades)",
@@ -766,23 +766,23 @@
         {
           "q": "Roughly how much higher are Ventura County cap rates than Santa Barbara County's per mid-2026 reports?",
           "choices": [
+            "About 30-50 bps higher",
             "About 150 bps lower",
             "About the same",
-            "About 30-50 bps higher",
             "About 200 bps higher"
           ],
-          "answer": 2,
+          "answer": 0,
           "explain": "Ventura is about 5.37% (Matthews) vs Santa Barbara at 4.9-5.06%, roughly 30-50 bps higher."
         },
         {
           "q": "What is Santa Barbara City doing on rent regulation as of mid-2026?",
           "choices": [
             "Repealing AB 1482",
-            "Drafting a local rent stabilization ordinance with a registry",
             "Adopting vacancy control",
-            "Nothing; it has no tenant protections"
+            "Nothing; it has no tenant protections",
+            "Drafting a local rent stabilization ordinance with a registry"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "In July 2026 the council directed staff on an RSO with a rental registry, targeting Jan 1."
         },
         {
@@ -849,12 +849,12 @@
         {
           "q": "What is the main regulatory reason LA Valley sellers move capital to Ventura County?",
           "choices": [
-            "Ventura has no AB 1482",
             "Escaping LA RSO and the Measure ULA transfer tax",
+            "Ventura has no AB 1482",
             "Ventura has lower property tax rates",
             "Ventura bans new construction"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Most city-of-LA Valley stock is RSO-covered and large sales pay ULA. Most of Ventura County follows only AB 1482, with no ULA-type tax."
         },
         {
@@ -862,10 +862,10 @@
           "choices": [
             "LA RSO",
             "Measure ULA rent caps",
-            "State AB 1482",
-            "Oxnard RSO"
+            "Oxnard RSO",
+            "State AB 1482"
           ],
-          "answer": 2,
+          "answer": 3,
           "explain": "Santa Clarita has no local rent control, so AB 1482 governs."
         }
       ]
