@@ -37,12 +37,12 @@
         {
           "q": "Under AB 1482, what is the maximum annual increase for a covered unit?",
           "choices": [
-            "5% flat",
             "5% plus regional CPI, capped at 10%",
+            "5% flat",
             "10% plus CPI",
             "CPI only, capped at 5%"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "§ 1947.12 allows 5% plus the CPI change, or 10%, whichever is lower."
         },
         {
@@ -50,21 +50,21 @@
           "choices": [
             "Yes, because all buildings with 3+ units are covered",
             "Yes, because only pre-1995 buildings are exempt",
-            "No, because it is within the 15-year rolling exemption",
-            "No, because buildings under 5 units are always exempt"
+            "No, because buildings under 5 units are always exempt",
+            "No, because it is within the 15-year rolling exemption"
           ],
-          "answer": 2,
+          "answer": 3,
           "explain": "Housing with a certificate of occupancy issued within the previous 15 years is exempt. 2014 is within 15 years of 2026."
         },
         {
           "q": "What relocation does AB 1482 require for a no-fault just-cause termination?",
           "choices": [
             "None",
-            "Two months' rent",
+            "One month's rent, or a written waiver of the final month's rent",
             "$5,000 flat",
-            "One month's rent, or a written waiver of the final month's rent"
+            "Two months' rent"
           ],
-          "answer": 3,
+          "answer": 1,
           "explain": "§ 1946.2(d) requires one month's rent, paid within 15 days of the notice, or waiving the last month's rent."
         }
       ]
@@ -125,23 +125,23 @@
         {
           "q": "What is the maximum AB 1482 increase for a Ventura County unit if the increase takes effect September 1, 2026?",
           "choices": [
-            "7.7%",
             "8.6%",
+            "7.7%",
             "8.7%",
             "10%"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Increases effective on or after Aug 1, 2026 use the April 2025 to April 2026 California CPI of 3.6%, so 5% + 3.6% = 8.6%."
         },
         {
           "q": "An increase takes effect June 1, 2026. Which cap applies in Ventura County?",
           "choices": [
-            "7.7%, the prior year's figure",
+            "10%",
             "8.6%",
             "5% flat",
-            "10%"
+            "7.7%, the prior year's figure"
           ],
-          "answer": 0,
+          "answer": 3,
           "explain": "Increases effective before August 1 use the prior April-to-April change (2.7%), giving 7.7%."
         }
       ]
@@ -182,33 +182,33 @@
           "q": "After an owner move-in termination under SB 567, how soon must the owner or relative move in?",
           "choices": [
             "30 days",
-            "60 days",
             "90 days",
+            "60 days",
             "There is no deadline"
           ],
-          "answer": 2,
+          "answer": 1,
           "explain": "The occupant must move in within 90 days after the tenant vacates and stay 12 consecutive months."
         },
         {
           "q": "Which project would qualify as a 'substantial remodel' just cause under current § 1946.2?",
           "choices": [
             "Repainting and new flooring",
-            "A permitted replumb requiring 6 weeks of vacancy",
             "New appliances and fixtures over 2 weeks",
+            "A permitted replumb requiring 6 weeks of vacancy",
             "Landscaping and exterior paint"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "It must be permitted systems or structural work (or hazmat abatement) that requires vacancy of at least 30 consecutive days. Cosmetic work is excluded."
         },
         {
           "q": "What is the maximum damages multiplier for a willful violation of the just-cause rules?",
           "choices": [
-            "2x",
             "3x (treble)",
+            "2x",
             "5x",
             "None; actual damages only"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "§ 1946.2 allows up to treble damages, plus possible punitive damages, for willful, oppressive, fraudulent or malicious conduct."
         }
       ]
@@ -244,11 +244,11 @@
           "q": "Under Costa-Hawkins, which unit can a city's rent control ordinance cap?",
           "choices": [
             "A condo built in 1980",
-            "A 1975 apartment unit with an existing tenant",
+            "A single-family rental built in 1960",
             "A 2001 apartment unit",
-            "A single-family rental built in 1960"
+            "A 1975 apartment unit with an existing tenant"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "Pre-February 1, 1995 multifamily units can be locally controlled. Post-1995 units and separately alienable homes and condos are generally exempt."
         },
         {
@@ -310,34 +310,34 @@
         {
           "q": "Under the Ellis Act, how long after notice to the public entity does a withdrawal generally take effect?",
           "choices": [
-            "30 days",
-            "60 days",
             "120 days",
+            "60 days",
+            "30 days",
             "One year in all cases"
           ],
-          "answer": 2,
+          "answer": 0,
           "explain": "§ 7060.4(b) sets 120 days from delivery of the notice to the public entity."
         },
         {
           "q": "Which tenants can extend an Ellis withdrawal date to one year?",
           "choices": [
             "Any tenant with children",
-            "Tenants 62+ or disabled who have lived there at least one year",
+            "Section 8 voucher holders only",
             "Tenants paying below-market rent",
-            "Section 8 voucher holders only"
+            "Tenants 62+ or disabled who have lived there at least one year"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "The one-year extension covers tenants 62+ or disabled with at least one year of tenancy, who notify the owner within 60 days."
         },
         {
           "q": "An owner wants to withdraw just one unit of a 6-unit Oxnard building from the rental market under the Ellis Act. What is the problem?",
           "choices": [
-            "Ellis requires withdrawing all units on the property",
             "Ellis applies only to buildings with 10+ units",
+            "Ellis requires withdrawing all units on the property",
             "Ellis is not valid in cities with rent control",
             "Ellis requires state HCD approval"
           ],
-          "answer": 0,
+          "answer": 1,
           "explain": "The Ellis Act is all-or-nothing: every accommodation in the building or property must be withdrawn."
         }
       ]
@@ -393,23 +393,23 @@
         {
           "q": "For tenancies starting on or after which date must landlords photograph the unit at move-in under AB 2801?",
           "choices": [
-            "January 1, 2024",
-            "April 1, 2025",
             "July 1, 2025",
+            "April 1, 2025",
+            "January 1, 2024",
             "January 1, 2027"
           ],
-          "answer": 2,
+          "answer": 0,
           "explain": "Move-out and repair photos began April 1, 2025. Move-in photos apply to tenancies beginning on or after July 1, 2025."
         },
         {
           "q": "What can a court award for bad-faith retention of a deposit?",
           "choices": [
-            "Up to 2x the deposit plus actual damages",
+            "A flat $500",
             "Only the deposit itself",
             "3x rent",
-            "A flat $500"
+            "Up to 2x the deposit plus actual damages"
           ],
-          "answer": 0,
+          "answer": 3,
           "explain": "§ 1950.5 allows statutory damages up to twice the deposit, plus actual damages."
         }
       ]
@@ -461,22 +461,22 @@
           "q": "Which advertising statement violates FEHA's source-of-income protection?",
           "choices": [
             "\"Income 2.5x rent\"",
-            "\"No Section 8\"",
             "\"No smoking\"",
+            "\"No Section 8\"",
             "\"Pets negotiable\""
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "Source of income includes housing vouchers, so 'No Section 8' ads are unlawful."
         },
         {
           "q": "Which criminal history may a California housing provider consider?",
           "choices": [
-            "An arrest that did not lead to a conviction",
+            "A conviction directly related to tenancy safety, after individualized assessment",
             "A sealed conviction",
             "A juvenile adjudication",
-            "A conviction directly related to tenancy safety, after individualized assessment"
+            "An arrest that did not lead to a conviction"
           ],
-          "answer": 3,
+          "answer": 0,
           "explain": "CRD rules bar arrests without conviction, sealed or expunged records, juvenile records, and blanket bans."
         }
       ]
@@ -513,32 +513,32 @@
           "choices": [
             "30 days",
             "60 days",
-            "90 days",
-            "None"
+            "None",
+            "90 days"
           ],
-          "answer": 2,
+          "answer": 3,
           "explain": "Cumulatively the increases exceed 10% within 12 months, so § 827 requires 90 days. Check AB 1482 caps as well."
         },
         {
           "q": "How many extra days are typically added when a rent increase notice is served by mail within California?",
           "choices": [
             "None",
-            "3",
             "5",
+            "3",
             "10"
           ],
-          "answer": 2,
+          "answer": 1,
           "explain": "CCP § 1013 adds 5 calendar days for mailed service within California."
         },
         {
           "q": "What is the maximum number of rent increases an AB 1482-covered tenant can receive in 12 months?",
           "choices": [
             "One",
-            "Two",
             "Three",
+            "Two",
             "Unlimited, if each is under 5%"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "§ 1947.12 limits covered tenancies to two increases within any 12-month period."
         }
       ]
@@ -588,12 +588,12 @@
         {
           "q": "Which amount may a 3-day notice to pay rent or quit demand?",
           "choices": [
-            "Rent plus late fees",
             "Past-due rent only",
+            "Rent plus late fees",
             "Rent plus attorney's fees",
             "Rent plus utilities and damages"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Only rent may be demanded. Adding late fees or other charges risks voiding the notice."
         },
         {
@@ -601,10 +601,10 @@
           "choices": [
             "5 calendar days",
             "5 court days",
-            "10 court days",
-            "30 days"
+            "30 days",
+            "10 court days"
           ],
-          "answer": 2,
+          "answer": 3,
           "explain": "AB 2347 increased the response time from 5 to 10 court days."
         },
         {
@@ -656,22 +656,22 @@
           "q": "When does AB 628's stove and refrigerator requirement apply?",
           "choices": [
             "To all leases immediately on Jan 1, 2025",
-            "To leases entered into, amended or extended on or after Jan 1, 2026",
             "Only to buildings with 16+ units",
+            "To leases entered into, amended or extended on or after Jan 1, 2026",
             "Only to Section 8 units"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "The requirement attaches to new, amended or extended leases from January 1, 2026."
         },
         {
           "q": "Under Civil Code § 1942, how often can a tenant use repair-and-deduct?",
           "choices": [
-            "Once per lease",
             "Up to one month's rent, twice in any 12 months",
+            "Once per lease",
             "Unlimited, if receipts are kept",
             "Up to $500 per year"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Repair-and-deduct is limited to one month's rent per use and two uses in 12 months."
         },
         {
@@ -679,10 +679,10 @@
           "choices": [
             "7 days",
             "14 days",
-            "30 days",
-            "90 days"
+            "90 days",
+            "30 days"
           ],
-          "answer": 2,
+          "answer": 3,
           "explain": "§ 1941.1(c) requires repair or replacement within 30 days of receiving notice of the recall."
         }
       ]
@@ -723,33 +723,33 @@
           "q": "What was the initial SB 721 inspection deadline after AB 2579?",
           "choices": [
             "January 1, 2024",
-            "January 1, 2025",
             "January 1, 2026",
+            "January 1, 2025",
             "January 1, 2027"
           ],
-          "answer": 2,
+          "answer": 1,
           "explain": "AB 2579 extended the deadline from January 1, 2025 to January 1, 2026 for apartment buildings."
         },
         {
           "q": "Which element must be inspected under SB 721?",
           "choices": [
             "A concrete ground-level patio",
-            "A wood-framed second-floor balcony 9 feet above grade",
             "A steel fire escape on a 2-unit building",
+            "A wood-framed second-floor balcony 9 feet above grade",
             "Interior stairs"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "Covered elements are wood-supported, exterior, more than 6 feet above ground, in buildings with 3+ units."
         },
         {
           "q": "How often must SB 721 inspections be repeated?",
           "choices": [
-            "Every 3 years",
             "Every 6 years",
+            "Every 3 years",
             "Every 9 years",
             "Only at sale"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Repeat inspections are due every six years. SB 326 for condos uses a nine-year cycle."
         }
       ]
@@ -795,11 +795,11 @@
           "q": "Which units need a carbon monoxide device under H&S § 17926?",
           "choices": [
             "Only units built after 2013",
-            "Units with a fossil-fuel appliance, fireplace or attached garage",
+            "Only units with natural gas water heaters over 50 gallons",
             "Only single-family homes",
-            "Only units with natural gas water heaters over 50 gallons"
+            "Units with a fossil-fuel appliance, fireplace or attached garage"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "The trigger is a fossil-fuel burning heater or appliance, a fireplace, or an attached garage."
         },
         {
@@ -816,12 +816,12 @@
         {
           "q": "Which housing triggers federal lead-based paint disclosure?",
           "choices": [
-            "Housing built before 1978",
-            "Housing built before 1995",
             "All housing",
+            "Housing built before 1995",
+            "Housing built before 1978",
             "Only single-family homes"
           ],
-          "answer": 0,
+          "answer": 2,
           "explain": "Federal lead disclosure rules apply to pre-1978 'target housing.'"
         }
       ]
@@ -856,12 +856,12 @@
         {
           "q": "An apartment building passes from a parent to a child at death in 2026. What happens to its assessed value under Prop 19?",
           "choices": [
-            "It keeps the parent's base year value",
             "It is reassessed to market value, because rental property no longer qualifies",
+            "It keeps the parent's base year value",
             "It keeps the parent's value up to $1M",
             "It is exempt if the child is over 55"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Prop 19 limits the parent-child exclusion to a family home or farm. Rental property is reassessed."
         },
         {
@@ -869,10 +869,10 @@
           "choices": [
             "30",
             "60",
-            "90",
-            "180"
+            "180",
+            "90"
           ],
-          "answer": 2,
+          "answer": 3,
           "explain": "BOE requires filing within 90 days of the change in control or ownership."
         },
         {
@@ -924,12 +924,12 @@
         {
           "q": "What is the deadline to file a housing discrimination complaint with the CA Civil Rights Department?",
           "choices": [
-            "90 days",
-            "180 days",
             "1 year",
+            "180 days",
+            "90 days",
             "3 years"
           ],
-          "answer": 2,
+          "answer": 0,
           "explain": "CRD complaints must be filed within one year of the alleged discriminatory act."
         },
         {
@@ -937,10 +937,10 @@
           "choices": [
             "Deny it because it wasn't in writing",
             "Require medical records showing the diagnosis",
-            "Engage promptly in the interactive process; reliable verification of need may be requested",
-            "Charge a fee for the accommodation"
+            "Charge a fee for the accommodation",
+            "Engage promptly in the interactive process; reliable verification of need may be requested"
           ],
-          "answer": 2,
+          "answer": 3,
           "explain": "Requests need not be in writing, and providers may not demand a diagnosis or medical records."
         }
       ]
@@ -1007,22 +1007,22 @@
           "q": "Which disclosure applies to a 1965 20-unit building regardless of unit count?",
           "choices": [
             "TDS",
-            "Federal lead-based paint disclosure",
             "Agent visual inspection under § 2079",
+            "Federal lead-based paint disclosure",
             "Seller Property Questionnaire required by statute"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "Federal lead disclosure covers pre-1978 target housing of any size."
         },
         {
           "q": "What best protects a buyer against rent roll misrepresentations?",
           "choices": [
-            "The NHD report",
             "Tenant estoppel certificates",
+            "The NHD report",
             "The water heater certification",
             "The agency disclosure form"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Estoppels have tenants confirm rent, deposits, term and concessions in writing."
         }
       ]
@@ -1064,10 +1064,10 @@
           "choices": [
             "30 days",
             "60 days",
-            "90 days",
-            "120 days"
+            "120 days",
+            "90 days"
           ],
-          "answer": 2,
+          "answer": 3,
           "explain": "Civil Code § 798.30 requires at least 90 days' written notice."
         },
         {
@@ -1085,11 +1085,11 @@
           "q": "Which body hears mobile home space rent matters for unincorporated Ventura County parks?",
           "choices": [
             "The Coastal Commission",
-            "The county's Mobile Home Park Rent Review Board",
             "HCD's Codes and Standards Division",
+            "The county's Mobile Home Park Rent Review Board",
             "The Ventura Superior Court only"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "The county operates a Mobile Home Park Rent Review Board under its rent control ordinance."
         }
       ]

@@ -1,0 +1,693 @@
+{
+  "section": 14,
+  "answers": [
+    {
+      "id": 178,
+      "summary": "CAL FIRE's March 2025 local-area maps put more than 88,000 acres of Ventura County in Very High fire hazard severity zones, 54% more than the 2011 maps. Moorpark, Simi Valley and Thousand Oaks have the most Very High acreage among the cities. Ojai's Very High acreage more than tripled, and the City of Ventura's hillside neighborhoods are mapped too. The Oxnard Plain and Port Hueneme are largely unmapped.",
+      "answer": "### The 2025 map update\n- **What changed:** CAL FIRE (the Office of the State Fire Marshal) remapped **Local Responsibility Areas (LRA)** in four phases.\n  - Ventura County was in **Phase 3, released March 10, 2025**.\n  - Under SB 63, the new LRA maps show **Moderate, High and Very High** zones. The 2011 LRA maps showed Very High only.\n- **Unincorporated wildlands (State Responsibility Areas, SRA):** these were remapped separately in 2022–2023.\n- **Totals:** more than **88,000 Very High acres** countywide, **up 54%** from 2011. Unincorporated LRA Very High acreage rose about **five-fold**, to more than 31,000 acres.\n- **Adoption:** each fire authority adopts the maps by ordinance. Per the county fire department, the **Ventura County Fire Protection District adopted them May 20, 2025 (Ordinance 33)**. Ventura, Oxnard and Fillmore run their own fire departments and held their own processes.\n\n### Where the hazard is\n| Area | 2025 mapping notes |\n|---|---|\n| Moorpark, Simi Valley, Thousand Oaks | Most Very High acreage among the cities (Conejo and Simi hills, Santa Susana foothills) |\n| Ojai / Ojai Valley | Very High acreage **more than tripled** |\n| City of Ventura | Hillside neighborhoods: Clearpoint, Ondulando, Skyline, Ventura Hills, westside |\n| Camarillo, Santa Paula, Fillmore | Foothill edges (Camarillo Heights burned in the 2024 Mountain Fire) |\n| Oxnard, Port Hueneme | Port Hueneme has **no** LRA hazard zones; the flat Oxnard Plain is largely unmapped |\n\n### What a zone designation triggers\n- **New construction and major additions:** wildfire-resistant building standards (CBC Chapter 7A) apply.\n- **Defensible space:** required, and ember-resistant **\"Zone 0\"** rules are coming once the state finalizes them.\n- **Disclosure:** sellers must disclose Very High zones.\n- **Insurance:** carriers price and underwrite with their own wildfire models, which often differ from the CAL FIRE maps.\n\n### So what\n- Check every deal at the parcel level.\n- A Very High designation affects insurance, rebuild cost and buyer pool. This is most acute in east county hillside product and Ojai.",
+      "keyPoints": [
+        "CAL FIRE released Ventura County LRA maps March 10, 2025 (Phase 3)",
+        "88,000+ Very High acres countywide, up 54% from 2011",
+        "Most Very High acreage among cities: Moorpark, Simi Valley, Thousand Oaks; Ojai more than tripled",
+        "VCFPD adopted the maps May 20, 2025 (Ordinance 33)",
+        "Port Hueneme has no LRA hazard zones"
+      ],
+      "sources": [
+        {
+          "title": "ABC7 - What new Cal Fire maps show about fire hazards in Ventura County",
+          "url": "https://abc7.com/post/what-new-cal-fire-maps-show-hazards-ventura-county/16007612/",
+          "date": "2025-03"
+        },
+        {
+          "title": "Ojai Valley News - Cal Fire releases fire severity maps with expanded very high hazard areas for Ojai Valley",
+          "url": "https://www.ojaivalleynews.com/news/government/cal-fire-releases-fire-severity-maps-with-expanded-very-high-hazard-areas-for-ojai-valley/article_d261fc01-f7b1-4326-95ad-5cff72b62118.html",
+          "date": "2025"
+        },
+        {
+          "title": "Ventura County Fire Department - Fire Hazard Severity Zones (CAL FIRE map update)",
+          "url": "https://fire.venturacounty.gov/cal-fire-fire-hazard-severity-zone-map-update/",
+          "date": "2025"
+        },
+        {
+          "title": "CAL FIRE / OSFM - Ventura County SRA Fire Hazard Severity Zone map (2022)",
+          "url": "https://osfm.fire.ca.gov/media/mb2l4zcl/fhsz_county_sra_e_2022_ventura_2.pdf",
+          "date": "2022"
+        },
+        {
+          "title": "California Public Law - Civil Code § 1103 (Natural Hazard Disclosure)",
+          "url": "https://california.public.law/codes/civil_code_section_1103",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Look up each parcel on the OSFM FHSZ viewer. Confirm adoption dates for the Ventura, Oxnard and Fillmore fire departments with each city. I could not open the county fire page directly; the Ordinance 33 date comes from a search summary of that page. Check the status of the Zone 0 regulations with the Board of Forestry.",
+      "drills": [
+        {
+          "q": "By how much did Very High fire hazard acreage in Ventura County increase in the 2025 maps versus 2011?",
+          "choices": [
+            "About 54%",
+            "About 10%",
+            "About 200%",
+            "It decreased"
+          ],
+          "answer": 0,
+          "explain": "ABC7 reported more than 88,000 Very High acres, a 54% increase from the 2011 maps."
+        },
+        {
+          "q": "Which Ventura County city had no LRA fire hazard severity zones in the 2025 recommended maps?",
+          "choices": [
+            "Ojai",
+            "Thousand Oaks",
+            "Moorpark",
+            "Port Hueneme"
+          ],
+          "answer": 3,
+          "explain": "Port Hueneme had no LRA areas with a recommended fire hazard designation."
+        },
+        {
+          "q": "What changed about LRA mapping in the 2025 update?",
+          "choices": [
+            "LRA maps were eliminated",
+            "LRA maps now show Moderate, High and Very High zones, not just Very High",
+            "Only SRA areas are mapped now",
+            "Zones are now set by insurers"
+          ],
+          "answer": 1,
+          "explain": "Under SB 63 the LRA maps added Moderate and High classifications alongside Very High."
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "summary": "Four fires redefined risk in Ventura County. The 2017 Thomas Fire destroyed about 1,063 structures, including some 500 homes in the City of Ventura and two apartment complexes. The 2018 Woolsey Fire destroyed 1,643 structures in the Conejo and Oak Park area. The 2018 Hill Fire was small. The 2024 Mountain Fire destroyed 243 structures around Camarillo Heights. Together they pushed insurers out of hillside areas and drove a five-fold rise in FAIR Plan policies since 2022. I found no rigorous data on what they did to property values.",
+      "answer": "### The fires\n| Fire | Date | Acres | Structures destroyed | Ventura County areas |\n|---|---|---|---|---|\n| **Thomas** | Dec 4, 2017 | 281,893 | ~1,063 (280 damaged) | Santa Paula, Ventura hillsides (~504 homes in the city), Ojai |\n| **Woolsey** | Nov 8, 2018 | 96,949 | 1,643 (364 damaged) | Oak Park, Thousand Oaks, Bell Canyon, Westlake, Simi Valley |\n| **Hill** | Nov 8, 2018 | 4,531 | 4 | Camarillo Springs / Newbury Park area |\n| **Mountain** | Nov 6, 2024 | 19,904 | 243 (127 damaged) | Somis, **Camarillo Heights** (at least 83 homes) |\n\n- **Causes:** investigators tied Thomas and Woolsey to Southern California Edison equipment. Edison settled with insurers for $1.16 billion over Thomas and the Montecito debris flow. The Mountain Fire was a rekindled tractor-caused fire.\n- **Multifamily losses:** in the Thomas Fire, the **Hawaiian Village** and **Harbor View** apartment complexes in Ventura were heavily damaged or destroyed. That reminds us that apartments burn too, and that rebuilding them under current code is slow.\n\n### Insurance availability\n- **Moratoriums:** after a declared emergency, state law bars insurers from canceling or non-renewing residential policies in and near the burn area for **one year**. This applied after the Mountain Fire.\n- **Long-run effect:** carriers pulled back from hillside and wildland-urban-interface ZIPs. Ventura County **FAIR Plan policies grew from 3,316 (Sept 2022) to 16,926 (Sept 2026)**, about five-fold. Growth slowed to +13% in the latest year.\n- **Statewide:** the Department of Insurance says FAIR Plan growth has slowed for three straight quarters (as of Q2 2026), as carriers return under the Sustainable Insurance Strategy.\n\n### Property values\nI found **no verified study** quantifying value impacts in Ventura County.\n- **Anecdotally:** burn areas rebuild slowly, and owners in high-hazard zones face higher premiums, which hit NOI and therefore value at a given cap rate.\n- **Thomas Fire:** it also removed rental housing, which tightened Ventura's rental market at the time.\n- **Underwriting:** treat insurance cost and insurability as line items, not assumptions.",
+      "keyPoints": [
+        "Thomas Fire (2017): 281,893 acres, ~1,063 structures, ~504 homes in Ventura city",
+        "Woolsey Fire (2018): 96,949 acres, 1,643 structures; Hill Fire (2018): 4,531 acres, 4 structures",
+        "Mountain Fire (Nov 2024): 19,904 acres, 243 destroyed, 127 damaged; Camarillo Heights",
+        "Ventura County FAIR Plan policies: 3,316 (9/2022) to 16,926 (9/2026)",
+        "Post-emergency 1-year non-renewal moratorium for residential policies near burn areas"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia - Thomas Fire",
+          "url": "https://en.wikipedia.org/wiki/Thomas_Fire",
+          "date": "2026-10"
+        },
+        {
+          "title": "Wikipedia - Woolsey Fire",
+          "url": "https://en.wikipedia.org/wiki/Woolsey_Fire",
+          "date": "2026-10"
+        },
+        {
+          "title": "Wikipedia - 2018 California wildfires (Hill Fire entry)",
+          "url": "https://en.wikipedia.org/wiki/2018_California_wildfires",
+          "date": "2026-10"
+        },
+        {
+          "title": "Wikipedia - Mountain Fire (2024)",
+          "url": "https://en.wikipedia.org/wiki/Mountain_Fire_(2024)",
+          "date": "2026-10"
+        },
+        {
+          "title": "KCLU - Ventura County Mountain Fire survivor looks back on one-year anniversary",
+          "url": "https://www.kclu.org/local-news/2025-11-06/ventura-county-mountain-fire-survivor-looks-back-at-blaze-on-its-one-year-anniversary",
+          "date": "2025-11"
+        },
+        {
+          "title": "NBC Los Angeles - Structures destroyed in Mountain Fire, Ventura County",
+          "url": "https://nbclosangeles.com/news/california-wildfires/174-structures-destroyed-mountain-fire-ventura-county/3558420",
+          "date": "2024-11"
+        },
+        {
+          "title": "California FAIR Plan - 5-year policies in force by county, FY2026 (all lines)",
+          "url": "https://www.cfpnet.com/wp-content/uploads/2026/10/CFP-5-yr-PIF-County-FY26-All-261020.pdf",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Department of Insurance - FAIR Plan growth slows below 2% as market shows signs of recovery",
+          "url": "https://www.insurance.ca.gov/0200-industry/0105-alert/upload/FAIR-Plan-growth-slows-below-2-as-Californias-insurance-market-continues-to-show-signs-of-recovery.pdf",
+          "date": "2026-08"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "Property value effects are not verified. Look for Ventura County Star or CoStar analyses of post-fire pricing in Ventura hillside, Oak Park and Camarillo Heights, and check MLS comps. Final structure counts vary by source (KCLU cites 370 structures affected by the Mountain Fire, which matches destroyed plus damaged); use CAL FIRE incident pages for official figures. Confirm the Mountain Fire moratorium ZIPs on the Department of Insurance site.",
+      "drills": [
+        {
+          "q": "Which apartment complexes were heavily damaged or destroyed in Ventura during the Thomas Fire?",
+          "choices": [
+            "Ocean Breeze and Pierpont Bay",
+            "Mandalay Bay and Seabridge",
+            "Hawaiian Village and Harbor View",
+            "Camino Ruiz and Mission Oaks"
+          ],
+          "answer": 2,
+          "explain": "The Wikipedia Thomas Fire article notes that the Hawaiian Village and Harbor View complexes were heavily damaged or destroyed."
+        },
+        {
+          "q": "Roughly how much did Ventura County FAIR Plan policies grow between September 2022 and September 2026?",
+          "choices": [
+            "About 5x",
+            "About 25%",
+            "They fell",
+            "About 50x"
+          ],
+          "answer": 0,
+          "explain": "FAIR Plan data show 3,316 policies in 2022 and 16,926 in 2026, about five-fold."
+        },
+        {
+          "q": "Which 2024 fire destroyed homes in Camarillo Heights?",
+          "choices": [
+            "Thomas Fire",
+            "Woolsey Fire",
+            "Hill Fire",
+            "Mountain Fire"
+          ],
+          "answer": 3,
+          "explain": "The Mountain Fire (Nov 6, 2024) crossed SR-118 into Camarillo Heights, destroying at least 83 homes there."
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "summary": "FAIR Plan statewide totals roughly 686,000–698,000 policies as of September 30, 2026. Ventura County has about 16,900 FAIR Plan policies across all lines, and roughly 400 commercial-line policies in Ventura County ZIPs. Since July 2025 the FAIR Plan has offered high-value commercial limits of $20M per building and $100M per location, which apartment owners use as a backstop. I couldn't verify a current list of carriers writing Ventura County multifamily, so ask a broker who places the coverage.",
+      "answer": "### FAIR Plan numbers (as of September 30, 2026)\n| Measure | Figure |\n|---|---|\n| Total FAIR Plan policies, statewide | **698,307** per the FAIR Plan stats page (+8% YoY); **686,376** in the county report |\n| Statewide exposure | **$773 billion** |\n| **Ventura County**, all lines | **16,926** (+13% YoY; 15,010 in 2025; 3,316 in 2022) |\n| Commercial line, statewide | **20,544** (-1% YoY) |\n| Commercial line, Ventura County ZIPs | **About 410** (my tally of the ZIP report) |\n\n### High-value commercial option\n- **What it is:** since **July 26, 2025**, the FAIR Plan offers commercial limits of **$20 million per building** and **$100 million per location**. The old cap was $8.4M.\n- **Who uses it:** the Department of Insurance describes it as temporary coverage for **larger housing developments**, HOAs and businesses while the regular market recovers.\n- **Status:** a March 27, 2026 order changed only how member insurers share assessments. The program continues.\n- **Coverage gaps:** FAIR Plan policies are basic named-peril (fire-focused) coverage. Owners typically add a **difference-in-conditions (DIC)** policy for liability, water damage and other perils.\n\n### Who is writing multifamily\nI couldn't verify a current carrier list for Ventura County apartments. Here is what is documented:\n- **Sustainable Insurance Strategy commitments** (Department of Insurance, Aug 2026): 11 homeowners groups (Farmers, Mercury, Auto Club, CSAA, USAA, Liberty Mutual, Travelers and others) and **2 unnamed major commercial insurers** have committed to grow in wildfire-distressed areas.\n- **In practice:** multifamily placements in hazard areas often move to **excess and surplus lines**, layered or shared programs, or FAIR Plan plus DIC.\n- **Lowest-risk properties:** flatland Oxnard, Port Hueneme and central Camarillo buildings are generally easiest to place with admitted carriers.\n\n### So what\n- Get a **binding insurance quote early** in due diligence.\n- Lenders require specific limits and terms, and a FAIR Plan plus DIC structure may not satisfy agency lenders.",
+      "keyPoints": [
+        "FAIR Plan statewide: ~698k policies, $773B exposure (9/30/2026)",
+        "Ventura County FAIR Plan policies: 16,926 (9/30/2026), up 13% YoY",
+        "Commercial line statewide: 20,544; about 410 in Ventura County ZIPs",
+        "High-value commercial: $20M/building, $100M/location since July 26, 2025",
+        "FAIR Plan is basic named-peril; owners add DIC for other perils and liability"
+      ],
+      "sources": [
+        {
+          "title": "California FAIR Plan - Key Statistics & Data",
+          "url": "https://www.cfpnet.com/?p=1603",
+          "date": "2026-10"
+        },
+        {
+          "title": "California FAIR Plan - 5-year policies in force by county, FY2026 (all lines)",
+          "url": "https://www.cfpnet.com/wp-content/uploads/2026/10/CFP-5-yr-PIF-County-FY26-All-261020.pdf",
+          "date": "2026-10"
+        },
+        {
+          "title": "California FAIR Plan - 5-year policies in force by ZIP, FY2026 (commercial line)",
+          "url": "https://www.cfpnet.com/wp-content/uploads/2026/10/CFP-5-yr-PIF-Zip-FY26-COM-261020.pdf",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Department of Insurance - FAIR Plan growth slows below 2% as market shows signs of recovery",
+          "url": "https://www.insurance.ca.gov/0200-industry/0105-alert/upload/FAIR-Plan-growth-slows-below-2-as-Californias-insurance-market-continues-to-show-signs-of-recovery.pdf",
+          "date": "2026-08"
+        },
+        {
+          "title": "California Department of Insurance - FAIR Plan Stipulation and Order No. 2026-2",
+          "url": "https://www.insurance.ca.gov/0250-insurers/0500-legal-info/0700-commissioners-orders/upload/FAIR-Plan-Stipulation-and-Order-2026-2.pdf",
+          "date": "2026-03"
+        },
+        {
+          "title": "Insurance Journal - California FAIR Plan rolls out Commercial High Value policy",
+          "url": "https://amp.insurancejournal.com/news/west/2025/07/25/833310.htm",
+          "date": "2025-07"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "I could not verify which carriers currently write Ventura County multifamily. Ask two or three commercial brokers who place habitational risks locally, or check CDI's market-share data. The ~410 commercial-policy tally is my own sum of Ventura County ZIPs in the FAIR Plan commercial PDF; re-check before quoting. Commercial-line policies include non-apartment properties.",
+      "drills": [
+        {
+          "q": "What limits does the FAIR Plan's high-value commercial option offer?",
+          "choices": [
+            "$3M per building",
+            "$20M per building and $100M per location",
+            "$8.4M per location",
+            "Unlimited"
+          ],
+          "answer": 1,
+          "explain": "Since July 26, 2025 the high-value commercial option offers $20M per building up to $100M per location."
+        },
+        {
+          "q": "About how many FAIR Plan policies (all lines) were in force in Ventura County on Sept 30, 2026?",
+          "choices": [
+            "About 3,300",
+            "About 9,400",
+            "About 16,900",
+            "About 160,000"
+          ],
+          "answer": 2,
+          "explain": "The FAIR Plan county report shows 16,926 Ventura County policies as of 9/30/2026."
+        },
+        {
+          "q": "Why do FAIR Plan policyholders typically buy a DIC policy?",
+          "choices": [
+            "Because the FAIR Plan provides basic named-peril coverage, so other perils and liability must be added",
+            "To lower FAIR Plan premiums",
+            "DIC is required by AB 1482",
+            "To get flood coverage from FEMA"
+          ],
+          "answer": 0,
+          "explain": "FAIR Plan offers basic property coverage focused on fire. DIC fills in other perils and coverage gaps."
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "summary": "Flood exposure in Ventura County runs along the coast and the river corridors: low-lying Oxnard beach neighborhoods and harbors, Ventura's Pierpont and Keys areas, and the Ventura River, Santa Clara River, Calleguas Creek and Arroyo Simi corridors. Check every parcel on FEMA's Flood Map Service Center. NFIP premiums are now property-specific under Risk Rating 2.0, so get a quote rather than relying on averages.",
+      "answer": "### Where to look\nFEMA's **Flood Map Service Center** (msc.fema.gov) lets you search any address for the effective flood map (FIRM) and related map changes. The areas that usually show up in **Special Flood Hazard Areas (Zones A/AE/AO, or V/VE on the coast)**:\n- **Coastal Oxnard:** Hollywood Beach, Silver Strand, Oxnard Shores, and around Channel Islands Harbor\n- **Port Hueneme:** very low-lying (elevation about 13 ft). Its Wikipedia article notes an ongoing, expensive routine to keep ocean water off city streets\n- **City of Ventura:** Pierpont and the Ventura Keys, near the Santa Clara River mouth\n- **River corridors:** Ventura River (Ojai Valley to the coast), Santa Clara River (Piru, Fillmore, Santa Paula), Calleguas Creek and Revolon Slough (Camarillo and the Oxnard Plain), and Arroyo Simi (Simi Valley and Moorpark)\n\nThese are general patterns I could not verify parcel by parcel. **Always pull the map for the specific address.**\n\n### Cost and coverage\n- **Risk Rating 2.0:** began October 1, 2021, fully in place April 1, 2023. Premiums now reflect each building's own risk: flood frequency, flood type, distance to water, elevation and rebuild cost. Most rate increases are capped at **18% per year** by statute.\n- **NFIP limits** for 5+ unit residential buildings are relatively low, commonly cited as $500,000 for the building, so larger buildings need **private or excess flood** coverage.\n- **Lenders:** federally regulated lenders require flood insurance for buildings in A or V zones.\n- I have no verified average premium for Ventura County multifamily.\n\n### Disclosure and due diligence\n- A Special Flood Hazard Area designation must be disclosed. The Natural Hazard Disclosure form covers it for 1–4 units.\n- Order flood certification with the lender's title package.\n- Ask for any **Elevation Certificate** and the property's **loss history**, including the January 2023 storms.",
+      "keyPoints": [
+        "Check every parcel on FEMA's Flood Map Service Center (msc.fema.gov)",
+        "Typical exposure: coastal Oxnard, Port Hueneme, Pierpont/Keys, and the Ventura and Santa Clara river corridors",
+        "Risk Rating 2.0: property-specific NFIP pricing since Oct 2021 (full Apr 2023); most increases capped at 18%/yr",
+        "Federally regulated lenders require flood insurance in A and V zones",
+        "Large buildings often need private/excess flood beyond NFIP limits"
+      ],
+      "sources": [
+        {
+          "title": "FEMA - Flood Map Service Center",
+          "url": "https://msc.fema.gov/portal/home",
+          "date": "2026-10"
+        },
+        {
+          "title": "FEMA - Risk Rating 2.0",
+          "url": "https://www.fema.gov/flood-insurance/risk-rating",
+          "date": "2026-10"
+        },
+        {
+          "title": "Wikipedia - Port Hueneme, California",
+          "url": "https://en.wikipedia.org/wiki/Port_Hueneme,_California",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Public Law - Civil Code § 1103 (Natural Hazard Disclosure)",
+          "url": "https://california.public.law/codes/civil_code_section_1103",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "I could not reach the Ventura County Watershed Protection District's floodplain pages or recent FIRM revisions (LOMRs) for Ventura County. Confirm the zones with FEMA MSC and the county's flood maps. Confirm the NFIP 5+ unit building limit ($500,000) on FEMA's coverage pages. Get actual premium quotes from an NFIP or private flood agent.",
+      "drills": [
+        {
+          "q": "What is the authoritative place to check a Ventura County parcel's FEMA flood zone?",
+          "choices": [
+            "Zillow",
+            "The county assessor's roll",
+            "CAL FIRE FHSZ viewer",
+            "FEMA's Flood Map Service Center"
+          ],
+          "answer": 3,
+          "explain": "FEMA's MSC is the official public source for flood hazard maps by address."
+        },
+        {
+          "q": "Under Risk Rating 2.0, most NFIP premium increases are capped at what annual rate?",
+          "choices": [
+            "5%",
+            "18%",
+            "10%",
+            "No cap"
+          ],
+          "answer": 1,
+          "explain": "FEMA notes statutory limits keep most rate increases at no more than 18% per year."
+        },
+        {
+          "q": "When is flood insurance typically mandatory for a property with a federally regulated mortgage?",
+          "choices": [
+            "Only when it is on the beach",
+            "When it is anywhere in Ventura County",
+            "When the property is in a Zone A or V special flood hazard area",
+            "Never"
+          ],
+          "answer": 2,
+          "explain": "Federally regulated lenders require flood coverage for buildings in Special Flood Hazard Areas (A/V zones)."
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "summary": "Ventura County's beach communities face chronic erosion and growing storm-flood risk as sea level rises. The state's 2024 guidance projects roughly 1 to 6.6 feet of rise by 2100. The most exposed places are Port Hueneme's beach, Oxnard's beach neighborhoods (Hollywood Beach, Silver Strand, Oxnard Shores), Ventura's Pierpont and Surfers Point, and the Rincon/Faria/Mussel Shoals strip. Coastal properties also face tsunami zones and tightening Coastal Act rules on seawalls.",
+      "answer": "### The big picture\n- **State projections:** the Coastal Commission, citing the Ocean Protection Council's 2024 guidance, projects **1 to 6.6 feet** of sea level rise by 2100.\n- **Near-term risk:** the worst damage in the coming decades will likely come from **El Niño storms combined with high tides and big waves**, not from the slow rise itself.\n- **Deadline:** **SB 272** requires every coastal city and county to include a sea level rise plan in its Local Coastal Program by **January 1, 2034**. That will shape what can be built or armored on the coast.\n\n### Hot spots\n- **Port Hueneme:**\n  - The beach has eroded for decades because the harbor jetties block the natural flow of sand.\n  - Federal sand replenishment (about $12M announced in 2013) has been intermittent.\n  - The city spends heavily keeping ocean water off its streets.\n- **Oxnard beach neighborhoods** (Hollywood Beach, Silver Strand, Oxnard Shores, Mandalay):\n  - These are low, sandy and harbor-adjacent.\n  - The county's adaptation program includes a **Hollywood Beach sediment management** timeline.\n- **City of Ventura:** Pierpont (low-lying beach homes) and Surfers Point, a known erosion area.\n- **Unincorporated coast:** the Rincon, Mussel Shoals and Faria/Solimar strip along Highway 1 and US-101. The county's 2019 *Sea Level Rise Adaptation Strategies Report* weighed protect, accommodate and retreat options.\n- **Tsunami:** Oxnard's coastline is subject to tsunami inundation up to about **23 feet**. A Ventura fault rupture could also generate a local tsunami.\n\n### So what for owners and buyers\n- Coastal multifamily faces higher insurance and flood costs.\n- Permits may require waiving future rights to a seawall.\n- Values may face a slow repricing as LCP updates land.\n- **Due diligence:** check FEMA V/AE zones, county SLR maps, any tsunami hazard zone, and the city's LCP status.",
+      "keyPoints": [
+        "State 2024 guidance: 1 to 6.6 ft of sea level rise by 2100",
+        "SB 272: sea level rise plans required in LCPs by Jan 1, 2034",
+        "Port Hueneme beach has eroded for decades because jetties block sand flow",
+        "Exposed areas: Hollywood Beach, Silver Strand, Oxnard Shores, Pierpont, Rincon/Mussel Shoals",
+        "Oxnard's coast faces tsunami inundation up to ~23 ft"
+      ],
+      "sources": [
+        {
+          "title": "California Coastal Commission - Sea Level Rise",
+          "url": "https://www.coastal.ca.gov/climate/slr/",
+          "date": "2026-10"
+        },
+        {
+          "title": "County of Ventura RMA - Sea Level Rise (VC Resilient Coastal Adaptation Project)",
+          "url": "https://rma.venturacounty.gov/en/sea-level-rise",
+          "date": "2019"
+        },
+        {
+          "title": "County of Ventura - Revised Sea Level Rise Adaptation Strategies Report",
+          "url": "https://rmadocs.venturacounty.gov/planning/projects/coastal-adapation/publications/ventura-county-resilient-sea-level-rise-adaptation-strategies-report.pdf",
+          "date": "2019"
+        },
+        {
+          "title": "Wikipedia - Port Hueneme, California",
+          "url": "https://en.wikipedia.org/wiki/Port_Hueneme,_California",
+          "date": "2026-10"
+        },
+        {
+          "title": "Wikipedia - Oxnard, California",
+          "url": "https://en.wikipedia.org/wiki/Oxnard,_California",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "I could not open the county's 2019 SLR report, which was too large to fetch, so area-by-area findings are not verified. Review it for specific vulnerability rankings. Check the City of Ventura's and Oxnard's LCP and sea level rise studies, and any Ventura County Star coverage of Pierpont, Surfers Point and Port Hueneme erosion.",
+      "drills": [
+        {
+          "q": "Under SB 272, by when must coastal jurisdictions include sea level rise planning in their Local Coastal Programs?",
+          "choices": [
+            "January 1, 2034",
+            "January 1, 2030",
+            "January 1, 2026",
+            "January 1, 2050"
+          ],
+          "answer": 0,
+          "explain": "The Coastal Commission says SB 272 requires SLR plans in new or updated LCPs by January 1, 2034."
+        },
+        {
+          "q": "What is a main cause of the long-term erosion at Port Hueneme's beach?",
+          "choices": [
+            "Oil drilling",
+            "Groundwater pumping",
+            "Seawalls in Malibu",
+            "Harbor jetties blocking the natural flow of sand"
+          ],
+          "answer": 3,
+          "explain": "The jetties built for the port interrupt the natural flow of sand down the coast."
+        },
+        {
+          "q": "What range of sea level rise by 2100 does the state's 2024 guidance cite?",
+          "choices": [
+            "0 to 6 inches",
+            "1 to 6.6 feet",
+            "10 to 20 feet",
+            "Exactly 3 feet"
+          ],
+          "answer": 1,
+          "explain": "The Coastal Commission cites OPC 2024 projections of 1 to 6.6 feet by 2100."
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "summary": "Ventura County sits among active thrust faults, including the Ventura fault, which is considered capable of about magnitude 8 with a local tsunami, and the Oak Ridge fault under the Oxnard Plain. For older apartments, the main concerns are **soft-story** wood buildings with tuck-under parking, older concrete, liquefaction-prone sandy lowlands, and unbraced water heaters. Order a seismic review (PML) on any pre-1980 building.",
+      "answer": "### Faults that matter\n- **Ventura fault:** runs through the City of Ventura. It is considered **capable of an M8.0 earthquake** in a multi-fault rupture, with a local tsunami up to about **7 m (23 ft)**.\n- **Oak Ridge fault:** runs west from the Santa Susana Mountains across the **Oxnard Plain** into the Santa Barbara Channel. The **1994 Northridge earthquake** (M6.7) is believed to have occurred on an eastward extension of it.\n- **Others:** the San Cayetano and Simi–Santa Rosa faults affect the Santa Clara River Valley and the Simi/Moorpark/Camarillo areas. The San Andreas is about 40 miles from Oxnard.\n\n### Mapping and disclosure\n- **Alquist-Priolo Earthquake Fault Zones:**\n  - No building for human occupancy may sit across an active fault trace, and setbacks are generally **50 ft**.\n  - A geologic report is required before most new development in a zone.\n- **Seismic Hazard Zones:** cover **liquefaction** (relevant to sandy coastal and river lowlands such as the Oxnard Plain, Port Hueneme, and the Ventura and Santa Clara river mouths) and **landslides** (hillsides).\n- Look up any parcel in CGS's **EQ Zapp**. Both zone types must be disclosed.\n\n### What fails in older buildings\n- **Soft-story wood frame:** buildings over open tuck-under parking. In 1994, the **Northridge Meadows** apartments collapsed onto their parking level and **16 residents died**. Buildings with weak first floors performed worst.\n- **Non-ductile concrete** (pre-1976) and older tilt-ups.\n- **Unreinforced masonry** in older downtown commercial blocks.\n- **Unbraced water heaters and gas lines,** which cause post-quake fires. State law requires water heater bracing.\n\n### So what for buyers\n- Order a **PML/seismic risk assessment**. Agency lenders commonly require one for higher-risk buildings.\n- Price in soft-story retrofit costs.\n- Check whether the city has a **mandatory soft-story program**. I could not confirm any Ventura County city with one, unlike Los Angeles.\n- Earthquake insurance is usually costly and carries high deductibles. Many owners skip it, and lenders may require it if PML is high.",
+      "keyPoints": [
+        "Ventura fault: considered capable of ~M8.0 with a local tsunami up to ~7 m",
+        "Oak Ridge fault crosses the Oxnard Plain; 1994 Northridge (M6.7) is linked to its extension",
+        "Alquist-Priolo: no occupied structures across active traces; ~50 ft setback",
+        "Soft-story tuck-under buildings were deadliest in Northridge (Northridge Meadows, 16 deaths)",
+        "Check EQ Zapp for fault, liquefaction and landslide zones; order a PML on older buildings"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia - Ventura, California",
+          "url": "https://en.wikipedia.org/wiki/Ventura,_California",
+          "date": "2026-10"
+        },
+        {
+          "title": "Wikipedia - Oxnard, California",
+          "url": "https://en.wikipedia.org/wiki/Oxnard,_California",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Geological Survey - Alquist-Priolo Earthquake Fault Zones",
+          "url": "https://www.conservation.ca.gov/cgs/alquist-priolo",
+          "date": "2026-10"
+        },
+        {
+          "title": "Wikipedia - 1994 Northridge earthquake",
+          "url": "https://en.wikipedia.org/wiki/1994_Northridge_earthquake",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Public Law - Health & Safety Code § 19211 (water heater bracing)",
+          "url": "https://california.public.law/codes/health_and_safety_code_section_19211",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Confirm the Ventura fault magnitude and tsunami figures against USGS or SCEC research, since the Wikipedia city article is the only source I accessed. Check whether any Ventura County city has adopted a mandatory soft-story or non-ductile concrete retrofit ordinance by asking each city's building department.",
+      "drills": [
+        {
+          "q": "Which 1994 apartment collapse illustrated soft-story risk?",
+          "choices": [
+            "Harbor View",
+            "Hawaiian Village",
+            "Northridge Meadows",
+            "Mandalay Bay"
+          ],
+          "answer": 2,
+          "explain": "Northridge Meadows, a three-story wood-frame building, collapsed onto its parking level, killing 16 residents."
+        },
+        {
+          "q": "Under the Alquist-Priolo Act, structures for human occupancy generally must be set back how far from an active fault trace?",
+          "choices": [
+            "50 feet",
+            "5 feet",
+            "500 feet",
+            "1 mile"
+          ],
+          "answer": 0,
+          "explain": "CGS states structures must generally be at least 50 feet from an active fault trace."
+        },
+        {
+          "q": "Which fault crosses the Oxnard Plain and is associated with the 1994 Northridge earthquake?",
+          "choices": [
+            "San Andreas",
+            "Hayward",
+            "Newport-Inglewood",
+            "Oak Ridge"
+          ],
+          "answer": 3,
+          "explain": "Oxnard's Wikipedia article describes the Oak Ridge fault crossing the Oxnard Plain, with Northridge believed to have occurred on its extension."
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "summary": "In 1960s–1980s Ventura County apartments, plan on: galvanized supply lines and cast-iron or clay drains and sewer laterals; outdated or problem-brand electrical panels, undersized service and possibly aluminum branch wiring; and roofs at end of life. Add wood balconies and walkways under SB 721, aging water heaters and boilers, single-pane windows, and kitchens that now must have a working stove and refrigerator.",
+      "answer": "### Typical replacement items in 1960s–1980s stock\n| System | What to look for | Why it matters |\n|---|---|---|\n| **Water supply** | Galvanized steel (common pre-1970s); polybutylene in some later buildings | Corrosion, low pressure, leaks; insurers dislike both |\n| **Drain and waste** | Cast iron (cracking, scaling), ABS; **clay or Orangeburg sewer laterals** | Backups and slab leaks; get a **sewer camera scope** |\n| **Electrical service** | 60–100 amp services, fused or older breaker panels, ungrounded 2-prong circuits | Can't support modern loads or EV and electrification upgrades |\n| **Panels** | Older brands that inspectors and insurers flag | Often a condition of binding insurance |\n| **Branch wiring** | **Aluminum branch wiring** in buildings wired about 1965 to the mid-1970s | CPSC found pre-1972 aluminum-wired homes **55 times** more likely to have connections reach fire-hazard conditions |\n| **Roofs** | Built-up flat roofs (tar and gravel), aging composition shingle | Leaks; insurers ask roof age |\n| **Exterior elevated elements** | Wood balconies, stairs and walkways | Inspection and repair under **SB 721** (H&S § 17973) |\n| **Water heaters / boilers** | Central boilers, old tank heaters | Life-safety: **seismic straps** required (H&S § 19211) |\n| **Windows / envelope** | Single-pane aluminum, dry rot, stucco cracks | Energy, water intrusion |\n| **Kitchens** | Missing or old ranges and refrigerators | Required for new or renewed leases since Jan 1, 2026 (AB 628) |\n\n### Remedies and costs\n- **Aluminum wiring:** CPSC's recommended permanent fixes are rewiring with copper, or approved copper \"pigtail\" connectors. Simple outlet swaps are not enough.\n- **Budget planning:** use per-unit reserve estimates from a property condition assessment (PCA), not rules of thumb. Local contractor pricing varies widely.\n- **The coastal factor:** in beach-adjacent buildings in Oxnard, Port Hueneme and Ventura, salt air speeds up corrosion of galvanized pipe, metal railings and HVAC.\n\n### So what\n- These items drive **retrades** and reserves.\n- Buyers should order a PCA plus specialty inspections (sewer, electrical, roof, SB 721) on any pre-1985 building.",
+      "keyPoints": [
+        "Galvanized supply and cast-iron/clay drains are typical in 1960s-70s stock; scope the sewer lateral",
+        "Aluminum branch wiring appears in buildings wired ~1965 to mid-1970s (CPSC)",
+        "Undersized 60-100A services and older panels often must be upgraded to bind insurance",
+        "Wood balconies and walkways fall under SB 721 inspection and repair",
+        "AB 628 (2026) makes a working stove and refrigerator a habitability item"
+      ],
+      "sources": [
+        {
+          "title": "U.S. CPSC - Repairing Aluminum Wiring (Publication 516)",
+          "url": "https://www.cpsc.gov/s3fs-public/516.pdf",
+          "date": "2011-06"
+        },
+        {
+          "title": "California Public Law - Health & Safety Code § 17973 (exterior elevated elements / SB 721)",
+          "url": "https://california.public.law/codes/health_and_safety_code_section_17973",
+          "date": "2025-06"
+        },
+        {
+          "title": "California Public Law - Health & Safety Code § 19211 (water heater bracing)",
+          "url": "https://california.public.law/codes/health_and_safety_code_section_19211",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Public Law - Civil Code § 1941.1 (habitability, incl. AB 628 appliances)",
+          "url": "https://california.public.law/codes/civil_code_section_1941.1",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Claims about specific panel brands, polybutylene timing and local replacement costs are industry experience, not verified sources. Get a property condition assessment and contractor bids for each deal.",
+      "drills": [
+        {
+          "q": "According to CPSC, aluminum branch circuit wiring was most commonly installed in which period?",
+          "choices": [
+            "1920s-1940s",
+            "About 1965 to the mid-1970s",
+            "1990s",
+            "After 2005"
+          ],
+          "answer": 1,
+          "explain": "CPSC says homes built before 1965 are unlikely to have it, while wiring from 1965 to the mid-1970s may."
+        },
+        {
+          "q": "Which inspection best uncovers a failing clay sewer lateral?",
+          "choices": [
+            "Termite inspection",
+            "Roof inspection",
+            "Sewer camera scope",
+            "Phase I environmental"
+          ],
+          "answer": 2,
+          "explain": "A video scope of the lateral reveals cracks, root intrusion and offsets."
+        },
+        {
+          "q": "Which law requires inspection of wood balconies more than 6 ft above ground in 3+ unit buildings?",
+          "choices": [
+            "SB 721 (H&S § 17973)",
+            "AB 1482",
+            "Prop 19",
+            "AB 2801"
+          ],
+          "answer": 0,
+          "explain": "SB 721 covers exterior elevated elements in multifamily buildings with three or more units."
+        }
+      ]
+    },
+    {
+      "id": 185,
+      "summary": "Unpermitted units are common in older Ventura County small multifamily: garage conversions, \"bonus\" units and split units. Buyers should value only the legal unit count (or discount the extras heavily), confirm permits and the assessor's record, and either legalize the units, now easier through the state ADU laws, or price in removal. Lenders often won't count income from illegal units.",
+      "answer": "### How common\nI found no Ventura County statistic on unpermitted units. Brokers and inspectors routinely see them in **1950s–1980s duplex-to-fourplex and small apartment stock**, especially in Oxnard, Ventura, Santa Paula and Simi Valley. Typical forms:\n- garages converted to studios\n- a \"bonus\" unit carved out of a laundry or storage room\n- one unit split into two\n- unpermitted additions\n\n### How to identify them\n1. Compare the **legal unit count** on city building records and the certificate of occupancy with the **assessor's record**, the rent roll and a physical walk.\n2. Look for telltale signs: extra meters, or one meter serving two units; a garage door replaced by a wall; kitchens added without permits.\n3. Ask the seller directly and get the answer in writing. Known unpermitted units are a material fact that must be disclosed.\n\n### Legalization path\n- **ADU legalization.** State ADU law has made it easier to legalize a conversion as an **accessory dwelling unit**. A 2024 law (AB 2533, effective 2025) generally bars cities from denying a permit to legalize an unpermitted ADU **built before January 1, 2020**, except to fix health and safety problems, and it limits penalties and fees.\n- **Multifamily ADUs.** Multifamily lots may add ADUs in non-livable space, such as garages and storage, under the state's multifamily ADU rules.\n- **Costs.** Expect fire separation, egress, ceiling height, electrical and plumbing upgrades, and sometimes parking or utility fees.\n\n### How buyers handle it\n- **Price** on the legal unit count, and treat illegal-unit income as upside or zero.\n- **Financing:** agency lenders generally exclude or haircut unpermitted unit income.\n- **Insurance:** carriers may deny claims tied to unpermitted work.\n- **Tenant law:** an occupied illegal unit still has tenant protections. Removing it can trigger relocation duties.\n- **Contract terms:** use credits, escrow holdbacks or a pre-closing legalization requirement.",
+      "keyPoints": [
+        "Value on the legal unit count; treat unpermitted-unit income as upside, not base case",
+        "Cross-check building records, certificate of occupancy, assessor data, rent roll and the physical walk",
+        "State ADU law offers a legalization path; AB 2533 (2025) protects pre-2020 unpermitted ADUs from denial except for health and safety issues",
+        "Lenders often exclude unpermitted-unit income",
+        "Tenants in illegal units still have protections; removal can trigger relocation"
+      ],
+      "sources": [
+        {
+          "title": "California Public Law - Civil Code § 1947.12 (AB 1482 rent cap)",
+          "url": "https://california.public.law/codes/civil_code_section_1947.12",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Public Law - Civil Code § 1941.1 (habitability, incl. AB 628 appliances)",
+          "url": "https://california.public.law/codes/civil_code_section_1941.1",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "There is no verified local data on how common unpermitted units are. Confirm AB 2533's exact provisions (now codified in the Government Code ADU chapter) on leginfo. Ask each city's building department (Oxnard, Ventura, Simi Valley and others) whether it runs an ADU amnesty or legalization program. Confirm local relocation rules for removing an illegal unit (City of Ventura Ch. 8.1100; Oxnard; see Section 10).",
+      "drills": [
+        {
+          "q": "What is the safest way to underwrite a fourplex that has a fifth, unpermitted garage unit?",
+          "choices": [
+            "Value it as five legal units",
+            "Assume the city will approve it automatically",
+            "Ignore it entirely",
+            "Value it on the legal unit count and treat the extra income as upside"
+          ],
+          "answer": 3,
+          "explain": "Buyers and lenders generally value only legal units; legalization is a separate cost and risk."
+        },
+        {
+          "q": "Under AB 2533 (effective 2025), cities generally cannot deny a permit to legalize an unpermitted ADU built before what date, except for health and safety reasons?",
+          "choices": [
+            "January 1, 2000",
+            "January 1, 2020",
+            "January 1, 2010",
+            "January 1, 2025"
+          ],
+          "answer": 1,
+          "explain": "AB 2533 protects unpermitted ADUs built before January 1, 2020."
+        },
+        {
+          "q": "A tenant lives in an unpermitted unit the new owner wants to remove. What is the key legal risk?",
+          "choices": [
+            "None, because illegal units have no tenant rights",
+            "The city must pay relocation",
+            "Tenant protections and possible relocation obligations still apply",
+            "The tenant must leave within 3 days"
+          ],
+          "answer": 2,
+          "explain": "Occupants of unpermitted units still have tenant protections, and removal can trigger relocation duties."
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "summary": "The findings that most often kill or retrade Ventura County multifamily deals are sewer lateral and drain failures, end-of-life roofs, electrical service, panel and aluminum-wiring problems, SB 721 balcony repairs, unpermitted units, termite and dry rot, foundation or drainage issues, rent roll and estoppel surprises, and insurance quotes far above the seller's. In fire and flood zones, insurability itself has become a deal killer.",
+      "answer": "### The usual suspects\n| Finding | Why it bites | Typical response |\n|---|---|---|\n| **Sewer lateral** (clay or cast iron, root intrusion, offsets) | Repair or lining of the whole run can be expensive | Credit or price cut |\n| **Roof** at end of life | Insurers and lenders ask roof age | Credit, or replace before closing |\n| **Electrical**: old fused or flagged panels, undersized service, aluminum branch wiring | Fire risk; often blocks insurance | Upgrade credit |\n| **SB 721** balconies and walkways: missing report or repairs needed | Required repairs with permits and deadlines; daily penalties | Seller completes the work or gives a credit |\n| **Termite / dry rot** (common in coastal wood frame) | Structural repair costs | Section 1 work credited |\n| **Unpermitted units** | Lower legal unit count and income | Re-price |\n| **Foundation, drainage, slab leaks** | Hillside and expansive soils | Engineering report, then credit |\n| **Water heaters / boilers** unstrapped or at end of life | Code and safety | Minor credit |\n| **Mold and water intrusion** | Habitability exposure (Civil Code § 1941.1) | Remediation credit |\n\n### Non-physical surprises\n- **Rent roll versus estoppels:** concessions, side deals, deposits that don't match, or rents above the AB 1482 cap. Overcharges can expose the owner to refunds and treble damages.\n- **Insurance:** a buyer's quote can come in far above the seller's legacy premium. In hillside or very high fire hazard locations, binding coverage at all can be hard, which can sink the loan.\n- **Code enforcement:** open cases and habitability complaints.\n- **AB 628:** missing appliances turn into a habitability item at each renewal.\n\n### How to protect the deal\n**Sellers:**\n- Order pre-listing inspections: sewer scope, roof, termite, and the SB 721 report.\n- Disclose known issues early.\n\n**Buyers:**\n- Get **insurance quotes and the PCA in the first week** of due diligence.\n- Ask for **every** SB 721 report and permit.\n- Reconcile estoppels against leases.\n\n**Brokers:**\n- Set expectations that coastal wood-frame buildings almost always show some termite or dry rot.\n- Expect 1960s–70s plumbing to show up as a credit.",
+      "keyPoints": [
+        "Top retrade items: sewer laterals, roofs, electrical, SB 721 repairs, termite/dry rot",
+        "Unpermitted units lower the legal unit count and income",
+        "Rent roll vs estoppel mismatches and AB 1482 overcharges are deal risks",
+        "Insurance quotes, especially in fire zones, can now kill deals",
+        "Get insurance quotes and the PCA in the first week of due diligence"
+      ],
+      "sources": [
+        {
+          "title": "California Public Law - Health & Safety Code § 17973 (exterior elevated elements / SB 721)",
+          "url": "https://california.public.law/codes/health_and_safety_code_section_17973",
+          "date": "2025-06"
+        },
+        {
+          "title": "California Public Law - Civil Code § 1947.12 (AB 1482 rent cap)",
+          "url": "https://california.public.law/codes/civil_code_section_1947.12",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Public Law - Civil Code § 1941.1 (habitability, incl. AB 628 appliances)",
+          "url": "https://california.public.law/codes/civil_code_section_1941.1",
+          "date": "2026-10"
+        },
+        {
+          "title": "U.S. CPSC - Repairing Aluminum Wiring (Publication 516)",
+          "url": "https://www.cpsc.gov/s3fs-public/516.pdf",
+          "date": "2011-06"
+        },
+        {
+          "title": "California Department of Insurance - FAIR Plan growth slows below 2% as market shows signs of recovery",
+          "url": "https://www.insurance.ca.gov/0200-industry/0105-alert/upload/FAIR-Plan-growth-slows-below-2-as-Californias-insurance-market-continues-to-show-signs-of-recovery.pdf",
+          "date": "2026-08"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "This answer reflects common industry experience, not a verified local dataset. Interview two or three local inspectors and property managers, and ask your brokerage's escrow and transaction coordinators which findings most often led to credits on recent Ventura County multifamily closings. Repair cost figures are rough; get bids.",
+      "drills": [
+        {
+          "q": "What is the best early-diligence step to avoid a late deal collapse over insurance?",
+          "choices": [
+            "Get binding insurance quotes in the first week of due diligence",
+            "Wait for the lender's appraisal",
+            "Use the seller's premium in underwriting",
+            "Ask the FAIR Plan after closing"
+          ],
+          "answer": 0,
+          "explain": "Buyer premiums can be far above the seller's legacy premium, and insurability can make or break financing."
+        },
+        {
+          "q": "A buyer finds the rent roll shows increases above the AB 1482 cap on covered units. What's the risk?",
+          "choices": [
+            "None after closing",
+            "The city takes ownership",
+            "Automatic loss of the AB 1482 exemption",
+            "Possible tenant claims for refunds and up to treble damages"
+          ],
+          "answer": 3,
+          "explain": "§ 1947.12(k) lets tenants recover overcharges, with up to 3x for willful violations."
+        },
+        {
+          "q": "Which inspection item is most associated with coastal wood-frame buildings?",
+          "choices": [
+            "Asbestos roofing in new builds",
+            "Termite and dry rot",
+            "Flood vents",
+            "Elevator certificates"
+          ],
+          "answer": 1,
+          "explain": "Salt air and moisture make termite and dry rot findings common in coastal wood frame."
+        }
+      ]
+    }
+  ]
+}
