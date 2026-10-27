@@ -1,0 +1,677 @@
+{
+  "section": 11,
+  "answers": [
+    {
+      "id": 144,
+      "summary": "SOAR is a family of voter initiatives: one countywide plus eight city measures. They require a public vote before farmland or open space can be rezoned for development, or before a city can grow past its urban boundary. The county measure and most city measures were renewed in November 2016 and generally run to 2050, which keeps new multifamily supply mostly infill.",
+      "answer": "### What it is\nSOAR (Save Open-Space & Agricultural Resources) requires \"a vote of the people before agricultural land or open space areas can be rezoned for development.\"\n\n- **County SOAR:** any General Plan change that re-designates **Agricultural, Open Space or Rural** land in the unincorporated county needs a **countywide vote**. The original county measure passed in 1998. The 2016 renewal (Measure C) extended it to **December 31, 2050**.\n- **City SOARs (8):** Camarillo, Fillmore, Moorpark, Oxnard, Santa Paula, Simi Valley, Thousand Oaks and Ventura.\n  - In most of these, urban development beyond the **City Urban Restriction Boundary (CURB)** needs a **citywide vote**.\n  - Ventura's version instead requires a vote before rezoning agricultural land inside the city's sphere of influence.\n  - Thousand Oaks's version also protects city open space and parks.\n- **Not covered:** Port Hueneme (built out and landlocked) and Ojai have no city SOAR.\n\n### Limited exceptions\nCity measures typically let the council move the CURB without a vote in narrow cases, for example a small acreage per year for affordable housing, or to avoid an unconstitutional taking. The county measure has similar narrow exceptions. Check each measure's text.\n\n### Supply impact\n- New housing goes **inside existing city boundaries**: infill, rezoned commercial sites and specific plans.\n- Greenfield master plans need an election, which adds time, cost and political risk.\n- That scarcity supports **land values and existing multifamily pricing**, and partly explains low vacancy and below-state permit rates.\n- RHNA (state housing targets) pressure is met through upzoning inside the CURBs, not by expanding them.\n\n### So what\nFor a buyer, SOAR is a structural moat: competing supply is constrained until at least 2050. For a developer, it means infill, entitlement risk and higher land cost per unit.",
+      "keyPoints": [
+        "SOAR requires a public vote to rezone ag or open-space land, or to grow past a CURB",
+        "Covers the county plus 8 cities; Port Hueneme and Ojai have no city SOAR",
+        "County SOAR renewed by Measure C (Nov 2016) through Dec 31, 2050",
+        "Growth is forced into infill and upzoned sites inside city boundaries",
+        "Constrained supply supports values of existing multifamily"
+      ],
+      "sources": [
+        {
+          "title": "SOAR Ventura County - Save Open Space & Agricultural Resources (home)",
+          "url": "https://www.soarvc.org/",
+          "date": "2026"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Confirm each city's SOAR expiration year and its exact exceptions (e.g., the acreage allowed for affordable housing without a vote) in the measure texts. These are on soarvc.org and each city's municipal code or general plan. The 1998 county adoption year and the 2050 expiration should be checked against the County of Ventura General Plan.",
+      "drills": [
+        {
+          "q": "Which two Ventura County cities have no city SOAR initiative?",
+          "choices": [
+            "Oxnard and Ventura",
+            "Port Hueneme and Ojai",
+            "Camarillo and Moorpark",
+            "Fillmore and Santa Paula"
+          ],
+          "answer": 1,
+          "explain": "SOAR covers Camarillo, Fillmore, Moorpark, Oxnard, Santa Paula, Simi Valley, Thousand Oaks and Ventura, but not Port Hueneme or Ojai."
+        },
+        {
+          "q": "Under County SOAR, what is needed to re-designate unincorporated Agricultural land for development?",
+          "choices": [
+            "A Board of Supervisors 4/5 vote",
+            "A countywide vote",
+            "Coastal Commission approval",
+            "LAFCo approval only"
+          ],
+          "answer": 1,
+          "explain": "County SOAR requires a countywide vote to change Agricultural, Open Space or Rural designations."
+        },
+        {
+          "q": "Through when does the renewed County SOAR run?",
+          "choices": [
+            "2030",
+            "2036",
+            "2050",
+            "Permanently"
+          ],
+          "answer": 2,
+          "explain": "The November 2016 renewal extended County SOAR through December 31, 2050."
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "summary": "Seven SOAR cities have a voter-approved CURB line, the edge beyond which urban development needs a citywide vote. Ventura's SOAR works through its sphere of influence instead. The precise lines are mapped in each general plan; county greenbelt agreements fill in between cities.",
+      "answer": "### How CURBs work\nA **City Urban Restriction Boundary (CURB)** is a line adopted by voters, usually drawn close to the existing city limit. City services and urban zoning cannot extend past it without a citywide vote, except under the narrow exceptions in each measure.\n\n| City | Growth boundary | Notes |\n|---|---|---|\n| Camarillo | CURB | SOAR city |\n| Fillmore | CURB | SOAR city; small town surrounded by agriculture |\n| Moorpark | CURB | SOAR city |\n| Oxnard | CURB | SOAR city; agriculture on the Oxnard Plain surrounds the city |\n| Santa Paula | CURB | SOAR city; East Area 1 (Harvest at Limoneira) was voter-approved |\n| Simi Valley | CURB | SOAR city |\n| Thousand Oaks | CURB + open-space protection | SOAR also protects city open space and parks |\n| Ventura | Vote required to rezone ag land in the **sphere of influence** | Functions like a CURB |\n| Port Hueneme, Ojai | No SOAR boundary | Port Hueneme is landlocked; Ojai is bounded by valley and county land |\n\n### Reinforcing layers\n- **LAFCo spheres of influence** limit annexations.\n- **County greenbelt agreements** are city-county compacts not to urbanize the land between cities. Examples include the Tierra Rejada greenbelt (Moorpark, Simi Valley, Thousand Oaks area) and greenbelts between Ventura and Santa Paula and between Oxnard and Camarillo.\n- **County \"Guidelines for Orderly Development\"** steer urban growth into cities.\n\n### So what\nWhen a client asks whether a parcel at the edge of town can be developed, the first check is whether it is inside the CURB. If it isn't, the realistic answer is an election.\n\nMost competing apartment supply will come from inside the lines: downtown specific plans, commercial corridors and housing element rezones.",
+      "keyPoints": [
+        "CURB = voter-approved line; urban development beyond it needs a citywide vote",
+        "7 SOAR cities use CURBs; Ventura uses its sphere-of-influence vote instead",
+        "Port Hueneme and Ojai have no SOAR boundary",
+        "Greenbelt agreements and LAFCo spheres add more limits",
+        "Check whether a site is inside the CURB before discussing edge parcels"
+      ],
+      "sources": [
+        {
+          "title": "SOAR Ventura County - Save Open Space & Agricultural Resources (home)",
+          "url": "https://www.soarvc.org/",
+          "date": "2026"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Get each city's official CURB map (general plan land use maps or the city GIS) and the County RMA greenbelt map. Confirm the greenbelt names and members with the County of Ventura Planning Division. Santa Paula East Area 1's voter approval history should be checked against city records.",
+      "drills": [
+        {
+          "q": "What does a CURB do in a Ventura County SOAR city?",
+          "choices": [
+            "Caps rents at the boundary",
+            "Requires a citywide vote for urban development beyond the line",
+            "Bans all development inside the city",
+            "Sets coastal setbacks"
+          ],
+          "answer": 1,
+          "explain": "Urban development beyond the CURB generally requires a citywide vote."
+        },
+        {
+          "q": "How does the City of Ventura's SOAR differ from most city SOARs?",
+          "choices": [
+            "It has no vote requirement",
+            "It requires a vote to rezone ag land within its sphere of influence",
+            "It applies only to coastal land",
+            "It expired in 2020"
+          ],
+          "answer": 1,
+          "explain": "Ventura's measure requires a vote before rezoning agricultural land within its sphere of influence, rather than using a CURB line."
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "summary": "Multifamily zoning varies by city. Garden-apartment zones commonly allow roughly 20-30 units an acre, and downtown and mixed-use specific plans allow more. State housing-element law sets a 20 du/ac default density for lower-income sites in smaller cities and 30 du/ac in cities over about 100,000. Confirm the exact zone and density on each city's zoning map.",
+      "answer": "### Framework\nI could not pull each city's zoning tables for this answer. Here is how to read them, and what is known.\n\n**State default densities (Gov. Code 65583.2(c)(3)(B))**\nSites zoned at or above these densities are presumed suitable for lower-income housing in a housing element:\n- **20 du/ac** in \"suburban\" jurisdictions: cities in metro areas under 2 million people. In Ventura County that includes Camarillo, Moorpark, Santa Paula, Fillmore, Ojai and Port Hueneme.\n- **30 du/ac** in \"metropolitan\" jurisdictions, which include cities over 100,000 people. In Ventura County that would be **Oxnard, Thousand Oaks, Simi Valley and Ventura**.\n\n6th-cycle housing elements therefore rezoned many sites to **at least 20-30 du/ac**.\n\n**Typical zone types to look for**\n- **Oxnard:** R-2 and R-3 multifamily zones, plus higher-density downtown and corridor mixed-use.\n- **Ventura:** R-3 multifamily, plus form-based Downtown and Westside codes (T-zones) with no units-per-acre cap; massing and height control instead.\n- **Thousand Oaks:** multifamily planned-development zones, plus the Thousand Oaks Boulevard and Rancho Conejo-area plans.\n- **Simi Valley:** residential high and very-high designations, and mixed-use along Los Angeles Avenue and Tapo.\n- **Camarillo, Moorpark:** residential planned-development zones with densities set by the general plan, plus housing element overlays.\n\n**Layers on top**\n- Density bonus (up to +50%, or +100% under AB 1287 stacking)\n- ADUs\n- AB 2011 / SB 6 housing on commercial sites\n- SB 35 / SB 423 streamlining\n\n### So what for an existing building\nCompare existing units to the **allowed units** (lot acres × max density). An older 12-unit building on a 0.75-acre lot zoned 30 du/ac (22 units allowed) has **redevelopment or ADU upside**.\n\nConversely, many pre-1970 buildings are **legal non-conforming**: overdense or under-parked. Confirm with a zoning verification letter whether they can be rebuilt after a casualty.",
+      "keyPoints": [
+        "Default density for housing element sites: 20 du/ac (suburban) or 30 du/ac (metro, cities over 100k)",
+        "Oxnard, Thousand Oaks, Simi Valley and Ventura are likely the 30 du/ac group",
+        "Ventura's downtown uses form-based codes rather than a units-per-acre cap",
+        "Density bonus, ADUs and AB 2011 can stack on base zoning",
+        "Order a zoning verification letter to check non-conforming rebuild rights"
+      ],
+      "sources": [
+        {
+          "title": "CA HCD - Housing Elements (compliance report, APR and tracking tools)",
+          "url": "https://www.hcd.ca.gov/planning-and-community-development/housing-elements",
+          "date": "2026-08"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "Pull each city's zoning ordinance density tables (municipal code), the land use element and the housing element sites inventory to confirm actual zone names and du/ac maximums. Confirm which Ventura County jurisdictions HCD treats as metropolitan (30 du/ac) vs. suburban (20 du/ac). The zone names listed above are typical patterns, not verified current code text.",
+      "drills": [
+        {
+          "q": "What is the state default density for lower-income housing element sites in a 'suburban' jurisdiction?",
+          "choices": [
+            "10 du/ac",
+            "15 du/ac",
+            "20 du/ac",
+            "30 du/ac"
+          ],
+          "answer": 2,
+          "explain": "Suburban jurisdictions use 20 du/ac. Metropolitan ones use 30 du/ac."
+        },
+        {
+          "q": "A 0.75-acre lot zoned 30 du/ac holds 12 units. About how many units does base zoning allow?",
+          "choices": [
+            "12",
+            "18",
+            "22",
+            "30"
+          ],
+          "answer": 2,
+          "explain": "0.75 × 30 = 22.5, so about 22 units before any density bonus. That points to upside."
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "summary": "Most of these state laws target vacant, single-family or commercial land, not occupied apartments. On an existing multifamily site, density bonus law is the main tool, and any redevelopment triggers state replacement and tenant-protection rules that make tearing down occupied rent-controlled units expensive.",
+      "answer": "| Law | What it does | Fit for existing multifamily |\n|---|---|---|\n| **SB 9 (2021)** | Lot split and/or duplex, ministerial, in **single-family zones** | **No**: not available on multifamily-zoned lots. Also bars demolishing rent-controlled units or units tenant-occupied in the last 3 years |\n| **SB 35 (2017) / SB 423 (2023)** | Ministerial approval for objective-standards projects in cities behind on RHNA, with affordability set-asides (typically 10% or 50%); SB 423 extended it to **2036** and partly into the coastal zone (from 2025) | Limited: sites with existing tenant-occupied or rent-controlled housing are excluded |\n| **AB 2011 (2022) / AB 2243 (2024)** | By-right housing on **commercial**-zoned sites (strip retail, office, parking); 100% affordable, or mixed-income on commercial corridors with prevailing wage | No for apartment lots. **Yes** for a strip center next door that could become competing supply |\n| **Density bonus (Gov. Code 65915)** | Up to **+50%** density with affordable units; up to **+80%** (or no cap near transit) for 100% affordable; **AB 1287** stacking can reach **+100%**; plus incentives, concessions and waivers | **Yes**, but the project must replace protected units |\n\n### The catch: replacement and tenant rules\nUnder density bonus law and the **Housing Crisis Act (SB 330, extended by SB 8)**:\n- Units that were rent-controlled or occupied by lower-income households in the prior 5 years must be **replaced** with equivalent units.\n- Existing tenants get **relocation benefits**, a **right to return** at affordable rents, and the right to stay until about 6 months before construction.\n\nIn Oxnard and Ojai, local relocation of the greater of 2 months or $5,000 stacks on top.\n\n### So what\n- An older, low-density building on a large lot can carry **land value** above its income value. But its occupied pre-1995 Oxnard or Ojai units become replacement units, which cuts the net gain.\n- Under-built lots in **commercial or mixed-use** zones, and vacant pads, are where these laws produce real upside.\n- On an existing building, **ADUs (SB 1211)** are usually the easier path.",
+      "keyPoints": [
+        "SB 9 does not apply to multifamily-zoned lots",
+        "SB 423 extended SB 35 streamlining to 2036",
+        "AB 2011 / AB 2243: by-right housing on commercial sites, a competing-supply risk",
+        "Density bonus up to +50% (+80% for 100% affordable; +100% with AB 1287 stacking)",
+        "Housing Crisis Act: replace protected units and give tenants a right to return"
+      ],
+      "sources": [
+        {
+          "title": "CA HCD - Housing Elements (compliance report, APR and tracking tools)",
+          "url": "https://www.hcd.ca.gov/planning-and-community-development/housing-elements",
+          "date": "2026-08"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Statute details were not re-verified this session because leginfo was blocked. Confirm SB 423's coastal-zone limits, AB 2243's effective dates and site criteria, and AB 1287's stacking rules against the current Government Code and HCD guidance. Check HCD's SB 35 determination list for which Ventura County cities are subject at the 10% vs. 50% affordability level.",
+      "drills": [
+        {
+          "q": "Can an owner use SB 9 to add units on an R-3 multifamily-zoned lot?",
+          "choices": [
+            "Yes, up to 4 units",
+            "Yes, but only with a lot split",
+            "No, SB 9 applies only in single-family zones",
+            "Only in the coastal zone"
+          ],
+          "answer": 2,
+          "explain": "SB 9 is limited to single-family residential zones."
+        },
+        {
+          "q": "Which law lets housing be built by right on commercial-zoned sites such as strip retail?",
+          "choices": [
+            "SB 9",
+            "AB 2011 (as amended by AB 2243)",
+            "AB 1482",
+            "Costa-Hawkins"
+          ],
+          "answer": 1,
+          "explain": "AB 2011, expanded by AB 2243, allows ministerial housing on qualifying commercial sites."
+        },
+        {
+          "q": "A developer demolishes 10 Oxnard pre-1995 rent-stabilized units for a density-bonus project. What is the key state obligation?",
+          "choices": [
+            "None, if the project is all market-rate",
+            "Replace the protected units and offer tenants a right to return",
+            "Pay a $1,000 fee per unit",
+            "Obtain a countywide SOAR vote"
+          ],
+          "answer": 1,
+          "explain": "Density bonus law and the Housing Crisis Act require replacing protected units and give displaced tenants rights."
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "summary": "I could not confirm any builder's-remedy filings in Ventura County jurisdictions; my search tools ran out before I could check. Treat this as an open item. The mechanism matters: any city without a compliant housing element is exposed, and AB 1893 (2025) set new affordability and density rules for these projects.",
+      "answer": "### What the builder's remedy is\nUnder the Housing Accountability Act (Gov. Code 65589.5(d)(5)), a city **without a substantially compliant housing element** generally cannot deny a qualifying housing project for being inconsistent with its zoning or general plan.\n\nSince **January 1, 2025**, AB 1893 has defined qualifying projects more precisely:\n- **Affordability:** one of 13% lower-income, 10% very-low-income or 7% extremely-low-income units, or 100% moderate/mixed-income options.\n- **Density caps:** tied to the local general plan or the state default density.\n- **Location limits:** for example, restrictions near heavy industrial uses.\n\n### Ventura County status\nThe 6th-cycle (2021-2029) housing elements in the SCAG region were due **October 15, 2021**, and several Ventura County cities adopted late or needed HCD revisions. During any non-compliance window, a city was exposed to builder's-remedy filings.\n\nI did **not** find, within this session's research, a documented list of builder's-remedy applications in Ventura County cities. I won't name projects I couldn't verify.\n\n### How to check\n1. HCD's **Housing Element Review & Compliance Report**: current in/out-of-compliance status and the dates each city came into compliance.\n2. City planning application logs: search for \"builder's remedy\" or \"65589.5(d)(5)\".\n3. Local coverage in the Ventura County Star, VC Reporter, Citizens Journal and Pacific Coast Business Times.\n4. YIMBY Law and Californians for Homeownership track filings statewide.\n\n### So what\nBuilder's-remedy projects can land **anywhere zoning would otherwise forbid**, including next to a client's stabilized asset. For land deals, a city's compliance status directly affects entitlement leverage.",
+      "keyPoints": [
+        "Builder's remedy: HAA 65589.5(d)(5) applies when a city's housing element is not compliant",
+        "AB 1893 (effective Jan 1, 2025) set affordability tiers of 13% / 10% / 7% and density caps",
+        "SCAG 6th-cycle housing elements were due Oct 15, 2021",
+        "No Ventura County filings were verified in this research",
+        "Check the HCD compliance report and city application logs"
+      ],
+      "sources": [
+        {
+          "title": "CA HCD - Housing Elements (compliance report, APR and tracking tools)",
+          "url": "https://www.hcd.ca.gov/planning-and-community-development/housing-elements",
+          "date": "2026-08"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "Open HCD's Housing Element Review & Compliance Report for each Ventura County jurisdiction and note any gap periods. Search the Ventura County Star, VC Reporter and Citizens Journal for 'builder's remedy' plus each city name. Confirm the AB 1893 affordability tiers against Gov. Code 65589.5.",
+      "drills": [
+        {
+          "q": "When does the builder's remedy apply?",
+          "choices": [
+            "When a city has rent control",
+            "When a city lacks a substantially compliant housing element",
+            "Only in the coastal zone",
+            "Only to 100% market-rate projects"
+          ],
+          "answer": 1,
+          "explain": "The remedy applies when the jurisdiction's housing element is not in substantial compliance."
+        },
+        {
+          "q": "Which 2024 bill revised builder's-remedy affordability and density rules, effective 2025?",
+          "choices": [
+            "AB 1893",
+            "SB 9",
+            "AB 1482",
+            "SB 721"
+          ],
+          "answer": 0,
+          "explain": "AB 1893 restructured the builder's remedy effective January 1, 2025."
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "summary": "State ADU law now lets owners of existing apartment buildings add a lot. They can convert non-livable space into ADUs (up to 25% of the unit count), and since SB 1211 took effect January 1, 2025, add up to 8 detached ADUs, capped at the number of existing units, without replacing parking. JADUs remain a single-family tool.",
+      "answer": "### On a lot with an existing multifamily building (Gov. Code 66323, renumbered from 65852.2)\n1. **Conversions:** ADUs can be carved out of non-livable space such as storage rooms, boiler rooms, attics, basements and garages. At least **1**, and up to **25%** of the existing unit count.\n2. **Detached ADUs:** since **SB 1211 (effective Jan 1, 2025)**, up to **8 detached ADUs**, but never more than the number of existing units. Example: a 6-unit building can add up to 6 detached. Before 2025 the limit was 2.\n3. **Parking:** under SB 1211, cities may **not** require replacement parking when uncovered spaces or parking areas are demolished for an ADU. ADUs within half a mile of transit need no new parking.\n4. **Height:** generally 16 ft for detached; up to **18 ft** on a lot with an existing multistory multifamily building (more near transit).\n5. **Fees:** no impact fees on ADUs **under 750 sf**; larger ones pay proportionally. Utility connection fees may still apply.\n6. **Ministerial approval** within 60 days. No owner-occupancy requirement (AB 976 made that permanent).\n\n### JADUs\nJADUs are limited to within a **single-family** home. They do not apply to apartment buildings.\n\n### Other changes\n- **AB 2533 (2024):** a path to legalize unpermitted ADUs built before 2020.\n- **AB 1033 (2023):** lets cities opt in to selling ADUs separately as condos.\n- **HCD's ADU Handbook:** updated March 2026, with an addendum on 2026 law changes.\n\n### Underwriting\n- **Rent control:** a new ADU has a post-1995 certificate of occupancy, so Costa-Hawkins generally exempts it from local caps such as Oxnard's and Ojai's. AB 1482 treatment depends on the new-construction exemption; confirm with counsel.\n- **Short-term rentals:** by-right ADUs must be rented for **more than 30 days**.\n- **Value:** adding 4 ADUs at $2,000/month is about $96,000/year of gross income, against build costs often several hundred thousand dollars per unit. Run the yield on cost.",
+      "keyPoints": [
+        "Conversions: 1 to 25% of existing units from non-livable space",
+        "SB 1211 (1/1/2025): up to 8 detached ADUs, capped at the existing unit count",
+        "No replacement parking when parking is demolished for ADUs",
+        "No impact fees under 750 sf; 18 ft height on multistory multifamily lots",
+        "JADUs are single-family only; by-right ADUs need rentals of more than 30 days"
+      ],
+      "sources": [
+        {
+          "title": "CA HCD - Accessory Dwelling Units",
+          "url": "https://www.hcd.ca.gov/policy-and-research/accessory-dwelling-units",
+          "date": "2026-03"
+        },
+        {
+          "title": "CA HCD - ADU Handbook (Updated March 2026; Dec 2025 addendum on 2026 law)",
+          "url": "https://www.hcd.ca.gov/building-standards/adu/handbook",
+          "date": "2026-03"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Confirm SB 1211 details (8-unit cap, parking), the height rules and the 2026 changes against HCD's ADU Handbook (March 2026) and its December 2025 addendum. Check each city's local ADU ordinance for HCD findings of non-compliance. Get counsel's view on AB 1482 treatment of new ADUs.",
+      "drills": [
+        {
+          "q": "Under SB 1211, how many detached ADUs can a 5-unit existing apartment lot add?",
+          "choices": [
+            "2",
+            "5",
+            "8",
+            "Unlimited"
+          ],
+          "answer": 1,
+          "explain": "Up to 8 detached ADUs, but not more than the number of existing units. A 5-unit building can add 5."
+        },
+        {
+          "q": "A 20-unit building converts storage space. What is the maximum number of conversion ADUs?",
+          "choices": [
+            "1",
+            "2",
+            "5",
+            "8"
+          ],
+          "answer": 2,
+          "explain": "Conversions are allowed up to 25% of existing units: 25% × 20 = 5."
+        },
+        {
+          "q": "Can a JADU be added to an existing fourplex?",
+          "choices": [
+            "Yes, one per unit",
+            "Yes, up to 25%",
+            "No, JADUs are limited to single-family homes",
+            "Only in the coastal zone"
+          ],
+          "answer": 2,
+          "explain": "JADUs must be within a single-family residence."
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "summary": "I could not confirm current inclusionary percentages city by city in this research, so treat this as a checklist rather than an answer. State law (AB 1505, 2017) lets cities require affordable units in rental projects, and HCD can review requirements above 15%. Density bonus usually offsets part of the cost.",
+      "answer": "### State framework\n- **AB 1505 (2017)** restored cities' power to require affordable units in **rental** projects, overturning the 2009 *Palmer* decision. Ordinances must offer alternatives such as in-lieu fees or off-site units.\n- **HCD review:** for rental inclusionary ordinances adopted or amended after September 15, 2017, HCD can require an **economic feasibility study** if the requirement is above **15%** lower-income.\n- **Density bonus interaction:** inclusionary units usually also count toward density bonus eligibility, which can unlock extra units, concessions and parking relief that offset the cost.\n- **Rentals vs. for-sale:** some cities apply inclusionary only to for-sale projects, or allow fee payment for rentals.\n\n### Ventura County cities\nMy research tools ran out before I could verify current ordinance text. I won't list percentages I couldn't confirm.\n\nFor each of Oxnard, Ventura, Thousand Oaks, Simi Valley, Camarillo, Moorpark, Santa Paula, Fillmore, Ojai, Port Hueneme and the county, get:\n1. Whether an ordinance exists (municipal code; search \"inclusionary\")\n2. The percentage and income level (very low, low or moderate), and whether it differs for rental vs. ownership\n3. The project-size threshold (often 5-10+ units)\n4. The in-lieu fee per unit or per square foot\n5. Affordability term (often 55 years for rentals)\n\nThe housing element's \"governmental constraints\" chapter usually summarizes all of this in one place.\n\n### So what\n- For **existing** buildings, inclusionary doesn't apply. It matters only to new construction, and to ADU additions only in rare cases.\n- For land and value-add buyers, the inclusionary percentage and in-lieu fee are often the difference between a pencil and a pass. Get the in-lieu fee amount early.",
+      "keyPoints": [
+        "AB 1505 (2017) allows rental inclusionary, with alternatives required",
+        "HCD can demand a feasibility study for rental requirements above 15% (post-9/15/2017)",
+        "Inclusionary units can also qualify a project for density bonus",
+        "Housing element constraints chapters summarize local requirements",
+        "Does not apply to existing buildings; only new development"
+      ],
+      "sources": [
+        {
+          "title": "CA HCD - Housing Elements (compliance report, APR and tracking tools)",
+          "url": "https://www.hcd.ca.gov/planning-and-community-development/housing-elements",
+          "date": "2026-08"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "City-specific inclusionary percentages, thresholds and in-lieu fees were NOT verified. Pull each city's municipal code and the 'Governmental Constraints' section of its 2021-2029 housing element (HCD Housing Element Download Tool). Ask each planning department for the current in-lieu fee schedule.",
+      "drills": [
+        {
+          "q": "What did AB 1505 (2017) do?",
+          "choices": [
+            "Banned inclusionary zoning",
+            "Restored cities' ability to require affordable units in rental projects",
+            "Created SB 9 lot splits",
+            "Set statewide rent caps"
+          ],
+          "answer": 1,
+          "explain": "AB 1505 overturned the Palmer limitation and allowed rental inclusionary, with alternatives."
+        },
+        {
+          "q": "Above what rental inclusionary percentage can HCD require a feasibility study?",
+          "choices": [
+            "5%",
+            "10%",
+            "15%",
+            "25%"
+          ],
+          "answer": 2,
+          "explain": "HCD may require an economic feasibility study for rental requirements above 15% lower-income."
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "summary": "I couldn't verify per-unit impact fee totals by city, so get each city's current fee schedule. Total development fees in California commonly run into the tens of thousands of dollars per apartment unit once you add school, water/sewer connection, park (Quimby) and traffic fees. ADUs under 750 sf pay no impact fees.",
+      "answer": "### Fee stack for a new apartment unit\n| Fee | Who sets it | Notes |\n|---|---|---|\n| School (Level 1) | School district, capped by the State Allocation Board | Per square foot; the SAB adjusts the cap every two years (about $5/sf residential in the 2024 adjustment) |\n| Water / sewer connection | City or water district (Ventura Water, Calleguas purveyors, Casitas) | Often the largest single item; based on meter size |\n| Park / Quimby | City | Per unit, or land dedication |\n| Traffic / transportation | City, sometimes county | Per unit or per trip |\n| Fire, police, library, general facilities | City | Per unit |\n| Inclusionary in-lieu (if any) | City | Can be large |\n\n### Rules that limit or shape fees\n- **Mitigation Fee Act (Gov. Code 66000 et seq.):** a fee needs a nexus study and must be reasonable.\n- **AB 602 (2021):** nexus studies adopted after July 1, 2022 must generally calculate housing fees **by square footage**, so smaller apartments pay less. Fee schedules must be posted online.\n- **SB 937 (2024):** generally **defers payment** of residential impact fees until final inspection or certificate of occupancy, which helps construction-period cash flow.\n- **ADUs:** no impact fees under 750 sf; larger ADUs pay proportionally.\n- **Density bonus and affordable projects:** some cities waive or reduce fees for deed-restricted units.\n\n### Getting real numbers\n1. Ask the planning or building counter for a **fee estimate** on a sample project (for example, 20 units of 850 sf).\n2. Read the city's current **development impact fee study**, which most cities refresh every 5-10 years.\n3. Get the water purveyor's capacity fee and a will-serve letter.\n\n### So what\nOn a small infill deal, fees can equal or exceed land cost per unit. Model them by unit size, since AB 602 rewards smaller units, and check whether the city credits demolished units against new fees.",
+      "keyPoints": [
+        "Fees stack: school, water/sewer, park, traffic, facilities, inclusionary in-lieu",
+        "AB 602: post-7/1/2022 nexus studies scale fees to square footage",
+        "SB 937 (2024): residential fees generally deferred to final inspection or CO",
+        "ADUs under 750 sf pay no impact fees",
+        "Get a written fee estimate and the water capacity fee early"
+      ],
+      "sources": [
+        {
+          "title": "CA HCD - Accessory Dwelling Units",
+          "url": "https://www.hcd.ca.gov/policy-and-research/accessory-dwelling-units",
+          "date": "2026-03"
+        },
+        {
+          "title": "Calleguas Municipal Water District - home",
+          "url": "https://www.calleguas.com/",
+          "date": "2026-10"
+        },
+        {
+          "title": "Casitas Municipal Water District - home (lake level, allocation, Stage 1 drought pages)",
+          "url": "https://www.casitaswater.gov/",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "No city fee totals were verified. Pull current fee schedules and impact fee nexus studies from each city's finance or planning page (Oxnard, Ventura, Thousand Oaks, Simi Valley, Camarillo, Moorpark, Santa Paula, Fillmore, Ojai, Port Hueneme). Check the current SAB Level 1 school fee cap (adjusted in even years) and SB 937's exact deferral terms.",
+      "drills": [
+        {
+          "q": "What did AB 602 (2021) change about housing impact fees?",
+          "choices": [
+            "Eliminated school fees",
+            "Required fees to be scaled to square footage in new nexus studies",
+            "Capped all fees at $10,000/unit",
+            "Applied only to ADUs"
+          ],
+          "answer": 1,
+          "explain": "AB 602 requires nexus studies adopted after July 1, 2022 to generally calculate fees proportionally to square footage."
+        },
+        {
+          "q": "What impact fee does an 700-sf ADU pay?",
+          "choices": [
+            "Full per-unit fees",
+            "50% of fees",
+            "No impact fees",
+            "Only park fees"
+          ],
+          "answer": 2,
+          "explain": "ADUs under 750 sf are exempt from impact fees. Connection fees may still apply."
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "summary": "Plan on roughly 9-24 months for a discretionary multifamily entitlement in most Ventura County cities, longer with an EIR, coastal permit or SOAR vote. Ministerial paths (SB 35/423, AB 2011, by-right ADUs) cut that to months. City-by-city averages weren't verified; HCD Annual Progress Report data is the best benchmark.",
+      "answer": "### Legal clocks that cap the process\n- **Housing Crisis Act (SB 330):** a **preliminary application** locks in standards and fees. Cities may hold no more than **5 hearings** on a code-compliant project, and must decide within 90 days after CEQA (60 for affordable projects).\n- **Permit Streamlining Act:** completeness determinations in 30 days, then decision deadlines tied to CEQA documents.\n- **SB 35 / SB 423 (ministerial):** 60 or 90 days to flag inconsistencies (depending on project size), then 90 or 180 days for approval. No CEQA.\n- **AB 2011 / AB 2243:** ministerial on qualifying commercial sites, with similar timelines.\n- **ADUs:** ministerial within 60 days.\n- **AB 2234 (2022):** deadlines for **post-entitlement** building permits (completeness, then 30-60 days for review depending on size).\n\n### Time adders in Ventura County\n- **CEQA:** a categorical exemption for infill takes weeks; an MND takes months; an EIR can take 12-24+ months.\n- **Coastal Development Permit:** adds Coastal Commission appeal risk in coastal Oxnard, Ventura and Port Hueneme.\n- **SOAR / CURB:** anything outside the line needs an election, which adds years.\n- **Design review:** design review boards, plus historic review in Ventura's downtown.\n- **Water:** will-serve letters, and a water supply assessment for 500+ unit projects (SB 610).\n\n### Measuring a city\n- HCD **Annual Progress Report (APR)** data shows applications, entitlements and permits by year.\n- Housing elements' \"constraints\" chapters often state typical processing times.\n\n### So what\nFor a buyer weighing a teardown or added units:\n- Ministerial or ADU paths: **3-9 months to permits**\n- Discretionary projects: **1-2+ years**\n\nPrice the carry accordingly, and file an SB 330 preliminary application early to vest fees and standards.",
+      "keyPoints": [
+        "SB 330: preliminary application vests rules; 5-hearing maximum",
+        "SB 35/423: 60/90-day consistency review, then 90/180-day approval, no CEQA",
+        "ADUs: ministerial within 60 days",
+        "AB 2234 sets post-entitlement building permit deadlines",
+        "Discretionary infill typically takes 9-24 months; EIR, coastal or SOAR adds more"
+      ],
+      "sources": [
+        {
+          "title": "CA HCD - Housing Elements (compliance report, APR and tracking tools)",
+          "url": "https://www.hcd.ca.gov/planning-and-community-development/housing-elements",
+          "date": "2026-08"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "Typical durations are general estimates, not city-measured. Use HCD APR data (Housing Element Implementation dashboard) and each housing element's constraints chapter for city-specific processing times. Confirm the SB 330 and AB 2234 deadlines against the current Government Code.",
+      "drills": [
+        {
+          "q": "Under SB 330, what is the maximum number of hearings on a code-compliant housing project?",
+          "choices": [
+            "2",
+            "3",
+            "5",
+            "No limit"
+          ],
+          "answer": 2,
+          "explain": "The Housing Crisis Act caps hearings at five for compliant projects."
+        },
+        {
+          "q": "What is a key benefit of filing an SB 330 preliminary application?",
+          "choices": [
+            "It waives all fees",
+            "It locks in the development standards and fees in effect at filing",
+            "It exempts the project from SOAR",
+            "It guarantees coastal approval"
+          ],
+          "answer": 1,
+          "explain": "It vests the ordinances and fees in effect when the preliminary application is submitted."
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "summary": "There's no official ranking, and I couldn't pull permit data this session. A rule of thumb: the larger cities with downtown or form-based codes and big RHNA targets (Oxnard, Ventura) offer the most infill paths. Thousand Oaks, Camarillo and the SOAR-ringed smaller cities are tighter on land and politics. Verify with HCD permit data before saying so to a client.",
+      "answer": "### Measure, don't guess\nUse these objective tests, all public:\n1. **Permits vs. RHNA:** HCD Annual Progress Reports show units permitted against each income target. Cities far behind are subject to **SB 35/SB 423 streamlining**, which is ironically better for applicants.\n2. **Housing element compliance history:** late adoption or HCD findings signal friction, and potential builder's-remedy exposure.\n3. **Objective design standards:** cities with clear, objective standards approve faster.\n4. **Pipeline:** count the active multifamily projects in each city's planning list.\n5. **Fees and water:** high in-lieu fees or water constraints slow projects, whatever the policy says.\n\n### Working perception (verify before using)\n| Tier | Cities | Why |\n|---|---|---|\n| More paths | **Oxnard, Ventura** | Largest RHNA targets, downtown and corridor plans, form-based code in Ventura, active infill pipeline |\n| Middle | **Simi Valley, Moorpark, Santa Paula** | Specific plans and housing element rezones, though SOAR limits land |\n| Tighter | **Thousand Oaks, Camarillo, Ojai** | Strong slow-growth politics, high land costs, open-space priorities (Ojai has no SOAR but strong local resistance) |\n| Constrained by geography | **Port Hueneme, Fillmore** | Port Hueneme is built out and landlocked; Fillmore is small with limited infrastructure |\n| Unincorporated county | | County SOAR plus city-centered growth guidelines; little urban multifamily outside cities |\n\n### So what\n\"Friendly\" depends on the path:\n- **Ministerial** (ADU, SB 423, AB 2011): fairly uniform across cities, because state law forces it.\n- **Discretionary**: council politics matter.\n\nFor a client deal, check that specific city's last 3 years of APR data and talk to its planning staff.",
+      "keyPoints": [
+        "No official friendliness ranking exists; use HCD APR permits vs. RHNA",
+        "Cities behind on RHNA are subject to SB 35/423 streamlining",
+        "Working view: Oxnard and Ventura offer more infill paths",
+        "Thousand Oaks, Camarillo and Ojai are perceived as tighter",
+        "Ministerial paths are fairly uniform statewide"
+      ],
+      "sources": [
+        {
+          "title": "CA HCD - Housing Elements (compliance report, APR and tracking tools)",
+          "url": "https://www.hcd.ca.gov/planning-and-community-development/housing-elements",
+          "date": "2026-08"
+        },
+        {
+          "title": "SOAR Ventura County - Save Open Space & Agricultural Resources (home)",
+          "url": "https://www.soarvc.org/",
+          "date": "2026"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "The tiering is a perception-based starting point, not verified data. Pull HCD APR permit totals vs. RHNA (2021-2025) for each Ventura County jurisdiction, the HCD SB 35 determination list, and housing element compliance dates. Adjust tiers based on that data before sharing with clients.",
+      "drills": [
+        {
+          "q": "What is the most objective public source for comparing cities' housing production?",
+          "choices": [
+            "Yelp reviews",
+            "HCD Annual Progress Reports (permits vs. RHNA)",
+            "Council campaign websites",
+            "Zillow listings"
+          ],
+          "answer": 1,
+          "explain": "HCD APRs report permits and entitlements by income category against RHNA targets."
+        },
+        {
+          "q": "What happens to a city that falls behind on its RHNA progress?",
+          "choices": [
+            "It is exempt from state law",
+            "It becomes subject to SB 35/SB 423 streamlining for qualifying projects",
+            "It must adopt rent control",
+            "It loses SOAR protection"
+          ],
+          "answer": 1,
+          "explain": "Jurisdictions behind on RHNA must ministerially approve qualifying projects under SB 35 / SB 423."
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "summary": "In the coastal zone (beach areas of Ventura, Oxnard and Port Hueneme, plus unincorporated beach communities), most development, and some renovation, needs a Coastal Development Permit under the city's certified Local Coastal Program, and many decisions can be appealed to the Coastal Commission. The result is more time, design limits and hazard conditions.",
+      "answer": "### How it works\n- **Coastal Act (1976):** development in the coastal zone needs a **Coastal Development Permit (CDP)**.\n  - Once a city's **Local Coastal Program (LCP)** is certified, the city issues CDPs.\n  - The **Coastal Commission** keeps **original jurisdiction** over tidelands and submerged land.\n  - **Appeal jurisdiction** covers, for example, land between the sea and the first public road, or within 300 ft of a beach or bluff.\n- **Ventura County coastal areas:**\n  - City of Ventura beachfront, Pierpont and downtown west\n  - Oxnard's Mandalay Bay, Oxnard Shores and Channel Islands Harbor area\n  - Port Hueneme\n  - Unincorporated Hollywood Beach, Silver Strand, Rincon and the Santa Monica Mountains coast\n\n### Effect on multifamily\n- **Renovation:** ordinary repair and maintenance is often exempt. But improvements that increase intensity, add units or ADUs, change use or work near the shoreline can require a CDP. In hazard areas, cumulative remodels that replace 50%+ of a structure can be treated as **new development**, which triggers current setbacks and hazard conditions.\n- **Density bonus and ADUs** apply in the coastal zone, but must be consistent with the Coastal Act. ADUs still need a CDP or exemption.\n- **SB 9** and **SB 423 (from 2025)** reach parts of the coastal zone, with carve-outs for hazard areas.\n- **Mello Act (Gov. Code 65590):** converting or demolishing low- or moderate-income units in the coastal zone can trigger **replacement** requirements.\n- **Short-term rentals:** coastal-zone STR limits generally require LCP amendments.\n- **Sea level rise:** new LCP policies can require waiving future shoreline armoring rights and adding elevation or setbacks.\n\n### So what\nFor a beach-area purchase, confirm:\n1. Whether the site is in the coastal zone, and whether it is in appeal jurisdiction\n2. Any existing CDP conditions recorded against the property\n3. Whether planned upgrades trigger a CDP\n\nAdd 6-18 months to plans that need a CDP, and more if appealed.",
+      "keyPoints": [
+        "Coastal zone development needs a CDP; cities issue them once their LCP is certified",
+        "Coastal Commission appeal area includes land seaward of the first public road and within 300 ft of a beach",
+        "Major remodels in hazard areas can be treated as new development",
+        "Mello Act: replacement of affordable units in the coastal zone",
+        "Coastal areas: Ventura beachfront, Oxnard shores and harbor, Port Hueneme, Hollywood Beach, Silver Strand"
+      ],
+      "sources": [
+        {
+          "title": "City of Ventura - Short-Term Vacation Rentals",
+          "url": "https://www.cityofventura.ca.gov/STVR",
+          "date": "2026"
+        },
+        {
+          "title": "Citizen Portal - Port Hueneme council directs staff to revise short term rental rules",
+          "url": "https://cp.soar.com/articles/7002424/Port-Hueneme-City/Ventura-County/California/Port-Hueneme-council-directs-staff-to-revise-short-term-rental-rules-removes-separation-requirement",
+          "date": "2025-11"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Coastal Commission pages could not be fetched this session. Confirm each city's LCP certification status and appeal-jurisdiction maps on the Coastal Commission's LCP pages and city coastal zone maps. Check the specific parcel on the Commission's jurisdictional map before advising.",
+      "drills": [
+        {
+          "q": "Who issues a Coastal Development Permit once a city's LCP is certified?",
+          "choices": [
+            "Always the Coastal Commission",
+            "The city (with possible appeal to the Commission)",
+            "HCD",
+            "The county assessor"
+          ],
+          "answer": 1,
+          "explain": "After LCP certification, the local government issues CDPs. Some decisions are appealable to the Commission."
+        },
+        {
+          "q": "Which state law can require replacing affordable units demolished in the coastal zone?",
+          "choices": [
+            "Mello Act (Gov. Code 65590)",
+            "Ellis Act",
+            "SB 721",
+            "AB 1482"
+          ],
+          "answer": 0,
+          "explain": "The Mello Act requires replacement of low- and moderate-income units converted or demolished in the coastal zone, where feasible."
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "summary": "Every Ventura County city had to rezone, or show adequate sites, for its 2021-2029 RHNA targets. The resulting opportunity sites are mostly commercial corridors, shopping centers, downtown specific plans and underused church or office parcels, now zoned around 20-30+ du/ac. I couldn't pull the site lists this session, so treat specifics as to-be-verified.",
+      "answer": "### Where to find the sites\nEach city's **2021-2029 (6th cycle) housing element** includes:\n- A **sites inventory**, by APN, with zoning, allowed density, realistic capacity and income category\n- A **rezoning program** for any shortfall\n\nRezones were generally due within about 1-3 years of the October 2021 deadline. Sites rezoned for a lower-income shortfall usually get **by-right** approval for projects with 20%+ affordable units (Gov. Code 65583.2(h)-(i)).\n\nSources:\n- HCD's **Housing Element Download Tool** for the adopted elements\n- HCD **Annual Progress Reports** for rezoning completion\n- Each city's planning page, usually under \"housing element implementation\" or \"rezoning program\"\n\n### Typical opportunity-site patterns\nThese are typical patterns, not verified site lists:\n- **Oxnard:** downtown and corridor mixed-use, aging retail centers. Oxnard had the largest RHNA in the county.\n- **Ventura:** Westside and downtown form-based districts, Victoria Avenue and Thompson Blvd corridors, older shopping centers.\n- **Thousand Oaks:** Thousand Oaks Boulevard and Rancho Conejo / Hillcrest-area commercial and office sites.\n- **Simi Valley:** Los Angeles Avenue and Tapo Street corridors.\n- **Camarillo, Moorpark, Santa Paula:** specific-plan areas and underused commercial sites.\n\n### Why it matters to an existing owner\n- **New competition:** rezoned sites near your asset can add supply, often with density bonus.\n- **Your own parcel:** a commercial or church site you own (or a neighbor owns) may now allow 20-30+ du/ac **by right**. That is land value worth flagging to sellers.\n- **\"No net loss\" (Gov. Code 65863):** if a city approves a site at lower density, it must find replacement capacity, which sometimes prompts more rezoning.\n\n### Action\nFor your target cities, download the sites inventory spreadsheet and map it against the client's holdings and comps.",
+      "keyPoints": [
+        "6th-cycle (2021-2029) housing elements include parcel-level sites inventories",
+        "Lower-income shortfall rezones generally allow by-right approval for 20%+ affordable projects",
+        "Opportunity sites are mostly corridors, old retail and downtown plans",
+        "No-net-loss law (Gov. Code 65863) protects site capacity",
+        "Use the HCD Housing Element Download Tool and APRs"
+      ],
+      "sources": [
+        {
+          "title": "CA HCD - Housing Elements (compliance report, APR and tracking tools)",
+          "url": "https://www.hcd.ca.gov/planning-and-community-development/housing-elements",
+          "date": "2026-08"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "Specific corridors listed are typical patterns, not verified site lists. Download each city's adopted housing element sites inventory (HCD Housing Element Download Tool) and check its APR for rezoning-program completion. Confirm RHNA totals by jurisdiction in SCAG's 6th Cycle Final RHNA Allocation.",
+      "drills": [
+        {
+          "q": "Where are a city's parcel-level housing opportunity sites listed?",
+          "choices": [
+            "The general plan circulation element",
+            "The housing element sites inventory",
+            "The SOAR measure",
+            "The Coastal Act"
+          ],
+          "answer": 1,
+          "explain": "The housing element sites inventory lists parcels, zoning, density and capacity."
+        },
+        {
+          "q": "What does 'no net loss' (Gov. Code 65863) require?",
+          "choices": [
+            "Cities must replace site capacity if they approve sites at lower density than planned",
+            "Landlords cannot reduce rents",
+            "No ADU can be demolished",
+            "Cities cannot lose population"
+          ],
+          "answer": 0,
+          "explain": "If capacity drops below what's needed for remaining RHNA, the city must identify replacement sites."
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "summary": "Water is a real constraint in Ventura County. There are four main supply systems: Casitas (Ventura River and Ojai, mostly local supply), Calleguas (imported State Water for southeastern cities), United Water and the Fox Canyon groundwater agency (Oxnard Plain and Santa Clara Valley), and the City of Ventura's own system. Will-serve letters and offset fees, not formal moratoria, are what usually bite.",
+      "answer": "| Supplier / area | Source | What to watch |\n|---|---|---|\n| **Casitas MWD**: Ojai Valley, western Ventura, Ventura River area | Lake Casitas plus local groundwater; no state imports | Drought stages (the district has a Stage 1 framework), allocation rules, lake level; supply depends on local rain |\n| **Calleguas MWD**: southeastern county (Thousand Oaks, Simi Valley, Camarillo, Moorpark, Oxnard in part, Port Hueneme) | Imported **State Water Project** via Metropolitan WD, plus local water; about **615,000 people through 19 retail purveyors** | SWP allocation cuts in drought; Water Shortage Contingency Plan (2025) |\n| **United Water Conservation District / Fox Canyon GMA**: Oxnard Plain, Santa Paula, Fillmore, Piru | Santa Clara River diversions and groundwater recharge | Fox Canyon limits on groundwater extraction; seawater intrusion on the Oxnard Plain |\n| **City of Ventura (Ventura Water)** | Ventura River, Lake Casitas, groundwater; working on State Water access and potable reuse | New development may need to offset its water demand; check current city rules |\n\n### Development effects\n- **Will-serve letters:** developers need a commitment from the retail purveyor. In drought, some districts slow new connections or require **offsets**: paying for conservation or supply elsewhere to cover the new demand.\n- **SB 610 / SB 221:** projects of 500+ units need a formal **water supply assessment** or verification.\n- **Capacity and connection fees** can be large per unit.\n- **ADUs** are generally exempt from new connection fees in some cases (conversions), and get proportional fees otherwise.\n\n### So what\nBefore underwriting new units or ADUs:\n1. Identify the retail water purveyor for the parcel. It is often not the city.\n2. Get its current drought stage and connection policy, and the capacity fee.\n3. In Ojai and western Ventura, factor in Casitas's dependence on local rain.\n\nFor existing buildings, also check drought-stage limits on landscaping and the cost of submetering.",
+      "keyPoints": [
+        "Casitas MWD: Lake Casitas plus local water, no state imports; drought-stage framework",
+        "Calleguas MWD: imported SWP water; about 615,000 people through 19 purveyors in SE Ventura County",
+        "United Water and Fox Canyon GMA: Oxnard Plain groundwater limits",
+        "Ventura Water: local supplies; new development may need demand offsets",
+        "500+ unit projects need an SB 610/SB 221 water supply assessment"
+      ],
+      "sources": [
+        {
+          "title": "Calleguas Municipal Water District - home",
+          "url": "https://www.calleguas.com/",
+          "date": "2026-10"
+        },
+        {
+          "title": "Casitas Municipal Water District - home (lake level, allocation, Stage 1 drought pages)",
+          "url": "https://www.casitaswater.gov/",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Check Casitas's current drought stage and lake level (casitaswater.gov) and Calleguas's 2025 Water Shortage Contingency Plan. Confirm the City of Ventura's current rules for new-development water offsets and the status of its State Water interconnection on the Ventura Water site. Verify Fox Canyon GMA extraction rules and the list of Calleguas member purveyors.",
+      "drills": [
+        {
+          "q": "Which district imports State Water Project supplies for southeastern Ventura County?",
+          "choices": [
+            "Casitas MWD",
+            "Calleguas MWD",
+            "United Water Conservation District",
+            "Ojai Basin GMA"
+          ],
+          "answer": 1,
+          "explain": "Calleguas wholesales imported SWP water (via Metropolitan) to about 615,000 people through 19 purveyors."
+        },
+        {
+          "q": "Which supply is most exposed to local rainfall because it has no state imports?",
+          "choices": [
+            "Calleguas",
+            "Casitas (Lake Casitas)",
+            "Metropolitan WD",
+            "Los Angeles DWP"
+          ],
+          "answer": 1,
+          "explain": "Casitas relies on Lake Casitas and local water, so local drought directly affects supply."
+        },
+        {
+          "q": "Projects of what size need an SB 610 water supply assessment?",
+          "choices": [
+            "5+ units",
+            "50+ units",
+            "500+ units",
+            "Any ADU"
+          ],
+          "answer": 2,
+          "explain": "SB 610 / SB 221 apply to residential projects of 500 or more units."
+        }
+      ]
+    }
+  ]
+}

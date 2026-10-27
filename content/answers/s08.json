@@ -1,0 +1,827 @@
+{
+  "section": 8,
+  "answers": [
+    {
+      "id": 105,
+      "summary": "Agency small-loan money is pricing roughly 6.4% to 7.1% on a 10-year fixed as of late October 2026, depending on leverage. That's about 1.5 to 2.2 points over a 10-year Treasury sitting near 5%. Fannie Small covers $1M to $9M. In April 2026 Freddie replaced its SBL program with Conventional Small, which runs $2M to $10M.",
+      "answer": "### Where rates are\nGreystone's August 11, 2026 sheet priced **Fannie Mae Small** 10-year fixed loans at spreads of **176–216 bps** at 80% LTV/1.25x, **156–196** at 65%/1.35x and **146–176** at 55%/1.55x. The 10-year Treasury was 4.69% that day. It then climbed to about 5.1–5.2% in mid-October and was **4.96% on Oct. 22, 2026**. The same spreads on today's index work out to roughly:\n\n| Leverage tier | 10-yr fixed, est. late Oct 2026 |\n|---|---|\n| 80% / 1.25x | ~6.7%–7.1% |\n| 65% / 1.35x | ~6.5%–6.9% |\n| 55% / 1.55x | ~6.4%–6.7% |\n\nFreddie small pricing on the same August sheet was similar: **6.40%–7.05%** for a 10-year fixed at 80%. These are estimates. Spreads move weekly, so get a live quote.\n\n### Program terms\n| | Fannie Mae Small | Freddie Optigo Conventional Small |\n|---|---|---|\n| Loan size | $1M–$9M | Generally $2M–$10M |\n| Property | 5+ units | 5–50 units, mostly market-rate |\n| Terms | 5–30 yr fixed | 5, 7, 10, 12, 15 yr |\n| Amortization | 30 yr | 30 yr max |\n| Max LTV / min DSCR | 80% (75% cash-out) / 1.25x | tiers; ~80%/1.25x top tier |\n| Prepay | Yield maintenance or step-down | YM, then 2-yr lockout, then defeasance; step-down costs extra |\n| Recourse | Non-recourse w/ carve-outs | Non-recourse w/ carve-outs |\n\nFreddie's **Conventional Small replaced the Small Balance Loan (SBL) program on April 15, 2026**. Liquidity is not the problem: FHFA set 2026 caps at **$88B per agency**, and workforce-housing loans don't count against them.\n\n### So what\nPrice is driven by size. Fannie's larger *conventional* loans priced about 50 bps tighter on spread than Small loans (10-yr spread 112–142 at 80% on Sept. 1). For most Ventura County 5–40 unit deals, the binding limit is DSCR, not LTV (see Q108).",
+      "keyPoints": [
+        "Fannie Small: $1M–$9M, 5+ units, up to 80% LTV (75% cash-out), 1.25x min DSCR, non-recourse",
+        "Freddie replaced SBL with Optigo Conventional Small on 4/15/2026: generally $2M–$10M, 5–50 units",
+        "Aug 11, 2026 Fannie Small 10-yr spread: 176–216 bps at 80%/1.25x over the 10-yr Treasury",
+        "10-yr Treasury: 4.69% (Aug 11) to ~4.96% (Oct 22, 2026); implied 10-yr agency small rate ~6.4%–7.1%",
+        "FHFA 2026 caps: $88B per agency, workforce housing excluded"
+      ],
+      "sources": [
+        {
+          "title": "Greystone - Small Loan Rates (Fannie Mae Small / Freddie Mac small), rates updated 08/11/2026",
+          "url": "https://www.greystone.com/wp-content/uploads/2026/08/Small-Rates_2026.08.11.pdf",
+          "date": "2026-08"
+        },
+        {
+          "title": "Greystone - Conventional Today's Pricing, rates updated 09/01/2026",
+          "url": "https://www.greystone.com/wp-content/uploads/2026/09/Conventional_TodaysPricing_090126.pdf",
+          "date": "2026-09"
+        },
+        {
+          "title": "Greystone - Fannie Mae Small Mortgage Loans term sheet",
+          "url": "https://www.greystone.com/wp-content/uploads/2024/04/Greystone-Fannie-Mae-Small-Mortgage-Loans-Term-Sheet.pdf",
+          "date": "2025-03"
+        },
+        {
+          "title": "Freddie Mac Multifamily - Optigo Conventional Small product sheet",
+          "url": "https://mf.freddiemac.com/docs/conventional_small.pdf",
+          "date": "2026-04"
+        },
+        {
+          "title": "Freddie Mac - Multifamily announces launch of integrated Conventional Small product",
+          "url": "https://freddiemac.gcs-web.com/news-releases/news-release-details/freddie-mac-multifamily-announces-launch-integrated-conventional",
+          "date": "2026-04"
+        },
+        {
+          "title": "Fannie Mae - Expands rental supply with nearly $74 billion in 2025 volume (small loan definition footnote)",
+          "url": "https://www.fanniemae.com/newsroom/fannie-mae-news/fannie-mae-expands-rental-supply-nearly-74-billion-volume-2025",
+          "date": "2026-02"
+        },
+        {
+          "title": "FHFA - 2026 multifamily loan purchase caps for Fannie Mae and Freddie Mac",
+          "url": "https://www.fhfa.gov/news/news-release/u.s.-federal-housing-announces-2026-multifamily-loan-purchase-caps-for-fannie-mae-and-freddie-mac",
+          "date": "2025-11"
+        },
+        {
+          "title": "CrowdfundedWealth - Treasury par yields, October 22, 2026 (citing U.S. Treasury data)",
+          "url": "https://www.crowdfundedwealth.com/articles/treasury-tips-ladder-rungs-after-tax-fdic-cd-limit-2026",
+          "date": "2026-10"
+        },
+        {
+          "title": "FRED (St. Louis Fed) - 10-Year Treasury Constant Maturity (DGS10)",
+          "url": "https://fred.stlouisfed.org/graph/?g=1q06w",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "The late-October rates are estimates: August 2026 spreads applied to the Oct. 22 Treasury. Before quoting a client, pull a current sheet from Greystone or another Fannie Small or Freddie Optigo lender, and check the 10-year on FRED (DGS10) or Treasury's daily par yield curve. Ventura County's 'market designation' (standard vs. strong) moves the spread.",
+      "drills": [
+        {
+          "q": "Which Freddie Mac product replaced the Small Balance Loan (SBL) program in April 2026?",
+          "choices": [
+            "Targeted Affordable Small",
+            "Freddie Mac Bridge Lite",
+            "Optigo Conventional Small",
+            "Freddie Mac SBL 2.0"
+          ],
+          "answer": 2,
+          "explain": "Freddie folded small-balance lending into its core platform as Optigo Conventional Small (generally $2M–$10M) on April 15, 2026."
+        },
+        {
+          "q": "What is the maximum Fannie Mae Small loan amount nationwide?",
+          "choices": [
+            "$10 million",
+            "$6 million",
+            "$7.5 million",
+            "$9 million"
+          ],
+          "answer": 3,
+          "explain": "Fannie defines Small Mortgage Loans as $9M or less nationwide. It raised the cap from $6M in 2023."
+        },
+        {
+          "q": "In August 2026, Fannie Small 10-year spreads at 80%/1.25x were 176–216 bps. If the 10-year Treasury is 4.96%, the all-in rate is roughly:",
+          "choices": [
+            "5.7%–6.1%",
+            "6.7%–7.1%",
+            "7.5%–7.9%",
+            "4.96% flat"
+          ],
+          "answer": 1,
+          "explain": "4.96% + 1.76% = 6.72% and 4.96% + 2.16% = 7.12%, so about 6.7%–7.1%."
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "summary": "I couldn't confirm a deep bench of local banks with posted multifamily terms. The confirmed names are American Riviera Bank, which opened a Ventura lending center in January 2026 and has a 5+ unit multifamily book, and Mechanics Bank, which runs a California multifamily lending group. Expect relationship-driven terms: deposits, often recourse, and lower leverage than agency loans.",
+      "answer": "### Who is confirmed active\n- **American Riviera Bank** (Santa Barbara-based). Opened a **Ventura Lending Center at 1280 S. Victoria Ave.** in January 2026, focused on CRE, construction and real estate investors. It later bought the adjacent 1220 S. Victoria property for a full-service branch. Call-report data shows **$89.5M of 5+ unit multifamily loans, 8.2% of its loan book**, as of 3/31/2026. That figure is bank-wide.\n- **Mechanics Bank** (Walnut Creek). Lists multifamily lending and has expanded its multifamily lending team. In December 2025 it agreed to **sell its Fannie Mae DUS business to Fifth Third**, so for agency execution ask Fifth Third. Mechanics itself now lends from its own balance sheet.\n- **Chase** runs a dedicated multifamily lending program and is a long-standing small-apartment lender in California.\n- **Community West Bank** has Ventura County branches and merged with Central Valley Community Bank in April 2024. I found no confirmation of its current multifamily appetite. Call before putting it on a list.\n- **Montecito Bank & Trust**: no evidence found of Ventura County multifamily lending.\n\n### Typical bank terms (verify per lender)\nIndustry sources describe 2026 banks as **selective and relationship-driven**. They compete hard when the sponsor brings deposits. Compared with agency loans, bank loans usually mean:\n- **Recourse** (full or partial) and a **larger down payment**\n- Hybrid fixed periods (often 5–10 years) on 25–30 year amortization\n- Lighter third-party reports, faster close, and more flexible prepayment, often step-downs\n- Pricing at or slightly above agency, with relationship discounts\n\n### So what\nFor a $1M–$3M loan, a local bank or credit union often beats the agencies on cost and speed. Fannie Small starts at $1M, and Freddie's floor is $2M. Keep a short list of lenders you've closed with. Banks change their appetite every quarter.",
+      "keyPoints": [
+        "American Riviera Bank opened a Ventura Lending Center (1280 S. Victoria Ave.) in January 2026",
+        "ARB had $89.5M in 5+ unit multifamily loans (8.2% of loans) at 3/31/2026",
+        "Mechanics Bank sold its Fannie DUS business line to Fifth Third (announced Dec 2025)",
+        "Banks in 2026 are selective and relationship-driven: expect deposits, recourse and lower leverage than agency"
+      ],
+      "sources": [
+        {
+          "title": "American Riviera Bank - Expands with Ventura Lending Center",
+          "url": "https://americanriviera.bank/blog/american-riviera-bank-expands-with-ventura-lending-center",
+          "date": "2025-12"
+        },
+        {
+          "title": "Visbanking - American Riviera Bank call report loan mix (Q1 2026)",
+          "url": "https://visbanking.com/call-report/american-riviera-bank-reports-3388482/loans",
+          "date": "2026-03"
+        },
+        {
+          "title": "Stock Titan - Mechanics Bank agrees to sell Fannie Mae DUS business to Fifth Third",
+          "url": "https://www.stocktitan.net/news/FITB/mechanics-bank-agrees-to-sell-fannie-mae-delegated-underwriting-and-bbnkz7vmtfuz.html",
+          "date": "2025-12"
+        },
+        {
+          "title": "RE Capital News - Mechanics Bank hires five to boost California multifamily business",
+          "url": "https://recapitalnews.com/norcal-mechanics-bank-snags-top-notch-lenders-aims-for-regional-multifamily",
+          "date": ""
+        },
+        {
+          "title": "Chase - Multifamily lending",
+          "url": "https://www.chase.com/mfl",
+          "date": ""
+        },
+        {
+          "title": "Business Wire - Central Valley Community Bancorp and Community West Bancshares to merge",
+          "url": "https://www.businesswire.com/news/home/20231010680330/en/Central-Valley-Community-Bancorp-and-Community-West-Bancshares-to-Merge",
+          "date": "2023-10"
+        },
+        {
+          "title": "ConnectCRE - 2026 Multifamily Capital Markets Map: Where Liquidity Is and Isn't Flowing",
+          "url": "https://www.connectcre.com/stories/2026-multifamily-capital-markets-map-where-liquidity-is-and-isnt-flowing/",
+          "date": "2026-01"
+        },
+        {
+          "title": "Multifamily.loans - Multifamily loans in Ventura, California (lender-type guide)",
+          "url": "https://www.multifamily.loans/guides/california/ventura/",
+          "date": ""
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "I found no posted multifamily rate sheets for local banks. Call American Riviera Bank's Ventura lending center, Mechanics Bank, Community West Bank, Montecito Bank & Trust and Chase Multifamily for current 5+ unit terms: max LTV, DSCR, fixed periods, recourse, prepay and deposit requirements. Also check the FDIC call-report loan mix for any bank you're vetting.",
+      "drills": [
+        {
+          "q": "Where did American Riviera Bank open its first Ventura County lending center in early 2026?",
+          "choices": [
+            "S. Victoria Ave., Ventura",
+            "Thousand Oaks Blvd.",
+            "Main St., Santa Paula",
+            "Oxnard Blvd., Oxnard"
+          ],
+          "answer": 0,
+          "explain": "The lending center is at 1280 S. Victoria Avenue in Ventura. The bank later bought the adjacent 1220 S. Victoria property for a branch."
+        },
+        {
+          "q": "Compared with agency loans, bank multifamily loans typically involve:",
+          "choices": [
+            "Mandatory 40-year amortization",
+            "Non-recourse and higher leverage",
+            "Recourse and a larger down payment",
+            "No prepayment flexibility at all"
+          ],
+          "answer": 2,
+          "explain": "Lender guides note that bank and credit union loans often require recourse and a larger down payment than agency loans."
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "summary": "CU SoCal is the clearest confirmed credit union lender. It finances multifamily apartment buildings across Southern California, with up to 30-year amortization and interest-only options. Logix FCU also lists multifamily. Watch the geography, though: Orange County's CU, for example, only lends in OC, LA, Riverside and San Bernardino counties.",
+      "answer": "### Confirmed active\n- **CU SoCal (Credit Union of Southern California).** Its investment-property page lists **multifamily apartment buildings**, 2–4 unit properties, mixed-use and other CRE in Southern California. Terms: **up to 30-year amortization, up to 15-year term**, interest-only on multifamily, no points, funding in as little as **45 days**. Its posted rates (effective 10/27/2026) were **5/1 ARM 4.85% APR, 7/1 ARM 4.99%, 10-year fixed 5.125%**. Those sit below where agency debt prices, so expect relationship, leverage or credit conditions. Confirm before you quote them.\n- **Logix FCU** (Burbank area). Its CRE program lists **multifamily** among eligible property types and advertises up to **70% financing** on investment CRE. 1–4 unit investor loans run through its mortgage side.\n\n### Check geography first\n**Orange County's Credit Union** runs a defined 5+ unit program: **$500K–$7.5M, 1.20–1.25x DSCR, 680 FICO, full recourse, no prepayment penalty**. It is **limited to Orange, LA, Riverside and San Bernardino counties**, so it doesn't reach Ventura. Many CUs work this way, which is why you should always ask \"do you lend in Ventura County?\"\n\n**Ventura County Credit Union** is a licensed local CU (Ventura). I found no published 5+ unit multifamily program, so call before listing it.\n\n### How CU loans differ\n- Usually **portfolio loans**: recourse, shorter fixed periods, and often light or no prepayment penalties\n- Business lending is limited by regulatory caps, so large loans may be shared as participations\n- Fast, simple execution for $500K–$5M loans. That makes CUs a good fit for 5–20 unit Ventura buildings and for 2–4 unit blanket loans\n\n### So what\nFor a seller with a small building and a buyer who wants flexibility, such as no prepay penalty or interest-only, a CU quote is worth getting next to the Fannie Small quote.",
+      "keyPoints": [
+        "CU SoCal finances multifamily in SoCal: up to 30-yr amortization, up to 15-yr term, IO available, ~45-day funding",
+        "CU SoCal posted (10/27/2026): 5/1 ARM 4.85% APR, 7/1 4.99%, 10-yr fixed 5.125%; verify conditions",
+        "Logix FCU lists multifamily in its CRE program, up to 70% financing",
+        "Orange County's CU 5+ program ($500K–$7.5M, 1.20–1.25x, full recourse, no prepay) excludes Ventura County",
+        "CU loans are typically portfolio, recourse loans with flexible or no prepayment penalties"
+      ],
+      "sources": [
+        {
+          "title": "CU SoCal - Investment property loans (posted rates effective 10/27/2026)",
+          "url": "https://www.cusocal.org/loans/investment-property-loans/",
+          "date": "2026-10"
+        },
+        {
+          "title": "Logix Federal Credit Union - Commercial real estate loans",
+          "url": "https://www.logixbanking.com/business/commercial-real-estate",
+          "date": ""
+        },
+        {
+          "title": "Orange County's Credit Union - Multifamily financing",
+          "url": "https://prod.orangecountyscu.org/products/business-services/commercial-real-estate-lending/Multifamily-Financing",
+          "date": ""
+        },
+        {
+          "title": "California DFPI - Ventura County Credit Union license record",
+          "url": "https://dfpi.ca.gov/regulated_entity/ventura-county-credit-union/",
+          "date": ""
+        },
+        {
+          "title": "Multifamily.loans - Multifamily loans in Ventura, California (lender-type guide)",
+          "url": "https://www.multifamily.loans/guides/california/ventura/",
+          "date": ""
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "CU SoCal's posted rates are below agency pricing and below the 5-year Treasury (4.78% on Oct 22), which looks odd. Call CU SoCal commercial lending to confirm LTV, loan size, prepay, membership and deposit requirements, and that it lends in Ventura County. Ask Ventura County CU and Logix whether they do 5+ unit loans in Ventura County.",
+      "drills": [
+        {
+          "q": "Why can't a Ventura County apartment owner use Orange County's Credit Union multifamily program?",
+          "choices": [
+            "It only does owner-occupied loans",
+            "It requires 1.75x DSCR",
+            "Its minimum loan is $10 million",
+            "It only lends in Orange, LA, Riverside and San Bernardino counties"
+          ],
+          "answer": 3,
+          "explain": "OCCU's multifamily page limits eligible properties to Orange, Los Angeles, Riverside and San Bernardino counties."
+        },
+        {
+          "q": "Which feature is CU SoCal's investment property program advertised to offer on multifamily loans?",
+          "choices": [
+            "90% LTV",
+            "Interest-only periods",
+            "Non-recourse with defeasance",
+            "40-year fixed rate"
+          ],
+          "answer": 1,
+          "explain": "CU SoCal says interest-only periods are available on its Multifamily and 1–4 Unit Blanket loans."
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "summary": "On paper the agencies go to 80% LTV at 1.25x DSCR. In Ventura County, cap rates sit below loan rates, so DSCR limits the loan first and most buyers end up at roughly 50% to 60% LTV. Banks and credit unions typically want 1.20x to 1.25x and 60% to 70% leverage.",
+      "answer": "### Headline limits (2026)\n| Lender type | Max LTV | Min DSCR |\n|---|---|---|\n| Fannie Small | 80% (75% cash-out) | 1.25x |\n| Freddie Conventional Small | tiered (80%/1.25x top tier on lender grids) | 1.25x+ |\n| Freddie Conventional (large) | 65%/1.25x, 60%/1.30x, 55%/1.35x tiers | |\n| Banks / CUs | ~60%–75% | 1.20x–1.25x (e.g., OCCU) |\n| DSCR loans (1–4 units) | ~70%–75% | ~1.0x; 1.20x+ prices better |\n\nLender grids also price by tier. On Greystone's August 2026 small sheet, dropping from **80%/1.25x to 55%/1.55x** cut the rate by about **30 bps**.\n\n### Why DSCR limits the loan before LTV\nMax LTV under a DSCR test = cap rate ÷ (DSCR × loan constant).\n\nAt a **5.25% cap**, **6.75% rate** and 30-year amortization (loan constant **7.78%**), a 1.25x test gives:\n\n5.25 ÷ (1.25 × 7.78) = **about 54% LTV**\n\nSo the \"80% loan\" turns into a 54% loan. The buyer brings about 46% equity, or negotiates price. Interest-only periods and lower-leverage pricing tiers help a little.\n\nLenders also use **their own underwritten NOI**, not the broker's pro forma: in-place rents (Q109), a vacancy factor, actual insurance quotes (Q111), and replacement reserves. Underwritten NOI is often several percent below the seller's number.\n\n### So what\n- Ask for a lender sizing early. Make the OM's NOI match how a lender will underwrite it.\n- Buyers needing high leverage (1031 replacement debt, thin equity) may need a bank with recourse, seller carry (Q113) or mezzanine debt.\n- A cap rate below the loan rate is **negative leverage**: each dollar of debt lowers the cash-on-cash return.",
+      "keyPoints": [
+        "Agency small: 80% max LTV (75% cash-out), 1.25x min DSCR",
+        "Max LTV under DSCR = cap rate ÷ (DSCR × loan constant)",
+        "5.25% cap, 6.75% rate, 30-yr amortization (7.78% constant), 1.25x: about 54% LTV",
+        "Lenders size on underwritten in-place NOI with vacancy, actual insurance and reserves",
+        "Banks/CUs commonly 1.20x–1.25x DSCR"
+      ],
+      "sources": [
+        {
+          "title": "Greystone - Small Loan Rates (Fannie Mae Small / Freddie Mac small), rates updated 08/11/2026",
+          "url": "https://www.greystone.com/wp-content/uploads/2026/08/Small-Rates_2026.08.11.pdf",
+          "date": "2026-08"
+        },
+        {
+          "title": "Greystone - Fannie Mae Small Mortgage Loans term sheet",
+          "url": "https://www.greystone.com/wp-content/uploads/2024/04/Greystone-Fannie-Mae-Small-Mortgage-Loans-Term-Sheet.pdf",
+          "date": "2025-03"
+        },
+        {
+          "title": "Greystone - Conventional Today's Pricing, rates updated 09/01/2026",
+          "url": "https://www.greystone.com/wp-content/uploads/2026/09/Conventional_TodaysPricing_090126.pdf",
+          "date": "2026-09"
+        },
+        {
+          "title": "Orange County's Credit Union - Multifamily financing",
+          "url": "https://prod.orangecountyscu.org/products/business-services/commercial-real-estate-lending/Multifamily-Financing",
+          "date": ""
+        },
+        {
+          "title": "Mortgage-Info - DSCR loan requirements 2026 (verified against published lender guidelines)",
+          "url": "https://mortgage-info.com/blog/dscr-loan-requirements-2026-real-estate-investor-guide",
+          "date": "2026-05"
+        },
+        {
+          "title": "ConnectCRE - 2026 Multifamily Capital Markets Map: Where Liquidity Is and Isn't Flowing",
+          "url": "https://www.connectcre.com/stories/2026-multifamily-capital-markets-map-where-liquidity-is-and-isnt-flowing/",
+          "date": "2026-01"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Ventura County cap rates move. Check current comps (see Section 5) and redo the DSCR math with a live loan quote. Confirm each bank's max LTV and DSCR directly.",
+      "drills": [
+        {
+          "q": "A building trades at a 5.25% cap. The loan rate is 6.75% on a 30-year amortization (7.78% constant) and the lender requires 1.25x. Roughly what LTV can the buyer get?",
+          "choices": [
+            "54%",
+            "40%",
+            "80%",
+            "70%"
+          ],
+          "answer": 0,
+          "explain": "5.25 ÷ (1.25 × 7.78) ≈ 0.54, so about 54%. DSCR caps the loan before the 80% LTV limit is reached."
+        },
+        {
+          "q": "What is the Fannie Mae Small maximum LTV on a cash-out refinance?",
+          "choices": [
+            "90%",
+            "65%",
+            "75%",
+            "80%"
+          ],
+          "answer": 2,
+          "explain": "The term sheet shows 75% max LTV for cash-out refis and up to 80% for qualifying loans, including acquisitions."
+        },
+        {
+          "q": "A cap rate below the mortgage rate is called:",
+          "choices": [
+            "Yield maintenance",
+            "Defeasance",
+            "Positive leverage",
+            "Negative leverage"
+          ],
+          "answer": 3,
+          "explain": "When the debt costs more than the property yields, adding leverage lowers the cash-on-cash return. That is negative leverage."
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "summary": "Nearly every lender will finance buildings with below-market or restricted rents, but they size the loan on in-place rents, not on rents you hope to reach. For deed-restricted or affordable properties, agency affordable programs and FHA often give the best terms, and some reach 90% LTV on LIHTC deals.",
+      "answer": "### The core rule\nLenders **underwrite current in-place rental income**, with no trending or credit for future rent bumps. That matters a lot in Ventura County:\n- **AB 1482** caps most covered units at 5% + CPI, max 10% a year.\n- **Oxnard's rent stabilization ordinance** (adopted 2022) caps many annual increases at **4%** and **sunsets 12/31/2030**.\n- Long-term tenants in older buildings are often 20%–40% under market.\n\nSo a building with low in-place rents gets a smaller loan, whatever the upside.\n\n### Who to call, by situation\n| Situation | Best fit |\n|---|---|\n| Stabilized, rents under market, no recorded restrictions | Fannie Small / Freddie Conventional Small, banks, CUs, all sized on in-place NOI |\n| Value-add, heavy turnover planned | Bank or CU (recourse) or debt-fund bridge; sized on in-place, with the business plan judged on how fast rents can legally reset |\n| Recorded affordability (LIHTC, regulatory agreement) | Fannie/Freddie affordable and preservation executions, FHA 223(f) |\n| Section 8 HAP contract | Fannie or FHA. *Freddie Conventional Small lists HAP contracts as ineligible* |\n\n### Affordable pricing (Greystone, Aug 11, 2026; loans over $6M–$10M)\n- Fannie **Preservation** 10-yr: about **6.03%**, 80% LTV, **1.20x**\n- Fannie/Freddie **9% LIHTC**: about 6.3%–6.5%, up to **90% LTV, 1.15x**, up to 40-yr amortization\n- **FHA 223(f)**: 5.75%–6.22% net of MIP (over $7.5M)\n\nThe agencies have a policy reason to like these deals. FHFA requires **at least 50%** of agency multifamily volume to be mission-driven, and **workforce-housing loans are excluded from the 2026 caps**.\n\n### So what\nFor a seller with a rent-controlled building, the buyer's loan, and so the price, depends on **current rents**. Show a rent roll that makes clear which units are at market and how fast units turn over. For restricted or affordable assets, steer buyers to an affordable specialist, not a generalist bank.",
+      "keyPoints": [
+        "Lenders size on in-place rents, not projected rent increases",
+        "Oxnard RSO caps many increases at 4% and sunsets 12/31/2030; AB 1482 caps at 5% + CPI (max 10%)",
+        "Fannie Preservation 10-yr was about 6.03% at 80%/1.20x (Aug 2026); 9% LIHTC up to 90% LTV/1.15x",
+        "Freddie Conventional Small treats HAP contracts as ineligible",
+        "FHFA: at least 50% of agency volume must be mission-driven; workforce housing excluded from 2026 caps"
+      ],
+      "sources": [
+        {
+          "title": "Oregon Legislature - public testimony (lender: underwrite to in-place rents)",
+          "url": "https://apps.oregonlegislature.gov/liz/2025R1/Downloads/PublicTestimonyDocument/121231",
+          "date": "2025"
+        },
+        {
+          "title": "City of Oxnard - Rent Stabilization and Tenant Protections",
+          "url": "https://www.oxnard.gov/?p=641",
+          "date": ""
+        },
+        {
+          "title": "Greystone - Affordable Rates, updated 08/11/2026",
+          "url": "https://www.greystone.com/wp-content/uploads/2026/08/Affordable-Rates_2026.08.11.pdf",
+          "date": "2026-08"
+        },
+        {
+          "title": "Freddie Mac Multifamily - Optigo Conventional Small product sheet",
+          "url": "https://mf.freddiemac.com/docs/conventional_small.pdf",
+          "date": "2026-04"
+        },
+        {
+          "title": "FHFA - 2026 multifamily loan purchase caps for Fannie Mae and Freddie Mac",
+          "url": "https://www.fhfa.gov/news/news-release/u.s.-federal-housing-announces-2026-multifamily-loan-purchase-caps-for-fannie-mae-and-freddie-mac",
+          "date": "2025-11"
+        },
+        {
+          "title": "Greystone - Small Loan Rates (Fannie Mae Small / Freddie Mac small), rates updated 08/11/2026",
+          "url": "https://www.greystone.com/wp-content/uploads/2026/08/Small-Rates_2026.08.11.pdf",
+          "date": "2026-08"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Before advising on a specific property, confirm the current terms of Oxnard's RSO and any other local ordinances (see Section 10). The affordable pricing is for larger loans (over $6M at Fannie, $10M+ at Freddie), so ask an affordable lender about small-balance affordable options.",
+      "drills": [
+        {
+          "q": "How do most lenders treat a building whose rents are 30% below market?",
+          "choices": [
+            "They underwrite to market rents",
+            "They underwrite to in-place rents",
+            "They refuse to lend",
+            "They average in-place and market rents"
+          ],
+          "answer": 1,
+          "explain": "Lenders underwrite current in-place income without trending or relying on future rents."
+        },
+        {
+          "q": "Which agency program lists Section 8 HAP-contract properties as ineligible?",
+          "choices": [
+            "Freddie Mac Conventional Small",
+            "Fannie Mae Preservation",
+            "Fannie Mae Small",
+            "FHA 223(f)"
+          ],
+          "answer": 0,
+          "explain": "Freddie's Conventional Small product sheet lists HAP contracts among its ineligible characteristics."
+        },
+        {
+          "q": "When does Oxnard's rent stabilization ordinance sunset?",
+          "choices": [
+            "12/31/2026",
+            "12/31/2028",
+            "12/31/2030",
+            "It has no sunset"
+          ],
+          "answer": 2,
+          "explain": "Oxnard's rent stabilization and just-cause ordinances both sunset on 12/31/2030."
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "summary": "Both are active in California multifamily, but they rarely play in Ventura County's typical small-building deal. Life companies want large, stabilized, low-leverage assets. Debt funds, with 275+ platforms in 2026, fill the transitional and value-add niche at higher cost.",
+      "answer": "### Life insurance companies\n- In 2026 they are **highly selective but active**, with allocations aimed at **high-quality, stabilized multifamily**, durable cash flow and **conservative leverage**.\n- Some are shifting toward **shorter-duration** loans to match their annuity business.\n- California example: in **July 2026** Slatt Capital placed a life-company loan with **PPM America** on a Novato apartment refinance: **10-year term, 30-year amortization**.\n- **Ventura County fit**: the newer, larger, institutional apartment communities in Thousand Oaks, Camarillo, Oxnard, Simi Valley and Ventura that trade to institutions. They are rarely a fit for a 1960s 12-unit building.\n\n### Debt funds and bridge lenders\n- Over **275 active platforms**. They are the main source of **transitional** money: lease-ups, value-add, recapitalizations and loans bought from other lenders.\n- They underwrite **downside protection and basis**, not aggressive rent growth. Floating rates and higher spreads than agency are typical.\n- **Bridge-to-bridge** refinancing is now common.\n- **Ventura County fit**: value-add repositions, buildings with high vacancy or deferred maintenance that agencies won't take yet, and short-fuse deals such as a 1031 buyer who must close fast.\n\n### Others in the mix\n- **CMBS** issuance rose 21% in 2025 to **$125.6B**. Good for stabilized, older-vintage assets, but underwriting is rigid and prepayment is inflexible.\n- **Banks** and **agencies** still carry most small multifamily volume (Q105–Q107).\n\n### So what\nFor a typical **5–50 unit** Ventura County listing, plan on agency, bank or CU financing. Bring in a debt-fund quote when the buyer's plan needs speed or a renovation budget. Bring in life-company money for larger, newer, low-leverage deals, where it can offer the lowest rate.",
+      "keyPoints": [
+        "Life companies: selective, stabilized assets, conservative leverage; example 10-yr/30-yr amortization loan in Novato (July 2026)",
+        "Debt funds: 275+ platforms; the main source of transitional and value-add capital",
+        "CMBS issuance rose 21% in 2025 to $125.6B",
+        "Typical Ventura County 5–50 unit deals go agency, bank or CU, not life company"
+      ],
+      "sources": [
+        {
+          "title": "ConnectCRE - 2026 Multifamily Capital Markets Map: Where Liquidity Is and Isn't Flowing",
+          "url": "https://www.connectcre.com/stories/2026-multifamily-capital-markets-map-where-liquidity-is-and-isnt-flowing/",
+          "date": "2026-01"
+        },
+        {
+          "title": "ApartmentBuildings.com - Slatt Capital arranges life company loan for Novato multifamily",
+          "url": "https://www.apartmentbuildings.com/?p=1569244",
+          "date": "2026-07"
+        },
+        {
+          "title": "REBusiness - InterFace: Multifamily finance pros on where capital providers are placing bets in 2026",
+          "url": "https://rebusinessonline.com/interface-multifamily-finance-pros-explain-where-capital-providers-are-placing-their-bets-in-2026/",
+          "date": "2026"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "I found no Ventura County-specific life-company or debt-fund loan data. Ask two or three Southern California mortgage brokers which life companies (and minimum loan sizes) and which bridge lenders have closed Ventura County multifamily in 2025–2026. CoStar or county-recorder deed-of-trust searches can show the lender on recent sales.",
+      "drills": [
+        {
+          "q": "Which lender type is described as the main source of transitional capital for lease-ups and value-add in 2026?",
+          "choices": [
+            "Fannie Mae Small",
+            "Credit unions",
+            "Life insurance companies",
+            "Debt funds"
+          ],
+          "answer": 3,
+          "explain": "ConnectCRE's 2026 map says debt funds (275+ platforms) are the primary source of transitional capital."
+        },
+        {
+          "q": "Life company lenders generally favor:",
+          "choices": [
+            "High-leverage value-add deals",
+            "Stabilized assets at conservative leverage",
+            "Ground-up construction in fire zones",
+            "Loans under $1 million"
+          ],
+          "answer": 1,
+          "explain": "Life companies are selective and favor high-quality, stabilized assets at conservative leverage."
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "summary": "Lenders still lend in fire zones, but the loan is sized on the actual insurance premium, so a premium spike cuts DSCR and loan proceeds. They need coverage that meets their replacement-cost and carrier standards, often a California FAIR Plan fire policy plus a DIC wrap. Insurance quotes have become a gating item in due diligence.",
+      "answer": "### What lenders require\n- **Hazard coverage at replacement cost** (or at least the loan amount) from acceptable carriers, plus the lender's limits on deductibles.\n- When standard carriers decline, the common fix is a **California FAIR Plan fire-only policy plus a Difference-in-Conditions (DIC) wrap** for the other perils. Lenders generally accept this if the FAIR Plan limit meets their replacement-cost or loan-amount test. Some lenders have stricter overlays for extreme-risk properties.\n- Agency multifamily loans follow detailed insurance chapters in the Fannie and Freddie guides. Check them for deductibles and seismic rules on specific deals.\n\n### How insurance hits underwriting\nInsurance is an operating expense, so **every premium dollar comes off NOI and loan proceeds**.\n- One broker-newsletter example (not a lender policy): premiums went from **$1,900 to $4,900** and **DSCR fell from 1.17 to 1.06**.\n- Some lenders **stress premiums by about +20%**.\n- The FAIR Plan has grown fast: residential policies up **151% since Sept 2022**, exposure up **234% to about $700B** (July 2026). Carriers have pulled back in wildfire areas, and owners shouldn't treat the FAIR Plan as a long-term fix.\n\n### Ventura County context\nFoothill and wildland-urban interface areas carry the most risk: Ojai, parts of Ventura's hillsides, Santa Paula, Fillmore, Camarillo/Somis, Thousand Oaks, Simi Valley and Moorpark. The 2017 Thomas Fire and the 2024 Mountain Fire near Camarillo are why buyers ask.\n\n### So what\n- **Before listing**, get the current policy, the premium history and a fresh quote. Put the actual number in the OM.\n- A buyer's lender will use a real quote. A surprise premium late in escrow can shrink the loan by a large amount and blow up the deal.\n- Hardening work, such as defensible space, Class A roofing and ember-resistant vents, can widen the carrier market.",
+      "keyPoints": [
+        "Lenders need replacement-cost coverage from acceptable carriers; FAIR Plan fire-only plus a DIC wrap is a common accepted structure",
+        "Insurance comes straight off NOI, so a premium spike shrinks the loan",
+        "Example: premium $1,900 to $4,900 cut DSCR from 1.17 to 1.06; some lenders stress premiums +20%",
+        "FAIR Plan exposure up 234% to about $700B; residential policies up 151% since Sept 2022 (July 2026)"
+      ],
+      "sources": [
+        {
+          "title": "Latent Insure - California homeowners, mortgages and wildfire zones (FAIR Plan + DIC)",
+          "url": "https://www.latentinsure.com/blog/california-homeowners-mortgage-wildfire-zone",
+          "date": ""
+        },
+        {
+          "title": "LoanFunders newsletter - Insurance shock waves and DSCR underwriting",
+          "url": "https://loanfunders.beehiiv.com/p/insurance-shock-waves-how-florida-california-premium-spikes-impact-dscr-underwriting-e710",
+          "date": ""
+        },
+        {
+          "title": "The Norris Group - California real estate update: FAIR Plan wildfire exposure hits $700 billion",
+          "url": "https://www.thenorrisgroup.com/post/fair-plan-wildfire-exposure-hits-700-billion",
+          "date": "2026-07"
+        },
+        {
+          "title": "Multi-Housing News - Safeguarding multifamily amid California's catastrophic weather",
+          "url": "https://www.multihousingnews.com/safeguarding-multifamily-housing-amid-californias-catastrophic-weather/",
+          "date": ""
+        },
+        {
+          "title": "Scotsman Guide - Wildfire risk an escalating crisis for lenders",
+          "url": "https://www.scotsmanguide.com/news/wildfire-risk-an-escalating-crisis-for-lenders/",
+          "date": ""
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "I did not find multifamily-specific Fannie or Freddie text on FAIR Plan or wildfire acceptance. Check the current Fannie Mae Multifamily Guide (property insurance chapter) and Freddie Seller/Servicer Guide, or ask the lender's insurance reviewer. Also confirm seismic or earthquake insurance triggers, and use CAL FIRE Fire Hazard Severity Zone maps for any specific property.",
+      "drills": [
+        {
+          "q": "Which structure do lenders commonly accept when standard carriers decline a fire-zone property?",
+          "choices": [
+            "California FAIR Plan fire policy plus a DIC wrap",
+            "Self-insurance by the borrower",
+            "Flood insurance only",
+            "Earthquake-only policy"
+          ],
+          "answer": 0,
+          "explain": "A FAIR Plan fire-only policy combined with a Difference-in-Conditions wrap is generally accepted if the limits meet lender requirements."
+        },
+        {
+          "q": "Why does a late-escrow insurance quote spike threaten a deal?",
+          "choices": [
+            "It voids the 1031 exchange",
+            "It changes the cap rate the county uses for property tax",
+            "It lowers NOI, which lowers DSCR and the maximum loan",
+            "It triggers yield maintenance"
+          ],
+          "answer": 2,
+          "explain": "Insurance is an operating expense, so a higher premium lowers underwritten NOI and the DSCR-limited loan."
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "summary": "2–4 unit buyers use residential financing. In Ventura County the 2026 conforming limits run up to $1,990,450 for a fourplex. Investors need about 25% down for conventional loans, 25% to 30% for DSCR loans, and pay rates in the 6s to 7s. Owner-occupants can put far less down, but must qualify on DTI with only part of the rents counted.",
+      "answer": "### Loan limits (Ventura County, 2026 conforming)\n| Units | Limit |\n|---|---|\n| 1 | $1,035,000 |\n| 2 | $1,325,000 |\n| 3 | $1,601,600 |\n| 4 | $1,990,450 |\n\nLoans above these limits are jumbo or portfolio loans.\n\n### Rates (late Oct 2026)\n- Freddie Mac's PMMS 30-year fixed averaged **7.32% on Oct. 22, 2026** (7.40% the week before; 6.19% a year earlier). That is the owner-occupied benchmark. Investment properties price higher.\n- **DSCR loans** (qualify on the property, not personal income): roughly **6.1%–7.75%** in mid-to-late 2026 lender grids. 2–4 units cost an extra 0.125–0.375 points.\n\n### Down payment and qualifying\n| Buyer | Typical down payment | Qualifying |\n|---|---|---|\n| Owner-occupant, conventional or FHA | low down payment options exist for 2–4 unit primary residences | Personal DTI; lenders count only part of the rents |\n| Investor, conventional | **~25% minimum** | Personal DTI and reserves |\n| Investor, DSCR loan | **~25%–30%** for 2–4 units | Property DSCR ~1.0x+; 1.20–1.25x prices better; credit floor ~620–680 |\n\n### The math problem\nA **$1.6M fourplex**, 25% down, **$1.2M loan at 7.5%** = about **$8,390/month** principal and interest. Add about $1,470/month of property tax at ~1.1%, plus insurance and repairs. Ventura County fourplex rents often don't cover that, so DSCR loans fall short and conventional loans lean on the borrower's income.\n\n### So what\nThe 2–4 unit market is driven by **owner-users** (house hacking with low down payments), **1031 buyers with big equity**, and **cash buyers**. When pricing a fourplex, figure out which of those buyers you're targeting. A pure investor using a DSCR loan at 7%+ usually can't pay a cap rate in the 4s.",
+      "keyPoints": [
+        "2026 Ventura County conforming limits: $1,035,000 (1 unit), $1,325,000 (2), $1,601,600 (3), $1,990,450 (4)",
+        "Freddie PMMS 30-yr fixed: 7.32% on Oct 22, 2026",
+        "Investor conventional 2–4 units: about 25% down; DSCR loans: 25%–30% down, rates ~6.1%–7.75%",
+        "$1.2M at 7.5% over 30 years = about $8,390/month P&I"
+      ],
+      "sources": [
+        {
+          "title": "Community First Mortgage - Ventura County conforming loan limits 2026",
+          "url": "https://communityfirstmortgage.com/ventura-county-conforming-loan-limits-2026/",
+          "date": "2025-11"
+        },
+        {
+          "title": "Freddie Mac - Primary Mortgage Market Survey",
+          "url": "https://www.freddiemac.com/pmms?intcmp=CWS-HP",
+          "date": "2026-10"
+        },
+        {
+          "title": "Mortgage-Info - DSCR loan requirements 2026 (verified against published lender guidelines)",
+          "url": "https://mortgage-info.com/blog/dscr-loan-requirements-2026-real-estate-investor-guide",
+          "date": "2026-05"
+        },
+        {
+          "title": "Ridge Street Capital - DSCR loan rates (2026 guide)",
+          "url": "https://ridgestreetcap.com/blog/dscr-loan-rates",
+          "date": "2026"
+        },
+        {
+          "title": "Logix Federal Credit Union - Investment property (1-4 unit) mortgages",
+          "url": "https://www.logixbanking.com/loans/mortgages/investment-properties",
+          "date": ""
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Before advising buyers, confirm current owner-occupied 2–4 unit minimum down payments (Fannie/Freddie selling guides, FHA), the share of rents counted for qualifying, and max DTI. Confirm the 2026 Ventura County limits on FHFA's conforming loan limit map. Get live investor and DSCR quotes; the figures above are lender-blog ranges.",
+      "drills": [
+        {
+          "q": "What is the 2026 conforming loan limit for a 4-unit property in Ventura County?",
+          "choices": [
+            "$1,035,000",
+            "$1,325,000",
+            "$1,601,600",
+            "$1,990,450"
+          ],
+          "answer": 3,
+          "explain": "The 2026 Ventura County limit for 4 units is $1,990,450."
+        },
+        {
+          "q": "What is the typical minimum down payment for an investor buying a 2–4 unit property with a conventional loan?",
+          "choices": [
+            "10%",
+            "25%",
+            "50%",
+            "3.5%"
+          ],
+          "answer": 1,
+          "explain": "Conventional investor loans on 2–4 units commonly require about 25% down."
+        },
+        {
+          "q": "What did Freddie Mac's PMMS 30-year fixed average on Oct. 22, 2026?",
+          "choices": [
+            "7.32%",
+            "8.10%",
+            "6.19%",
+            "6.75%"
+          ],
+          "answer": 0,
+          "explain": "PMMS showed 7.32% on Oct. 22, 2026, down from 7.40% the prior week. A year earlier it was 6.19%."
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "summary": "Seller financing is still a minority tool, but it is used more when rates are high and the seller owns free and clear, which describes many long-time Ventura County owners. It works best on small buildings: the seller earns interest and spreads the gain over time, and the buyer gets financing that banks won't match.",
+      "answer": "### Where it shows up\n- **Free-and-clear, long-held** small buildings (2–20 units), where the owner wants income more than cash today\n- Deals where **DSCR limits the bank loan** (Q108) and the buyer needs a **seller second** to fill the gap. Agency loans generally **don't allow hard subordinate debt**, so seller seconds pair with bank or CU loans, if the lender allows them\n- Buildings that are hard to finance: deferred maintenance, fire-zone insurance problems, unpermitted units, or low in-place rents\n\n### Typical structures (negotiated; not standardized)\n- Meaningful buyer down payment (often 20%–35%) so the buyer has real money at risk\n- Interest-only or 25–30 year amortization with a **5–10 year balloon**\n- Rate at or near market, often below the bank rate as a selling point\n- Deed of trust with acceleration on sale, insurance and tax impounds, and personal guaranties\n\n### Seller benefits and risks\n- **Tax**: an installment sale reports gain **as principal is received**, which spreads the capital gain over several years (Q174). Depreciation recapture taxed as ordinary income doesn't defer. Interest must meet IRS **applicable federal rate (AFR)** minimums.\n- **Risk**: if the buyer defaults, the seller may have to foreclose and take back a property in worse shape. Underwrite the buyer like a lender would.\n\n### Frequency\nI found **no current data** on seller-carry share in Ventura County. Treat it as uncommon but growing: commercial debt is still expensive versus 2021, and banks remain selective.\n\n### So what\nFor a free-and-clear owner who doesn't need all the cash, a carryback can **widen the buyer pool and support price**. Bring in the client's CPA and a real estate attorney early. Consumer lending rules can apply if the buyer is an owner-occupant of a 1–4 unit property.",
+      "keyPoints": [
+        "Most common with free-and-clear, long-held small buildings",
+        "Installment sale: gain taxed as principal is received; ordinary-income recapture doesn't defer; interest must meet AFR",
+        "Agency loans generally prohibit hard subordinate debt, so seller seconds pair with bank or CU loans",
+        "Typical structure: 20%–35% down, 5–10 year balloon (negotiated)"
+      ],
+      "sources": [
+        {
+          "title": "Taft Law - Seller financing: another option for commercial real estate",
+          "url": "https://www.taftlaw.com/news-events/law-bulletins/seller-financing-another-option-for-commercial-real-estate/",
+          "date": ""
+        },
+        {
+          "title": "Crexi - What is owner financing for commercial property",
+          "url": "https://www.crexi.com/insights/what-is-owner-financing-for-commercial-property",
+          "date": ""
+        },
+        {
+          "title": "Wiss - Commercial real estate financing that fits your deal",
+          "url": "https://wiss.com/commercial-real-estate-financing/",
+          "date": "2026-01"
+        },
+        {
+          "title": "IRS - Topic no. 705, Installment sales",
+          "url": "https://www.irs.gov/taxtopics/tc705",
+          "date": "2026"
+        },
+        {
+          "title": "Freddie Mac Multifamily - Optigo Conventional Small product sheet",
+          "url": "https://mf.freddiemac.com/docs/conventional_small.pdf",
+          "date": "2026-04"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "There's no published Ventura County seller-financing frequency. Ask local escrow officers and title reps how many recent multifamily closings had seller carrybacks, or search recorded second deeds of trust in favor of sellers. Confirm Dodd-Frank/SAFE Act rules with counsel for any 1–4 unit owner-occupied buyer. Tax treatment is educational only; the client should confirm with a CPA.",
+      "drills": [
+        {
+          "q": "Why do seller second loans rarely pair with Fannie or Freddie first mortgages?",
+          "choices": [
+            "Agencies require 100% LTV",
+            "Agencies don't lend on buildings over 10 units",
+            "Agency programs generally prohibit hard subordinate debt",
+            "Seller seconds are illegal in California"
+          ],
+          "answer": 2,
+          "explain": "Freddie's Conventional Small sheet, for example, states that hard subordinate debt is not permitted."
+        },
+        {
+          "q": "Under an installment sale, when does the seller generally report capital gain?",
+          "choices": [
+            "Only when the balloon is paid",
+            "Never, if the buyer pays interest",
+            "All in the year of sale",
+            "As principal payments are received"
+          ],
+          "answer": 3,
+          "explain": "IRS Topic 705: gain is reported as payments are received. Ordinary-income recapture is reported in the year of sale."
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "summary": "Agency loans carry yield maintenance or defeasance by default, with step-downs available for extra cost. Banks and credit unions tend to use step-downs or no penalty at all. The penalty is largest when today's rates are below the loan's note rate, so owners who financed in 2023–2024 at 6.5% to 7% may face six-figure exit costs. Selling with an assumption can avoid that.",
+      "answer": "### The structures\n| Structure | How it works | Where you see it |\n|---|---|---|\n| **Yield maintenance (YM)** | Lender is paid the present value of the interest it loses (note rate minus Treasury yield) through the term | Fannie Small default; Freddie before securitization |\n| **Defeasance** | Borrower buys Treasuries that replace the loan's cash flows | Freddie Conventional Small after the 2-year lockout; CMBS |\n| **Step-down** | Fixed percentage of balance that declines each year, e.g., 5-4-3-2-1 | Agency at extra cost; common at banks |\n| **None** | No penalty | Some CUs (e.g., OCCU) |\n\nFreddie Conventional Small: YM until securitized, then a **2-year lockout**, then defeasance, with **no premium in the final 90 days**. Fannie Small offers YM or step-down and is **assumable for a 1% fee** plus costs.\n\n### Why timing matters\nYM costs more when rates **fall** below the note rate.\n- **2021 loan at ~3.5%** with Treasuries now near 4.8%–5%: the YM formula gives about zero, and the seller usually pays only the minimum premium. That's a cheap exit.\n- **2023 loan at 6.75%**, $3M balance, 7 years left, Treasury ~4.9%: rough YM is about 1.85% × $3M a year, discounted over 7 years, or **about $320,000 (~11%)**.\n\n### Seller playbook\n- Pull the **note's prepayment rider** before you price a listing. Calculate the exit cost.\n- **Time the sale** to a step-down date, the open window (Freddie's last 90 days), or a point where YM has dropped.\n- **Market the loan assumption**. A below-market assumable rate is worth real money to buyers, and the 1% fee is cheap compared with YM.\n- Research on Fannie small loans shows **prepayments spike when penalties expire**. Expect more listings around those dates.\n\n### So what\nTwo identical buildings can need very different prices. The difference is often the seller's prepay, so build it into the net-sheet conversation on day one.",
+      "keyPoints": [
+        "Fannie Small: YM or step-down; assumable for a 1% fee",
+        "Freddie Conventional Small: YM until securitized, then 2-yr lockout, then defeasance; open the final 90 days",
+        "YM grows when market rates fall below the note rate",
+        "Example: $3M at 6.75%, 7 years left, Treasury ~4.9%: YM about $320K (~11%)",
+        "Prepayments spike when penalty periods expire"
+      ],
+      "sources": [
+        {
+          "title": "Greystone - Fannie Mae Small Mortgage Loans term sheet",
+          "url": "https://www.greystone.com/wp-content/uploads/2024/04/Greystone-Fannie-Mae-Small-Mortgage-Loans-Term-Sheet.pdf",
+          "date": "2025-03"
+        },
+        {
+          "title": "Freddie Mac Multifamily - Optigo Conventional Small product sheet",
+          "url": "https://mf.freddiemac.com/docs/conventional_small.pdf",
+          "date": "2026-04"
+        },
+        {
+          "title": "Orange County's Credit Union - Multifamily financing",
+          "url": "https://prod.orangecountyscu.org/products/business-services/commercial-real-estate-lending/Multifamily-Financing",
+          "date": ""
+        },
+        {
+          "title": "Multifamily.loans - What is defeasance and how does it work",
+          "url": "https://www.multifamily.loans/apartment-finance-blog/what-is-defeasance-and-how-does-it-work/",
+          "date": ""
+        },
+        {
+          "title": "Real Estate Economics (2020) - Early termination of small loans in the multifamily mortgage market",
+          "url": "https://ideas.repec.org/a/bla/reesec/v48y2020i4p1198-1233.html",
+          "date": "2020"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "The YM example is a simplified estimate. Real YM uses the specific note's formula, discount rate, and any minimum (often 1%). Get a payoff quote from the servicer for any listing.",
+      "drills": [
+        {
+          "q": "In which case is yield maintenance expensive?",
+          "choices": [
+            "Current Treasury yields are well above the note rate",
+            "Current Treasury yields are well below the note rate",
+            "The loan is in its open period",
+            "The loan is assumed by the buyer"
+          ],
+          "answer": 1,
+          "explain": "YM pays the lender the interest it loses. When market rates are below the note rate, that loss and the penalty are large."
+        },
+        {
+          "q": "What is the standard Freddie Conventional Small prepayment structure?",
+          "choices": [
+            "YM until securitized, then 2-year lockout, then defeasance",
+            "Flat 3% fee",
+            "5-4-3-2-1 step-down",
+            "No penalty ever"
+          ],
+          "answer": 0,
+          "explain": "Per Freddie's product sheet: YM until securitized, then a 2-year lockout, then defeasance, open the final 90 days."
+        },
+        {
+          "q": "What does a Fannie Small loan assumption typically cost?",
+          "choices": [
+            "5% of the balance",
+            "Nothing",
+            "A 1% fee plus legal and processing costs",
+            "Full yield maintenance"
+          ],
+          "answer": 2,
+          "explain": "The Greystone term sheet says loans are assumable with lender consent and a 1% fee plus costs."
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "summary": "A 50 bp move in loan rates changes how much a DSCR-limited buyer can borrow by about 5%, which moves what they can pay by about 3%. On a $5.7M building that is roughly $150K to $170K either way, before any change in cap rates. In practice, cap rates follow rates only partly and with a lag.",
+      "answer": "### Worked example (illustrative assumptions)\n- NOI **$300,000**, priced at a **5.25% cap** = **$5,714,000**\n- Loan: 30-yr amortization, **1.25x** DSCR test, base rate **6.75%** (about where 10-yr agency small debt prices with the 10-yr Treasury near 5%)\n- Buyer's equity is fixed at what the base case needs\n\n| Rate | Loan constant | Max loan (NOI ÷ 1.25 ÷ constant) | LTV at base price | Price buyer can pay |\n|---|---|---|---|---|\n| 6.25% (−50) | 7.39% | $3,248,000 | 56.8% | **$5,879,000 (+2.9%)** |\n| 6.75% (base) | 7.78% | $3,084,000 | 54.0% | $5,714,000 |\n| 7.25% (+50) | 8.19% | $2,932,000 | 51.3% | **$5,563,000 (−2.7%)** |\n\n### Cap-rate view\nIf buyers pass rate changes into cap rates:\n- **+25 bps** (5.25% to 5.50%): $300K NOI is worth $5,455,000 (**−4.5%**)\n- **−25 bps** (to 5.00%): worth $6,000,000 (**+5.0%**)\n\nCap rates usually move **less than** the full rate change and more slowly. Nationally, small multifamily cap rates averaged about **6.0% in Q2 2026** with rates near these levels. Spreads have been squeezed and negative leverage is common.\n\n### Reality check for 2026\nThe 10-year Treasury went from 4.69% (Aug 11) to around 5.1%–5.2% in mid-October, then 4.96% (Oct 22). That is a 30–50 bp swing in a few weeks. Rate locks and timing matter.\n\n### So what\n- Tell sellers: **+50 bps ≈ about 3% off what a leveraged buyer can pay**. It's more if cap rates also widen.\n- Cash and 1031 buyers with heavy equity are **less rate-sensitive**. They set the price when rates spike.\n- Suggest buyers lock early (agency **Index Lock**, rate lock at application) when markets are volatile.",
+      "keyPoints": [
+        "DSCR-limited loan sizing: ±50 bps changes max loan by about ±5%",
+        "At fixed equity, that moves the price a buyer can pay by about ±3% (about ±$150–170K on $5.7M)",
+        "±25 bps on a 5.25% cap moves value about −4.5% / +5.0%",
+        "Cap rates usually follow interest rates only partly and with a lag",
+        "10-yr UST swung 4.69% (Aug 11) to ~5.2% (mid-Oct) to 4.96% (Oct 22, 2026)"
+      ],
+      "sources": [
+        {
+          "title": "Greystone - Small Loan Rates (Fannie Mae Small / Freddie Mac small), rates updated 08/11/2026",
+          "url": "https://www.greystone.com/wp-content/uploads/2026/08/Small-Rates_2026.08.11.pdf",
+          "date": "2026-08"
+        },
+        {
+          "title": "CrowdfundedWealth - Treasury par yields, October 22, 2026 (citing U.S. Treasury data)",
+          "url": "https://www.crowdfundedwealth.com/articles/treasury-tips-ladder-rungs-after-tax-fdic-cd-limit-2026",
+          "date": "2026-10"
+        },
+        {
+          "title": "FRED (St. Louis Fed) - 10-Year Treasury Constant Maturity (DGS10)",
+          "url": "https://fred.stlouisfed.org/graph/?g=1q06w",
+          "date": "2026-10"
+        },
+        {
+          "title": "Arbor - Small Multifamily Investment Report Q3 2026",
+          "url": "https://arbor.com/research/reports/small-multifamily-investment-report-q3-2026/?acc=y",
+          "date": "2026-09"
+        },
+        {
+          "title": "Freddie Mac Multifamily - Optigo Conventional Small product sheet",
+          "url": "https://mf.freddiemac.com/docs/conventional_small.pdf",
+          "date": "2026-04"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "The example uses assumed NOI, cap rate and loan terms. Replace them with current Ventura County cap-rate comps (Section 5) and a live lender quote. The Arbor 6.0% figure is national small multifamily, not Ventura County.",
+      "drills": [
+        {
+          "q": "In the worked example, roughly what does a 50 bp rate increase do to the price a DSCR-limited buyer with fixed equity can pay?",
+          "choices": [
+            "About −10%",
+            "−50%",
+            "−0.5%",
+            "About −3%"
+          ],
+          "answer": 3,
+          "explain": "The max loan falls about 5% ($3.08M to $2.93M). With equity fixed, price falls about 2.7%, roughly 3%."
+        },
+        {
+          "q": "$300,000 NOI at a 5.50% cap is worth about:",
+          "choices": [
+            "$6,250,000",
+            "$5,455,000",
+            "$5,714,000",
+            "$6,000,000"
+          ],
+          "answer": 1,
+          "explain": "$300,000 ÷ 0.055 = $5,454,545."
+        },
+        {
+          "q": "Which buyers are least sensitive to a rate spike?",
+          "choices": [
+            "Cash and 1031 buyers with heavy equity",
+            "First-time owner-occupants",
+            "Bridge borrowers",
+            "DSCR-loan investors at max leverage"
+          ],
+          "answer": 0,
+          "explain": "Buyers using little debt are less affected by loan-rate changes."
+        }
+      ]
+    }
+  ]
+}

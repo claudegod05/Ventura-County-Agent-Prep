@@ -1,0 +1,1204 @@
+<title>Ventura Multifamily Prep</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=IBM+Plex+Mono:wght@400;500&family=Public+Sans:ital,wght@0,400..700;1,400&display=swap">
+<style>
+/* Layout: study-desk app shell. Left rail on desktop, bottom tab bar on phones; one working column of content. */
+:root {
+  --bg: #eef3f2;
+  --surface: #ffffff;
+  --surface-2: #e3ebe9;
+  --ink: #10252a;
+  --ink-2: #4b5f63;
+  --ink-3: #75898c;
+  --line: #cfdcd9;
+  --accent: #0c5a61;
+  --accent-ink: #ffffff;
+  --accent-soft: #d4e8e7;
+  --lemon: #d9a91c;
+  --lemon-soft: #f6ead0;
+  --good: #23764a;
+  --good-soft: #d9efe1;
+  --warn: #a8670f;
+  --warn-soft: #f6e6cc;
+  --bad: #ad3434;
+  --bad-soft: #f6dcdc;
+  --heat-0: #e3ebe9;
+  --heat-1: #a9d0cc;
+  --heat-2: #4f9e9a;
+  --heat-3: #0c5a61;
+  --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --body: "Public Sans", "Helvetica Neue", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --radius: 10px;
+  --rail: 232px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0c1618; --surface: #132124; --surface-2: #1a2c30; --ink: #e1ebe9; --ink-2: #a2b5b6; --ink-3: #75898b;
+    --line: #26393d; --accent: #5cbcb6; --accent-ink: #062024; --accent-soft: #163a3c; --lemon: #e7bf4c; --lemon-soft: #3a3118;
+    --good: #62c48e; --good-soft: #173528; --warn: #e2a64c; --warn-soft: #3a2b15; --bad: #e57a7a; --bad-soft: #3d1d1d;
+    --heat-0: #1a2c30; --heat-1: #1f4f50; --heat-2: #2f8580; --heat-3: #5cbcb6;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0c1618; --surface: #132124; --surface-2: #1a2c30; --ink: #e1ebe9; --ink-2: #a2b5b6; --ink-3: #75898b;
+  --line: #26393d; --accent: #5cbcb6; --accent-ink: #062024; --accent-soft: #163a3c; --lemon: #e7bf4c; --lemon-soft: #3a3118;
+  --good: #62c48e; --good-soft: #173528; --warn: #e2a64c; --warn-soft: #3a2b15; --bad: #e57a7a; --bad-soft: #3d1d1d;
+  --heat-0: #1a2c30; --heat-1: #1f4f50; --heat-2: #2f8580; --heat-3: #5cbcb6;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body {
+  background: var(--bg); color: var(--ink);
+  font: 15px/1.55 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent); }
+h1, h2, h3, h4 { font-family: var(--display); line-height: 1.15; text-wrap: balance; margin: 0; letter-spacing: -0.01em; }
+h1 { font-size: clamp(24px, 3.2vw, 32px); font-weight: 700; }
+h2 { font-size: 20px; font-weight: 650; }
+h3 { font-size: 16px; font-weight: 650; }
+p { margin: 0; }
+button, input, select, textarea { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.eyebrow { font: 500 11px/1.3 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2); }
+.muted { color: var(--ink-2); }
+.small { font-size: 13px; }
+.stack { display: flex; flex-direction: column; gap: 12px; }
+.stack-lg { display: flex; flex-direction: column; gap: 28px; }
+.row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.spread { display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.grid2 > *, .grid3 > * { min-width: 0; }
+.grid3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; }
+
+/* Shell */
+.app { display: grid; grid-template-columns: var(--rail) minmax(0, 1fr); gap: 40px; max-width: 1240px; margin: 0 auto; min-height: 100vh; }
+.rail { position: sticky; top: env(safe-area-inset-top, 0px); align-self: start; padding-block: 28px; display: flex; flex-direction: column; gap: 22px; height: 100vh; }
+.brand { display: flex; flex-direction: column; gap: 2px; }
+.brand b { font: 750 19px/1.1 var(--display); letter-spacing: -0.01em; }
+.brand span { font: 500 11px/1.3 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); }
+.nav { display: flex; flex-direction: column; gap: 2px; }
+.nav a { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 8px 10px; border-radius: 8px; color: var(--ink-2); text-decoration: none; font-weight: 500; }
+.nav a:hover { background: var(--surface-2); color: var(--ink); }
+.nav a.on { background: var(--accent-soft); color: var(--ink); }
+.nav .grp { margin-top: 10px; padding: 0 10px 4px; }
+.badge { font: 500 11px/1 var(--mono); padding: 4px 6px; border-radius: 999px; background: var(--lemon-soft); color: var(--ink); }
+.sync { margin-top: auto; font-size: 12px; color: var(--ink-2); display: flex; gap: 8px; align-items: flex-start; line-height: 1.4; }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--ink-3); flex: none; margin-top: 4px; }
+.dot.live { background: var(--good); }
+.dot.busy { background: var(--lemon); }
+.dot.off { background: var(--bad); }
+.view { padding-block: 32px 80px; min-width: 0; }
+.view > .stack-lg { max-width: 860px; }
+.tabbar { display: none; }
+.mhead { display: none; }
+.sheet { position: fixed; inset: 0; z-index: 30; background: color-mix(in srgb, var(--ink) 35%, transparent); display: flex; align-items: flex-end; }
+.sheet .nav { background: var(--surface); width: 100%; border-radius: 16px 16px 0 0; padding: 14px max(16px, env(safe-area-inset-right, 0px)) calc(14px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+
+@media (max-width: 900px) {
+  .app { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .rail { display: none; }
+  .view { padding-block: 12px calc(96px + env(safe-area-inset-bottom, 0px)); }
+  .mhead { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding-top: 14px; }
+  .mhead b { font: 750 17px/1.1 var(--display); }
+  .tabbar {
+    display: grid; grid-template-columns: repeat(5, 1fr); position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
+    background: var(--surface); border-top: 1px solid var(--line);
+    padding: 6px max(8px, env(safe-area-inset-right, 0px)) calc(6px + env(safe-area-inset-bottom, 0px)) max(8px, env(safe-area-inset-left, 0px));
+  }
+  .tabbar a, .tabbar button { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 6px 2px; font-size: 11px; font-weight: 600; color: var(--ink-2); text-decoration: none; background: none; border: 0; border-radius: 8px; }
+  .tabbar .on { color: var(--accent); background: var(--accent-soft); }
+  .tabbar svg { width: 20px; height: 20px; }
+}
+
+/* Controls */
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 9px 14px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font-weight: 600; font-size: 14px; cursor: pointer; text-decoration: none; line-height: 1.2; }
+.btn:hover { border-color: var(--ink-3); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.btn.primary:hover { filter: brightness(1.08); }
+.btn.quiet { background: transparent; border-color: transparent; color: var(--accent); padding-inline: 6px; }
+.btn:disabled { opacity: .5; cursor: default; }
+.btn.sm { padding: 6px 10px; font-size: 13px; }
+input[type=text], input[type=search], input[type=date], input[type=number], select, textarea {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 9px 11px; width: 100%; min-width: 0;
+}
+textarea { min-height: 110px; resize: vertical; line-height: 1.5; }
+label.field { display: flex; flex-direction: column; gap: 6px; font-weight: 600; font-size: 13px; }
+label.field > span.muted { font-weight: 400; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; }
+.panel.tint { background: var(--accent-soft); border-color: transparent; }
+.chip { display: inline-flex; align-items: center; gap: 5px; font: 500 11.5px/1 var(--mono); padding: 5px 8px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); white-space: nowrap; }
+.chip.m1 { background: var(--accent-soft); color: var(--ink); }
+.chip.m2 { background: var(--heat-2); color: var(--accent-ink); }
+.chip.m3 { background: var(--accent); color: var(--accent-ink); }
+.chip.good { background: var(--good-soft); color: var(--good); }
+.chip.warn { background: var(--warn-soft); color: var(--warn); }
+.chip.bad { background: var(--bad-soft); color: var(--bad); }
+.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); overflow-x: auto; }
+.tabs a { padding: 8px 12px; color: var(--ink-2); text-decoration: none; font-weight: 600; border-bottom: 2px solid transparent; margin-bottom: -1px; white-space: nowrap; }
+.tabs a.on { color: var(--ink); border-color: var(--accent); }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 9px; overflow: hidden; background: var(--surface); flex-wrap: wrap; }
+.seg button { border: 0; background: none; padding: 8px 12px; font-size: 13px; font-weight: 600; color: var(--ink-2); cursor: pointer; border-right: 1px solid var(--line); }
+.seg button:last-child { border-right: 0; }
+.seg button.on { background: var(--accent); color: var(--accent-ink); }
+
+/* Bars and heat */
+.bar { display: flex; height: 8px; border-radius: 4px; background: var(--surface-2); overflow: hidden; }
+.bar i { display: block; height: 100%; }
+.bar .b1 { background: var(--heat-1); }
+.bar .b2 { background: var(--heat-2); }
+.bar .b3 { background: var(--heat-3); }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--ink-2); }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+.tide { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 8px; }
+.tide .wk { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+.tide .days { display: grid; grid-template-columns: repeat(7, 1fr); gap: 3px; }
+.tide .d { aspect-ratio: 1; max-width: 100%; border-radius: 3px; background: var(--heat-0); }
+.tide .d.l1 { background: var(--heat-1); } .tide .d.l2 { background: var(--heat-2); } .tide .d.l3 { background: var(--heat-3); }
+.tide .d.fut { background: transparent; border: 1px dashed var(--line); }
+.tide .d.today { outline: 2px solid var(--lemon); outline-offset: 1px; }
+.tide .wk .eyebrow { font-size: 10px; }
+.tide .wk.cur .eyebrow { color: var(--ink); }
+@media (max-width: 560px) { .tide { grid-template-columns: repeat(4, minmax(0, 1fr)); row-gap: 12px; } }
+
+/* Stats */
+.stat { display: flex; flex-direction: column; gap: 4px; padding: 14px 16px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); text-decoration: none; color: var(--ink); }
+.stat b { font: 700 28px/1 var(--display); font-variant-numeric: tabular-nums; }
+.stat.hot b { color: var(--lemon); }
+a.stat:hover { border-color: var(--accent); }
+
+/* Lists */
+.qlist { display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); overflow: hidden; }
+.qrow { display: grid; grid-template-columns: 52px minmax(0, 1fr) auto; gap: 12px; align-items: start; padding: 11px 14px; border-top: 1px solid var(--line); color: var(--ink); text-decoration: none; }
+.qrow:first-child { border-top: 0; }
+.qrow:hover { background: var(--surface-2); }
+.qrow .id { font: 500 13px/1.5 var(--mono); color: var(--accent); }
+.qrow .meta { display: flex; gap: 5px; flex-wrap: wrap; justify-content: flex-end; }
+@media (max-width: 560px) { .qrow { grid-template-columns: 44px minmax(0, 1fr); } .qrow .meta { grid-column: 2; justify-content: flex-start; } }
+.sec-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding-top: 6px; }
+.secrow { display: grid; grid-template-columns: minmax(0, 1fr) 140px 54px; gap: 12px; align-items: center; padding: 7px 0; border-top: 1px solid var(--line); text-decoration: none; color: var(--ink); }
+.secrow:first-child { border-top: 0; }
+.secrow .n { font: 500 12px var(--mono); color: var(--ink-3); margin-right: 6px; }
+@media (max-width: 560px) { .secrow { grid-template-columns: minmax(0, 1fr) 80px 44px; font-size: 14px; } }
+
+/* Prose */
+.prose { max-width: 68ch; display: flex; flex-direction: column; gap: 12px; }
+.prose h3, .prose h4 { margin-top: 8px; }
+.prose ul, .prose ol { margin: 0; padding-left: 22px; display: flex; flex-direction: column; gap: 4px; }
+.prose code { font-family: var(--mono); font-size: 13px; background: var(--surface-2); padding: 1px 5px; border-radius: 4px; }
+.prose a.qref { font-family: var(--mono); font-size: 13px; }
+.tbl { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; }
+.tbl table { border-collapse: collapse; width: 100%; font-size: 13.5px; font-variant-numeric: tabular-nums; }
+.tbl th, .tbl td { text-align: left; padding: 7px 10px; border-top: 1px solid var(--line); vertical-align: top; }
+.tbl th { background: var(--surface-2); border-top: 0; font-weight: 650; }
+.summary { font-size: 17px; line-height: 1.5; padding: 16px 18px; border-radius: var(--radius); background: var(--accent-soft); max-width: 68ch; }
+.kp { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.kp li { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 8px; }
+.kp li::before { content: "▸"; color: var(--accent); font-weight: 700; }
+.sources { margin: 0; padding-left: 20px; font-size: 13.5px; display: flex; flex-direction: column; gap: 4px; overflow-wrap: anywhere; }
+.verify { border-left: 3px solid var(--warn); padding: 10px 14px; background: var(--warn-soft); border-radius: 0 8px 8px 0; font-size: 14px; }
+.verify.ok { border-left-color: var(--good); background: var(--good-soft); }
+
+/* Practice */
+.flash { min-height: 260px; display: flex; flex-direction: column; gap: 16px; padding: 24px; border-radius: 14px; background: var(--surface); border: 1px solid var(--line); }
+.flash .qtext { font: 600 21px/1.35 var(--display); text-wrap: pretty; }
+.rate { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.rate button { display: flex; flex-direction: column; gap: 2px; align-items: center; padding: 10px 6px; border-radius: 9px; border: 1px solid var(--line); background: var(--surface); cursor: pointer; font-weight: 650; }
+.rate button small { font: 400 11px var(--mono); color: var(--ink-2); }
+.rate .r0 { border-color: var(--bad); } .rate .r3 { border-color: var(--good); }
+.choices { display: flex; flex-direction: column; gap: 8px; }
+.choice { display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 10px; text-align: left; padding: 11px 14px; border-radius: 9px; border: 1px solid var(--line); background: var(--surface); cursor: pointer; line-height: 1.45; }
+.choice .k { font: 500 12px/1.6 var(--mono); color: var(--ink-3); }
+.choice:hover:not(:disabled) { border-color: var(--accent); }
+.choice.sel { border-color: var(--accent); background: var(--accent-soft); }
+.choice.ok { border-color: var(--good); background: var(--good-soft); }
+.choice.no { border-color: var(--bad); background: var(--bad-soft); }
+.choice:disabled { cursor: default; color: var(--ink); }
+.explain { font-size: 14px; padding: 10px 14px; border-radius: 8px; background: var(--surface-2); }
+.client { font: 500 19px/1.4 var(--display); padding: 18px 20px; border-radius: 14px 14px 14px 4px; background: var(--surface); border: 1px solid var(--line); max-width: 60ch; }
+.grade { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 18px; align-items: start; }
+.score { font: 750 44px/1 var(--display); font-variant-numeric: tabular-nums; }
+.score small { font: 500 12px var(--mono); display: block; color: var(--ink-2); margin-top: 6px; letter-spacing: .04em; text-transform: uppercase; }
+@media (max-width: 560px) { .grade { grid-template-columns: 1fr; gap: 10px; } }
+.progress-line { height: 4px; border-radius: 2px; background: var(--surface-2); overflow: hidden; }
+.progress-line i { display: block; height: 100%; background: var(--accent); }
+.thinking { color: var(--ink-2); font-style: italic; }
+.out { white-space: normal; }
+
+/* Weeks */
+.week { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 18px; padding: 18px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); }
+.week.cur { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.week .wn { font: 750 40px/1 var(--display); color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.week.cur .wn { color: var(--accent); }
+@media (max-width: 560px) { .week { grid-template-columns: 1fr; gap: 8px; } .week .wn { font-size: 28px; } }
+
+table.hist { width: 100%; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
+table.hist th, table.hist td { text-align: left; padding: 8px 10px; border-top: 1px solid var(--line); }
+table.hist th { font: 500 11px var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); border-top: 0; }
+
+.notice { padding: 12px 14px; border-radius: 9px; background: var(--lemon-soft); font-size: 14px; }
+.empty { padding: 28px 20px; text-align: center; border: 1px dashed var(--line); border-radius: var(--radius); color: var(--ink-2); display: flex; flex-direction: column; gap: 12px; align-items: center; }
+#toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(84px + env(safe-area-inset-bottom, 0px)); z-index: 40; background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 9px; font-size: 14px; font-weight: 600; max-width: calc(100% - 32px); }
+@media (min-width: 901px) { #toast { bottom: calc(24px + env(safe-area-inset-bottom, 0px)); } }
+.gl dt { font: 650 15px var(--display); }
+.gl dd { margin: 2px 0 14px; color: var(--ink); max-width: 68ch; }
+.kbd { font: 500 11px var(--mono); padding: 2px 5px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); }
+@media (prefers-reduced-motion: no-preference) {
+  .view > * { animation: rise .22s ease-out both; }
+  @keyframes rise { from { transform: translateY(4px); } to { transform: none; } }
+}
+</style>
+
+<div class="app">
+  <aside class="rail" aria-label="Main">
+    <div class="brand"><b>Ventura Multifamily</b><span>8-week study plan</span></div>
+    <nav class="nav" id="nav"></nav>
+    <div class="sync" id="sync"><span class="dot"></span><span>Connecting to your saved progress…</span></div>
+  </aside>
+  <main class="view" id="view"></main>
+</div>
+<nav class="tabbar" id="tabbar" aria-label="Main"></nav>
+<div id="toast" hidden></div>
+<div class="sheet" id="sheet" hidden></div>
+
+<script id="content" type="application/json">__CONTENT__</script>
+<script>
+(() => {
+'use strict';
+
+/* ---------- Content ---------- */
+const C = JSON.parse(document.getElementById('content').textContent);
+const SECTIONS = C.sections;
+const SEC = Object.fromEntries(SECTIONS.map(s => [s.n, s]));
+const QS = C.q;
+const ALL = SECTIONS.flatMap(s => s.ids);
+const GLOSSARY = C.glossary || [];
+const WEEKS = [
+  { n: 1, title: 'The map and the economy', sections: [1, 2] },
+  { n: 2, title: 'Supply and operations', sections: [3, 4] },
+  { n: 3, title: 'Pricing and debt', sections: [5, 8] },
+  { n: 4, title: 'Buyers and sellers', sections: [6, 7] },
+  { n: 5, title: 'The rules: state and local', sections: [9, 10] },
+  { n: 6, title: 'Land use and what is coming', sections: [11, 12] },
+  { n: 7, title: 'Taxes, risk, and affordable housing', sections: [13, 14, 15] },
+  { n: 8, title: 'Brokerage and client-ready answers', sections: [16, 17] },
+];
+const weekIds = w => WEEKS[w - 1].sections.flatMap(s => SEC[s].ids);
+const LEVELS = ['Not started', 'Read', 'Can explain', 'Mastered'];
+const DAY = 864e5;
+
+/* ---------- Helpers ---------- */
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const pad = n => String(n).padStart(2, '0');
+const dstr = d => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+const today = () => dstr(new Date());
+const parseD = s => { const [y, m, d] = String(s).split('-').map(Number); return new Date(y, m - 1, d); };
+const sod = (d = new Date()) => new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime();
+const addDays = (d, n) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
+const fmt = d => d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+const fmtLong = d => d.toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' });
+const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+const pct = (a, b) => b ? Math.round(a / b * 100) : 0;
+const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const stable = v => JSON.stringify(v, (k, x) => x && typeof x === 'object' && !Array.isArray(x) ? Object.keys(x).sort().reduce((o, key) => (o[key] = x[key], o), {}) : x);
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+const q = id => QS[String(id)];
+const hasA = id => !!(q(id) && q(id).a);
+
+function toast(msg) {
+  const t = $('toast'); t.textContent = msg; t.hidden = false;
+  clearTimeout(toast.t); toast.t = setTimeout(() => { t.hidden = true; }, 2600);
+}
+
+/* Minimal Markdown for drafted answers: headings, lists, tables, links, bold, italic, code, Q-references. */
+function inl(s) {
+  let h = esc(s);
+  h = h.replace(/`([^`]+)`/g, '<code>$1</code>');
+  h = h.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+  h = h.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+  h = h.replace(/(^|[^*\w])\*([^*\s][^*]*?)\*(?!\*)/g, '$1<em>$2</em>');
+  h = h.replace(/(^|[\s(;,])Q(\d{1,3})\b/g, (m, pre, n) => QS[n] ? `${pre}<a class="qref" href="#q${n}">Q${n}</a>` : m);
+  return h;
+}
+const isBlockStart = l => /^(#{1,4}\s|\s*\||\s*[-*•]\s+|\s*\d+[.)]\s+)/.test(l);
+function md(src) {
+  if (!src) return '';
+  const L = String(src).replace(/\r/g, '').split('\n'); const out = []; let i = 0;
+  const cells = r => r.trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map(c => c.trim());
+  while (i < L.length) {
+    const l = L[i];
+    if (!l.trim()) { i++; continue; }
+    let m;
+    if ((m = l.match(/^(#{1,4})\s+(.*)$/))) { const lv = m[1].length <= 2 ? 3 : 4; out.push(`<h${lv}>${inl(m[2])}</h${lv}>`); i++; continue; }
+    if (/^\s*\|/.test(l)) {
+      const rows = []; while (i < L.length && /^\s*\|/.test(L[i])) rows.push(cells(L[i++]));
+      const sep = r => r.every(c => /^:?-{2,}:?$/.test(c));
+      let head = null; if (rows.length > 1 && sep(rows[1])) { head = rows[0]; rows.splice(0, 2); }
+      const body = rows.filter(r => !sep(r));
+      out.push('<div class="tbl"><table>' + (head ? '<thead><tr>' + head.map(c => `<th>${inl(c)}</th>`).join('') + '</tr></thead>' : '') +
+        '<tbody>' + body.map(r => '<tr>' + r.map(c => `<td>${inl(c)}</td>`).join('') + '</tr>').join('') + '</tbody></table></div>');
+      continue;
+    }
+    if (/^\s*[-*•]\s+/.test(l)) { const it = []; while (i < L.length && /^\s*[-*•]\s+/.test(L[i])) it.push(L[i++].replace(/^\s*[-*•]\s+/, '')); out.push('<ul>' + it.map(x => `<li>${inl(x)}</li>`).join('') + '</ul>'); continue; }
+    if (/^\s*\d+[.)]\s+/.test(l)) { const it = []; while (i < L.length && /^\s*\d+[.)]\s+/.test(L[i])) it.push(L[i++].replace(/^\s*\d+[.)]\s+/, '')); out.push('<ol>' + it.map(x => `<li>${inl(x)}</li>`).join('') + '</ol>'); continue; }
+    const para = []; while (i < L.length && L[i].trim() && !(para.length && isBlockStart(L[i]))) para.push(L[i++]);
+    out.push(`<p>${inl(para.join(' '))}</p>`);
+  }
+  return out.join('');
+}
+
+/* ---------- State and storage ---------- */
+const S = { progress: {}, tests: {}, checkins: {}, meta: {}, activity: {}, mode: 'connecting', loaded: new Set() };
+let db = null, sample = null, downloads = null;
+const settings = () => S.meta.settings || {};
+const prog = id => S.progress['q' + id] || {};
+
+const writers = new Map();
+let inflight = 0; const waiters = [];
+async function slot() { if (inflight < 4) { inflight++; return; } await new Promise(r => waiters.push(r)); inflight++; }
+function unslot() { inflight--; const w = waiters.shift(); if (w) w(); }
+function busy() { for (const w of writers.values()) if (w.busy || w.next) return true; return false; }
+
+function save(path, body) {
+  dirty.delete(path);
+  if (!db || S.mode !== 'live') { renderSync(); return; }
+  let w = writers.get(path); if (!w) { w = { busy: false, next: null }; writers.set(path, w); }
+  w.next = body; if (!w.busy) pump(path, w);
+  renderSync();
+}
+async function pump(path, w) {
+  w.busy = true;
+  while (w.next) {
+    const body = w.next; w.next = null;
+    await slot();
+    try {
+      for (let attempt = 0; ; attempt++) {
+        try { await db.doc(path).set(body); break; }
+        catch (e) {
+          if ((e.code === 'unavailable' || e.code === 'resource_exhausted') && attempt < 3) { await sleep(700 * (attempt + 1) + Math.random() * 600); continue; }
+          if (e.code === 'revoked') { S.mode = 'off'; }
+          else if (e.code === 'quota_exceeded') toast('Storage is full. Export a backup from Setup and remove old tests.');
+          else toast('A change did not save. Check your connection; it will retry on your next change.');
+          break;
+        }
+      }
+    } finally { unslot(); }
+  }
+  w.busy = false; renderSync();
+}
+const dirty = new Set();
+function pending(path) { const w = writers.get(path); return dirty.has(path) || !!(w && (w.busy || w.next)); }
+
+function setProg(id, patch) {
+  const k = 'q' + id; const next = { ...prog(id), ...patch, u: Date.now() };
+  S.progress[k] = next; save('progress/' + k, next); bump();
+}
+function setDoc(coll, key, body) { S[coll][key] = body; save(coll + '/' + key, body); }
+
+let actTimer = null;
+function bump() {
+  const k = today(); const cur = S.activity[k] || { n: 0 };
+  S.activity[k] = { n: (cur.n || 0) + 1 };
+  dirty.add('activity/' + k);
+  clearTimeout(actTimer); actTimer = setTimeout(() => save('activity/' + k, S.activity[k]), 1500);
+}
+
+function subscribe() {
+  const colls = ['progress', 'tests', 'checkins', 'meta', 'activity'];
+  for (const name of colls) {
+    db.collection(name).onSnapshot(snap => {
+      let changed = !S.loaded.has(name);
+      for (const ch of snap.docChanges()) {
+        const id = ch.doc.id; const path = name + '/' + id;
+        if (pending(path)) continue;
+        if (ch.type === 'removed') { if (S[name][id]) { delete S[name][id]; changed = true; } continue; }
+        const d = ch.doc.data();
+        if (stable(d) !== stable(S[name][id])) { S[name][id] = JSON.parse(JSON.stringify(d)); changed = true; }
+      }
+      S.loaded.add(name);
+      if (changed) softRender();
+      renderSync();
+    }, e => {
+      S.mode = e.code === 'revoked' ? 'off' : 'error'; renderSync();
+    });
+  }
+}
+const ready = () => S.mode !== 'live' || S.loaded.size >= 5;
+
+async function initCaps() {
+  if (!window.claude || typeof window.claude.use !== 'function') { S.mode = 'off'; renderSync(); render(); return; }
+  window.claude.use('sample').then(s => { sample = s; softRender(); }).catch(() => {});
+  window.claude.use('downloads').then(d => { downloads = d; }).catch(() => {});
+  try { db = await window.claude.use('db'); } catch (e) { db = null; }
+  if (!db) { S.mode = 'off'; renderSync(); render(); return; }
+  S.mode = 'live'; renderSync(); subscribe();
+}
+
+/* ---------- Plan math ---------- */
+function plan() {
+  const st = settings().startDate;
+  const start = st ? parseD(st) : parseD(today());
+  const dayIdx = Math.round((sod() - start.getTime()) / DAY);
+  const week = clamp(Math.floor(dayIdx / 7) + 1, 1, 8);
+  const dow = clamp(dayIdx - (week - 1) * 7, 0, 6);
+  return { start, dayIdx, week, dow, set: !!st, done: dayIdx >= 56, before: dayIdx < 0 };
+}
+const weekRange = (p, w) => `${fmt(addDays(p.start, (w - 1) * 7))} – ${fmt(addDays(p.start, w * 7 - 1))}`;
+function levelCounts(ids) { const c = [0, 0, 0, 0]; ids.forEach(id => c[clamp(prog(id).m || 0, 0, 3)]++); return c; }
+function barHTML(ids) {
+  const c = levelCounts(ids), n = ids.length || 1;
+  return `<div class="bar" aria-label="${c[1] + c[2] + c[3]} of ${ids.length} started"><i class="b3" style="width:${c[3] / n * 100}%"></i><i class="b2" style="width:${c[2] / n * 100}%"></i><i class="b1" style="width:${c[1] / n * 100}%"></i></div>`;
+}
+const dueIds = () => ALL.filter(id => { const p = prog(id); return (p.m || 0) >= 1 && p.srs && p.srs.due <= Date.now(); }).sort((a, b) => prog(a).srs.due - prog(b).srs.due);
+function drillStats(ids) { let s = 0, r = 0; ids.forEach(id => { const d = prog(id).dr; if (d) { s += d.s || 0; r += d.r || 0; } }); return { s, r }; }
+function bestTest(kind, week) { const ts = Object.values(S.tests).filter(t => t.kind === kind && (kind === 'final' || t.week === week)); return ts.length ? { best: Math.max(...ts.map(t => t.score)), n: ts.length } : null; }
+function streak() {
+  let n = 0; let d = new Date();
+  if (!(S.activity[dstr(d)]?.n)) d = addDays(d, -1);
+  while (S.activity[dstr(d)]?.n) { n++; d = addDays(d, -1); }
+  return n;
+}
+
+/* ---------- Spaced repetition (SM-2, capped at 30 days for an 8-week course) ---------- */
+function schedule(srs, r) {
+  let { iv = 0, ef = 2.5, n = 0, lp = 0 } = srs || {};
+  if (r === 0) return { iv: 0, ef: Math.max(1.3, +(ef - 0.2).toFixed(2)), n: 0, lp: lp + 1, due: Date.now() + 10 * 60e3 };
+  if (r === 1) { iv = Math.max(1, Math.round((iv || 1) * 1.2)); ef = Math.max(1.3, ef - 0.15); }
+  else if (r === 2) { iv = n === 0 ? 1 : n === 1 ? 3 : Math.round(Math.max(iv, 1) * ef); }
+  else { iv = n === 0 ? 3 : n === 1 ? 5 : Math.round(Math.max(iv, 1) * ef * 1.3); ef += 0.15; }
+  iv = Math.min(iv, 30);
+  return { iv, ef: +ef.toFixed(2), n: n + 1, lp, due: sod() + iv * DAY };
+}
+const ivLabel = s => s.iv === 0 ? '10m' : s.iv + 'd';
+
+function setMastery(id, m) {
+  const p = prog(id); const patch = { m };
+  if (m >= 1 && !p.readAt) patch.readAt = today();
+  if (m >= 1 && !p.srs) patch.srs = { iv: 0, ef: 2.5, n: 0, lp: 0, due: Date.now() };
+  if (m === 0) { patch.srs = null; patch.readAt = null; }
+  setProg(id, patch);
+}
+
+/* ---------- Claude in the page ---------- */
+function sampleErr(e) {
+  const c = e && e.code;
+  if (c === 'not_granted' || c === 'sampling_disabled' || c === 'not_declared') return 'Claude is not allowed on this page. Use the page menu’s Permissions to allow it.';
+  if (c === 'rate_limited') return 'You have reached a usage limit. Try again in a little while.';
+  if (c === 'session_expired') return 'Your claude.ai session expired. Sign in again and retry.';
+  if (c === 'cancelled') return '';
+  if (c === 'prompt_too_large') return 'That answer is too long to grade. Shorten it and try again.';
+  return 'Claude could not answer just now. Try again.';
+}
+function refBlock(id) {
+  const Q = q(id), a = Q.a, p = prog(id);
+  let s = `QUESTION (Q${id}): ${Q.t}\n\n`;
+  if (a) s += `REFERENCE NOTES (drafted ${a.lastVerified || ''}, confidence ${a.confidence || 'n/a'}; figures may be approximate):\nSummary: ${a.summary}\nKey points:\n${(a.keyPoints || []).map(k => '- ' + k).join('\n')}\nFull answer:\n${a.answer}\n`;
+  if (p.my) s += `\nTHE BROKER'S OWN EDITED VERSION (treat as more current than the reference where they conflict):\n${p.my}\n`;
+  if (p.note) s += `\nTHE BROKER'S NOTES:\n${p.note}\n`;
+  return s;
+}
+async function grade(id, answer) {
+  const prompt = `You are a senior multifamily investment sales broker in Ventura County, California, coaching a broker who is building expertise in this market. Grade their answer to a client-style question against the reference notes. Judge substance, accuracy, Ventura County specificity, and whether it would satisfy a sophisticated property owner or investor. Do not penalize brevity or casual wording when the substance is there. If their answer contradicts the reference on a fact, list it as a correction, noting that the reference itself may be dated.
+
+${refBlock(id)}
+BROKER'S ANSWER:
+${answer}
+
+Reply with only JSON in this shape:
+{"score": 0-100 integer, "verdict": "Strong" | "Solid" | "Partial" | "Weak", "hits": ["up to 4 short points they got right"], "misses": ["up to 4 short important points missing"], "corrections": ["factual errors, empty if none"], "model": "a 2-4 sentence answer you would say to the client"}`;
+  const r = await sample.json(prompt, { modelTier: 'default' });
+  return {
+    score: clamp(Math.round(Number(r.score) || 0), 0, 100), verdict: String(r.verdict || ''),
+    hits: (r.hits || []).map(String).slice(0, 4), misses: (r.misses || []).map(String).slice(0, 4),
+    corrections: (r.corrections || []).map(String).slice(0, 4), model: String(r.model || ''),
+  };
+}
+function gradeHTML(g) {
+  const cls = g.score >= 80 ? 'good' : g.score >= 60 ? 'warn' : 'bad';
+  const li = (arr) => arr.length ? '<ul>' + arr.map(x => `<li>${esc(x)}</li>`).join('') + '</ul>' : '<p class="muted">None.</p>';
+  return `<div class="panel grade"><div class="score">${g.score}<small><span class="chip ${cls}">${esc(g.verdict || '')}</span></small></div>
+  <div class="stack prose"><div><h4>What landed</h4>${li(g.hits)}</div><div><h4>What was missing</h4>${li(g.misses)}</div>
+  ${g.corrections.length ? `<div><h4>Corrections</h4>${li(g.corrections)}</div>` : ''}
+  <div><h4>How a senior broker would say it</h4><p>${esc(g.model)}</p></div></div></div>`;
+}
+
+/* ---------- Views ---------- */
+const NAV = [
+  ['today', 'Today'], ['plan', 'Plan'], ['library', 'Questions'],
+  ['@Practice'], ['review', 'Flashcards'], ['quiz', 'Quiz'], ['drill', 'Client drill'],
+  ['@Check-ins'], ['tests', 'Weekly tests'], ['checkins', 'Check-ins'],
+  ['@Reference'], ['glossary', 'Glossary'], ['setup', 'Setup and backup'],
+];
+const ICONS = {
+  today: '<path d="M4 6h16M4 12h16M4 18h10" />',
+  library: '<path d="M5 4h4v16H5zM10 4h4v16h-4zM15.5 5l3.5-1 3 15-3.5 1z" />',
+  review: '<rect x="3" y="6" width="15" height="12" rx="2"/><path d="M7 3h13a1 1 0 0 1 1 1v11"/>',
+  tests: '<path d="M6 3h12v18H6z"/><path d="M9 8h6M9 12h6M9 16h3"/>',
+  menu: '<circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/>',
+};
+const icon = k => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[k]}</svg>`;
+
+function navHTML(cur) {
+  const due = dueIds().length;
+  return NAV.map(([k, label]) => k.startsWith('@') ? `<div class="grp eyebrow">${esc(k.slice(1))}</div>` :
+    `<a href="#${k}" class="${k === cur ? 'on' : ''}">${esc(label)}${k === 'review' && due ? `<span class="badge">${due}</span>` : ''}</a>`).join('');
+}
+function renderNav(cur) {
+  const group = { q: 'library', quiz: 'review', drill: 'review' }[cur] || cur;
+  $('nav').innerHTML = navHTML(cur === 'q' ? 'library' : cur);
+  const tabs = [['today', 'Today'], ['library', 'Questions'], ['review', 'Practice'], ['tests', 'Tests']];
+  $('tabbar').innerHTML = tabs.map(([k, l]) => `<a href="#${k}" class="${group === k ? 'on' : ''}">${icon(k)}${l}</a>`).join('') +
+    `<button type="button" data-act="menu" class="${['plan', 'checkins', 'glossary', 'setup'].includes(cur) ? 'on' : ''}">${icon('menu')}More</button>`;
+  if (!$('sheet').hidden) $('sheet').innerHTML = `<nav class="nav">${navHTML(cur)}</nav>`;
+}
+function renderSync() {
+  const el = $('sync'); if (!el) return;
+  let dot = '', msg = '';
+  if (S.mode === 'connecting') { msg = 'Connecting to your saved progress…'; }
+  else if (S.mode === 'live' && !ready()) { dot = 'busy'; msg = 'Loading your progress…'; }
+  else if (S.mode === 'live') { dot = busy() ? 'busy' : 'live'; msg = busy() ? 'Saving…' : 'Saved to your claude.ai account'; }
+  else if (S.mode === 'error') { dot = 'off'; msg = 'Lost the connection to saved progress. Reload the page.'; }
+  else { dot = 'off'; msg = 'Not saving here. Open this page on claude.ai to save progress.'; }
+  el.innerHTML = `<span class="dot ${dot}"></span><span>${esc(msg)}</span>`;
+}
+const mhead = () => `<div class="mhead"><b>Ventura Multifamily</b><span class="chip">${S.mode === 'live' ? (busy() ? 'Saving…' : 'Synced') : S.mode === 'connecting' ? 'Connecting' : 'Not saving'}</span></div>`;
+const offBanner = () => S.mode === 'off' || S.mode === 'error' ? `<div class="notice">Progress isn't saving in this view. Open the page on claude.ai, signed in, so your work is kept.</div>` : '';
+const mchip = m => `<span class="chip ${m ? 'm' + m : ''}">${LEVELS[m || 0]}</span>`;
+
+function qrow(id, extra = '') {
+  const Q = q(id), p = prog(id), a = Q.a;
+  const chips = [mchip(p.m || 0)];
+  if (!a) chips.push('<span class="chip">No draft</span>');
+  else if (p.ver) chips.push('<span class="chip good">Verified</span>');
+  else if (a.confidence === 'low') chips.push('<span class="chip warn">Verify</span>');
+  if (p.note) chips.push('<span class="chip">Notes</span>');
+  return `<a class="qrow" href="#q${id}"><span class="id">Q${id}</span><span>${esc(Q.t)}${extra}</span><span class="meta">${chips.join('')}</span></a>`;
+}
+
+/* Today */
+function vToday() {
+  const p = plan(), st = settings();
+  const wk = WEEKS[p.week - 1], ids = weekIds(p.week);
+  const unread = ids.filter(id => !(prog(id).m >= 1));
+  const readToday = ALL.filter(id => prog(id).readAt === today());
+  const readTodayWk = ids.filter(id => prog(id).readAt === today()).length;
+  const daysLeft = Math.max(1, 6 - p.dow);
+  const startOfDay = unread.length + readTodayWk;
+  const target = p.dow === 6 ? startOfDay : Math.ceil(startOfDay / daysLeft);
+  const remaining = Math.max(0, target - readTodayWk);
+  const behind = WEEKS.slice(0, p.week - 1).flatMap(w => weekIds(w.n)).filter(id => !(prog(id).m >= 1));
+  const due = dueIds().length;
+  const tb = bestTest('weekly', p.week);
+  const all = levelCounts(ALL); const ds = drillStats(ALL);
+  const setup = !st.startDate && ready();
+
+  let tide = '';
+  for (let w = 1; w <= 8; w++) {
+    let days = '';
+    for (let d = 0; d < 7; d++) {
+      const date = addDays(p.start, (w - 1) * 7 + d), k = dstr(date), n = S.activity[k]?.n || 0;
+      const fut = sod(date) > sod();
+      const lv = n >= 30 ? 3 : n >= 10 ? 2 : n > 0 ? 1 : 0;
+      days += `<span class="d ${fut ? 'fut' : 'l' + lv} ${k === today() ? 'today' : ''}" title="${fmtLong(date)}: ${n} study actions"></span>`;
+    }
+    tide += `<div class="wk ${w === p.week && p.set ? 'cur' : ''}"><span class="eyebrow">Wk ${w}</span><div class="days">${days}</div></div>`;
+  }
+
+  const head = !ready() ? `<div class="stack"><span class="eyebrow">Loading your progress…</span><h1>${esc(wk.title)}</h1></div>` : setup ? `<div class="stack"><span class="eyebrow">Eight weeks · 220 questions · 17 topics</span><h1>Learn the Ventura County multifamily market well enough to answer any client cold.</h1></div>
+    <div class="panel tint stack"><h2>Start your 8 weeks</h2><p>Pick the day your plan starts. Each week covers two or three topics, with a test and a check-in on day 7.</p>
+    <div class="row"><input type="date" id="start-date" value="${today()}" style="max-width:200px"><button class="btn primary" data-act="setStart">Start the plan</button></div></div>`
+    : `<div class="stack"><span class="eyebrow">${p.before ? `Starts ${fmtLong(p.start)}` : p.done ? 'Plan complete · keep reviewing' : `Week ${p.week} of 8 · Day ${p.dayIdx + 1} of 56 · ${fmtLong(new Date())}`}</span>
+      <h1>${esc(wk.title)}</h1><p class="muted">${wk.sections.map(s => `<a href="#library" data-act="filterSec" data-s="${s}">${esc(SEC[s].title)}</a>`).join(' · ')}</p></div>`;
+
+  const list = unread.slice(0, remaining);
+  return `<div class="stack-lg">${mhead()}${offBanner()}${head}
+  <div class="grid3">
+    <a class="stat ${due ? 'hot' : ''}" href="#review"><span class="eyebrow">Due flashcards</span><b>${due}</b><span class="small muted">${due ? 'Review these first' : 'All caught up'}</span></a>
+    <a class="stat" href="${list.length ? '#q' + list[0] : '#library'}"><span class="eyebrow">Read today</span><b>${readToday.length}<span class="muted" style="font-size:18px"> / ${Math.max(target, readToday.length)}</span></b><span class="small muted">${unread.length} left this week</span></a>
+    <a class="stat" href="#tests"><span class="eyebrow">Week ${p.week} test</span><b>${tb ? tb.best + '%' : '—'}</b><span class="small muted">${tb ? `${tb.n} attempt${tb.n > 1 ? 's' : ''}` : `Take it on ${fmt(addDays(p.start, p.week * 7 - 1))}`}</span></a>
+    <div class="stat"><span class="eyebrow">Streak</span><b>${streak()}<span class="muted" style="font-size:18px"> days</span></b><span class="small muted">Quiz accuracy ${ds.s ? pct(ds.r, ds.s) + '%' : '—'}</span></div>
+  </div>
+  ${behind.length ? `<div class="notice">You have ${behind.length} unread question${behind.length > 1 ? 's' : ''} from earlier weeks. <a href="#library" data-act="filterBehind">See them</a>.</div>` : ''}
+  <section class="stack"><div class="spread"><h2>Today’s reading</h2><span class="small muted">Read it, then mark how well you know it</span></div>
+    ${list.length ? `<div class="qlist">${list.map(id => qrow(id)).join('')}</div>` : unread.length ? `<div class="empty">Today’s reading is done. ${unread.length} left this week if you want to get ahead.<a class="btn" href="#q${unread[0]}">Read Q${unread[0]}</a></div>` : `<div class="empty">Every question for week ${p.week} is read.${due ? ' Clear your flashcards next.' : ''}<a class="btn" href="#quiz">Take a quiz</a></div>`}
+  </section>
+  <section class="stack"><div class="spread"><h2>Study days</h2><span class="legend"><span><i style="background:var(--heat-1)"></i>Light</span><span><i style="background:var(--heat-2)"></i>Solid</span><span><i style="background:var(--heat-3)"></i>Heavy</span></span></div><div class="tide">${tide}</div></section>
+  <section class="stack"><div class="spread"><h2>Where you stand</h2><span class="small muted mono">${all[1] + all[2] + all[3]}/220 read · ${all[2] + all[3]} can explain · ${all[3]} mastered</span></div>
+    <div class="legend"><span><i style="background:var(--heat-1)"></i>Read</span><span><i style="background:var(--heat-2)"></i>Can explain</span><span><i style="background:var(--heat-3)"></i>Mastered</span></div>
+    <div>${SECTIONS.map(s => { const c = levelCounts(s.ids); return `<a class="secrow" href="#library" data-act="filterSec" data-s="${s.n}"><span><span class="n">${pad(s.n)}</span>${esc(s.title)}</span>${barHTML(s.ids)}<span class="mono small muted" style="text-align:right">${c[1] + c[2] + c[3]}/${s.ids.length}</span></a>`; }).join('')}</div>
+  </section></div>`;
+}
+
+/* Plan */
+function vPlan() {
+  const p = plan();
+  return `<div class="stack-lg">${mhead()}<div class="stack"><span class="eyebrow">${p.set ? `${fmtLong(p.start)} – ${fmtLong(addDays(p.start, 55))}` : 'Plan not started'}</span><h1>The eight-week plan</h1>
+  <p class="muted" style="max-width:62ch">Days 1–6: read the week’s questions (about five a day), mark how well you know each, and clear due flashcards. Day 7: take the weekly test and write a check-in. Week 8 ends with a cumulative final exam.</p></div>
+  <div class="stack">${WEEKS.map(w => {
+    const ids = weekIds(w.n), c = levelCounts(ids), tb = bestTest('weekly', w.n), ck = S.checkins['w' + w.n];
+    return `<div class="week ${p.set && w.n === p.week ? 'cur' : ''}"><div class="wn">${w.n}</div><div class="stack">
+      <div class="spread"><h2>${esc(w.title)}</h2><span class="mono small muted">${p.set ? weekRange(p, w.n) : ''}</span></div>
+      <p class="small">${w.sections.map(s => `<a href="#library" data-act="filterSec" data-s="${s}">${pad(s)} ${esc(SEC[s].title)}</a> <span class="muted">(${SEC[s].ids.length})</span>`).join(' · ')}</p>
+      ${barHTML(ids)}
+      <div class="row small"><span class="chip">${c[1] + c[2] + c[3]}/${ids.length} read</span><span class="chip ${tb ? (tb.best >= 80 ? 'good' : 'warn') : ''}">Test ${tb ? tb.best + '%' : 'not taken'}</span><span class="chip ${ck ? 'good' : ''}">${ck ? 'Checked in' : 'No check-in'}</span>
+      <span style="flex:1"></span><button class="btn sm" data-act="startTest" data-kind="weekly" data-w="${w.n}">Take test</button><a class="btn sm" href="#checkins" data-act="ckWeek" data-w="${w.n}">Check-in</a></div>
+    </div></div>`;
+  }).join('')}
+  <div class="week"><div class="wn">★</div><div class="stack"><div class="spread"><h2>Final exam</h2><span class="mono small muted">${p.set ? fmt(addDays(p.start, 55)) : ''}</span></div>
+    <p class="small muted">40 questions across all 17 topics plus three client questions graded by Claude.</p>
+    <div class="row"><span class="chip">${(t => t ? 'Best ' + t.best + '%' : 'Not taken')(bestTest('final'))}</span><span style="flex:1"></span><button class="btn sm" data-act="startTest" data-kind="final" data-w="8">Take final</button></div></div></div>
+  </div></div>`;
+}
+
+/* Library */
+const LF = { text: '', sec: 0, status: 'all' };
+function libIds() {
+  const t = LF.text.trim().toLowerCase(); const p = plan();
+  return ALL.filter(id => {
+    const Q = q(id), pr = prog(id), m = pr.m || 0;
+    if (LF.sec && Q.s !== LF.sec) return false;
+    switch (LF.status) {
+      case 'new': if (m !== 0) return false; break;
+      case 'read': if (m !== 1) return false; break;
+      case 'explain': if (m !== 2) return false; break;
+      case 'mastered': if (m !== 3) return false; break;
+      case 'verify': if (!Q.a || pr.ver || Q.a.confidence === 'high') return false; break;
+      case 'notes': if (!pr.note && !pr.my) return false; break;
+      case 'missed': if (!pr.dr || pr.dr.s === pr.dr.r) return false; break;
+      case 'behind': if (m >= 1 || !WEEKS.slice(0, p.week - 1).some(w => w.sections.includes(Q.s))) return false; break;
+    }
+    if (t) { const hay = (Q.t + ' ' + (Q.a ? Q.a.summary + ' ' + Q.a.answer + ' ' + (Q.a.keyPoints || []).join(' ') : '') + ' ' + (pr.note || '') + ' ' + (pr.my || '')).toLowerCase(); if (!(hay.includes(t) || ('q' + id) === t)) return false; }
+    return true;
+  });
+}
+function vLibrary() {
+  const ids = libIds();
+  const opts = [['all', 'All questions'], ['new', 'Not started'], ['read', 'Read'], ['explain', 'Can explain'], ['mastered', 'Mastered'], ['verify', 'Needs verifying'], ['missed', 'Missed in quizzes'], ['notes', 'Has my notes'], ['behind', 'Behind schedule']];
+  const groups = SECTIONS.map(s => ({ s, ids: ids.filter(id => q(id).s === s.n) })).filter(g => g.ids.length);
+  return `<div class="stack-lg">${mhead()}<div class="stack"><span class="eyebrow">Question bank · ${ids.length} of 220 shown</span><h1>Questions</h1></div>
+  <div class="grid3">
+    <input type="search" id="lib-text" placeholder="Search questions, answers, your notes, or Q132" value="${esc(LF.text)}" data-in="libText" aria-label="Search">
+    <select id="lib-sec" data-ch="libSec" aria-label="Topic"><option value="0">All 17 topics</option>${SECTIONS.map(s => `<option value="${s.n}" ${LF.sec === s.n ? 'selected' : ''}>${pad(s.n)} ${esc(s.title)}</option>`).join('')}</select>
+    <select id="lib-status" data-ch="libStatus" aria-label="Status">${opts.map(([v, l]) => `<option value="${v}" ${LF.status === v ? 'selected' : ''}>${l}</option>`).join('')}</select>
+  </div>
+  <div id="lib-results" class="stack-lg">${libResults(groups)}</div></div>`;
+}
+function libResults(groups) {
+  if (!groups.length) return `<div class="empty">No questions match these filters.<button class="btn" data-act="libClear">Clear filters</button></div>`;
+  return groups.map(g => `<section class="stack"><div class="sec-head"><h2><span class="mono muted" style="font-size:14px">${pad(g.s.n)}</span> ${esc(g.s.title)}</h2>${barHTML(g.s.ids)}</div><div class="qlist">${g.ids.map(id => qrow(id)).join('')}</div></section>`).join('');
+}
+
+/* Question detail */
+const QD = {}; const FR = {}; const AK = {};
+function vQuestion(id) {
+  const Q = q(id); if (!Q) return `<div class="empty">There is no question ${esc(id)}.<a class="btn" href="#library">Back to questions</a></div>`;
+  const a = Q.a, p = prog(id), m = p.m || 0, i = ALL.indexOf(id);
+  const prev = ALL[i - 1], next = ALL[i + 1];
+  const conf = a ? { high: 'good', medium: 'warn', low: 'bad' }[a.confidence] || '' : '';
+  const fr = FR[id] || {}, ak = AK[id] || {};
+  const drills = a ? a.drills : [];
+  return `<div class="stack-lg">${mhead()}
+  <div class="spread small"><a href="#library">← ${pad(Q.s)} ${esc(SEC[Q.s].title)}</a><span class="row">${prev ? `<a class="btn sm" href="#q${prev}">Q${prev}</a>` : ''}${next ? `<a class="btn sm" href="#q${next}">Q${next} →</a>` : ''}</span></div>
+  <div class="stack"><span class="eyebrow">Q${id} · Week ${WEEKS.find(w => w.sections.includes(Q.s)).n}</span><h1>${esc(Q.t)}</h1></div>
+  <div class="stack"><span class="eyebrow">How well do you know this?</span>
+    <div class="seg" role="group" aria-label="Mastery">${LEVELS.map((l, k) => `<button type="button" class="${m === k ? 'on' : ''}" data-act="mastery" data-id="${id}" data-m="${k}">${l}</button>`).join('')}</div>
+    ${m === 0 ? '<p class="small muted">Mark it “Read” when you finish reading. That adds it to your flashcards.</p>' : ''}</div>
+  ${a ? `<p class="summary">${inl(a.summary)}</p>
+  <section class="prose">${md(a.answer)}</section>
+  ${(a.keyPoints || []).length ? `<section class="stack"><h2>Key points to memorize</h2><ul class="kp">${a.keyPoints.map(k => `<li><span>${inl(k)}</span></li>`).join('')}</ul></section>` : ''}
+  <section class="stack"><h2>Sources and verification</h2>
+    <div class="row"><span class="chip ${conf}">Confidence: ${esc(a.confidence || 'n/a')}</span><span class="chip">Drafted ${esc(a.lastVerified || '')}</span>${p.ver ? `<span class="chip good">You verified ${esc(p.ver)}</span>` : ''}</div>
+    ${a.verify ? `<div class="verify ${p.ver ? 'ok' : ''}"><b>To verify:</b> ${inl(a.verify)}</div>` : ''}
+    ${(a.sources || []).length ? `<ol class="sources">${a.sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title || s.url)}</a>${s.date ? ` <span class="muted mono">${esc(s.date)}</span>` : ''}</li>`).join('')}</ol>` : ''}
+    <div class="row"><button class="btn sm" data-act="verify" data-id="${id}">${p.ver ? 'Clear verified date' : 'I verified this today'}</button></div>
+  </section>` : `<div class="empty">No drafted answer for this question yet. Write your own below.</div>`}
+  <section class="stack"><h2>Your version</h2>
+    <label class="field">Your answer <span class="muted">Corrections, updated figures, or your own phrasing. Claude uses this when grading.</span><textarea id="my-${id}" data-in="my" data-id="${id}" placeholder="Write the answer the way you'd say it…">${esc(p.my || '')}</textarea></label>
+    <label class="field">Notes <span class="muted">Contacts, deals, things to look up</span><textarea id="note-${id}" data-in="note" data-id="${id}" placeholder="Notes…" style="min-height:80px">${esc(p.note || '')}</textarea></label>
+  </section>
+  ${drills.length ? `<section class="stack"><h2>Check yourself</h2>${drills.map((d, k) => drillHTML(id, k, d)).join('')}</section>` : ''}
+  <section class="stack"><h2>Explain it out loud</h2><p class="small muted">Answer as if a client just asked. ${sample ? 'Claude grades it against the notes.' : 'Grading needs Claude, available when the page is open on claude.ai.'}</p>
+    <textarea id="fr-${id}" data-in="fr" data-id="${id}" placeholder="Type your answer…">${esc(fr.text || '')}</textarea>
+    <div class="row"><button class="btn primary" data-act="gradeQ" data-id="${id}" ${!sample || fr.busy ? 'disabled' : ''}>${fr.busy ? 'Grading…' : 'Grade my answer'}</button>${p.fr ? `<span class="small muted">Last score ${p.fr.s} on ${esc(p.fr.d)}</span>` : ''}</div>
+    ${fr.busy ? '<p class="thinking">Claude is reading your answer…</p>' : ''}${fr.err ? `<p class="small" style="color:var(--bad)">${esc(fr.err)}</p>` : ''}${fr.result ? gradeHTML(fr.result) : ''}
+  </section>
+  ${sample ? `<section class="stack"><h2>Ask a follow-up</h2><p class="small muted">Claude answers from these notes and its own knowledge. It can’t browse the web, so confirm anything current.</p>
+    <div class="row"><input type="text" id="ask-${id}" data-in="ask" data-id="${id}" placeholder="e.g. How would this change for a 4-unit building?" value="${esc(ak.q || '')}" style="flex:1"><button class="btn" data-act="ask" data-id="${id}" ${ak.busy ? 'disabled' : ''}>Ask</button></div>
+    <div class="prose out" id="ask-out-${id}">${ak.busy && !ak.text ? '<p class="thinking">Thinking…</p>' : md(ak.text || '')}</div></section>` : ''}
+  <div class="spread">${prev ? `<a class="btn" href="#q${prev}">← Q${prev}</a>` : '<span></span>'}${next ? `<a class="btn primary" href="#q${next}" data-act="${m === 0 ? 'readNext' : ''}" data-id="${id}">${m === 0 ? 'Mark read, next' : 'Next'}: Q${next} →</a>` : ''}</div>
+  </div>`;
+}
+function drillHTML(id, k, d) {
+  const st = QD[id + ':' + k];
+  return `<div class="stack panel"><p><b>${inl(d.q)}</b></p><div class="choices">${d.c.map((c, j) => {
+    let cls = ''; if (st != null) { if (j === d.a) cls = 'ok'; else if (j === st) cls = 'no'; }
+    return `<button type="button" class="choice ${cls}" data-act="qdrill" data-id="${id}" data-k="${k}" data-j="${j}" ${st != null ? 'disabled' : ''}><span class="k">${'ABCD'[j] || j + 1}</span><span>${inl(c)}</span></button>`;
+  }).join('')}</div>${st != null && d.x ? `<p class="explain">${inl(d.x)}</p>` : ''}</div>`;
+}
+function recordDrill(id, ok) {
+  const p = prog(id); const dr = p.dr || { s: 0, r: 0 };
+  const patch = { dr: { s: dr.s + 1, r: dr.r + (ok ? 1 : 0) } };
+  if (!ok) { patch.miss = Date.now(); if (p.srs) patch.srs = { ...p.srs, due: Date.now() }; }
+  setProg(id, patch);
+}
+
+/* Practice tabs */
+const ptabs = cur => `<nav class="tabs">${[['review', 'Flashcards'], ['quiz', 'Quiz'], ['drill', 'Client drill']].map(([k, l]) => `<a href="#${k}" class="${cur === k ? 'on' : ''}">${l}</a>`).join('')}</nav>`;
+
+/* Flashcards */
+const RV = { queue: null, i: 0, shown: false, done: 0 };
+function vReview() {
+  const due = dueIds();
+  let body;
+  if (!RV.queue || RV.i >= RV.queue.length) {
+    const finished = RV.queue && RV.queue.length;
+    const read = ALL.filter(id => prog(id).m >= 1);
+    body = `<div class="empty">${finished ? `<b>Session done: ${RV.done} cards reviewed.</b>` : ''}
+      ${due.length ? `<span>${due.length} card${due.length > 1 ? 's are' : ' is'} due.</span><button class="btn primary" data-act="rvStart">Start review</button>`
+        : read.length ? `<span>Nothing is due right now. Cards come back on a schedule based on how well you knew them.</span><button class="btn" data-act="rvCram">Review this week’s cards anyway</button>`
+        : `<span>Flashcards appear once you mark questions as read.</span><a class="btn primary" href="#today">Go to today’s reading</a>`}</div>`;
+  } else {
+    const id = RV.queue[RV.i], Q = q(id), a = Q.a, p = prog(id);
+    const nexts = [0, 1, 2, 3].map(r => schedule(p.srs, r));
+    body = `<div class="spread small muted"><span class="mono">Card ${RV.i + 1} of ${RV.queue.length}</span><span>${esc(SEC[Q.s].title)}</span></div>
+    <div class="progress-line"><i style="width:${pct(RV.i, RV.queue.length)}%"></i></div>
+    <div class="flash"><span class="eyebrow">Q${id}</span><p class="qtext">${esc(Q.t)}</p>
+      ${RV.shown ? `<div class="stack">${a ? `<p class="summary">${inl(a.summary)}</p>${(a.keyPoints || []).length ? `<ul class="kp">${a.keyPoints.map(k => `<li><span>${inl(k)}</span></li>`).join('')}</ul>` : ''}` : ''}
+        ${p.my ? `<div class="explain"><b>Your version:</b> ${inl(p.my)}</div>` : ''}<a class="small" href="#q${id}">Open full answer</a></div>` : ''}
+    </div>
+    ${RV.shown ? `<div class="rate">${['Again', 'Hard', 'Good', 'Easy'].map((l, r) => `<button type="button" class="r${r}" data-act="rate" data-r="${r}">${l}<small>${ivLabel(nexts[r])}</small></button>`).join('')}</div>
+      <p class="small muted">Keys: <span class="kbd">1</span>–<span class="kbd">4</span> to rate.</p>`
+      : `<button class="btn primary" data-act="rvShow" style="align-self:flex-start">Show answer</button><p class="small muted">Say your answer out loud first. Key: <span class="kbd">Space</span>.</p>`}`;
+  }
+  return `<div class="stack-lg">${mhead()}<div class="stack"><span class="eyebrow">Spaced repetition · ${due.length} due</span><h1>Flashcards</h1></div>${ptabs('review')}<div class="stack">${body}</div></div>`;
+}
+
+/* Quiz */
+const QZ = { scope: 'week', sec: 1, count: 10, items: null, i: 0, picked: null, right: 0 };
+function poolIds(scope, sec) {
+  const p = plan();
+  let ids = scope === 'week' ? weekIds(p.week) : scope === 'read' ? ALL.filter(id => prog(id).m >= 1)
+    : scope === 'weak' ? ALL.filter(id => { const d = prog(id).dr; return d && d.s && d.r / d.s < 0.75; })
+    : scope === 'sec' ? SEC[sec].ids : ALL;
+  return ids.filter(id => hasA(id) && q(id).a.drills.length);
+}
+function mkItem(id, d) {
+  const order = shuffle(d.c.map((_, j) => j));
+  return { id, q: d.q, c: order.map(j => d.c[j]), a: order.indexOf(d.a), x: d.x };
+}
+function buildItems(ids, n) {
+  const used = new Set(), items = [];
+  const pick = id => { const ds = q(id).a.drills; const free = ds.map((d, k) => k).filter(k => !used.has(id + ':' + k)); if (!free.length) return null; const k = free[Math.floor(Math.random() * free.length)]; used.add(id + ':' + k); return mkItem(id, ds[k]); };
+  for (const id of shuffle(ids)) { if (items.length >= n) break; const it = pick(id); if (it) items.push(it); }
+  let guard = 0; while (items.length < n && ids.length && guard++ < 500) { const it = pick(ids[Math.floor(Math.random() * ids.length)]); if (it) items.push(it); }
+  return shuffle(items);
+}
+function choicesHTML(it, picked, reveal, act) {
+  return `<div class="choices">${it.c.map((c, j) => {
+    let cls = ''; if (reveal) { if (j === it.a) cls = 'ok'; else if (j === picked) cls = 'no'; } else if (j === picked) cls = 'sel';
+    return `<button type="button" class="choice ${cls}" data-act="${act}" data-j="${j}" ${reveal ? 'disabled' : ''}><span class="k">${'ABCD'[j] || j + 1}</span><span>${inl(c)}</span></button>`;
+  }).join('')}</div>`;
+}
+function vQuiz() {
+  let body;
+  if (!QZ.items) {
+    const n = poolIds(QZ.scope, QZ.sec).length;
+    body = `<div class="panel stack"><div class="grid3">
+      <label class="field">Questions from<select id="qz-scope" data-ch="qzScope"><option value="week" ${QZ.scope === 'week' ? 'selected' : ''}>This week’s topics</option><option value="read" ${QZ.scope === 'read' ? 'selected' : ''}>Everything I’ve read</option><option value="weak" ${QZ.scope === 'weak' ? 'selected' : ''}>My weak spots</option><option value="sec" ${QZ.scope === 'sec' ? 'selected' : ''}>One topic</option><option value="all" ${QZ.scope === 'all' ? 'selected' : ''}>All 17 topics</option></select></label>
+      ${QZ.scope === 'sec' ? `<label class="field">Topic<select id="qz-sec" data-ch="qzSec">${SECTIONS.map(s => `<option value="${s.n}" ${QZ.sec === s.n ? 'selected' : ''}>${pad(s.n)} ${esc(s.title)}</option>`).join('')}</select></label>` : ''}
+      <label class="field">Length<select id="qz-count" data-ch="qzCount">${[10, 20, 30].map(c => `<option ${QZ.count === c ? 'selected' : ''}>${c}</option>`).join('')}</select></label></div>
+      <div class="row"><button class="btn primary" data-act="qzStart" ${n ? '' : 'disabled'}>Start quiz</button><span class="small muted">${n ? `${n} questions in this pool` : QZ.scope === 'weak' ? 'No weak spots yet. Take a quiz first.' : 'Nothing in this pool yet.'}</span></div></div>`;
+  } else if (QZ.i >= QZ.items.length) {
+    body = `<div class="panel stack"><span class="eyebrow">Quiz complete</span><div class="score">${pct(QZ.right, QZ.items.length)}%<small>${QZ.right} of ${QZ.items.length} correct</small></div>
+      <div class="row"><button class="btn primary" data-act="qzStart">Another quiz</button><button class="btn" data-act="qzReset">Change settings</button></div></div>`;
+  } else {
+    const it = QZ.items[QZ.i], rev = QZ.picked != null;
+    body = `<div class="spread small muted"><span class="mono">${QZ.i + 1} of ${QZ.items.length} · ${QZ.right} right</span><a href="#q${it.id}">Q${it.id}</a></div>
+    <div class="progress-line"><i style="width:${pct(QZ.i, QZ.items.length)}%"></i></div>
+    <p style="font:600 19px/1.4 var(--display)">${inl(it.q)}</p>${choicesHTML(it, QZ.picked, rev, 'qzPick')}
+    ${rev ? `${it.x ? `<p class="explain">${inl(it.x)}</p>` : ''}<div class="row"><button class="btn primary" data-act="qzNext">${QZ.i + 1 < QZ.items.length ? 'Next' : 'See results'}</button><a class="small" href="#q${it.id}">Read Q${it.id}</a></div>` : '<p class="small muted">Keys: <span class="kbd">1</span>–<span class="kbd">4</span></p>'}`;
+  }
+  return `<div class="stack-lg">${mhead()}<div class="stack"><span class="eyebrow">Multiple choice · instant feedback</span><h1>Quiz</h1></div>${ptabs('quiz')}<div class="stack">${body}</div></div>`;
+}
+
+/* Client drill */
+const DR = { scope: 'client', id: null, text: '', busy: false, result: null, err: '', ref: false };
+function drillPool() {
+  const p = plan();
+  const ids = DR.scope === 'client' ? SEC[17].ids : DR.scope === 'week' ? weekIds(p.week) : DR.scope === 'read' ? ALL.filter(id => prog(id).m >= 1) : ALL;
+  return ids.filter(hasA);
+}
+function vDrill() {
+  if (!DR.id) { const pool = drillPool(); DR.id = pool.length ? pool[Math.floor(Math.random() * pool.length)] : null; }
+  const id = DR.id;
+  let body = '';
+  if (!id) body = `<div class="empty">Nothing to drill in this pool yet.</div>`;
+  else {
+    const Q = q(id), a = Q.a;
+    body = `<div class="stack"><span class="eyebrow">The client asks · Q${id}</span><p class="client">${esc(Q.s === 17 ? Q.t.replace(/^"|"$/g, '') : Q.t)}</p></div>
+    <textarea id="dr-text" data-in="drText" placeholder="Answer the way you would on the phone…" style="min-height:160px">${esc(DR.text)}</textarea>
+    <div class="row"><button class="btn primary" data-act="drGrade" ${!sample || DR.busy || !DR.text.trim() ? 'disabled' : ''}>${DR.busy ? 'Grading…' : 'Grade my answer'}</button>
+      <button class="btn" data-act="drRef">${DR.ref ? 'Hide' : 'Show'} reference answer</button><button class="btn quiet" data-act="drNext">Next client →</button></div>
+    ${!sample ? '<p class="small muted">Grading needs Claude, available when the page is open on claude.ai. You can still compare against the reference.</p>' : ''}
+    ${DR.busy ? '<p class="thinking">Claude is reading your answer…</p>' : ''}${DR.err ? `<p class="small" style="color:var(--bad)">${esc(DR.err)}</p>` : ''}
+    ${DR.result ? gradeHTML(DR.result) : ''}
+    ${DR.ref && a ? `<div class="panel stack"><p class="summary">${inl(a.summary)}</p><ul class="kp">${(a.keyPoints || []).map(k => `<li><span>${inl(k)}</span></li>`).join('')}</ul><a class="small" href="#q${id}">Open full answer</a></div>` : ''}`;
+  }
+  return `<div class="stack-lg">${mhead()}<div class="stack"><span class="eyebrow">Role-play · graded by Claude</span><h1>Client drill</h1></div>${ptabs('drill')}
+  <div class="row"><label class="field" style="flex-direction:row;align-items:center;gap:10px">Questions from<select id="dr-scope" data-ch="drScope" style="width:auto"><option value="client" ${DR.scope === 'client' ? 'selected' : ''}>Client questions (Q203–220)</option><option value="week" ${DR.scope === 'week' ? 'selected' : ''}>This week’s topics</option><option value="read" ${DR.scope === 'read' ? 'selected' : ''}>Everything I’ve read</option><option value="all" ${DR.scope === 'all' ? 'selected' : ''}>All 220</option></select></label></div>
+  <div class="stack">${body}</div></div>`;
+}
+
+/* Tests */
+let TS = null;
+function buildTest(kind, week) {
+  const ids = (kind === 'final' ? ALL : weekIds(week)).filter(id => hasA(id) && q(id).a.drills.length);
+  const items = buildItems(ids, kind === 'final' ? 40 : 20);
+  const frPool = (kind === 'final' || week === 8) ? SEC[17].ids.filter(hasA) : weekIds(week).filter(hasA);
+  const frs = shuffle(frPool).slice(0, kind === 'final' ? 3 : 2).map(id => ({ id, text: '', g: null, self: null }));
+  return { kind, week, items, picks: items.map(() => null), frs, i: 0, phase: 'mcq', startedAt: Date.now() };
+}
+function vTests() {
+  if (TS) return vTestRun();
+  const p = plan();
+  const hist = Object.entries(S.tests).map(([k, t]) => ({ k, ...t })).sort((a, b) => b.finishedAt - a.finishedAt);
+  const row = (kind, w, label, date) => { const b = bestTest(kind, w); return `<tr><td>${label}</td><td class="mono">${p.set ? fmt(date) : '—'}</td><td>${b ? `<span class="chip ${b.best >= 80 ? 'good' : b.best >= 60 ? 'warn' : 'bad'}">${b.best}%</span> <span class="small muted">${b.n}×</span>` : '<span class="muted">Not taken</span>'}</td><td style="text-align:right"><button class="btn sm ${p.set && kind === 'weekly' && w === p.week ? 'primary' : ''}" data-act="startTest" data-kind="${kind}" data-w="${w}">Start</button></td></tr>`; };
+  return `<div class="stack-lg">${mhead()}${offBanner()}<div class="stack"><span class="eyebrow">20 multiple choice + 2 client answers per week</span><h1>Weekly tests</h1>
+  <p class="muted" style="max-width:62ch">Take each week’s test on day 7. Multiple choice counts 70%; Claude grades the client answers for the other 30%. Anything you miss goes straight back into your flashcards.</p></div>
+  <div class="tbl"><table class="hist"><thead><tr><th>Test</th><th>Planned</th><th>Best</th><th></th></tr></thead><tbody>
+  ${WEEKS.map(w => row('weekly', w.n, `Week ${w.n}: ${esc(w.title)}`, addDays(p.start, w.n * 7 - 1))).join('')}${row('final', 8, '<b>Final exam</b> (all topics)', addDays(p.start, 55))}</tbody></table></div>
+  <section class="stack"><h2>History</h2>${hist.length ? `<div class="tbl"><table class="hist"><thead><tr><th>Date</th><th>Test</th><th>Score</th><th>Multiple choice</th><th>Client answers</th></tr></thead><tbody>${hist.map(t => `<tr><td class="mono">${fmt(new Date(t.finishedAt))}</td><td>${t.kind === 'final' ? 'Final exam' : 'Week ' + t.week}</td><td><b>${t.score}%</b></td><td class="mono">${t.mcq[0]}/${t.mcq[1]}</td><td class="mono">${(t.fr || []).map(f => f.score == null ? '—' : f.score).join(' · ') || '—'}</td></tr>`).join('')}</tbody></table></div>` : '<p class="muted">No tests taken yet.</p>'}</section></div>`;
+}
+function vTestRun() {
+  const t = TS, label = t.kind === 'final' ? 'Final exam' : `Week ${t.week} test`;
+  let body = '';
+  if (t.phase === 'mcq') {
+    const it = t.items[t.i];
+    body = `<div class="spread small muted"><span class="mono">Question ${t.i + 1} of ${t.items.length}</span><span>${t.picks.filter(x => x != null).length} answered</span></div>
+    <div class="progress-line"><i style="width:${pct(t.i, t.items.length + t.frs.length)}%"></i></div>
+    <p style="font:600 19px/1.4 var(--display)">${inl(it.q)}</p>${choicesHTML(it, t.picks[t.i], false, 'tsPick')}
+    <div class="spread"><button class="btn" data-act="tsPrev" ${t.i ? '' : 'disabled'}>← Back</button><button class="btn primary" data-act="tsNext">${t.i + 1 < t.items.length ? 'Next' : 'On to client questions'} →</button></div>`;
+  } else if (t.phase === 'fr') {
+    body = `<p class="muted">Answer each the way you would on a call. ${sample ? 'Claude grades these when you submit.' : 'You’ll score these yourself against the reference when you submit.'}</p>
+    ${t.frs.map((f, k) => `<div class="stack"><span class="eyebrow">Client question ${k + 1} · Q${f.id}</span><p class="client">${esc(q(f.id).t.replace(/^"|"$/g, ''))}</p><textarea id="ts-fr-${k}" data-in="tsFr" data-k="${k}" placeholder="Your answer…">${esc(f.text)}</textarea></div>`).join('')}
+    <div class="spread"><button class="btn" data-act="tsBack">← Back to multiple choice</button><button class="btn primary" data-act="tsSubmit">Submit test</button></div>`;
+  } else if (t.phase === 'grading') {
+    body = `<div class="empty"><p class="thinking">${esc(t.status || 'Grading…')}</p></div>`;
+  } else if (t.phase === 'self') {
+    body = `<p class="muted">Score each answer against the reference.</p>${t.frs.map((f, k) => { const a = q(f.id).a; return `<div class="panel stack"><span class="eyebrow">Q${f.id}</span><p><b>${esc(q(f.id).t)}</b></p><div class="explain">${esc(f.text || '(no answer)')}</div><p class="summary">${inl(a.summary)}</p><ul class="kp">${(a.keyPoints || []).map(x => `<li><span>${inl(x)}</span></li>`).join('')}</ul>
+      <div class="seg">${[[0, 'Missed it'], [50, 'Partial'], [75, 'Solid'], [95, 'Nailed it']].map(([v, l]) => `<button type="button" class="${f.self === v ? 'on' : ''}" data-act="tsSelf" data-k="${k}" data-v="${v}">${l}</button>`).join('')}</div></div>`; }).join('')}
+      <button class="btn primary" data-act="tsFinish" ${t.frs.every(f => f.self != null) ? '' : 'disabled'}>See my score</button>`;
+  } else {
+    const r = t.result;
+    body = `<div class="panel stack"><div class="grade"><div class="score">${r.score}%<small>Overall</small></div><div class="stack"><p><b>${r.mcq[0]} of ${r.mcq[1]}</b> multiple choice correct (${pct(r.mcq[0], r.mcq[1])}%).</p><p>Client answers: ${r.fr.map(f => f.score == null ? 'not graded' : f.score).join(', ')}.</p><p class="small muted">Saved. Missed questions are due in your flashcards now.</p></div></div></div>
+    ${t.frs.map(f => f.g ? `<div class="stack"><span class="eyebrow">Q${f.id}</span><p><b>${esc(q(f.id).t)}</b></p>${gradeHTML(f.g)}</div>` : '').join('')}
+    ${t.items.some((it, k) => t.picks[k] !== it.a) ? `<section class="stack"><h2>What you missed</h2>${t.items.map((it, k) => t.picks[k] === it.a ? '' : `<div class="panel stack"><div class="spread"><b>${inl(it.q)}</b><a class="small mono" href="#q${it.id}">Q${it.id}</a></div>${choicesHTML(it, t.picks[k], true, '')}${it.x ? `<p class="explain">${inl(it.x)}</p>` : ''}</div>`).join('')}</section>` : '<p>You got every multiple-choice question right.</p>'}
+    <div class="row"><button class="btn primary" data-act="tsClose">Done</button><a class="btn" href="#checkins" data-act="ckWeek" data-w="${t.week}">Write this week’s check-in</a></div>`;
+  }
+  return `<div class="stack-lg">${mhead()}<div class="spread"><div class="stack"><span class="eyebrow">${t.phase === 'done' ? 'Results' : 'In progress'}</span><h1>${label}</h1></div>${t.phase === 'mcq' || t.phase === 'fr' ? '<button class="btn quiet" data-act="tsQuit">Quit test</button>' : ''}</div>${TS.quitAsk ? `<div class="notice row">Quit without saving? <button class="btn sm" data-act="tsQuitYes">Quit</button><button class="btn sm" data-act="tsQuitNo">Keep going</button></div>` : ''}<div class="stack">${body}</div></div>`;
+}
+async function submitTest() {
+  const t = TS;
+  if (sample) {
+    t.phase = 'grading'; render();
+    for (let k = 0; k < t.frs.length; k++) {
+      const f = t.frs[k];
+      if (!f.text.trim()) { f.g = { score: 0, verdict: 'Weak', hits: [], misses: ['No answer given'], corrections: [], model: q(f.id).a.summary }; continue; }
+      t.status = `Claude is grading client answer ${k + 1} of ${t.frs.length}…`; render();
+      try { f.g = await grade(f.id, f.text); }
+      catch (e) { toast(sampleErr(e) || 'Grading stopped.'); t.phase = 'self'; render(); return; }
+    }
+    finishTest();
+  } else { t.phase = 'self'; render(); }
+}
+function finishTest() {
+  const t = TS;
+  const right = t.items.filter((it, k) => t.picks[k] === it.a).length;
+  t.items.forEach((it, k) => recordDrill(it.id, t.picks[k] === it.a));
+  const frs = t.frs.map(f => ({ qid: f.id, score: f.g ? f.g.score : f.self, verdict: f.g ? f.g.verdict : '' }));
+  const graded = frs.filter(f => f.score != null);
+  const mcqPct = pct(right, t.items.length);
+  const score = graded.length ? Math.round(mcqPct * 0.7 + graded.reduce((s, f) => s + f.score, 0) / graded.length * 0.3) : mcqPct;
+  const missed = [...new Set(t.items.filter((it, k) => t.picks[k] !== it.a).map(it => it.id))];
+  t.result = { kind: t.kind, week: t.week, startedAt: t.startedAt, finishedAt: Date.now(), mcq: [right, t.items.length], fr: frs, score, missed };
+  setDoc('tests', 't' + t.startedAt, t.result);
+  t.frs.forEach(f => { if (f.g) setProg(f.id, { fr: { s: f.g.score, d: today() } }); });
+  t.phase = 'done'; render(); window.scrollTo(0, 0);
+}
+
+/* Check-ins */
+let CKW = null; const CKD = {};
+function vCheckins() {
+  const p = plan(); const w = CKW || p.week; const wk = WEEKS[w - 1];
+  const saved = S.checkins['w' + w] || {};
+  let d = CKD[w];
+  if (!d || (!d.dirty && !d.coachBusy && saved.savedAt && saved.savedAt !== d.savedAt)) d = CKD[w] = JSON.parse(JSON.stringify({ conf: {}, hours: '', clear: '', fuzzy: '', people: '', next: '', ...saved }));
+  const ids = weekIds(w), c = levelCounts(ids), ds = drillStats(ids), tb = bestTest('weekly', w);
+  return `<div class="stack-lg">${mhead()}${offBanner()}<div class="stack"><span class="eyebrow">Weekly reflection</span><h1>Check-ins</h1></div>
+  <nav class="tabs">${WEEKS.map(x => `<a href="#checkins" data-act="ckWeek" data-w="${x.n}" class="${x.n === w ? 'on' : ''}">Wk ${x.n}${S.checkins['w' + x.n] ? ' ✓' : ''}</a>`).join('')}</nav>
+  <div class="stack"><h2>Week ${w}: ${esc(wk.title)}</h2>
+    <div class="row small"><span class="chip">${c[1] + c[2] + c[3]}/${ids.length} read</span><span class="chip">${c[2] + c[3]} can explain</span><span class="chip">Quiz ${ds.s ? pct(ds.r, ds.s) + '%' : '—'}</span><span class="chip">Test ${tb ? tb.best + '%' : '—'}</span>${saved.savedAt ? `<span class="chip good">Saved ${fmt(new Date(saved.savedAt))}</span>` : ''}</div></div>
+  <div class="panel stack">
+    <span class="eyebrow">How confident are you, 1 to 5?</span>
+    ${wk.sections.map(s => `<div class="spread"><span>${esc(SEC[s].title)}</span><div class="seg">${[1, 2, 3, 4, 5].map(v => `<button type="button" class="${d.conf[s] === v ? 'on' : ''}" data-act="ckConf" data-s="${s}" data-v="${v}">${v}</button>`).join('')}</div></div>`).join('')}
+    <div class="grid2">
+      <label class="field">Hours studied<input type="number" id="ck-hours" min="0" step="0.5" value="${esc(d.hours)}" data-in="ck" data-f="hours"></label>
+    </div>
+    <label class="field">What clicked this week<textarea id="ck-clear" data-in="ck" data-f="clear">${esc(d.clear)}</textarea></label>
+    <label class="field">What is still fuzzy<textarea id="ck-fuzzy" data-in="ck" data-f="fuzzy">${esc(d.fuzzy)}</textarea></label>
+    <label class="field">People I met or called <span class="muted">Owners, buyers, brokers, lenders, attorneys</span><textarea id="ck-people" data-in="ck" data-f="people">${esc(d.people)}</textarea></label>
+    <label class="field">Goals for next week<textarea id="ck-next" data-in="ck" data-f="next">${esc(d.next)}</textarea></label>
+    <div class="row"><button class="btn primary" data-act="ckSave" data-w="${w}">Save check-in</button>${sample ? `<button class="btn" data-act="ckCoach" data-w="${w}" ${d.coachBusy ? 'disabled' : ''}>Get Claude’s read on my week</button>` : ''}</div>
+  </div>
+  <div class="prose" id="ck-coach">${d.coachBusy && !d.coach ? '<p class="thinking">Claude is looking at your week…</p>' : md(d.coach || saved.coach || '')}</div>
+  </div>`;
+}
+function coachPrompt(w) {
+  const wk = WEEKS[w - 1], d = CKD[w];
+  const secLines = SECTIONS.map(s => { const c = levelCounts(s.ids), ds = drillStats(s.ids); return `${pad(s.n)} ${s.title}: ${c[1] + c[2] + c[3]}/${s.ids.length} read, ${c[2] + c[3]} can explain, quiz ${ds.s ? pct(ds.r, ds.s) + '% of ' + ds.s : 'n/a'}`; }).join('\n');
+  const tests = Object.values(S.tests).sort((a, b) => a.finishedAt - b.finishedAt).map(t => `${t.kind === 'final' ? 'Final' : 'Week ' + t.week}: ${t.score}% (missed ${t.missed.map(x => 'Q' + x).join(', ') || 'none'})`).join('\n') || 'none yet';
+  const missed = ALL.filter(id => { const x = prog(id).dr; return x && x.s && x.r / x.s < 0.6; }).slice(0, 15).map(id => `Q${id}: ${q(id).t}`).join('\n') || 'none';
+  return `You are a study coach for a commercial real estate broker spending 8 weeks mastering the Ventura County, California multifamily market (220 questions across 17 topics). They just finished week ${w}: "${wk.title}". Give a short, direct read on their week: what is going well, the 2-3 specific gaps to close (name question numbers), and a concrete plan for next week (week ${Math.min(w + 1, 8)}: "${WEEKS[Math.min(w, 7)].title}"). Include one market-building action (a call, meeting, or data pull) tied to what they studied. Under 250 words, Markdown bullets, no preamble.
+
+PROGRESS BY TOPIC:
+${secLines}
+
+TEST HISTORY:
+${tests}
+
+WEAKEST QUIZ ITEMS:
+${missed}
+
+THEIR CHECK-IN:
+Confidence (1-5): ${wk.sections.map(s => `${SEC[s].title} ${d.conf[s] || '?'}`).join('; ')}
+Hours: ${d.hours || '?'}
+Clicked: ${d.clear || '-'}
+Fuzzy: ${d.fuzzy || '-'}
+People met: ${d.people || '-'}
+Goals: ${d.next || '-'}`;
+}
+
+/* Glossary */
+let GQ = '';
+function vGlossary() {
+  const t = GQ.toLowerCase();
+  const items = GLOSSARY.filter(g => !t || (g.term + ' ' + g.def).toLowerCase().includes(t));
+  return `<div class="stack-lg">${mhead()}<div class="stack"><span class="eyebrow">${GLOSSARY.length} terms</span><h1>Glossary</h1></div>
+  <input type="search" id="gl-text" placeholder="Search terms" value="${esc(GQ)}" data-in="glText" aria-label="Search terms">
+  <dl class="gl" id="gl-list">${glList(items)}</dl></div>`;
+}
+const glList = items => items.length ? items.map(g => `<dt>${esc(g.term)}</dt><dd>${inl(g.def)}${(g.see || []).length ? ` <span class="small muted">See ${g.see.map(n => `<a class="qref mono" href="#q${n}">Q${n}</a>`).join(', ')}</span>` : ''}</dd>`).join('') : '<p class="muted">No terms match.</p>';
+
+/* Setup */
+let IMP = null;
+function vSetup() {
+  const st = settings(); const answered = ALL.filter(hasA).length;
+  const low = ALL.filter(id => hasA(id) && q(id).a.confidence === 'low').length;
+  const dates = ALL.filter(hasA).map(id => q(id).a.lastVerified).filter(Boolean).sort();
+  return `<div class="stack-lg">${mhead()}<div class="stack"><span class="eyebrow">Your plan and your data</span><h1>Setup and backup</h1></div>
+  <section class="panel stack"><h2>Plan start date</h2><p class="small muted">Weeks and test dates are counted from this day.</p>
+    <div class="row"><input type="date" id="setup-start" value="${esc(st.startDate || today())}" style="max-width:200px"><button class="btn primary" data-act="setStartSetup">Save start date</button></div></section>
+  <section class="panel stack"><h2>Where your progress lives</h2>
+    <p>${S.mode === 'live' ? 'Every change saves to this page’s private database in your claude.ai account. Open the same link on any device where you are signed in and your progress is there.' : 'This view cannot reach your saved progress. Open the page on claude.ai while signed in.'}</p>
+    <p class="small muted">Export a backup now and then. It is a JSON file of every rating, note, test, and check-in.</p>
+    <div class="row"><button class="btn" data-act="export" ${downloads ? '' : 'disabled'}>Export backup</button>
+      <label class="btn" for="import-file">Import backup</label><input type="file" id="import-file" accept=".json,application/json" data-ch="importFile" hidden></div>
+    ${IMP ? `<div class="notice stack"><span>This backup has ${Object.keys(IMP.progress || {}).length} question records, ${Object.keys(IMP.tests || {}).length} tests, and ${Object.keys(IMP.checkins || {}).length} check-ins. Importing replaces matching records here.</span><div class="row"><button class="btn primary sm" data-act="importYes">Import</button><button class="btn sm" data-act="importNo">Cancel</button></div></div>` : ''}
+  </section>
+  <section class="panel stack"><h2>About the answers</h2>
+    <p>${answered} of 220 questions have a drafted answer with sources${dates.length ? `, researched ${esc(dates[0])}${dates[0] !== dates[dates.length - 1] ? ' to ' + esc(dates[dates.length - 1]) : ''}` : ''}. ${low} are marked low confidence; filter for “Needs verifying” in Questions to work through them.</p>
+    <p class="small muted">Market figures (rents, cap rates, comps, rates) move. Treat drafts as a starting point and confirm in CoStar, FlexMLS, or with lenders before quoting a client. Your edits in “Your version” take priority when Claude grades you.</p></section>
+  <section class="panel stack"><h2>Keyboard</h2><p class="small">Flashcards: <span class="kbd">Space</span> show, <span class="kbd">1</span>–<span class="kbd">4</span> rate. Quiz: <span class="kbd">1</span>–<span class="kbd">4</span> answer, <span class="kbd">Enter</span> next.</p></section>
+  </div>`;
+}
+
+/* ---------- Router and render ---------- */
+const VIEWS = { today: vToday, plan: vPlan, library: vLibrary, review: vReview, quiz: vQuiz, drill: vDrill, tests: vTests, checkins: vCheckins, glossary: vGlossary, setup: vSetup };
+function route() {
+  const h = location.hash.slice(1);
+  const m = h.match(/^q(\d+)$/); if (m) return { name: 'q', id: +m[1] };
+  return { name: VIEWS[h] ? h : 'today' };
+}
+let lastRoute = '';
+function render() {
+  const r = route(); const key = r.name + (r.id || '');
+  const y = key === lastRoute ? window.scrollY : 0;
+  $('view').innerHTML = r.name === 'q' ? vQuestion(r.id) : VIEWS[r.name]();
+  renderNav(r.name); renderSync();
+  if (key === lastRoute) window.scrollTo(0, y); else window.scrollTo(0, 0);
+  lastRoute = key; deferred = false;
+}
+let deferred = false, rafPending = false;
+function typing() { const a = document.activeElement; return a && $('view').contains(a) && (a.tagName === 'TEXTAREA' || (a.tagName === 'INPUT' && a.type !== 'button')); }
+function softRender() {
+  if (typing()) { deferred = true; return; }
+  if (rafPending) return; rafPending = true;
+  requestAnimationFrame(() => { rafPending = false; render(); });
+}
+document.addEventListener('focusout', () => setTimeout(() => { if (deferred && !typing()) render(); }, 250));
+window.addEventListener('hashchange', () => { $('sheet').hidden = true; render(); });
+
+/* ---------- Actions ---------- */
+const debounces = {};
+const later = (k, fn, ms = 700) => { clearTimeout(debounces[k]); debounces[k] = setTimeout(fn, ms); };
+const ACT = {
+  menu() { const sh = $('sheet'); sh.hidden = !sh.hidden; if (!sh.hidden) sh.innerHTML = `<nav class="nav">${navHTML(route().name)}</nav>`; },
+  setStart() { const v = $('start-date').value || today(); setDoc('meta', 'settings', { ...settings(), startDate: v }); toast('Plan started'); render(); },
+  setStartSetup() { const v = $('setup-start').value; if (!v) return; setDoc('meta', 'settings', { ...settings(), startDate: v }); toast('Start date saved'); render(); },
+  filterSec(el) { LF.sec = +el.dataset.s; LF.status = 'all'; LF.text = ''; location.hash = 'library'; render(); },
+  filterBehind() { LF.sec = 0; LF.status = 'behind'; LF.text = ''; location.hash = 'library'; render(); },
+  libClear() { LF.sec = 0; LF.status = 'all'; LF.text = ''; render(); },
+  mastery(el) { const id = +el.dataset.id, m = +el.dataset.m; setMastery(id, m); render(); toast(m ? `Marked ${LEVELS[m].toLowerCase()}` : 'Reset to not started'); },
+  readNext(el, e) { const id = +el.dataset.id; if (!(prog(id).m >= 1)) setMastery(id, 1); location.hash = el.getAttribute('href').slice(1); },
+  verify(el) { const id = +el.dataset.id; setProg(id, { ver: prog(id).ver ? null : today() }); render(); },
+  qdrill(el) { const id = +el.dataset.id, k = +el.dataset.k, j = +el.dataset.j; const key = id + ':' + k; if (QD[key] != null) return; QD[key] = j; recordDrill(id, j === q(id).a.drills[k].a); render(); },
+  async gradeQ(el) {
+    const id = +el.dataset.id; const f = FR[id] || (FR[id] = {});
+    if (!f.text || !f.text.trim()) { toast('Write an answer first'); return; }
+    f.busy = true; f.err = ''; render();
+    try { f.result = await grade(id, f.text); const patch = { fr: { s: f.result.score, d: today() } }; if (f.result.score >= 80 && (prog(id).m || 0) < 2) { patch.m = 2; if (!prog(id).srs) patch.srs = { iv: 0, ef: 2.5, n: 0, lp: 0, due: Date.now() }; if (!prog(id).readAt) patch.readAt = today(); } setProg(id, patch); }
+    catch (e) { f.err = sampleErr(e); }
+    f.busy = false; render();
+  },
+  async ask(el) {
+    const id = +el.dataset.id; const a = AK[id] || (AK[id] = {});
+    if (!a.q || !a.q.trim() || a.busy) return;
+    a.busy = true; a.text = ''; render();
+    const prompt = `You are an experienced multifamily investment broker in Ventura County, California. A broker studying the market asks a follow-up about one study question. Answer in under 200 words using Markdown bullets where useful. Be specific to Ventura County. If the answer depends on current figures, laws, or rates, say what to verify and where; you cannot browse the web.\n\n${refBlock(id)}\nFOLLOW-UP QUESTION:\n${a.q}`;
+    try { const r = await sample(prompt, { cache: false, onText: ({ text }) => { a.text = text; const o = $('ask-out-' + id); if (o) o.innerHTML = md(text); } }); a.text = r.text; }
+    catch (e) { a.text = e.text || ''; toast(sampleErr(e) || 'Stopped'); }
+    a.busy = false; render();
+  },
+  rvStart() { RV.queue = dueIds().slice(0, 60); RV.i = 0; RV.shown = false; RV.done = 0; render(); },
+  rvCram() { const p = plan(); RV.queue = shuffle(weekIds(p.week).filter(id => prog(id).m >= 1)); if (!RV.queue.length) RV.queue = shuffle(ALL.filter(id => prog(id).m >= 1)).slice(0, 30); RV.i = 0; RV.shown = false; RV.done = 0; render(); },
+  rvShow() { RV.shown = true; render(); },
+  rate(el) {
+    const r = +el.dataset.r, id = RV.queue[RV.i]; const p = prog(id);
+    setProg(id, { srs: schedule(p.srs, r) }); RV.done++;
+    if (r === 0) RV.queue.push(id);
+    RV.i++; RV.shown = false; render();
+  },
+  qzStart() { QZ.items = buildItems(poolIds(QZ.scope, QZ.sec), QZ.count); QZ.i = 0; QZ.picked = null; QZ.right = 0; render(); },
+  qzReset() { QZ.items = null; render(); },
+  qzPick(el) { if (QZ.picked != null) return; const it = QZ.items[QZ.i]; QZ.picked = +el.dataset.j; const ok = QZ.picked === it.a; if (ok) QZ.right++; recordDrill(it.id, ok); render(); },
+  qzNext() { QZ.i++; QZ.picked = null; render(); },
+  drNext() { DR.id = null; DR.text = ''; DR.result = null; DR.err = ''; DR.ref = false; render(); },
+  drRef() { DR.ref = !DR.ref; render(); },
+  async drGrade() {
+    if (!DR.text.trim() || DR.busy) return;
+    DR.busy = true; DR.err = ''; render();
+    try { DR.result = await grade(DR.id, DR.text); setProg(DR.id, { fr: { s: DR.result.score, d: today() } }); }
+    catch (e) { DR.err = sampleErr(e); }
+    DR.busy = false; render();
+  },
+  startTest(el) {
+    const kind = el.dataset.kind, w = +el.dataset.w;
+    if (TS && TS.phase !== 'done') { location.hash = 'tests'; render(); toast('Finish or quit the test in progress first'); return; }
+    TS = buildTest(kind, w);
+    if (!TS.items.length) { TS = null; toast('No questions available for this test yet'); return; }
+    location.hash = 'tests'; render();
+  },
+  tsPick(el) { TS.picks[TS.i] = +el.dataset.j; render(); },
+  tsPrev() { TS.i = Math.max(0, TS.i - 1); render(); },
+  tsNext() { if (TS.i + 1 < TS.items.length) TS.i++; else TS.phase = 'fr'; render(); },
+  tsBack() { TS.phase = 'mcq'; TS.i = TS.items.length - 1; render(); },
+  tsSubmit() { submitTest(); },
+  tsSelf(el) { TS.frs[+el.dataset.k].self = +el.dataset.v; render(); },
+  tsFinish() { finishTest(); },
+  tsQuit() { TS.quitAsk = true; render(); },
+  tsQuitNo() { TS.quitAsk = false; render(); },
+  tsQuitYes() { TS = null; render(); },
+  tsClose() { TS = null; render(); },
+  ckWeek(el) { CKW = +el.dataset.w; if (location.hash !== '#checkins') location.hash = 'checkins'; else render(); },
+  ckConf(el) { const w = CKW || plan().week; CKD[w].conf[+el.dataset.s] = +el.dataset.v; CKD[w].dirty = true; render(); },
+  ckSave(el) {
+    const w = +el.dataset.w, d = CKD[w];
+    const body = { conf: d.conf, hours: d.hours, clear: d.clear, fuzzy: d.fuzzy, people: d.people, next: d.next, coach: d.coach || (S.checkins['w' + w] || {}).coach || '', savedAt: Date.now() };
+    setDoc('checkins', 'w' + w, body); d.dirty = false; d.savedAt = body.savedAt; bump(); toast('Check-in saved'); render();
+  },
+  async ckCoach(el) {
+    const w = +el.dataset.w, d = CKD[w]; d.coachBusy = true; d.coach = ''; render();
+    try {
+      const r = await sample(coachPrompt(w), { cache: false, onText: ({ text }) => { d.coach = text; const o = $('ck-coach'); if (o) o.innerHTML = md(text); } });
+      d.coach = r.text; const saved = S.checkins['w' + w];
+      if (saved) { setDoc('checkins', 'w' + w, { ...saved, coach: r.text }); }
+    } catch (e) { d.coach = e.text || ''; toast(sampleErr(e) || 'Stopped'); }
+    d.coachBusy = false; render();
+  },
+  async export() {
+    if (!downloads) return;
+    const data = JSON.stringify({ app: 'ventura-multifamily-prep', version: 1, exportedAt: new Date().toISOString(), progress: S.progress, tests: S.tests, checkins: S.checkins, meta: S.meta, activity: S.activity }, null, 1);
+    try { await downloads.save({ filename: `ventura-study-backup-${today()}.json`, data }); toast('Backup saved'); }
+    catch (e) { if (e && e.code !== 'declined') toast('Could not save the file here.'); }
+  },
+  async importYes() {
+    const data = IMP; IMP = null;
+    let n = 0;
+    for (const coll of ['progress', 'tests', 'checkins', 'meta', 'activity']) {
+      for (const [k, v] of Object.entries(data[coll] || {})) { if (v && typeof v === 'object' && /^[\w.~:@+-]+$/.test(k)) { setDoc(coll, k, v); n++; } }
+    }
+    toast(`Imported ${n} records`); render();
+  },
+  importNo() { IMP = null; render(); },
+};
+const IN = {
+  libText(el) { LF.text = el.value; later('lib', () => { const ids = libIds(); const groups = SECTIONS.map(s => ({ s, ids: ids.filter(id => q(id).s === s.n) })).filter(g => g.ids.length); $('lib-results').innerHTML = libResults(groups); }, 150); },
+  glText(el) { GQ = el.value; const t = GQ.toLowerCase(); $('gl-list').innerHTML = glList(GLOSSARY.filter(g => !t || (g.term + ' ' + g.def).toLowerCase().includes(t))); },
+  my(el) { const id = +el.dataset.id; const k = 'q' + id; S.progress[k] = { ...prog(id), my: el.value, u: Date.now() }; dirty.add('progress/' + k); later('my' + id, () => { save('progress/' + k, S.progress[k]); bump(); }); },
+  note(el) { const id = +el.dataset.id; const k = 'q' + id; S.progress[k] = { ...prog(id), note: el.value, u: Date.now() }; dirty.add('progress/' + k); later('note' + id, () => { save('progress/' + k, S.progress[k]); bump(); }); },
+  fr(el) { const id = +el.dataset.id; (FR[id] || (FR[id] = {})).text = el.value; },
+  ask(el) { const id = +el.dataset.id; (AK[id] || (AK[id] = {})).q = el.value; },
+  drText(el) { DR.text = el.value; const b = document.querySelector('[data-act="drGrade"]'); if (b) b.disabled = !sample || DR.busy || !DR.text.trim(); },
+  tsFr(el) { TS.frs[+el.dataset.k].text = el.value; },
+  ck(el) { const w = CKW || plan().week; CKD[w][el.dataset.f] = el.value; CKD[w].dirty = true; },
+};
+const CH = {
+  libSec(el) { LF.sec = +el.value; render(); },
+  libStatus(el) { LF.status = el.value; render(); },
+  qzScope(el) { QZ.scope = el.value; render(); },
+  qzSec(el) { QZ.sec = +el.value; render(); },
+  qzCount(el) { QZ.count = +el.value; },
+  drScope(el) { DR.scope = el.value; ACT.drNext(); },
+  importFile(el) {
+    const f = el.files && el.files[0]; if (!f) return;
+    const rd = new FileReader();
+    rd.onload = () => { try { const d = JSON.parse(rd.result); if (d.app !== 'ventura-multifamily-prep') throw 0; IMP = d; } catch (e) { toast('That file is not a backup from this page.'); } el.value = ''; render(); };
+    rd.readAsText(f);
+  },
+};
+document.addEventListener('click', e => {
+  const el = e.target.closest('[data-act]');
+  if (el && el.dataset.act && ACT[el.dataset.act]) {
+    if (el.tagName === 'A') e.preventDefault();
+    ACT[el.dataset.act](el, e); return;
+  }
+  if (e.target === $('sheet')) $('sheet').hidden = true;
+});
+document.addEventListener('input', e => { const el = e.target.closest('[data-in]'); if (el && IN[el.dataset.in]) IN[el.dataset.in](el, e); });
+document.addEventListener('change', e => { const el = e.target.closest('[data-ch]'); if (el && CH[el.dataset.ch]) CH[el.dataset.ch](el, e); });
+document.addEventListener('keydown', e => {
+  if (typing() || e.metaKey || e.ctrlKey || e.altKey) return;
+  const r = route().name;
+  if (r === 'review' && RV.queue && RV.i < RV.queue.length) {
+    if (!RV.shown && (e.key === ' ' || e.key === 'Enter')) { e.preventDefault(); ACT.rvShow(); }
+    else if (RV.shown && /^[1-4]$/.test(e.key)) ACT.rate({ dataset: { r: String(+e.key - 1) } });
+  } else if (r === 'quiz' && QZ.items && QZ.i < QZ.items.length) {
+    if (QZ.picked == null && /^[1-4]$/.test(e.key) && +e.key <= QZ.items[QZ.i].c.length) ACT.qzPick({ dataset: { j: String(+e.key - 1) } });
+    else if (QZ.picked != null && e.key === 'Enter') ACT.qzNext();
+  }
+});
+
+render();
+initCaps();
+})();
+</script>

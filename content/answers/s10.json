@@ -1,0 +1,871 @@
+{
+  "section": 10,
+  "answers": [
+    {
+      "id": 132,
+      "summary": "Only two Ventura County cities cap apartment rents beyond AB 1482: **Oxnard** (since June 2022) and **Ojai** (since April 2023), both at 4% a year on older buildings. Everyone else, including the City of Ventura, Port Hueneme and the unincorporated county, relies on state law for apartments, though several jurisdictions regulate mobile home space rents.",
+      "answer": "### Apartment rent caps and just-cause rules beyond AB 1482\n\n| Jurisdiction | Apartment rent cap | Local just cause | Status (as of Oct 2026) |\n|---|---|---|---|\n| **Oxnard** | 4%/yr, pre-Feb 1, 1995 buildings | Yes, after 30 days of tenancy | Adopted April 2022, effective June 2022; in force |\n| **Ojai** | 4%/yr (Ord. 937) | Yes, after 1 year | Adopted March 28, 2023 (3-2); in force |\n| **City of Ventura** | None (rejected May 2025) | Only for demolition/substantial remodel (Ch. 8.1100, 2022) | Anti-harassment ordinance adopted Feb 2026 |\n| **Thousand Oaks** | Legacy 1979-80 ordinance; apartments occupied after 1987 exempt | No | Mainly a mobile home program now |\n| **Port Hueneme** | None found | No | State law only |\n| **Santa Paula** | None for apartments | No | Mobile home rent stabilization only |\n| **Unincorporated county** | None for apartments | No | Mobile home park rent control only (25 parks) |\n\nCamarillo, Simi Valley, Moorpark and Fillmore have no apartment rent control. Some of them regulate mobile home park rents only.\n\n### Correcting the premise\nI found **no evidence that Oxnard's ordinance was repealed or sent to a referendum.** It was adopted in April 2022 and is still being built out. In May 2025 the city adopted registry and enforcement fees, and on February 3, 2026 the council voted 5-2 to adopt fair-return petition rules. The 2026 rent-control referendum fight is in **Santa Barbara**, not Oxnard.\n\n### So what\nIn Oxnard and Ojai, an older apartment building is capped at 4% a year, which is below AB 1482's 5% + CPI (max 10%). That cap should be built into underwriting. Rent growth has to come from turnover: Costa-Hawkins vacancy decontrol still lets you reset to market when a unit turns over.\n\nElsewhere in the county, AB 1482 is the ceiling. Watch the City of Ventura, which keeps adding tenant protections.",
+      "keyPoints": [
+        "Oxnard: 4%/yr cap, pre-2/1/1995 buildings, effective June 2022",
+        "Ojai: 4%/yr cap, Ord. 937, adopted 3/28/2023 on a 3-2 vote",
+        "City of Ventura rejected rent stabilization and a registry on May 27, 2025",
+        "No Oxnard repeal or referendum found; Feb 3, 2026 fair-return rules passed 5-2",
+        "Unincorporated county: mobile home park rent control only (25 parks)"
+      ],
+      "sources": [
+        {
+          "title": "City of Oxnard - Rent Stabilization & Just Cause Guide for Landlords",
+          "url": "https://oxnard.gov/wp-content/uploads/RSO-Landlords_FINAL.pdf",
+          "date": "2023-01"
+        },
+        {
+          "title": "City of Oxnard - RSO/Just Cause Proposed Annual Program Fee and Study (community meeting slides)",
+          "url": "https://www.oxnard.gov/wp-content/uploads/pdfs/departments/housing/oxnard-fee-study-community-meeting-presentation-july-2026.pdf",
+          "date": "2026-07"
+        },
+        {
+          "title": "City of Ojai - Rent Stabilization",
+          "url": "https://ojai.ca.gov/582/Rent-Stabilization",
+          "date": "2026"
+        },
+        {
+          "title": "Ojai Valley News - City Council approves rent stabilization and tenant protection law for some renters",
+          "url": "https://www.ojaivalleynews.com/news/city-council-approves-rent-stabilization-and-tenant-protection-law-for-some-renters/article_27267318-cf86-11ed-b947-6f475163b992.html",
+          "date": "2023-03"
+        },
+        {
+          "title": "AAGLA - Victory Alert: Ventura City Council Rejects 4 out of 7 Bad Policies",
+          "url": "https://members.aagla.org/news/victory-alert-ventura-city-council-rejects-4-out-of-7-bad-policies",
+          "date": "2025-05"
+        },
+        {
+          "title": "Ventura County RMA - Mobile Home Park Rent Control Program",
+          "url": "https://rma.venturacounty.gov/programs/mobile-home-park-rent-control-program",
+          "date": "2026-10"
+        },
+        {
+          "title": "Tenants Together - City of Thousand Oaks rent control profile",
+          "url": "https://tenantstogether.org/?p=741",
+          "date": "n.d."
+        },
+        {
+          "title": "Citizen Portal - Oxnard Council adopts administrative rules for 'fair return' rent petitions",
+          "url": "https://citizenportal.ai/articles/7377618/california/ventura-county/oxnard-city/oxnard-council-adopts-administrative-rules-for-fair-return-rent-petitions-after-hours-of-debate",
+          "date": "2026-02"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Confirm current status in the municipal code of each city. For Thousand Oaks, check whether the legacy apartment rent ordinance is still in Title 5 and how many units it covers (third-party sources conflict). For Port Hueneme, confirm with the city clerk that there is no local ordinance. For Oxnard, the prompt mentioned a repeal or referendum: confirm with the Oxnard City Clerk that no repeal or referendum petition was ever filed.",
+      "drills": [
+        {
+          "q": "Which two Ventura County cities have apartment rent caps stricter than AB 1482?",
+          "choices": [
+            "Ventura and Thousand Oaks",
+            "Oxnard and Ojai",
+            "Oxnard and Port Hueneme",
+            "Camarillo and Simi Valley"
+          ],
+          "answer": 1,
+          "explain": "Oxnard (2022) and Ojai (2023) both cap increases at 4% a year on covered units."
+        },
+        {
+          "q": "What did the City of Ventura do with rent stabilization at its May 27, 2025 meeting?",
+          "choices": [
+            "Adopted a 3% cap",
+            "Placed it on the November 2026 ballot",
+            "Rejected it, along with a rental registry",
+            "Adopted it for mobile homes only"
+          ],
+          "answer": 2,
+          "explain": "Ventura's council rejected rent stabilization, a rental registry, TOPA and extra deposit limits, and kept working on anti-harassment and relocation measures."
+        },
+        {
+          "q": "What does unincorporated Ventura County regulate locally?",
+          "choices": [
+            "Apartment rents in all unincorporated areas",
+            "Mobile home park space rents only",
+            "Single-family rentals owned by corporations",
+            "Nothing beyond AB 1482"
+          ],
+          "answer": 1,
+          "explain": "The county's Ordinance 4620 covers 25 mobile home parks. Apartments fall under state law."
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "summary": "The two apartment ordinances are both 4% caps on older buildings with fair-return petitions. Oxnard's is the more administratively heavy: it requires a registry and annual fees, and just cause starts after only 30 days of tenancy.",
+      "answer": "### Oxnard: Rent Stabilization (RSO) and Just Cause and Tenant Protection Ordinance\n- **Adopted:** April 2022. **Effective:** June 2-3, 2022. Codified at City Code Chapter 27.\n- **Cap:** 4% per year, with no more than one increase in any 12 months. Owners can seek more through a **Fair Return Petition**; the council adopted rules for these petitions on February 3, 2026.\n- **\"Fully covered\" units:** about 13,600 units, built on or before **February 1, 1995**. They get both the rent cap and just cause.\n- **\"Partially covered\" units:** about 8,700 units built after 1995, plus most single-family homes, condos and ADUs. They get just cause only.\n- **Exempt:** deed-restricted affordable units, mobile homes (covered by a separate program), permitted short-term rentals, owner-occupied single-family homes renting up to two bedrooms, owner-occupied duplexes, and housing in institutions.\n- **Just cause** applies after 30 days of tenancy. A no-fault termination requires paying the greater of **2 months' rent or $5,000**, and the notice must be filed with the city within 5 days.\n\n### Ojai: Rent Stabilization and Just Cause Tenant Protection (Ord. 937, Title 11)\n- **Adopted:** March 28, 2023 on a 3-2 vote. **Effective:** about April 28, 2023.\n- **Cap:** 4% per year, once per 12 months. Exemptions are in Ojai Municipal Code §11-1.08. Secondary sources say coverage is limited to multifamily buildings older than 1995, consistent with Costa-Hawkins.\n- **Just cause:** applies after 1 year of tenancy. No-fault relocation is the greater of 2 months' rent or $5,000, paid within 15 days.\n\n### Mobile home rent ordinances\nThese cover space rents only, not apartments:\n- **Unincorporated county:** Ord. 4620, first adopted 1983, amended in 2023. Increases track the Social Security COLA within a 2-8% band; the 2027 maximum is **3.6%**.\n- **Cities:** Thousand Oaks (since about 1980, updated recently) and Santa Paula (it has a rent stabilization commission). Camarillo reportedly adopted a mobile home ordinance in April 2026, which is unverified.\n\n### So what\nFor an Oxnard deal, ask the seller for:\n- Registry compliance\n- Rent history since June 2022\n- Any filed termination notices\n\nThe city says rent increases are not allowed until a unit complies with the program.",
+      "keyPoints": [
+        "Oxnard: 4% cap; 2 months' rent or $5,000 (whichever is greater) for no-fault terminations; just cause after 30 days",
+        "Oxnard covers about 13,618 fully covered and 8,682 partially covered units",
+        "Ojai Ord. 937: 4% cap; just cause after 1 year; same 2 months or $5,000 relocation",
+        "County mobile home cap tracks the SS COLA within 2-8%; 3.6% for 2027",
+        "The 1995 certificate-of-occupancy cutoff tracks Costa-Hawkins"
+      ],
+      "sources": [
+        {
+          "title": "City of Oxnard - Rent Stabilization & Just Cause Guide for Landlords",
+          "url": "https://oxnard.gov/wp-content/uploads/RSO-Landlords_FINAL.pdf",
+          "date": "2023-01"
+        },
+        {
+          "title": "City of Oxnard - RSO/Just Cause Proposed Annual Program Fee and Study (community meeting slides)",
+          "url": "https://www.oxnard.gov/wp-content/uploads/pdfs/departments/housing/oxnard-fee-study-community-meeting-presentation-july-2026.pdf",
+          "date": "2026-07"
+        },
+        {
+          "title": "City of Oxnard Housing Dept - Proposed Program Fees & Timeline flyer",
+          "url": "https://www.oxnard.gov/wp-content/uploads/pdfs/events/oxnard-program-fees-flyer-english.pdf",
+          "date": "2026-07"
+        },
+        {
+          "title": "Citizen Portal - Oxnard Council adopts administrative rules for 'fair return' rent petitions",
+          "url": "https://citizenportal.ai/articles/7377618/california/ventura-county/oxnard-city/oxnard-council-adopts-administrative-rules-for-fair-return-rent-petitions-after-hours-of-debate",
+          "date": "2026-02"
+        },
+        {
+          "title": "City of Ojai - Rent Stabilization",
+          "url": "https://ojai.ca.gov/582/Rent-Stabilization",
+          "date": "2026"
+        },
+        {
+          "title": "City of Ojai - Just Cause Evictions",
+          "url": "https://ojai.ca.gov/581/Just-Cause-Evictions",
+          "date": "2026"
+        },
+        {
+          "title": "Ojai Valley News - City Council approves rent stabilization and tenant protection law for some renters",
+          "url": "https://www.ojaivalleynews.com/news/city-council-approves-rent-stabilization-and-tenant-protection-law-for-some-renters/article_27267318-cf86-11ed-b947-6f475163b992.html",
+          "date": "2023-03"
+        },
+        {
+          "title": "Ventura County RMA - Mobile Home Park Rent Control Program",
+          "url": "https://rma.venturacounty.gov/programs/mobile-home-park-rent-control-program",
+          "date": "2026-10"
+        },
+        {
+          "title": "City of Thousand Oaks - Mobile Homes (Rent Stabilization Ordinance, TOMC Title 5 Ch. 25)",
+          "url": "https://toaks.gov/mobilehomes",
+          "date": "2025"
+        },
+        {
+          "title": "City of Santa Paula (Zencity Engage) - Mobile Home Rent Stabilization Ordinance",
+          "url": "https://engage.zencity.io/santa-paula-ca/en-US/projects/mobile-home-rent-control-ordinance",
+          "date": "2026"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "For Ojai, pull OMC §11-1.08 to confirm the exact building-date exemption. The Ojai city page and secondary sources described the cap differently (4% flat vs. 5% + CPI); the city page we read says 4%. For Camarillo, the reported April 22, 2026 mobile home ordinance comes from a third-party site: confirm it on the Camarillo council agendas.",
+      "drills": [
+        {
+          "q": "Under Oxnard's Just Cause ordinance, what relocation payment is owed for a no-fault termination?",
+          "choices": [
+            "One month's rent",
+            "Greater of 2 months' rent or $5,000",
+            "Three months' rent",
+            "$3,000 flat"
+          ],
+          "answer": 1,
+          "explain": "Oxnard requires the greater of two months' rent or $5,000, paid within 15 days of the notice."
+        },
+        {
+          "q": "An Oxnard fourplex received its certificate of occupancy in 1998. Which rules apply?",
+          "choices": [
+            "Both the 4% cap and just cause",
+            "Neither ordinance",
+            "Just cause only (partially covered)",
+            "4% cap only"
+          ],
+          "answer": 2,
+          "explain": "Units built after February 1, 1995 are partially covered: they get just cause protections but not the rent cap."
+        },
+        {
+          "q": "What is the 2027 maximum ministerial space-rent increase for mobile home parks in unincorporated Ventura County?",
+          "choices": [
+            "2.5%",
+            "3.6%",
+            "4%",
+            "8%"
+          ],
+          "answer": 1,
+          "explain": "The county set 3.6% for January-December 2027, based on the CPI-W change, within the 2-8% band."
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "summary": "Oxnard and Ojai require the greater of 2 months' rent or $5,000 for no-fault terminations. The City of Ventura requires 2 months for demolition or substantial-remodel evictions and has moved to add a second month for vulnerable households. Everywhere else, the state's one month applies.",
+      "answer": "| Jurisdiction | Trigger | Amount | Source and date |\n|---|---|---|---|\n| **State (AB 1482 / SB 567)** | No-fault just cause | 1 month's rent, or waive the last month | Baseline everywhere |\n| **Oxnard** | Any no-fault termination | Greater of **2 months' rent or $5,000**, within 15 days | Just Cause Ordinance, effective June 2022 |\n| **Ojai** | No-fault termination, after 1 year of tenancy | Greater of **2 months' rent or $5,000**, within 15 days | Ord. 937, 2023 |\n| **City of Ventura** | Demolition or substantial remodel | **2 months' rent** (or waive last 2 months) | Ch. 8.1100, urgency ordinance of 2022 |\n| **City of Ventura** | No-fault, qualified households | Proposed: +1 month (2 total) for seniors, people with disabilities, terminally ill | Council item October 7, 2025 |\n\n### Ventura detail\nIn mid-2025, staff noted that Ventura had no general no-fault just-cause ordinance of its own. The Relocation Assistance Program would adopt state law and add a second month of relocation for vulnerable households.\n\nTenant advocates (CAUSE) pushed for 3 months for all no-fault evictions. That was an advocacy position; there is no record that it passed. I could not confirm the final adoption vote, but the item was set for second reading after October 7, 2025.\n\n### Underwriting impact\nTake a 20-unit Oxnard building at $2,200/month rent. A no-fault vacate for a substantial remodel costs at least **$5,000 per unit**: two months is $4,400, so the $5,000 floor applies. That is **$100,000+** before construction, and SB 567 adds its own scope and notice rules on top.\n\nValue-add buyers in Oxnard and Ojai should plan around natural turnover rather than relocations.",
+      "keyPoints": [
+        "Oxnard and Ojai: greater of 2 months' rent or $5,000, paid within 15 days",
+        "Ventura Ch. 8.1100 (2022): 2 months' rent for demolition or substantial-remodel evictions",
+        "Ventura Oct 2025: +1 month for seniors, disabled and terminally ill households (adoption to confirm)",
+        "State baseline: 1 month's rent or waiver of the last month"
+      ],
+      "sources": [
+        {
+          "title": "City of Oxnard - Rent Stabilization & Just Cause Guide for Landlords",
+          "url": "https://oxnard.gov/wp-content/uploads/RSO-Landlords_FINAL.pdf",
+          "date": "2023-01"
+        },
+        {
+          "title": "City of Oxnard - RSO/Just Cause Proposed Annual Program Fee and Study (community meeting slides)",
+          "url": "https://www.oxnard.gov/wp-content/uploads/pdfs/departments/housing/oxnard-fee-study-community-meeting-presentation-july-2026.pdf",
+          "date": "2026-07"
+        },
+        {
+          "title": "City of Ojai - Just Cause Evictions",
+          "url": "https://ojai.ca.gov/581/Just-Cause-Evictions",
+          "date": "2026"
+        },
+        {
+          "title": "Astanehe Law - Relocation Payments for Ventura Tenants Evicted for Demolition or Substantial Remodeling",
+          "url": "https://astanehelaw.com/2022/06/19/relocation-payments-for-ventura-tenants-evicted-for-demolition-or-substantial-remodeling-work/",
+          "date": "2022-06"
+        },
+        {
+          "title": "City of Ventura - Relocation Assistance staff report (HHS Committee)",
+          "url": "https://www.cityofventura.ca.gov/DocumentCenter/View/45684/Relocation-Assistance-HHS-Staff-Report",
+          "date": "2025-07"
+        },
+        {
+          "title": "City of Ventura - Agenda Item 6, Council Action Date October 7, 2025 (Relocation Assistance)",
+          "url": "https://www.cityofventura.ca.gov/DocumentCenter/View/46461/06",
+          "date": "2025-09"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Confirm that the Ventura relocation ordinance (new Chapter 8.1200, Oct 7, 2025 council item) was adopted at second reading, and check its final eligibility terms. The anti-harassment ordinance adopted in Feb 2026 was also labeled Chapter 8.1200, so check the current San Buenaventura Municipal Code numbering.",
+      "drills": [
+        {
+          "q": "An Oxnard tenant paying $1,800/month is served a no-fault termination. What is the minimum relocation payment?",
+          "choices": [
+            "$1,800",
+            "$3,600",
+            "$5,000",
+            "$5,400"
+          ],
+          "answer": 2,
+          "explain": "Two months is $3,600, which is less than the $5,000 floor. The greater amount, $5,000, applies."
+        },
+        {
+          "q": "What does City of Ventura Chapter 8.1100 (2022) address?",
+          "choices": [
+            "Citywide rent caps",
+            "Demolition and substantial-remodel evictions, with 2 months' relocation",
+            "Short-term rentals",
+            "Rental registry fees"
+          ],
+          "answer": 1,
+          "explain": "Chapter 8.1100 sets just cause and 2 months' relocation for demolition or substantial-remodel evictions."
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "summary": "Oxnard is the only Ventura County city with a mandatory rental registry. Every rental unit, including single-family homes and condos, must be registered, and annual per-unit fees apply. The City of Ventura rejected a registry in May 2025.",
+      "answer": "### Oxnard\n- **Who must register:** all landlords with rental units in the city must register each unit through rentalregistry.oxnard.gov. Exempt owners must apply for the exemption through the registry, and a unit must be re-registered within 30 days after it is re-rented.\n- **Fees adopted May 22, 2025 (effective June 19, 2025):**\n  - RSO (pre-1995) units: **$138.77/unit**, scheduled to rise to $143.21 in FY25-26 and $146.88 in FY26-27\n  - Non-RSO units under the Just Cause enforcement fee: **$69.39/unit**, rising to $71.60 and $73.44\n  - A one-year amnesty on late-filing fees\n  - AAGLA reported Councilmember Aaron Starr as the lone no vote.\n- **New 2026 fee study (proposed):**\n  - Fully covered: **$140** (FY26/27), stepping up to $162 by FY29/30\n  - Partially covered: **$70**, rising to $82\n  - **Register units and tenancies by November 1, 2026; payment due January 30, 2027**\n  - Estimated program cost is $2.35M in FY26/27.\n- **Compliance gate:** the city says a unit must be in compliance with the program before a rent increase can be applied.\n\n### Other jurisdictions\n- **City of Ventura:** council rejected a rental registry, along with rent stabilization, on May 27, 2025.\n- **Ojai:** the city's rent stabilization and just-cause pages do not describe a registry; check with the city.\n- **Unincorporated county and other cities:** I found no apartment registry. Mobile home park programs track space rents through their rent review boards.\n- **Comparison:** Santa Barbara's new 2026 ordinance includes a mandatory registry. Unregistered landlords there cannot legally collect rent.\n\n### So what\nIn Oxnard due diligence, request:\n- Registry confirmations\n- Fee receipts\n- Exemption filings\n\nUnregistered units can block rent increases and create penalty exposure. A buyer should also make sure re-registration is done after closing.",
+      "keyPoints": [
+        "Oxnard: every rental unit must be registered, including SFRs, condos and ADUs",
+        "May 2025 fees: $138.77 (RSO) and $69.39 (non-RSO) per unit, effective June 19, 2025",
+        "Proposed FY26/27 fees: $140 fully covered, $70 partially covered",
+        "Register by Nov 1, 2026; pay by Jan 30, 2027",
+        "Ventura rejected a registry on May 27, 2025"
+      ],
+      "sources": [
+        {
+          "title": "City of Oxnard - Rental Registry portal",
+          "url": "https://rentalregistry.oxnard.gov/",
+          "date": "2026"
+        },
+        {
+          "title": "AAGLA - News Alert: Oxnard Adopts New Fees for ALL Rental Properties",
+          "url": "https://members.aagla.org/news/news-alert-oxnard-adopts-new-fees-for-all-rental-properties",
+          "date": "2025-05"
+        },
+        {
+          "title": "City of Oxnard Housing Dept - Proposed Program Fees & Timeline flyer",
+          "url": "https://www.oxnard.gov/wp-content/uploads/pdfs/events/oxnard-program-fees-flyer-english.pdf",
+          "date": "2026-07"
+        },
+        {
+          "title": "City of Oxnard - RSO/Just Cause Proposed Annual Program Fee and Study (community meeting slides)",
+          "url": "https://www.oxnard.gov/wp-content/uploads/pdfs/departments/housing/oxnard-fee-study-community-meeting-presentation-july-2026.pdf",
+          "date": "2026-07"
+        },
+        {
+          "title": "AAGLA - Victory Alert: Ventura City Council Rejects 4 out of 7 Bad Policies",
+          "url": "https://members.aagla.org/news/victory-alert-ventura-city-council-rejects-4-out-of-7-bad-policies",
+          "date": "2025-05"
+        },
+        {
+          "title": "Santa Barbara Independent - The long road to Santa Barbara's rent stabilization ordinance",
+          "url": "https://www.independent.com/2026/10/14/the-long-road-to-santa-barbaras-rent-stabilization-ordinance/",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Check whether the Oxnard City Council adopted the 2026 fee study ($140/$70) after the July 2026 community meetings, and confirm the Nov 1, 2026 registration deadline on oxnard.gov/housing. Confirm with Ojai's Community Development Department whether Ojai requires registration.",
+      "drills": [
+        {
+          "q": "What is the registration deadline for Oxnard's proposed 2026-27 rental program fees?",
+          "choices": [
+            "June 19, 2025",
+            "November 1, 2026",
+            "January 30, 2027",
+            "July 1, 2027"
+          ],
+          "answer": 1,
+          "explain": "Units and tenancies must be registered by November 1, 2026. Payment is due January 30, 2027."
+        },
+        {
+          "q": "Which Oxnard rental units must be registered?",
+          "choices": [
+            "Only pre-1995 multifamily",
+            "Only buildings with 5+ units",
+            "All rental units, including SFRs and condos",
+            "Only units with a fair-return petition"
+          ],
+          "answer": 2,
+          "explain": "Since 2025, non-RSO properties (single-family homes, condos, ADUs, newer multifamily) must also register and pay the just-cause fee."
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "summary": "I found no proactive or periodic rental inspection program in any Ventura County city, comparable to LA's SCEP. Inspections here are complaint-driven code enforcement, plus state-mandated SB 721 balcony inspections.",
+      "answer": "### What we found\nA targeted search for proactive rental inspection programs in Oxnard, Ventura, Santa Paula and Port Hueneme turned up **nothing comparable** to Los Angeles's Systematic Code Enforcement Program (SCEP). SCEP periodically inspects every rental property with two or more units.\n\nOxnard's program is a **registry**, not an inspection program. The city also says it does not require a business license to rent housing.\n\n### What does apply\n- **Complaint-based code enforcement** in every city. A tenant complaint triggers an inspection of habitability conditions (Civil Code 1941.1 and Health & Safety Code 17920.3).\n- **SB 721 (Health & Safety Code 17973):** buildings with 3+ units must have a licensed professional inspect balconies, decks and other exterior elevated elements. The first deadline was extended to **January 1, 2026**, with repeat inspections every 6 years.\n- **Fire department inspections:** many fire agencies, including Ventura County Fire, inspect apartment buildings periodically under the state fire code (R-occupancy inspections, Health & Safety Code 13146.2). Ask the specific fire authority.\n- **HUD/HQS or NSPIRE inspections** for Section 8 or subsidized units.\n\n### So what\nThere is no city \"certificate of rental compliance\" to check in diligence. The practical risk is:\n- Open code-enforcement cases\n- An unfinished SB 721 inspection or repairs\n- Unpermitted units (common in Oxnard and Santa Paula)\n\nAsk for the SB 721 report. Pull permit and code-case history from the city's online permit portal.",
+      "keyPoints": [
+        "No proactive rental inspection program found in any Ventura County city",
+        "Oxnard has a registry, not an inspection program",
+        "SB 721: 3+ unit buildings; first deadline Jan 1, 2026; every 6 years after",
+        "Local enforcement is complaint-driven"
+      ],
+      "sources": [
+        {
+          "title": "City of Oxnard - Rental Registry portal",
+          "url": "https://rentalregistry.oxnard.gov/",
+          "date": "2026"
+        },
+        {
+          "title": "LADBS - Soft Story Retrofit Program (comparison benchmark)",
+          "url": "https://dbs.lacity.gov/services/specialized-services/mandatory-retrofit-programs/soft-story-retrofit-program",
+          "date": "2026"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "This is a negative finding: the search found no program, which does not prove none exists. Call or check the code enforcement or building pages for Oxnard, Ventura, Thousand Oaks, Simi Valley, Santa Paula and Port Hueneme. Ask the Ventura County Fire Department about its annual apartment inspection program.",
+      "drills": [
+        {
+          "q": "Which Ventura County city runs an LA-style proactive inspection of all rental units?",
+          "choices": [
+            "Oxnard",
+            "Ventura",
+            "Thousand Oaks",
+            "None found"
+          ],
+          "answer": 3,
+          "explain": "Research found no proactive rental inspection program in Ventura County cities. Inspections are complaint-driven."
+        },
+        {
+          "q": "Under SB 721, which buildings need an inspection of exterior elevated elements?",
+          "choices": [
+            "All rentals",
+            "Buildings with 3+ units",
+            "Only pre-1978 buildings",
+            "Only buildings in the coastal zone"
+          ],
+          "answer": 1,
+          "explain": "SB 721 applies to buildings with three or more multifamily units. The first deadline was January 1, 2026."
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "summary": "Oxnard and the City of Ventura both now have tenant anti-harassment ordinances. Oxnard's, effective August 14, 2025, carries $10,000-per-violation statutory damages. Ventura's, adopted February 2026, runs complaints through city mediation and fines.",
+      "answer": "### Oxnard: Tenant Anti-Harassment Ordinance (TAHO)\n- Council approved the ordinance on **April 29, 2025** and passed it on **July 15, 2025**. It took effect **August 14, 2025**.\n- It applies to **all rental housing**, not just RSO units.\n- **Remedies:**\n  - The greater of **$10,000 statutory damages per violation** or actual damages\n  - Punitive damages and attorneys' fees\n  - **An extra $5,000 per violation** if the tenant is a senior or disabled\n  - Violations can also be prosecuted as misdemeanors (up to 6 months in jail and/or a $1,000 fine)\n\n### City of Ventura: Anti-Harassment Program (new Chapter 8.1200)\n- In May 2025, council directed staff to draft an ordinance that defines harassment, bars **self-help evictions**, and protects both tenants and owners.\n- The Planning Commission reviewed it in late 2025 and January 2026.\n- Council approved the first reading **unanimously on February 10, 2026**. The second reading and adoption were on the February 17, 2026 agenda.\n- **How it works:** tenants file complaints with the city, which triggers mediation. Landlords who refuse to participate can be fined, and civil-penalty and administrative-citation pathways apply.\n\n### Elsewhere\nI found no local anti-harassment ordinance in Thousand Oaks, Simi Valley, Camarillo, Moorpark, Port Hueneme, Santa Paula, Fillmore, Ojai or the unincorporated county. State law still bars retaliation and harassment everywhere:\n- Civil Code 1940.2 (up to $2,000 per violation)\n- Civil Code 1942.5 (retaliation)\n\n### So what\nProperty management conduct is now a liability line item in Oxnard and Ventura. Examples:\n- Repeated entry\n- Cutting services\n- Buyout pressure\n- Threats around immigration status\n\nA buyer should review management practices and any pending tenant complaints, and train new staff on the local rules.",
+      "keyPoints": [
+        "Oxnard TAHO: effective Aug 14, 2025; applies to all rentals",
+        "Oxnard remedies: $10,000 per violation or actual damages, +$5,000 for seniors/disabled, possible misdemeanor",
+        "Ventura anti-harassment: first reading passed unanimously Feb 10, 2026; Ch. 8.1200",
+        "Ventura's model is complaint, then city mediation, then fines",
+        "State floor: Civil Code 1940.2 and 1942.5"
+      ],
+      "sources": [
+        {
+          "title": "AAGLA - The Year in Review: Local Housing Ordinances Passed During 2025",
+          "url": "https://members.aagla.org/news/the-year-in-review-local-housing-ordinances-passed-during-2025",
+          "date": "2025"
+        },
+        {
+          "title": "City of Ventura - City Council Agenda (second reading, Chapter 8.1200 Anti-Harassment Program)",
+          "url": "https://www.cityofventura.ca.gov/AgendaCenter/ViewFile/Agenda/_02172026-3578",
+          "date": "2026-02"
+        },
+        {
+          "title": "City of Ventura - PROJ-25-0859 Planning Commission Anti-Harassment staff report",
+          "url": "https://www.cityofventura.ca.gov/DocumentCenter/View/48531/PROJ-25-0859Attachment-A---PC-Anti-Harassment",
+          "date": "2025-10"
+        },
+        {
+          "title": "Citizen Portal - Ventura's new tenant anti-harassment program starts enforcement after Feb. 2026 ordinance",
+          "url": "https://citizenportal.ai/articles/8092207/california/ventura-county/san-buenaventura/venturas-new-tenant-anti-harassment-program-starts-enforcement-after-feb-2026-ordinance",
+          "date": "2026-04"
+        },
+        {
+          "title": "AAGLA - Victory Alert: Ventura City Council Rejects 4 out of 7 Bad Policies",
+          "url": "https://members.aagla.org/news/victory-alert-ventura-city-council-rejects-4-out-of-7-bad-policies",
+          "date": "2025-05"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Pull the adopted text of Oxnard's TAHO (City Code Ch. 27) and Ventura's Chapter 8.1200, and confirm the Feb 17, 2026 second-reading vote in the Ventura council minutes. The vote tallies for Oxnard's TAHO were not found.",
+      "drills": [
+        {
+          "q": "What is the statutory damages amount under Oxnard's Tenant Anti-Harassment Ordinance?",
+          "choices": [
+            "$1,000 per violation",
+            "$2,000 per violation",
+            "$10,000 per violation or actual damages, whichever is greater",
+            "$50,000 per property"
+          ],
+          "answer": 2,
+          "explain": "Oxnard's TAHO sets the greater of $10,000 per violation or actual damages, plus $5,000 more for seniors or disabled tenants."
+        },
+        {
+          "q": "When did Ventura's council approve the first reading of its anti-harassment ordinance?",
+          "choices": [
+            "May 27, 2025",
+            "October 7, 2025",
+            "February 10, 2026",
+            "July 15, 2025"
+          ],
+          "answer": 2,
+          "explain": "The first reading passed unanimously on February 10, 2026, with second reading on February 17."
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "summary": "The clearest rejection was in the City of Ventura, where council turned down rent stabilization and a registry on May 27, 2025. Oxnard and Ojai adopted rent control. Ojai's margin was 3-2. Vote tallies for most other cities aren't documented in what I found.",
+      "answer": "| Jurisdiction | What happened | Vote / margin |\n|---|---|---|\n| **City of Ventura** | 2024: council discussed rent control and ordered workshops (no vote). **May 27, 2025:** rejected rent stabilization, a rental registry, TOPA and extra deposit limits, and kept anti-harassment, relocation and legal-aid funding alive | Tally not reported in the sources found |\n| **Ojai** | Adopted rent stabilization and just cause on March 28, 2023 | **3-2**. Councilmember Francina voted no and proposed a sunset date instead |\n| **Oxnard** | Adopted RSO and just cause in April 2022; built it out in 2025-26 | Fee ordinance passed May 2025 with one no vote (Starr); fair-return rules passed **5-2** on Feb 3, 2026 |\n| **Thousand Oaks** | Kept a legacy ordinance from about 1980 (apartments occupied after 1987 exempt); no recent expansion found | n/a |\n| **Fillmore** | A 2009 ballot initiative sought rent stabilization for one mobile home park (El Dorado) but did not produce a citywide ordinance | Third-party source |\n| **Camarillo, Simi Valley, Moorpark, Port Hueneme, Santa Paula, County** | No recent apartment rent-control votes found | n/a |\n\n### Nearby comparison\nSanta Barbara adopted rent stabilization **4-3** on September 29, 2026. That shows how one seat changes the outcome.\n\n### So what\nVentura is the city to watch. It has been close on tenant issues for three years, rejected rent control in 2025 but kept adding protections, and its council makeup can shift with district elections.\n\nOjai's 3-2 split also means its ordinance could be revisited if the council's composition changes.",
+      "keyPoints": [
+        "Ventura rejected rent stabilization and a registry on May 27, 2025",
+        "Ojai adopted on a 3-2 vote on 3/28/2023",
+        "Oxnard fair-return regulations passed 5-2 on 2/3/2026",
+        "Santa Barbara adopted 4-3 on 9/29/2026 (comparison)"
+      ],
+      "sources": [
+        {
+          "title": "AAGLA - Victory Alert: Ventura City Council Rejects 4 out of 7 Bad Policies",
+          "url": "https://members.aagla.org/news/victory-alert-ventura-city-council-rejects-4-out-of-7-bad-policies",
+          "date": "2025-05"
+        },
+        {
+          "title": "Ojai Valley News - City Council approves rent stabilization and tenant protection law for some renters",
+          "url": "https://www.ojaivalleynews.com/news/city-council-approves-rent-stabilization-and-tenant-protection-law-for-some-renters/article_27267318-cf86-11ed-b947-6f475163b992.html",
+          "date": "2023-03"
+        },
+        {
+          "title": "AAGLA - News Alert: Ojai Adopts Rent Control and Just Cause Eviction Restrictions Ordinance",
+          "url": "https://members.aagla.org/news/news-alert-ojai-adopts-rent-control-and-just-cause-eviction-restrictions-ordinance-",
+          "date": "2023-03"
+        },
+        {
+          "title": "AAGLA - News Alert: Oxnard Adopts New Fees for ALL Rental Properties",
+          "url": "https://members.aagla.org/news/news-alert-oxnard-adopts-new-fees-for-all-rental-properties",
+          "date": "2025-05"
+        },
+        {
+          "title": "Citizen Portal - Oxnard Council adopts administrative rules for 'fair return' rent petitions",
+          "url": "https://citizenportal.ai/articles/7377618/california/ventura-county/oxnard-city/oxnard-council-adopts-administrative-rules-for-fair-return-rent-petitions-after-hours-of-debate",
+          "date": "2026-02"
+        },
+        {
+          "title": "Santa Barbara Independent - City Council adopts rent stabilization ordinance in milestone 4-3 vote",
+          "url": "https://www.independent.com/2026/09/30/santa-barbara-city-council-adopts-rent-stabilization-ordinance-in-milestone-4-3-vote/",
+          "date": "2026-09"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "Pull the official minutes for the City of Ventura May 27, 2025 council meeting to get each motion's vote tally. Find the Oxnard April 2022 adoption vote count in the Oxnard minutes. The Fillmore 2009 initiative detail comes from a third-party site: verify it with the Fillmore city clerk.",
+      "drills": [
+        {
+          "q": "What was the vote when Ojai adopted rent stabilization in March 2023?",
+          "choices": [
+            "7-0",
+            "5-2",
+            "3-2",
+            "4-3"
+          ],
+          "answer": 2,
+          "explain": "Ojai's council adopted the ordinance 3-2. Councilmember Francina voted no."
+        },
+        {
+          "q": "Which policies did Ventura's council reject on May 27, 2025?",
+          "choices": [
+            "Anti-harassment and relocation",
+            "Rent stabilization, rental registry, TOPA and extra deposit limits",
+            "Short-term rental caps",
+            "Inclusionary housing"
+          ],
+          "answer": 1,
+          "explain": "AAGLA reported four of seven policies rejected: rent stabilization, registry, TOPA and extra deposit restrictions."
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "summary": "Public records here are thin. Most documented votes come from Santa Barbara (for comparison), Oxnard and Ventura. Treat this as a list of recorded votes, not predictions, and refresh it after the November 3, 2026 election.",
+      "answer": "This answer sticks to **recorded votes and published characterizations**. It makes no assumptions about motives.\n\n### Documented positions\n| Jurisdiction | Official | Public record |\n|---|---|---|\n| Oxnard | **Aaron Starr** | Lone no vote on the May 22, 2025 rental registry and fee ordinance (per AAGLA) |\n| Oxnard | Council majority | Adopted the fee ordinance (May 2025) and the tenant anti-harassment ordinance (July 2025); fair-return rules passed 5-2 (Feb 3, 2026). Individual names for the 5-2 vote were not available |\n| Ventura | Full council | Unanimous first reading of the anti-harassment ordinance (Feb 10, 2026). Rejected rent stabilization and registry (May 27, 2025; tally not found) |\n| Ventura | Mayor Jeanette Sanchez-Palacios, Deputy Mayor Doug Halter, Jim Duran, Alex Mangone | AAGLA, a landlord group, praised these four as \"responsible\" after the May 2025 rejection. That is the group's characterization, not a vote record |\n| Ojai | Councilmember Francina | Voted no on the 2023 ordinance and proposed a sunset date instead |\n| Santa Barbara (comparison) | Santamaria, Harmon, Sneddon, Gutierrez (yes); Rowse, Jordan, Friedman (no) | Sept 29, 2026 rent stabilization vote, 4-3 |\n\n### Gaps\nI could not find individual roll calls for:\n- Oxnard's April 2022 adoption\n- Ventura's May 2025 votes\n- Ojai's yes votes\n\nI found no tenant-protection votes at all for Thousand Oaks, Simi Valley, Camarillo, Moorpark, Port Hueneme, Santa Paula or Fillmore, or for the Board of Supervisors on apartments.\n\n### So what\nFor a client, the useful question is whether an ordinance can get **4 votes** (or 3 in a five-member city). Pull the roll calls from each city's minutes before advising.",
+      "keyPoints": [
+        "Oxnard: Aaron Starr was the lone no vote on the May 2025 fee ordinance",
+        "Ventura anti-harassment first reading passed unanimously, Feb 10, 2026",
+        "AAGLA praised four Ventura members after May 2025 (an advocacy group's characterization)",
+        "Santa Barbara yes votes: Santamaria, Harmon, Sneddon, Gutierrez",
+        "Records for most other cities are thin; refresh after the Nov 3, 2026 election"
+      ],
+      "sources": [
+        {
+          "title": "AAGLA - News Alert: Oxnard Adopts New Fees for ALL Rental Properties",
+          "url": "https://members.aagla.org/news/news-alert-oxnard-adopts-new-fees-for-all-rental-properties",
+          "date": "2025-05"
+        },
+        {
+          "title": "Citizen Portal - Oxnard Council adopts administrative rules for 'fair return' rent petitions",
+          "url": "https://citizenportal.ai/articles/7377618/california/ventura-county/oxnard-city/oxnard-council-adopts-administrative-rules-for-fair-return-rent-petitions-after-hours-of-debate",
+          "date": "2026-02"
+        },
+        {
+          "title": "AAGLA - Victory Alert: Ventura City Council Rejects 4 out of 7 Bad Policies",
+          "url": "https://members.aagla.org/news/victory-alert-ventura-city-council-rejects-4-out-of-7-bad-policies",
+          "date": "2025-05"
+        },
+        {
+          "title": "Citizen Portal - Ventura's new tenant anti-harassment program starts enforcement after Feb. 2026 ordinance",
+          "url": "https://citizenportal.ai/articles/8092207/california/ventura-county/san-buenaventura/venturas-new-tenant-anti-harassment-program-starts-enforcement-after-feb-2026-ordinance",
+          "date": "2026-04"
+        },
+        {
+          "title": "Ojai Valley News - City Council approves rent stabilization and tenant protection law for some renters",
+          "url": "https://www.ojaivalleynews.com/news/city-council-approves-rent-stabilization-and-tenant-protection-law-for-some-renters/article_27267318-cf86-11ed-b947-6f475163b992.html",
+          "date": "2023-03"
+        },
+        {
+          "title": "Santa Barbara Independent - City Council adopts rent stabilization ordinance in milestone 4-3 vote",
+          "url": "https://www.independent.com/2026/09/30/santa-barbara-city-council-adopts-rent-stabilization-ordinance-in-milestone-4-3-vote/",
+          "date": "2026-09"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "Pull roll-call votes from the official minutes: Oxnard (April 2022 adoption; Feb 3, 2026 fair-return vote), Ventura (May 27, 2025; Feb 10 and 17, 2026), Ojai (March 28, 2023). Check the Ventura County Elections Division results for the Nov 3, 2026 municipal races, since seats may change. Confirm the spelling of 'Starr' (AAGLA wrote 'Star').",
+      "drills": [
+        {
+          "q": "Who cast the lone no vote on Oxnard's May 2025 rental fee ordinance, per AAGLA?",
+          "choices": [
+            "Aaron Starr",
+            "Doug Halter",
+            "Meagan Harmon",
+            "Jim Duran"
+          ],
+          "answer": 0,
+          "explain": "AAGLA reported Councilmember Aaron Starr as the only no vote."
+        },
+        {
+          "q": "What is the best way to gauge future tenant-protection votes in a city?",
+          "choices": [
+            "Campaign mailers",
+            "Official roll-call votes in council minutes",
+            "Landlord association ratings alone",
+            "Social media posts"
+          ],
+          "answer": 1,
+          "explain": "The answer relies only on recorded votes. Advocacy-group characterizations are context, not evidence."
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "summary": "Santa Barbara's new ordinance, adopted September 29, 2026 and launching about January 2027, is tighter than anything in Ventura County. Its cap is the lesser of 60% of CPI or 3%, against 4% in Oxnard and Ojai. It is also facing a possible referendum.",
+      "answer": "| Feature | **Santa Barbara (2026)** | **Oxnard (2022)** | **Ojai (2023)** | **Ventura / rest of county** |\n|---|---|---|---|---|\n| Cap | Lesser of **60% of CPI or 3%**, 0% floor, no banking | **4%** | **4%** | AB 1482: 5% + CPI, max 10% |\n| Covered | Pre-Feb 1, 1995 multifamily (about 13,000 units); also corporate-owned SFRs and condos | Pre-Feb 1, 1995 | Older multifamily (verify) | Per AB 1482 |\n| Registry | Mandatory, fee-funded (about $2-2.5M/yr program) | Mandatory, about $140 / $70 per unit | Not confirmed | None |\n| Board | 5-7 member rent board | Housing Dept. administers | City staff | n/a |\n| Relocation | Just cause amendments pending | Greater of 2 mo. or $5,000 | Greater of 2 mo. or $5,000 | Ventura: 2 mo. for remodel |\n| Status | Adopted 4-3; referendum signatures being gathered (needs about 5,500) | In force | In force | n/a |\n\n### Santa Barbara notes\n- **Rent freeze:** Ordinance 2026-6206, with a 0% increase effective February 26, 2026. It is retroactive to December 16, 2025, which is also the base-rent date, and runs through December 31, 2026 or until the permanent ordinance starts. A landlord lawsuit against the freeze was dismissed in July 2026.\n- **Exemptions:** Housing Authority and Section 8 deed-restricted units, owner-occupied duplexes, and post-1995 construction.\n- **Petitions:** fair-return and capital-improvement petitions are available.\n- **Expected first increase:** about 2-2.25% in 2027.\n\n### So what for a Santa Barbara-based broker\nA Ventura County owner under the 4% cap in Oxnard or Ojai has noticeably more room than an owner under Santa Barbara's 60%-of-CPI cap. Outside Oxnard and Ojai, the AB 1482 ceiling is roughly 3-4 times Santa Barbara's.\n\nThat gap is a real pitch for Santa Barbara owners considering a 1031 exchange into Ventura County. Watch whether Santa Barbara's referendum qualifies and whether the cap is suspended pending a special election in 2027.",
+      "keyPoints": [
+        "Santa Barbara cap: lesser of 60% of CPI or 3%; no banking; launches about Jan 2027",
+        "SB adopted 4-3 on 9/29/2026; referendum needs about 5,500 signatures",
+        "SB base-rent date: Dec 16, 2025; freeze through Dec 31, 2026",
+        "Oxnard and Ojai: 4% flat, 2 months or $5,000 relocation",
+        "AB 1482 ceiling is roughly 3-4 times Santa Barbara's cap"
+      ],
+      "sources": [
+        {
+          "title": "Santa Barbara Independent - City Council adopts rent stabilization ordinance in milestone 4-3 vote",
+          "url": "https://www.independent.com/2026/09/30/santa-barbara-city-council-adopts-rent-stabilization-ordinance-in-milestone-4-3-vote/",
+          "date": "2026-09"
+        },
+        {
+          "title": "Santa Barbara Independent - The long road to Santa Barbara's rent stabilization ordinance",
+          "url": "https://www.independent.com/2026/10/14/the-long-road-to-santa-barbaras-rent-stabilization-ordinance/",
+          "date": "2026-10"
+        },
+        {
+          "title": "Santa Barbara Independent (Golis Team, Radius) - Santa Barbara rent control: what the rent freeze and the 2027 ordinance mean for multifamily owners",
+          "url": "https://www.independent.com/2026/07/29/santa-barbara-rent-control-what-the-rent-freeze-and-the-2027-ordinance-mean-for-multifamily-owners/",
+          "date": "2026-07"
+        },
+        {
+          "title": "City of Santa Barbara - Rent Stabilization",
+          "url": "https://santabarbaraca.gov/RentStabilization",
+          "date": "2026"
+        },
+        {
+          "title": "City of Oxnard - RSO/Just Cause Proposed Annual Program Fee and Study (community meeting slides)",
+          "url": "https://www.oxnard.gov/wp-content/uploads/pdfs/departments/housing/oxnard-fee-study-community-meeting-presentation-july-2026.pdf",
+          "date": "2026-07"
+        },
+        {
+          "title": "City of Ojai - Rent Stabilization",
+          "url": "https://ojai.ca.gov/582/Rent-Stabilization",
+          "date": "2026"
+        },
+        {
+          "title": "City of Ojai - Just Cause Evictions",
+          "url": "https://ojai.ca.gov/581/Just-Cause-Evictions",
+          "date": "2026"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Check the referendum: whether signatures were filed and verified by the Santa Barbara City Clerk, and whether the ordinance is suspended. Confirm the final adopted text on santabarbaraca.gov/RentStabilization and the registry fee once the fee study is done. Santa Barbara County's unincorporated areas and Goleta/Carpinteria are not covered by the city ordinance.",
+      "drills": [
+        {
+          "q": "What is the City of Santa Barbara's permanent rent cap?",
+          "choices": [
+            "4% flat",
+            "5% + CPI, max 10%",
+            "Lesser of 60% of CPI or 3%",
+            "100% of CPI"
+          ],
+          "answer": 2,
+          "explain": "The ordinance adopted Sept 29, 2026 caps increases at the lesser of 60% of CPI or 3%, with a 0% floor."
+        },
+        {
+          "q": "Which of these is a difference between Santa Barbara and Oxnard?",
+          "choices": [
+            "Only Santa Barbara has a registry",
+            "Only Oxnard covers pre-1995 buildings",
+            "Santa Barbara's cap is CPI-linked and lower; Oxnard's is a flat 4%",
+            "Oxnard has a rent freeze"
+          ],
+          "answer": 2,
+          "explain": "Both have registries and pre-1995 coverage. Santa Barbara's cap is the lesser of 60% of CPI or 3%, while Oxnard's is a flat 4%."
+        },
+        {
+          "q": "What base-rent date does Santa Barbara use?",
+          "choices": [
+            "February 1, 1995",
+            "December 16, 2025",
+            "January 1, 2027",
+            "June 2, 2022"
+          ],
+          "answer": 1,
+          "explain": "The rent actually paid on December 16, 2025 is each unit's base rent. June 2, 2022 is Oxnard's effective date."
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "summary": "I found no published, ranked code-enforcement priority lists for these cities. What the record does show: Oxnard is focused on rental-program compliance, short-term rental permits and harassment; Ventura on harassment complaints, remodel evictions and STVR permits; Port Hueneme on multifamily smoking. Statewide, SB 721 balconies and habitability are in play everywhere.",
+      "answer": "### Signals from recent actions\n| City | Recent enforcement focus (from adopted ordinances and programs) |\n|---|---|\n| **Oxnard** | Housing Dept. enforces the RSO and Just Cause rules with civil citations before prosecution; registry compliance (Nov 1, 2026 deadline); TAHO harassment cases; permitted STRs citywide since Dec 17, 2020 |\n| **Ventura** | Anti-harassment complaints with city mediation (2026); demolition and substantial-remodel eviction rules (Ch. 8.1100); STVR permits and renewals (applications July 2026, renewals due Aug 31, 2026); no ADUs as STVRs |\n| **Port Hueneme** | Smoking ban expanded to multifamily units and common areas (Aug 18, 2025); owners must investigate violations and give written notice. STR rules are being redrafted (Nov 2025) |\n| **Ojai** | Required tenant-rights postings in English and Spanish; just-cause notice rules |\n| **Other cities** | Complaint-driven; no published priority statement found |\n\n### Statewide items local inspectors cite\n- Habitability: Civil Code 1941.1, Health & Safety Code 17920.3\n- Unpermitted units and garage conversions, now often legalizable as ADUs\n- SB 721 balcony inspections (first deadline Jan 1, 2026)\n- Smoke and CO detectors\n\n### So what\nBefore closing, search the city's permit and code-case portal by APN. Open cases can transfer with the property, can stall refinancing and can block an Oxnard rent increase.\n\nIn Oxnard and Santa Paula, look especially for unpermitted units. They are common in older stock, and the city may require legalization or removal.",
+      "keyPoints": [
+        "Oxnard: civil citations come first; registry compliance; STR permits since Dec 17, 2020",
+        "Ventura: harassment mediation, remodel-eviction rules, STVR permits",
+        "Port Hueneme: multifamily smoking ban adopted Aug 18, 2025",
+        "Check open code cases by APN before closing"
+      ],
+      "sources": [
+        {
+          "title": "City of Oxnard - Rent Stabilization & Just Cause Guide for Landlords",
+          "url": "https://oxnard.gov/wp-content/uploads/RSO-Landlords_FINAL.pdf",
+          "date": "2023-01"
+        },
+        {
+          "title": "City of Oxnard Housing Dept - Proposed Program Fees & Timeline flyer",
+          "url": "https://www.oxnard.gov/wp-content/uploads/pdfs/events/oxnard-program-fees-flyer-english.pdf",
+          "date": "2026-07"
+        },
+        {
+          "title": "AAGLA - The Year in Review: Local Housing Ordinances Passed During 2025",
+          "url": "https://members.aagla.org/news/the-year-in-review-local-housing-ordinances-passed-during-2025",
+          "date": "2025"
+        },
+        {
+          "title": "Citizen Portal - Ventura's new tenant anti-harassment program starts enforcement after Feb. 2026 ordinance",
+          "url": "https://citizenportal.ai/articles/8092207/california/ventura-county/san-buenaventura/venturas-new-tenant-anti-harassment-program-starts-enforcement-after-feb-2026-ordinance",
+          "date": "2026-04"
+        },
+        {
+          "title": "City of Ventura - Short-Term Vacation Rentals",
+          "url": "https://www.cityofventura.ca.gov/STVR",
+          "date": "2026"
+        },
+        {
+          "title": "City of Oxnard - Short Term Rentals (STR) portal",
+          "url": "https://www.oxnard.gov/short-term-rentals-str/",
+          "date": "2026"
+        },
+        {
+          "title": "Citizen Portal - Port Hueneme council directs staff to revise short term rental rules",
+          "url": "https://cp.soar.com/articles/7002424/Port-Hueneme-City/Ventura-County/California/Port-Hueneme-council-directs-staff-to-revise-short-term-rental-rules-removes-separation-requirement",
+          "date": "2025-11"
+        },
+        {
+          "title": "City of Ojai - Just Cause Evictions",
+          "url": "https://ojai.ca.gov/581/Just-Cause-Evictions",
+          "date": "2026"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "Ask each city's code enforcement division (Oxnard Code Compliance, Ventura Code Enforcement, Thousand Oaks, Simi Valley, Camarillo, Santa Paula, Port Hueneme) for its current priorities or annual report. The priorities above are inferred from recent ordinances, not stated policy.",
+      "drills": [
+        {
+          "q": "Which city expanded its smoking ban to multifamily units and common areas in August 2025?",
+          "choices": [
+            "Oxnard",
+            "Port Hueneme",
+            "Ojai",
+            "Camarillo"
+          ],
+          "answer": 1,
+          "explain": "Port Hueneme approved the multifamily smoking ban on August 18, 2025."
+        },
+        {
+          "q": "Under Oxnard's rent ordinances, what is the first enforcement step for violations?",
+          "choices": [
+            "Misdemeanor prosecution",
+            "A civil citation",
+            "License revocation",
+            "Receivership"
+          ],
+          "answer": 1,
+          "explain": "Oxnard's guide says violations are first handled with a civil citation before misdemeanor or injunction options."
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "summary": "I found no mandatory soft-story retrofit ordinance in any Ventura County city, unlike Los Angeles, Pasadena, Burbank and Culver City. Even so, older tuck-under apartment buildings here carry the same seismic risk, and lenders and insurers may ask for a probable-maximum-loss (PML) study.",
+      "answer": "### Status\nSearches for soft-story programs in Thousand Oaks, Oxnard, Ventura and Simi Valley found **no mandatory ordinance**. The nearest mandatory programs are in LA County:\n- **City of LA:** wood-frame soft-story buildings with permits before October 1978 and 2+ stories\n- Pasadena, Burbank, Culver City, Santa Monica and West Hollywood\n\n### The legal backdrop\n- **AB 304 (2005)** lets cities adopt mandatory soft-story retrofit standards by ordinance. Ventura County cities have not, as far as I found.\n- **The URM law (Gov. Code 8875 et seq., 1986)** required cities in the highest seismic zone to inventory unreinforced masonry (URM) buildings and adopt loss-reduction programs. Ventura County jurisdictions fall under it, and older downtowns in Ventura, Santa Paula, Fillmore and Oxnard had URM inventories.\n- **Voluntary retrofits** may qualify for the state's Earthquake Brace + Bolt program (single-family only) or for property tax relief: **Prop 13's seismic exclusion (R&T Code 74.5)** means a qualifying retrofit does not trigger reassessment.\n\n### So what\n- Ventura County 1960s-70s **tuck-under parking buildings** (common in Oxnard, Ventura and Simi Valley) have the same weak first story as LA's mandated stock. They just carry no deadline.\n- Lenders on larger loans often require a **PML/seismic study**, and a PML above about 20% can force retrofits or earthquake insurance.\n- If a city adopts an ordinance later, compliance costs often run in the tens of thousands of dollars per building. Price that as a contingency risk, not a current mandate.",
+      "keyPoints": [
+        "No mandatory soft-story ordinance found in Ventura County cities",
+        "AB 304 (2005) allows cities to mandate retrofits",
+        "Nearest mandates: LA, Pasadena, Burbank, Culver City, Santa Monica",
+        "Prop 13 seismic exclusion: qualifying retrofits are not reassessed",
+        "Lenders may require a PML study; >20% PML is a common trigger"
+      ],
+      "sources": [
+        {
+          "title": "LADBS - Soft Story Retrofit Program (comparison benchmark)",
+          "url": "https://dbs.lacity.gov/services/specialized-services/mandatory-retrofit-programs/soft-story-retrofit-program",
+          "date": "2026"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "This is a negative finding. Confirm with the building and safety departments of Oxnard, Ventura, Thousand Oaks, Simi Valley and Camarillo that no soft-story ordinance or URM program is currently mandatory. Ask whether any is under consideration.",
+      "drills": [
+        {
+          "q": "Which Ventura County city has a mandatory soft-story retrofit ordinance like Los Angeles?",
+          "choices": [
+            "Oxnard",
+            "Simi Valley",
+            "Thousand Oaks",
+            "None found"
+          ],
+          "answer": 3,
+          "explain": "Research found no mandatory soft-story ordinance in Ventura County cities. LA-area cities have them."
+        },
+        {
+          "q": "What state law authorized cities to mandate soft-story retrofits?",
+          "choices": [
+            "SB 721",
+            "AB 304 (2005)",
+            "AB 1482",
+            "SB 9"
+          ],
+          "answer": 1,
+          "explain": "AB 304 (2005) expressly authorized cities to adopt mandatory soft-story retrofit standards."
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "summary": "Short-term rentals are permit-regulated in Oxnard and the City of Ventura, are being redrafted in Port Hueneme, and are mostly a single-family and beach-area issue. Statewide, ADUs built under the by-right rules generally can't be rented for 30 days or less, and Oxnard exempts permitted STRs from its rent ordinance.",
+      "answer": "| Jurisdiction | Current rule (latest found) | Multifamily angle |\n|---|---|---|\n| **Oxnard** | STR permit required citywide since **Dec 17, 2020**; permits are capped (a third-party source cites a neighborhood cap) | Units with an STR permit are exempt from the RSO and Just Cause rules |\n| **City of Ventura** | Ordinance updated **Dec 10, 2024**; new applications opened July 13, 2026; renewals due Aug 31, 2026 | **ADUs cannot be STVRs** |\n| **Port Hueneme** | Nov 2025: council told staff to revise the draft STR ordinance and drop a spacing requirement; final adoption not confirmed | Mostly beach-area condos and townhomes |\n| **Unincorporated county** | Hollywood Beach and Silver Strand have Oxnard addresses but follow **county** and Coastal Act rules; the county has debated STR limits in non-coastal areas such as the Ojai Valley | Check coastal vs. inland zone |\n| **Thousand Oaks, Simi Valley, Camarillo, Moorpark, Santa Paula, Fillmore, Ojai** | Not verified in this research | Check the zoning code |\n\n### State overlay\n- ADUs approved under the state's by-right provisions (Gov. Code 66323, formerly 65852.2(e)) must be rented for **more than 30 days**.\n- Cities may also ban STR use of any ADU.\n- Under the Coastal Act, outright STR bans in the coastal zone usually need a Local Coastal Program (LCP) amendment certified by the Coastal Commission.\n\n### So what\n- A buyer underwriting STR income on a beachside duplex must confirm whether it is inside city limits or unincorporated, and whether a transferable permit exists. Permits are often non-transferable.\n- An added ADU **cannot** be pitched as an Airbnb in Ventura, or for by-right ADUs anywhere in the state.",
+      "keyPoints": [
+        "Oxnard STR permits required since 12/17/2020; permitted STRs are exempt from the RSO",
+        "Ventura STVR ordinance updated 12/10/2024; ADUs cannot be STVRs",
+        "Port Hueneme STR ordinance was being redrafted in Nov 2025",
+        "By-right ADUs must be rented for more than 30 days (state law)",
+        "Hollywood Beach and Silver Strand are unincorporated: county and coastal rules apply"
+      ],
+      "sources": [
+        {
+          "title": "City of Oxnard - Short Term Rentals (STR) portal",
+          "url": "https://www.oxnard.gov/short-term-rentals-str/",
+          "date": "2026"
+        },
+        {
+          "title": "City of Oxnard - Rent Stabilization & Just Cause Guide for Landlords",
+          "url": "https://oxnard.gov/wp-content/uploads/RSO-Landlords_FINAL.pdf",
+          "date": "2023-01"
+        },
+        {
+          "title": "City of Ventura - Short-Term Vacation Rentals",
+          "url": "https://www.cityofventura.ca.gov/STVR",
+          "date": "2026"
+        },
+        {
+          "title": "Citizen Portal - Port Hueneme council directs staff to revise short term rental rules",
+          "url": "https://cp.soar.com/articles/7002424/Port-Hueneme-City/Ventura-County/California/Port-Hueneme-council-directs-staff-to-revise-short-term-rental-rules-removes-separation-requirement",
+          "date": "2025-11"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "Search engine budget ran out before verifying STR rules for Thousand Oaks, Simi Valley, Camarillo, Moorpark, Santa Paula, Fillmore, Ojai and the county. Check each zoning code and the County RMA short-term rental page. Confirm Port Hueneme's final STR ordinance and Oxnard's permit cap on oxnard.gov.",
+      "drills": [
+        {
+          "q": "Can a newly built ADU in the City of Ventura be used as a short-term vacation rental?",
+          "choices": [
+            "Yes, with a permit",
+            "Yes, if owner-occupied",
+            "No, Ventura bars ADUs as STVRs",
+            "Only in the coastal zone"
+          ],
+          "answer": 2,
+          "explain": "Ventura's December 2024 STVR update prohibits ADUs from being used as short-term vacation rentals."
+        },
+        {
+          "q": "Who regulates STRs at Hollywood Beach and Silver Strand?",
+          "choices": [
+            "City of Oxnard",
+            "City of Port Hueneme",
+            "County of Ventura (unincorporated, coastal zone)",
+            "City of Ventura"
+          ],
+          "answer": 2,
+          "explain": "They have Oxnard mailing addresses but are unincorporated, so county and Coastal Act rules apply."
+        }
+      ]
+    }
+  ]
+}
