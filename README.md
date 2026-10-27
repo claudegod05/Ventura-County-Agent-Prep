@@ -2,7 +2,7 @@
 
 A personal study site for learning the Ventura County multifamily market in eight weeks: 220 questions across 17 topics, with drafted answers, sources, spaced-repetition flashcards, quizzes, Claude-graded client drills, weekly tests, and weekly check-ins.
 
-The site runs as a private claude.ai Artifact. Progress (mastery ratings, notes, your own answers, flashcard schedule, test results, check-ins) is stored in the artifact's built-in database, so it follows you to any device where you are signed in to claude.ai. No other services are needed.
+The site runs as a private claude.ai Artifact: https://claude.ai/artifact/BZtPZzySGQjSvEWen9B2vW Progress (mastery ratings, notes, your own answers, flashcard schedule, test results, check-ins) is stored in the artifact's built-in database, so it follows you to any device where you are signed in to claude.ai. No other services are needed.
 
 ## Layout
 

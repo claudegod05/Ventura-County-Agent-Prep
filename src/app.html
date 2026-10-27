@@ -194,6 +194,7 @@ a.stat:hover { border-color: var(--accent); }
 .prose { max-width: 68ch; display: flex; flex-direction: column; gap: 12px; }
 .prose h3, .prose h4 { margin-top: 8px; }
 .prose ul, .prose ol { margin: 0; padding-left: 22px; display: flex; flex-direction: column; gap: 4px; }
+.prose li > ul, .prose li > ol { margin-top: 4px; }
 .prose code { font-family: var(--mono); font-size: 13px; background: var(--surface-2); padding: 1px 5px; border-radius: 4px; }
 .prose a.qref { font-family: var(--mono); font-size: 13px; }
 .tbl { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; }
@@ -330,6 +331,7 @@ function inl(s) {
   h = h.replace(/(^|[\s(;,])Q(\d{1,3})\b/g, (m, pre, n) => QS[n] ? `${pre}<a class="qref" href="#q${n}">Q${n}</a>` : m);
   return h;
 }
+const LIST = /^(\s*)([-*•]|\d+[.)])\s+(.*)$/;
 const isBlockStart = l => /^(#{1,4}\s|\s*\||\s*[-*•]\s+|\s*\d+[.)]\s+)/.test(l);
 function md(src) {
   if (!src) return '';
@@ -349,8 +351,18 @@ function md(src) {
         '<tbody>' + body.map(r => '<tr>' + r.map(c => `<td>${inl(c)}</td>`).join('') + '</tr>').join('') + '</tbody></table></div>');
       continue;
     }
-    if (/^\s*[-*•]\s+/.test(l)) { const it = []; while (i < L.length && /^\s*[-*•]\s+/.test(L[i])) it.push(L[i++].replace(/^\s*[-*•]\s+/, '')); out.push('<ul>' + it.map(x => `<li>${inl(x)}</li>`).join('') + '</ul>'); continue; }
-    if (/^\s*\d+[.)]\s+/.test(l)) { const it = []; while (i < L.length && /^\s*\d+[.)]\s+/.test(L[i])) it.push(L[i++].replace(/^\s*\d+[.)]\s+/, '')); out.push('<ol>' + it.map(x => `<li>${inl(x)}</li>`).join('') + '</ol>'); continue; }
+    if (LIST.test(l)) {
+      let html = ''; const stack = [];
+      while (i < L.length && LIST.test(L[i])) {
+        const m = L[i++].match(LIST), ind = m[1].length, tag = /\d/.test(m[2]) ? 'ol' : 'ul';
+        while (stack.length && ind < stack[stack.length - 1].ind) html += `</li></${stack.pop().tag}>`;
+        if (!stack.length || ind > stack[stack.length - 1].ind) { html += `<${tag}>`; stack.push({ ind, tag }); }
+        else html += '</li>';
+        html += `<li>${inl(m[3])}`;
+      }
+      while (stack.length) html += `</li></${stack.pop().tag}>`;
+      out.push(html); continue;
+    }
     const para = []; while (i < L.length && L[i].trim() && !(para.length && isBlockStart(L[i]))) para.push(L[i++]);
     out.push(`<p>${inl(para.join(' '))}</p>`);
   }
@@ -932,7 +944,7 @@ function finishTest() {
   const missed = [...new Set(t.items.filter((it, k) => t.picks[k] !== it.a).map(it => it.id))];
   t.result = { kind: t.kind, week: t.week, startedAt: t.startedAt, finishedAt: Date.now(), mcq: [right, t.items.length], fr: frs, score, missed };
   setDoc('tests', 't' + t.startedAt, t.result);
-  t.frs.forEach(f => { if (f.g) setProg(f.id, { fr: { s: f.g.score, d: today() } }); });
+  t.frs.forEach(f => { if (f.g && f.text.trim()) setProg(f.id, { fr: { s: f.g.score, d: today() } }); });
   t.phase = 'done'; render(); window.scrollTo(0, 0);
 }
 
