@@ -1,0 +1,1098 @@
+{
+  "section": 9,
+  "answers": [
+    {
+      "id": 116,
+      "summary": "AB 1482 (the Tenant Protection Act) caps yearly rent increases at 5% plus regional CPI, never more than 10%, and requires a \"just cause\" to end a tenancy once a tenant has been in place 12 months. Buildings with a certificate of occupancy in the last 15 years, properly noticed single-family homes and condos owned by individuals, owner-occupied duplexes and deed-restricted affordable housing are exempt. It sunsets January 1, 2030.",
+      "answer": "AB 1482 took effect January 1, 2020. The rent cap is in **Civil Code § 1947.12** and just cause is in **§ 1946.2**. Both now run until **January 1, 2030**.\n\n### Rent cap (§ 1947.12)\n- Over any 12 months, gross rent can rise by no more than **5% + the regional CPI change, or 10%, whichever is lower**.\n- The cap is measured from the **lowest rent charged in the prior 12 months**, so concessions you gave count against you.\n- A tenant can get **no more than two increases in 12 months**.\n- On vacancy, the owner can reset to market (vacancy decontrol).\n- Overcharges expose the owner to refund damages, up to **3x for willful violations**, plus attorney's fees, and to enforcement by the AG or city attorney (§ 1947.12(k)).\n\n### Just cause (§ 1946.2)\nJust cause applies after **12 months** of continuous, lawful occupancy, or 24 months for one tenant if new adults were added.\n- **At-fault causes:** nonpayment, breach, nuisance, criminal activity and similar. Curable breaches need a notice to cure first.\n- **No-fault causes:** owner or relative move-in, withdrawal from the rental market, a government order, or demolition/substantial remodel.\n- A no-fault termination requires **relocation equal to one month's rent**, paid within 15 days of the notice or given as a waived final month.\n\n### Main exemptions\n| Exemption | Condition |\n|---|---|\n| Newer buildings | Certificate of occupancy within the last **15 years** (rolling) |\n| Single-family homes and condos | Owner is not a REIT, a corporation, or an LLC with a corporate member, **and** tenants got the statutory written notice |\n| Owner-occupied duplex | Owner lived in one unit at the start of the tenancy and still does |\n| Affordable housing | Deed- or contract-restricted |\n| Stricter local control | Units under a local ordinance that is tighter (for example, Oxnard and Ojai; see Section 10) |\n\n### So what\nMost Ventura County apartments built before about 2011 are covered. Underwrite rent growth at the cap, not at market.\n\n*Educational summary, not legal advice. Confirm specific situations with a California landlord-tenant attorney.*",
+      "keyPoints": [
+        "Cap: 5% + regional CPI, max 10%, measured off the lowest rent in the prior 12 months",
+        "No more than 2 increases in any 12-month period",
+        "Just cause applies after 12 months of tenancy; no-fault = 1 month's rent relocation",
+        "15-year rolling new-construction exemption",
+        "SFR/condo exemption requires a non-corporate owner AND written exemption notice",
+        "Sunset: January 1, 2030; willful overcharges risk up to 3x damages"
+      ],
+      "sources": [
+        {
+          "title": "California Public Law - Civil Code § 1947.12 (rent cap)",
+          "url": "https://california.public.law/codes/civil_code_section_1947.12",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Public Law - Civil Code § 1946.2 (just cause)",
+          "url": "https://california.public.law/codes/civil_code_section_1946.2",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Apartment Association - Where are the new CPI figures for rent increases under AB 1482?",
+          "url": "https://caanet.org/where-are-the-new-cpi-figures-for-rent-increases-under-ab-1482-5/",
+          "date": "2026-04"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "high",
+      "verify": "Before relying on an exemption, confirm the certificate-of-occupancy date with the city building department. Check whether a local ordinance (Oxnard, Ojai, Thousand Oaks; see Section 10) overrides the state rules.",
+      "drills": [
+        {
+          "q": "Under AB 1482, what is the maximum annual increase for a covered unit?",
+          "choices": [
+            "5% flat",
+            "5% plus regional CPI, capped at 10%",
+            "10% plus CPI",
+            "CPI only, capped at 5%"
+          ],
+          "answer": 1,
+          "explain": "§ 1947.12 allows 5% plus the CPI change, or 10%, whichever is lower."
+        },
+        {
+          "q": "A 4-unit building got its certificate of occupancy in 2014. In October 2026, is it subject to the AB 1482 rent cap?",
+          "choices": [
+            "Yes, because all buildings with 3+ units are covered",
+            "Yes, because only pre-1995 buildings are exempt",
+            "No, because it is within the 15-year rolling exemption",
+            "No, because buildings under 5 units are always exempt"
+          ],
+          "answer": 2,
+          "explain": "Housing with a certificate of occupancy issued within the previous 15 years is exempt. 2014 is within 15 years of 2026."
+        },
+        {
+          "q": "What relocation does AB 1482 require for a no-fault just-cause termination?",
+          "choices": [
+            "None",
+            "Two months' rent",
+            "$5,000 flat",
+            "One month's rent, or a written waiver of the final month's rent"
+          ],
+          "answer": 3,
+          "explain": "§ 1946.2(d) requires one month's rent, paid within 15 days of the notice, or waiving the last month's rent."
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "summary": "For Ventura County, the AB 1482 cap is **8.6%** for increases taking effect from August 1, 2026 through July 31, 2027 (5% plus the 3.6% April-to-April California CPI). Ventura is not in any BLS metro CPI area named in the statute, so the statewide California CPI applies. The figure resets every August 1.",
+      "answer": "### Which CPI applies to Ventura County\n§ 1947.12(g) ties the cap to the BLS CPI-U for the metro area where the property sits, and it names the counties each index covers:\n- **Los Angeles-Long Beach-Anaheim:** Los Angeles and Orange counties only\n- **Riverside-San Bernardino-Ontario:** Riverside and San Bernardino\n- **San Diego-Carlsbad:** San Diego\n- **San Francisco-Oakland-Hayward:** Alameda, Contra Costa, Marin, San Francisco and San Mateo\n\n**Ventura County is not on that list.** It falls back to the **California CPI-U**, which the Department of Industrial Relations (DIR) publishes. CAA's county guidance reads the statute the same way.\n\n### The numbers\n| Increase effective | CPI used (April to April) | Ventura County cap |\n|---|---|---|\n| Aug 1, 2025 to Jul 31, 2026 | CA CPI, Apr 2024 to Apr 2025: **2.7%** | **7.7%** |\n| **Aug 1, 2026 to Jul 31, 2027** | CA CPI, Apr 2025 to Apr 2026: **3.6%** | **8.6%** |\n\nFor comparison, LA/Orange counties are at 8.7% (3.7% CPI) for the same period.\n\n### How the reset works\n- An increase that takes effect **on or after August 1** uses the April-to-April change from the **current** year.\n- An increase that takes effect **before August 1** uses the **prior** year's figure.\n- So a notice served in July 2026 for an increase effective in September 2026 can use 8.6%.\n- The next reset is **August 1, 2027**, based on the April 2026 to April 2027 California CPI. DIR updates the California CPI in even-numbered months.\n\n### Practical reminders\n- Measure from the lowest rent in the prior 12 months.\n- Give the 30- or 90-day notice under Civil Code § 827.\n- Units in Oxnard or Ojai, which have local 4% caps (see Section 10), are held to the lower local limit.\n\n*Educational summary, not legal advice. Confirm specific situations with a California landlord-tenant attorney.*",
+      "keyPoints": [
+        "Ventura County uses the statewide California CPI (DIR), not the LA-Long Beach-Anaheim index",
+        "Aug 1, 2026 to Jul 31, 2027 cap: 8.6% (5% + 3.6%)",
+        "Aug 1, 2025 to Jul 31, 2026 cap: 7.7% (5% + 2.7%)",
+        "LA/Orange counties for 2026-27: 8.7% (3.7% CPI)",
+        "Resets every August 1 using the April-to-April CPI change"
+      ],
+      "sources": [
+        {
+          "title": "California Public Law - Civil Code § 1947.12 (rent cap)",
+          "url": "https://california.public.law/codes/civil_code_section_1947.12",
+          "date": "2026-10"
+        },
+        {
+          "title": "CA Department of Industrial Relations - CPI 2025-2026 All Urban Consumers Percent Change (updated 10/15/2026)",
+          "url": "https://www.dir.ca.gov/OPRL/CPI/PresentCCPIchange.PDF",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Apartment Association - Where are the new CPI figures for rent increases under AB 1482?",
+          "url": "https://caanet.org/where-are-the-new-cpi-figures-for-rent-increases-under-ab-1482-5/",
+          "date": "2026-04"
+        },
+        {
+          "title": "California Apartment Association - county CPI figures for increases on or after Aug. 1, 2026",
+          "url": "https://caanet.org/?p=106638",
+          "date": "2026-06"
+        },
+        {
+          "title": "Steadily - How much can a landlord raise rent in California in 2026?",
+          "url": "https://www.steadily.com/blog/how-much-can-a-landlord-raise-rent-in-california",
+          "date": "2026-08"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "high",
+      "verify": "Before quoting a figure to a client, cross-check the 8.6% with CAA's member CPI lookup (caanet.org/ab1482). Confirm the property is not under a stricter local cap such as Oxnard's or Ojai's.",
+      "drills": [
+        {
+          "q": "Which CPI index sets the AB 1482 cap for an apartment in Camarillo?",
+          "choices": [
+            "Los Angeles-Long Beach-Anaheim CPI-U",
+            "U.S. City Average CPI-U",
+            "California CPI-U published by the Department of Industrial Relations",
+            "Riverside-San Bernardino-Ontario CPI-U"
+          ],
+          "answer": 2,
+          "explain": "The statute assigns the LA-Long Beach-Anaheim index only to Los Angeles and Orange counties. Ventura County falls back to the California CPI."
+        },
+        {
+          "q": "What is the maximum AB 1482 increase for a Ventura County unit if the increase takes effect September 1, 2026?",
+          "choices": [
+            "7.7%",
+            "8.6%",
+            "8.7%",
+            "10%"
+          ],
+          "answer": 1,
+          "explain": "Increases effective on or after Aug 1, 2026 use the April 2025 to April 2026 California CPI of 3.6%, so 5% + 3.6% = 8.6%."
+        },
+        {
+          "q": "An increase takes effect June 1, 2026. Which cap applies in Ventura County?",
+          "choices": [
+            "7.7%, the prior year's figure",
+            "8.6%",
+            "5% flat",
+            "10%"
+          ],
+          "answer": 0,
+          "explain": "Increases effective before August 1 use the prior April-to-April change (2.7%), giving 7.7%."
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "summary": "SB 567 took effect April 1, 2024 and tightened the two no-fault grounds owners used most. An **owner move-in** now must happen within 90 days, the owner or relative must stay 12 months, and the notice must name who is moving in. A **substantial remodel** now requires permitted structural, systems or hazmat work that forces the tenant out for at least 30 days, with permits attached to the notice. It also added treble damages and AG enforcement.",
+      "answer": "SB 567 (2023) rewrote parts of Civil Code § 1946.2, effective **April 1, 2024**. The aim was to stop sham move-ins and \"renovictions.\"\n\n### Owner move-in, as amended\n- **Who can move in:** the owner or the owner's spouse, domestic partner, child, grandchild, parent or grandparent.\n- **Who counts as the owner:** generally a natural person with at least a **25% recorded interest**. There are specific tests for LLCs, partnerships and family trusts.\n- **What the notice must say:** it must **name the intended occupant and their relationship** to the owner, and the tenant may request proof.\n- **Timing:** the occupant must **move in within 90 days** after the tenant leaves and **live there 12 consecutive months** as a primary residence.\n- **If that doesn't happen:** the owner must offer the unit back at the **same rent and terms** and reimburse reasonable moving costs.\n- **Not available** if a comparable unit is already vacant on the property.\n\n### Substantial remodel, as amended\n- **What qualifies:** a **permitted** replacement or major modification of structural, electrical, plumbing or mechanical systems, or abatement of lead, mold or asbestos.\n- The work must require the tenant to vacate **at least 30 consecutive days**.\n- **Cosmetic work does not qualify.**\n- **The notice must include:** a description of the work, its expected duration, copies of the permits (or the abatement contract), and the tenant's right to re-occupy.\n- If the work is not started or completed, the owner must offer the unit back on the prior terms.\n\n### Teeth\n- An owner who tries to recover possession in material violation is liable for actual damages and discretionary attorney's fees.\n- For willful or malicious conduct, the owner faces **up to treble damages** plus possible punitive damages.\n- The Attorney General and city or county attorneys can sue.\n- Relocation of one month's rent is still required. A defective notice is **void**.\n\n### So what for buyers\nA value-add plan that relied on emptying units through a cosmetic remodel no longer works under state law. Budget for turnover-driven rent growth, or for real permitted systems work with relocation.\n\n*Educational summary, not legal advice. Confirm specific situations with a California landlord-tenant attorney.*",
+      "keyPoints": [
+        "Effective April 1, 2024 (SB 567, amending Civil Code § 1946.2)",
+        "Owner move-in: occupant moves in within 90 days and stays 12 consecutive months",
+        "Owner move-in notice must name the occupant and their relationship to the owner",
+        "Substantial remodel: permitted major systems work or hazmat abatement, 30+ days vacancy, no cosmetic work",
+        "Willful violations: up to treble damages plus punitive damages; AG and city attorney enforcement"
+      ],
+      "sources": [
+        {
+          "title": "California Public Law - Civil Code § 1946.2 (just cause)",
+          "url": "https://california.public.law/codes/civil_code_section_1946.2",
+          "date": "2026-10"
+        },
+        {
+          "title": "Senate Judiciary Committee - SB 567 analysis",
+          "url": "https://sjud.senate.ca.gov/sites/sjud.senate.ca.gov/files/sb_567_analysis_updated.pdf",
+          "date": "2023"
+        },
+        {
+          "title": "California Apartment Association - Governor signs bill revising state's no-fault eviction requirements",
+          "url": "https://caanet.org/governor-signs-bill-revising-states-no-fault-eviction-requirements/",
+          "date": "2023-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "high",
+      "verify": "Confirm the LLC and family-trust ownership tests for move-ins (§ 1946.2(b)(2)(A)) against current statute text. SB 479 made a clean-up fix to the 'natural person' language.",
+      "drills": [
+        {
+          "q": "After an owner move-in termination under SB 567, how soon must the owner or relative move in?",
+          "choices": [
+            "30 days",
+            "60 days",
+            "90 days",
+            "There is no deadline"
+          ],
+          "answer": 2,
+          "explain": "The occupant must move in within 90 days after the tenant vacates and stay 12 consecutive months."
+        },
+        {
+          "q": "Which project would qualify as a 'substantial remodel' just cause under current § 1946.2?",
+          "choices": [
+            "Repainting and new flooring",
+            "A permitted replumb requiring 6 weeks of vacancy",
+            "New appliances and fixtures over 2 weeks",
+            "Landscaping and exterior paint"
+          ],
+          "answer": 1,
+          "explain": "It must be permitted systems or structural work (or hazmat abatement) that requires vacancy of at least 30 consecutive days. Cosmetic work is excluded."
+        },
+        {
+          "q": "What is the maximum damages multiplier for a willful violation of the just-cause rules?",
+          "choices": [
+            "2x",
+            "3x (treble)",
+            "5x",
+            "None; actual damages only"
+          ],
+          "answer": 1,
+          "explain": "§ 1946.2 allows up to treble damages, plus possible punitive damages, for willful, oppressive, fraudulent or malicious conduct."
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "summary": "Costa-Hawkins (1995) stops cities from rent-controlling buildings with a certificate of occupancy after February 1, 1995, and separately sellable single-family homes and condos. It also guarantees vacancy decontrol, so owners can reset to market on turnover. It does not stop local just-cause eviction rules.",
+      "answer": "The Costa-Hawkins Rental Housing Act is **Civil Code §§ 1954.50–1954.535**. It sets the outer limits of any local rent control in California.\n\n### What local rent control cannot do\n1. **Cover newer buildings.** A unit with a **certificate of occupancy issued after February 1, 1995** is exempt from local rent caps. So is a unit already exempt as new construction under a local ordinance before that date (§ 1954.52(a)(1)-(2)).\n2. **Cover separately alienable units.** Single-family homes and condos are exempt (§ 1954.52(a)(3)). The exemption is lost if the owner ended the prior tenancy with a 30/60-day termination notice or a change-in-terms notice.\n3. **Impose vacancy control.** When a tenant leaves voluntarily or is evicted for cause, the owner may set the new tenant's starting rent (§ 1954.53).\n\n### What it still allows\n- Local caps on **pre-1995 multifamily** units during a tenancy.\n- **Local just-cause and eviction rules** (§ 1954.52(c)).\n- Exceptions where the owner took public assistance or a density bonus under a contract (§ 1954.52(b)).\n- Exceptions where the unit had serious code violations left unabated for 6+ months (§ 1954.52(d)).\n\n### Repeal attempts\nVoters rejected statewide measures to repeal or loosen Costa-Hawkins three times: **Prop 10 (2018), Prop 21 (2020) and Prop 33 (2024)**.\n\n### How it interacts with AB 1482\n| Building built | Local rent control? | AB 1482 cap? |\n|---|---|---|\n| Before Feb 1, 1995 | Allowed (for example, Oxnard and Ojai) | Yes, unless stricter local control applies |\n| 1995 to about 2011 | **No** | Yes |\n| Last 15 years | No | No (rolling exemption) |\n\n### So what\nIn Ventura County, a 1970s complex in Oxnard or Ojai can face a local 4% cap (see Section 10). The same building in Camarillo faces only AB 1482. Either way, every vacancy resets to market. That makes tenant turnover, unit mix and lease expirations central to valuation.\n\n*Educational summary, not legal advice. Confirm specific situations with a California landlord-tenant attorney.*",
+      "keyPoints": [
+        "Post-Feb 1, 1995 certificate of occupancy = exempt from local rent caps",
+        "Single-family homes and condos are generally exempt from local caps",
+        "Vacancy decontrol: owner sets the initial rent for each new tenancy",
+        "Cities may still regulate just-cause evictions",
+        "Repeal efforts failed: Prop 10 (2018), Prop 21 (2020), Prop 33 (2024)"
+      ],
+      "sources": [
+        {
+          "title": "California Public Law - Civil Code § 1954.52 (Costa-Hawkins)",
+          "url": "https://california.public.law/codes/civil_code_section_1954.52",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Public Law - Civil Code § 1947.12 (rent cap)",
+          "url": "https://california.public.law/codes/civil_code_section_1947.12",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "high",
+      "verify": "Before relying on an exemption, verify the certificate-of-occupancy date with the city building department.",
+      "drills": [
+        {
+          "q": "Under Costa-Hawkins, which unit can a city's rent control ordinance cap?",
+          "choices": [
+            "A condo built in 1980",
+            "A 1975 apartment unit with an existing tenant",
+            "A 2001 apartment unit",
+            "A single-family rental built in 1960"
+          ],
+          "answer": 1,
+          "explain": "Pre-February 1, 1995 multifamily units can be locally controlled. Post-1995 units and separately alienable homes and condos are generally exempt."
+        },
+        {
+          "q": "What does 'vacancy decontrol' under Costa-Hawkins mean?",
+          "choices": [
+            "Rents are frozen while a unit is vacant",
+            "The owner may set the initial rent for a new tenancy after a vacancy",
+            "Vacant units must be re-rented within 30 days",
+            "Cities can control rents only on vacant units"
+          ],
+          "answer": 1,
+          "explain": "§ 1954.53 lets owners set the starting rent for new tenancies, so local control only limits increases during a tenancy."
+        },
+        {
+          "q": "Which statewide ballot measure in 2024 tried to repeal Costa-Hawkins and failed?",
+          "choices": [
+            "Prop 19",
+            "Prop 13",
+            "Prop 33",
+            "Prop 15"
+          ],
+          "answer": 2,
+          "explain": "Prop 33 (2024) followed earlier failed attempts, Prop 10 (2018) and Prop 21 (2020)."
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "summary": "The Ellis Act (Gov. Code § 7060 et seq.) guarantees an owner the right to take **all** units in a property off the rental market, even under local rent control. The owner gives 120 days' notice to the city, or one year for long-term senior or disabled tenants. Relocation amounts come from local ordinance. Where only AB 1482 applies, withdrawal requires one month's rent in relocation.",
+      "answer": "### What the Ellis Act does\nThe Ellis Act (Government Code §§ 7060–7060.7, 1985) says no public entity can force an owner to keep offering residential units for rent. Its main use is to exit rent control. The trade-offs:\n- **All-or-nothing.** The owner must withdraw **all** accommodations in the building or property. You cannot Ellis one unit and keep renting the rest.\n- **Notice.** Withdrawal takes effect **120 days** after the notice is delivered to the public entity (§ 7060.4(b)).\n- **Senior and disabled tenants.** Tenants **62+ or disabled** who have lived in the unit at least **one year** get an extension to **one year** after that notice. They must tell the owner within **60 days**.\n- **Recording.** The city or county may require a memorandum to be recorded, plus notices to tenants.\n- **Re-rental.** The city or county may require notice before units are offered for rent again. Re-rental within set periods can trigger rights for displaced tenants to come back and restored rent levels (§ 7060.2).\n\n### Relocation obligations\nThe Ellis Act **lets** local governments require relocation assistance but does not set an amount. In Ventura County:\n- **Oxnard and Ojai** have local rent control (see Section 10), so their ordinances govern Ellis procedures and payments there.\n- **Everywhere else,** AB 1482 treats withdrawal as a no-fault just cause (Civ. Code § 1946.2(b)(2)). The owner owes **one month's rent** as relocation, paid within 15 days of notice or by waiving the final month, and the notice must state that right.\n- **City of Ventura:** has its own relocation rules for demolition and substantial remodel (Ch. 8.1100; see Section 10).\n\n### So what for buyers\nEllis is the route for a buyer who plans a condo conversion, demolition or an owner-user change. Budget for:\n- the 120-day to 1-year timeline\n- relocation costs\n- re-rental restrictions that follow the property if plans change\n\n*Educational summary, not legal advice. Confirm specific situations with a California landlord-tenant attorney.*",
+      "keyPoints": [
+        "Ellis Act = Gov. Code § 7060 et seq.; owner can exit the rental business",
+        "Must withdraw ALL units on the property",
+        "120 days' notice to the public entity; 1 year for tenants 62+ or disabled with 1+ year of tenancy",
+        "Relocation amounts are set locally; under AB 1482 alone it is 1 month's rent",
+        "Re-rental restrictions can follow the property after withdrawal"
+      ],
+      "sources": [
+        {
+          "title": "California Public Law - Government Code § 7060.4 (Ellis Act notice)",
+          "url": "https://california.public.law/codes/ca_gov't_code_section_7060.4",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Public Law - Civil Code § 1946.2 (just cause)",
+          "url": "https://california.public.law/codes/civil_code_section_1946.2",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Public Law - Civil Code § 1954.52 (Costa-Hawkins)",
+          "url": "https://california.public.law/codes/civil_code_section_1954.52",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Check the exact re-rental windows and penalties in Gov. Code § 7060.2. Check whether Oxnard's or Ojai's rent ordinance has Ellis implementing rules and relocation schedules (city housing departments).",
+      "drills": [
+        {
+          "q": "Under the Ellis Act, how long after notice to the public entity does a withdrawal generally take effect?",
+          "choices": [
+            "30 days",
+            "60 days",
+            "120 days",
+            "One year in all cases"
+          ],
+          "answer": 2,
+          "explain": "§ 7060.4(b) sets 120 days from delivery of the notice to the public entity."
+        },
+        {
+          "q": "Which tenants can extend an Ellis withdrawal date to one year?",
+          "choices": [
+            "Any tenant with children",
+            "Tenants 62+ or disabled who have lived there at least one year",
+            "Tenants paying below-market rent",
+            "Section 8 voucher holders only"
+          ],
+          "answer": 1,
+          "explain": "The one-year extension covers tenants 62+ or disabled with at least one year of tenancy, who notify the owner within 60 days."
+        },
+        {
+          "q": "An owner wants to withdraw just one unit of a 6-unit Oxnard building from the rental market under the Ellis Act. What is the problem?",
+          "choices": [
+            "Ellis requires withdrawing all units on the property",
+            "Ellis applies only to buildings with 10+ units",
+            "Ellis is not valid in cities with rent control",
+            "Ellis requires state HCD approval"
+          ],
+          "answer": 0,
+          "explain": "The Ellis Act is all-or-nothing: every accommodation in the building or property must be withdrawn."
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "summary": "Since July 1, 2024 (AB 12), a security deposit can be no more than **one month's rent**, furnished or not. A \"small landlord\" may still take up to two months: a natural person, or an LLC of natural persons, owning no more than two residential rental properties with four or fewer units in total. That exception never applies to service members. AB 2801 added photo requirements in 2025.",
+      "answer": "### The cap (Civil Code § 1950.5(c))\n- **One month's rent**, on top of first month's rent, for both furnished and unfurnished units. AB 12 took effect **July 1, 2024**.\n- **Small-landlord exception:** up to **two months** if the landlord is a natural person, or an LLC whose members are all natural persons, and owns **no more than two residential rental properties** with **no more than four units** offered for rent in total.\n- **Service members:** the two-month exception never applies to them. Since April 1, 2025, any extra amount charged to a service member based on credit or rental history must be explained in writing and returned after no more than six months if the tenant is current.\n\nAlmost every multifamily investor in Ventura County is therefore at **one month**.\n\n### Photos and returns (AB 2801 and AB 414)\n- **From April 1, 2025:** photograph the unit after the tenant moves out (before repairs or cleaning) and again after repairs or cleaning.\n- **For tenancies beginning July 1, 2025 or later:** also photograph the unit at move-in.\n- **Return deadline:** within **21 days** of move-out, give an itemized statement and return the balance.\n- **Bad-faith retention:** up to **2x the deposit** in statutory damages, plus actual damages, and the landlord loses the right to keep any of it.\n- **Electronic return (AB 414, 2026):** if rent or the deposit was paid electronically, the balance generally must be returned electronically.\n\n### So what for buyers\n- Deposits transfer with the building. Reconcile them in **tenant estoppels** and get a closing credit.\n- Older leases may show deposits above one month. Those were legal when collected; new leases must comply.\n- Confirm the seller's photo and statement practices. Missing photos weaken deduction claims.\n\n*Educational summary, not legal advice. Confirm specific situations with a California landlord-tenant attorney.*",
+      "keyPoints": [
+        "Cap: 1 month's rent, effective July 1, 2024 (AB 12)",
+        "Small landlord: natural person or LLC of natural persons, max 2 properties and 4 units total, may take 2 months",
+        "No 2-month exception for service members",
+        "AB 2801 photos: move-out and repairs from Apr 1, 2025; move-in for tenancies from Jul 1, 2025",
+        "21-day itemized return; bad faith = up to 2x the deposit"
+      ],
+      "sources": [
+        {
+          "title": "California Public Law - Civil Code § 1950.5 (security deposits)",
+          "url": "https://california.public.law/codes/civil_code_section_1950.5",
+          "date": "2026-10"
+        },
+        {
+          "title": "CBS Sacramento - California to limit security deposits to 1 month's rent under new law (AB 12)",
+          "url": "https://www.cbsnews.com/amp/sacramento/news/california-security-deposit-cap-1-month-rent-ab12-haney-signed-by-newsom",
+          "date": "2023-10"
+        },
+        {
+          "title": "Bay Legal PC - AB 2801 security deposit photo documentation rules",
+          "url": "https://baylegal.com/ab-2801-security-deposit-photo-documentation-rules/",
+          "date": "2025"
+        },
+        {
+          "title": "TLD Law - 2026 California Rental Laws: What LA & Orange County Landlords Need to Know",
+          "url": "https://tldlaw.com/2026-california-rental-laws-what-los-angeles-orange-county-landlords-need-to-know-now/",
+          "date": "2026-04"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "high",
+      "verify": "",
+      "drills": [
+        {
+          "q": "What is the maximum security deposit a Ventura County LLC owning a 24-unit building (with corporate members) can collect on a new lease in 2026?",
+          "choices": [
+            "Two months' rent",
+            "Three months if furnished",
+            "One month's rent",
+            "No limit if the tenant agrees"
+          ],
+          "answer": 2,
+          "explain": "The small-landlord two-month exception covers only natural persons or all-natural-person LLCs with 2 or fewer properties and 4 or fewer units."
+        },
+        {
+          "q": "For tenancies starting on or after which date must landlords photograph the unit at move-in under AB 2801?",
+          "choices": [
+            "January 1, 2024",
+            "April 1, 2025",
+            "July 1, 2025",
+            "January 1, 2027"
+          ],
+          "answer": 2,
+          "explain": "Move-out and repair photos began April 1, 2025. Move-in photos apply to tenancies beginning on or after July 1, 2025."
+        },
+        {
+          "q": "What can a court award for bad-faith retention of a deposit?",
+          "choices": [
+            "Up to 2x the deposit plus actual damages",
+            "Only the deposit itself",
+            "3x rent",
+            "A flat $500"
+          ],
+          "answer": 0,
+          "explain": "§ 1950.5 allows statutory damages up to twice the deposit, plus actual damages."
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "summary": "Screening fees are capped (a $30 base, CPI-adjusted since 1998) and limited to actual costs. Since 2025 (AB 2493) you can charge one only if you take applicants first-come and approve the first qualified one, or refund every applicant you don't select. FEHA bars source-of-income discrimination, including against Section 8 vouchers, and blanket criminal-history bans.",
+      "answer": "### Application screening fees (Civil Code § 1950.6)\n- **Cap.** The base is **$30 per applicant**, adjusted annually for CPI since 1998. CAA publishes the current figure. The fee also cannot exceed actual out-of-pocket costs plus the reasonable value of staff time.\n- **Receipt.** Give an itemized receipt. If you obtain a credit report, give the applicant a copy within 7 days.\n- **No unit, no fee.** You cannot charge when you know, or should know, that no unit will be available within a reasonable time.\n- **AB 2493 (effective January 1, 2025).** A fee is allowed only if you use one of two processes:\n  1. **First-come, first-considered:** collect the fee only when you actually consider the application, and approve the first applicant who meets your written criteria.\n  2. **Refund the rest:** refund the full fee to every applicant not selected, within 7 days of choosing a tenant or 30 days after submission, whichever comes first.\n- **Reusable reports.** You may accept a reusable tenant screening report (§ 1950.1).\n\n### Fair housing in screening (FEHA)\n- **Source of income** is protected, and that includes **Section 8 and other vouchers** (SB 329, since 2020).\n  - \"No Section 8\" ads are illegal.\n  - So is charging voucher holders a higher deposit.\n  - Income ratios should be applied to the **tenant's share** of the rent.\n- **Criminal history (CRD Fair Chance regulations).**\n  - You cannot consider arrests that did not lead to conviction, sealed or expunged records, or juvenile records.\n  - **Blanket bans are prohibited.**\n  - Any denial must rest on a conviction that is directly related to tenancy or safety, weighing how serious it was and how long ago.\n- **Criteria.** Apply the same written criteria to everyone and keep records.\n\n### So what\nScreening mistakes are among the most common fair housing complaints. Buyers taking over a property should review the manager's written criteria and advertising, not just the rent roll.\n\n*Educational summary, not legal advice. Confirm specific situations with a California landlord-tenant attorney.*",
+      "keyPoints": [
+        "Fee base $30, CPI-adjusted since 1998; actual costs only; itemized receipt",
+        "AB 2493 (Jan 1, 2025): first-come/first-qualified OR refund all non-selected applicants",
+        "Refund timing: within 7 days of selection or 30 days after submission",
+        "Source of income includes Section 8 vouchers; 'No Section 8' ads are illegal",
+        "No blanket criminal-history bans; arrests, sealed and juvenile records are off limits"
+      ],
+      "sources": [
+        {
+          "title": "California Public Law - Civil Code § 1950.6 (application screening fees)",
+          "url": "https://california.public.law/codes/civil_code_section_1950.6",
+          "date": "2026-10"
+        },
+        {
+          "title": "City of Davis - Landlord and property manager FAQs (AB 2493 screening fee rules)",
+          "url": "https://www.cityofdavis.org/city-hall/social-services-and-housing/rental-resources-program/landlords-and-property-managers/faqs",
+          "date": "2025"
+        },
+        {
+          "title": "California Civil Rights Department - Housing",
+          "url": "https://calcivilrights.ca.gov/housing/",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Look up the current CPI-adjusted dollar cap for screening fees (CAA or a local housing authority). Confirm the income-ratio rule for voucher holders in Gov. Code § 12955(o).",
+      "drills": [
+        {
+          "q": "Under AB 2493, which practice lets a landlord charge application fees?",
+          "choices": [
+            "Collecting fees from all applicants and keeping them regardless of outcome",
+            "First-come, first-considered, approving the first applicant who meets written criteria",
+            "Charging only applicants with low credit scores",
+            "Charging a flat $100 to cover marketing"
+          ],
+          "answer": 1,
+          "explain": "The other permitted option is refunding all non-selected applicants within 7 days of selection or 30 days after submission."
+        },
+        {
+          "q": "Which advertising statement violates FEHA's source-of-income protection?",
+          "choices": [
+            "\"Income 2.5x rent\"",
+            "\"No Section 8\"",
+            "\"No smoking\"",
+            "\"Pets negotiable\""
+          ],
+          "answer": 1,
+          "explain": "Source of income includes housing vouchers, so 'No Section 8' ads are unlawful."
+        },
+        {
+          "q": "Which criminal history may a California housing provider consider?",
+          "choices": [
+            "An arrest that did not lead to a conviction",
+            "A sealed conviction",
+            "A juvenile adjudication",
+            "A conviction directly related to tenancy safety, after individualized assessment"
+          ],
+          "answer": 3,
+          "explain": "CRD rules bar arrests without conviction, sealed or expunged records, juvenile records, and blanket bans."
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "summary": "For a month-to-month tenancy, give **30 days' notice** if the increase, together with other increases in the prior 12 months, is 10% or less. Give **90 days** if it is more than 10%. Add 5 days if you mail the notice. Under AB 1482 a covered unit can't go above 8.6% in Ventura County right now, so 90-day notices mostly apply to exempt units.",
+      "answer": "### Civil Code § 827(b)\n| Total increase over the past 12 months | Minimum notice |\n|---|---|\n| **10% or less** | **30 days** before the effective date |\n| **More than 10%** | **90 days** before the effective date |\n| Increase from a required income or household recertification (subsidized units) | 30 days |\n\n- **The 10% test is cumulative.** Count every increase in the prior 12 months.\n- **Service:** personal delivery, or mail under CCP § 1013. Mailing adds **5 calendar days** within California.\n- **Fixed-term leases:** rent cannot change mid-term unless the lease allows it. Most owners time increases to the lease end or the month-to-month conversion.\n\n### How AB 1482 fits in\n- Covered units are capped at **5% + CPI (max 10%)**. In Ventura County that is **8.6%** for increases effective Aug 1, 2026 to Jul 31, 2027.\n- A lawful AB 1482 increase therefore normally needs only **30 days' notice**.\n- A covered unit may get **no more than two increases in 12 months**.\n- **90-day notices** come up with exempt units: buildings with a certificate of occupancy within 15 years, properly noticed single-family homes and condos, and similar.\n- Local ordinances may be stricter. Oxnard and Ojai cap at 4% and have their own procedures (see Section 10).\n\n### Best practice\n- Use a written notice that shows the current rent, new rent, effective date and percentage.\n- Keep proof of service.\n- On covered units, document the \"lowest rent in prior 12 months\" baseline, including any concessions.\n\n*Educational summary, not legal advice. Confirm specific situations with a California landlord-tenant attorney.*",
+      "keyPoints": [
+        "10% or less in 12 months: 30 days' notice",
+        "More than 10% in 12 months: 90 days' notice",
+        "Mailed notice: add 5 days (CCP § 1013)",
+        "Increases are counted cumulatively over the prior 12 months",
+        "AB 1482-covered units: max 2 increases per 12 months"
+      ],
+      "sources": [
+        {
+          "title": "California Public Law - Civil Code § 827 (rent increase notice)",
+          "url": "https://california.public.law/codes/civil_code_section_827",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Public Law - Civil Code § 1947.12 (rent cap)",
+          "url": "https://california.public.law/codes/civil_code_section_1947.12",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "high",
+      "verify": "Check local ordinances (Oxnard, Ojai) for additional notice or registration requirements before serving notices there.",
+      "drills": [
+        {
+          "q": "A month-to-month tenant's rent rose 4% in March. You now want another 7% increase effective in November. How much notice is required?",
+          "choices": [
+            "30 days",
+            "60 days",
+            "90 days",
+            "None"
+          ],
+          "answer": 2,
+          "explain": "Cumulatively the increases exceed 10% within 12 months, so § 827 requires 90 days. Check AB 1482 caps as well."
+        },
+        {
+          "q": "How many extra days are typically added when a rent increase notice is served by mail within California?",
+          "choices": [
+            "None",
+            "3",
+            "5",
+            "10"
+          ],
+          "answer": 2,
+          "explain": "CCP § 1013 adds 5 calendar days for mailed service within California."
+        },
+        {
+          "q": "What is the maximum number of rent increases an AB 1482-covered tenant can receive in 12 months?",
+          "choices": [
+            "One",
+            "Two",
+            "Three",
+            "Unlimited, if each is under 5%"
+          ],
+          "answer": 1,
+          "explain": "§ 1947.12 limits covered tenancies to two increases within any 12-month period."
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "summary": "A 3-day notice to pay or quit must demand **rent only**: no late fees. It gives 3 days that exclude weekends and court holidays, and it must say exactly how, where and to whom to pay. Once a case is filed, tenants now get **10 court days** to respond (AB 2347, 2025). As a rough guide, an uncontested Ventura County eviction runs about 1–2 months from notice to lockout, and a contested one runs longer.",
+      "answer": "### The 3-day notice (CCP § 1161)\n- **Pay rent or quit** (§ 1161(2)):\n  - It gives **three days, not counting Saturdays, Sundays or judicial holidays**.\n  - It may demand only **past-due rent**, no late fees or other charges. Overstating the amount can void the notice.\n  - It must give the name, phone number and address of the person to pay, plus the accepted payment methods and the days and times payment can be made.\n- **Perform covenant or quit:** for curable lease violations. For AB 1482-covered tenancies, § 1946.2(c) requires an opportunity to cure before a no-cure notice.\n- **AB 1482 units:** the just cause must be stated in the notice.\n\n### The court timeline\n1. Serve the notice and let it expire.\n2. File an unlawful detainer complaint and serve the summons.\n3. The tenant has **10 court days** to respond. AB 2347 doubled this from 5, effective **January 1, 2025**. The landlord must file proof of service before seeking a default.\n4. If the tenant answers, either side can request trial. Unlawful detainer cases have calendar preference, but contested cases add weeks.\n5. After judgment, the court issues a writ of possession, and the **Ventura County Sheriff** serves a notice to vacate before the lockout.\n\n### Ventura County specifics\n- Cases are filed in Ventura Superior Court. General civil matters are heard at the **Hall of Justice, 800 S. Victoria Ave., Ventura**.\n- The court announced on **October 19, 2026** that it remains open during an SEIU Local 721 strike. Clerk processing could be slower.\n- **Rule of thumb (not verified with court statistics):** about 4–8 weeks uncontested, and 2–4+ months contested or with demurrers or motions.\n\n### So what\nBuyers should check for pending unlawful detainers, and should not assume a fast vacancy when underwriting a problem tenant.\n\n*Educational summary, not legal advice. Confirm specific situations with a California landlord-tenant attorney.*",
+      "keyPoints": [
+        "3-day notice excludes Saturdays, Sundays and judicial holidays",
+        "Pay-or-quit notice may demand rent only, with no late fees",
+        "Notice must state payee name, address, phone and payment methods",
+        "AB 2347 (Jan 1, 2025): 10 court days to respond to an unlawful detainer summons",
+        "Lockout is performed by the Ventura County Sheriff after the writ of possession issues"
+      ],
+      "sources": [
+        {
+          "title": "California Public Law - Civil Code § 1946.2 (just cause)",
+          "url": "https://california.public.law/codes/civil_code_section_1946.2",
+          "date": "2026-10"
+        },
+        {
+          "title": "Judicial Council of California - Rules and forms materials implementing AB 2347",
+          "url": "https://courts.ca.gov/system/files/file/rules-20241219-materials_1.pdf",
+          "date": "2024-12"
+        },
+        {
+          "title": "CalMatters - New California law gives tenants more time to respond to eviction suits",
+          "url": "https://calmatters.org/housing/2024/09/california-eviction-law/",
+          "date": "2024-09"
+        },
+        {
+          "title": "Superior Court of California, County of Ventura - Locations",
+          "url": "https://ventura.courts.ca.gov/locations",
+          "date": "2026-10"
+        },
+        {
+          "title": "Superior Court of California, County of Ventura - Court remains open during SEIU 721 strike",
+          "url": "https://ventura.courts.ca.gov/news/ventura-superior-court-remains-open-during-service-employees-international-union-721-strike",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "I could not confirm current Ventura County unlawful detainer processing times. The 4–8 week and 2–4 month figures are rules of thumb: confirm with a local eviction attorney or the court's Civil Self-Help Center (ventura.courts.ca.gov/self-help). I also could not open the statute text for CCP § 1161 notice contents, so confirm it on leginfo. Check whether the October 2026 SEIU 721 strike is delaying clerk processing.",
+      "drills": [
+        {
+          "q": "Which amount may a 3-day notice to pay rent or quit demand?",
+          "choices": [
+            "Rent plus late fees",
+            "Past-due rent only",
+            "Rent plus attorney's fees",
+            "Rent plus utilities and damages"
+          ],
+          "answer": 1,
+          "explain": "Only rent may be demanded. Adding late fees or other charges risks voiding the notice."
+        },
+        {
+          "q": "Since January 1, 2025, how long does a tenant have to respond to an unlawful detainer summons?",
+          "choices": [
+            "5 calendar days",
+            "5 court days",
+            "10 court days",
+            "30 days"
+          ],
+          "answer": 2,
+          "explain": "AB 2347 increased the response time from 5 to 10 court days."
+        },
+        {
+          "q": "A 3-day notice is served on a Thursday with no holidays that week. Which days count toward the three days?",
+          "choices": [
+            "Friday, Saturday, Sunday",
+            "Friday, Monday, Tuesday",
+            "Thursday, Friday, Saturday",
+            "Only Friday"
+          ],
+          "answer": 1,
+          "explain": "Saturdays, Sundays and judicial holidays are excluded, so the count runs Friday, Monday, Tuesday."
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "summary": "California landlords must keep units habitable under Civil Code § 1941.1. That covers weatherproofing, plumbing and gas, hot and cold water, heat, electrical, sanitation and pest-free conditions, trash receptacles, and safe floors and stairs. **Since January 1, 2026**, it also covers a working stove and refrigerator for new and renewed leases (AB 628). Tenants have repair-and-deduct, rent-withholding and anti-retaliation remedies.",
+      "answer": "### What \"habitable\" means (Civil Code § 1941.1)\nA unit is untenantable if it substantially lacks any of the following:\n- waterproofing and weather protection of the roof and walls, including unbroken windows and doors\n- plumbing, gas, heating and electrical systems that met code when installed and are kept in good working order\n- hot and cold running water and a sewage connection\n- clean, sanitary conditions free of rodents and vermin\n- adequate trash receptacles\n- floors, stairways and railings in good repair\n- **New:** a working **stove** and **refrigerator** (AB 628), for leases entered into, amended or extended on or after **January 1, 2026**:\n  - Recalled appliances must be repaired or replaced within **30 days**.\n  - A tenant may agree to supply their own refrigerator using the statutory language. It cannot be made a condition of renting.\n\nA unit is also substandard if it has the conditions listed in Health & Safety Code § 17920.3 (which includes visible mold) or lead hazards under § 17920.10.\n\n### Tenant remedies\n- **Implied warranty of habitability** (*Green v. Superior Court*, 1974): rent can be reduced in an eviction defense.\n- **Repair and deduct** (§ 1942): up to one month's rent, no more than twice in 12 months, after reasonable notice.\n- **Cited, unabated conditions** (§ 1942.4): the landlord can't collect rent if the unit was cited and not fixed within 35 days.\n- **Retaliation** (§ 1942.5): retaliation for complaints within 180 days is presumed unlawful.\n\n### Disasters (2026)\nSB 610 adds duties around evacuations and disaster-related hazards. This matters for wildfire-exposed parts of Ventura County.\n\n### So what for buyers\n- Pull code enforcement history and open permits.\n- Check older units without ranges or refrigerators. AB 628 turns that into a habitability issue at the next renewal.\n\n*Educational summary, not legal advice. Confirm specific situations with a California landlord-tenant attorney.*",
+      "keyPoints": [
+        "Civil Code § 1941.1 lists the habitability standards",
+        "AB 628: working stove and refrigerator for leases entered or renewed on/after Jan 1, 2026",
+        "Recalled appliances must be repaired or replaced within 30 days",
+        "Repair and deduct: up to 1 month's rent, twice per 12 months (§ 1942)",
+        "Retaliation is presumed within 180 days of a complaint (§ 1942.5)"
+      ],
+      "sources": [
+        {
+          "title": "California Public Law - Civil Code § 1941.1 (habitability)",
+          "url": "https://california.public.law/codes/civil_code_section_1941.1",
+          "date": "2026-10"
+        },
+        {
+          "title": "Husch Blackwell - Landlords take note: California sets clear appliance rules for 2026 leases (AB 628)",
+          "url": "https://www.huschblackwell.com/newsandinsights/landlords-take-note-california-sets-clear-appliance-rules-for-2026-leases",
+          "date": "2025-10"
+        },
+        {
+          "title": "TLD Law - 2026 California Rental Laws: What LA & Orange County Landlords Need to Know",
+          "url": "https://tldlaw.com/2026-california-rental-laws-what-los-angeles-orange-county-landlords-need-to-know-now/",
+          "date": "2026-04"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "I could not open the statute text for Civil Code §§ 1942, 1942.4 and 1942.5 or for SB 610; confirm the details on leginfo.legislature.ca.gov. The SB 610 description comes from secondary summaries.",
+      "drills": [
+        {
+          "q": "When does AB 628's stove and refrigerator requirement apply?",
+          "choices": [
+            "To all leases immediately on Jan 1, 2025",
+            "To leases entered into, amended or extended on or after Jan 1, 2026",
+            "Only to buildings with 16+ units",
+            "Only to Section 8 units"
+          ],
+          "answer": 1,
+          "explain": "The requirement attaches to new, amended or extended leases from January 1, 2026."
+        },
+        {
+          "q": "Under Civil Code § 1942, how often can a tenant use repair-and-deduct?",
+          "choices": [
+            "Once per lease",
+            "Up to one month's rent, twice in any 12 months",
+            "Unlimited, if receipts are kept",
+            "Up to $500 per year"
+          ],
+          "answer": 1,
+          "explain": "Repair-and-deduct is limited to one month's rent per use and two uses in 12 months."
+        },
+        {
+          "q": "A landlord learns a refrigerator is under a manufacturer recall. What is the deadline to repair or replace it?",
+          "choices": [
+            "7 days",
+            "14 days",
+            "30 days",
+            "90 days"
+          ],
+          "answer": 2,
+          "explain": "§ 1941.1(c) requires repair or replacement within 30 days of receiving notice of the recall."
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "summary": "SB 721 (Health & Safety Code § 17973) requires buildings with **3+ units** to have qualified inspectors check wood-supported balconies, decks, stairs and walkways more than 6 feet above ground. The first deadline was **January 1, 2026** (AB 2579 pushed it back from 2025), and inspections repeat **every 6 years**. Repairs must be permitted within 120 days of the report.",
+      "answer": "### Scope\n- **Buildings:** any building with **three or more multifamily units**. Condos and other common-interest developments fall under SB 326 instead.\n- **Elements covered:** balconies, decks, porches, stairways, walkways and entry structures that:\n  - extend beyond the exterior walls\n  - have a walking surface **more than 6 feet above ground**\n  - rely wholly or substantially on **wood or wood-based** supports\n- **Who may inspect:** a licensed architect, a civil or structural engineer, an A, B or C-5 contractor with 5+ years of multistory wood-frame experience, or a certified building inspector or official who is not employed by the local jurisdiction.\n- **Sample:** at least **15% of each type** of elevated element.\n\n### Deadlines\n| Item | Deadline |\n|---|---|\n| First inspection | **January 1, 2026**, extended from January 1, 2025 by **AB 2579** (2024). The extension covered SB 721 only, not condos. |\n| Repeat inspections | Every **6 years**; the next cycle is January 1, 2032 |\n| New construction (permit applied for on or after Jan 1, 2019) | Within 6 years of the certificate of occupancy |\n| Report to owner | Within **45 days** of the inspection |\n| Immediate safety hazards | Report to owner **and** the local agency within **15 days**; restrict access right away |\n| Repairs | Apply for a permit within **120 days** of the report, then complete within 120 days of permit approval |\n\n### Penalties\n- If repairs aren't done within 180 days, the inspector notifies the city.\n- After 30 more days, **civil penalties of $100–$500 per day** apply, and the city can record a **building safety lien**.\n\n### So what for buyers\n- The deadline has passed. In due diligence, ask for the **SB 721 report**, proof of permits, and the repair sign-off.\n- A missing report is a negotiation point.\n- A report recommending repairs is a cost item, and sometimes a lender condition.\n- Older garden-style complexes in Ventura County with wood exterior walkways are the main exposure.\n\n*Educational summary, not legal advice. Confirm specific situations with a California landlord-tenant attorney.*",
+      "keyPoints": [
+        "Applies to 3+ unit buildings; wood-supported elements more than 6 ft above ground",
+        "First inspection deadline: Jan 1, 2026 (extended from 2025 by AB 2579)",
+        "Repeat every 6 years (next cycle Jan 1, 2032)",
+        "Sample at least 15% of each element type",
+        "Penalties: $100-$500/day plus possible building safety lien"
+      ],
+      "sources": [
+        {
+          "title": "California Public Law - Health & Safety Code § 17973 (exterior elevated elements)",
+          "url": "https://california.public.law/codes/health_and_safety_code_section_17973",
+          "date": "2025-06"
+        },
+        {
+          "title": "Bay Legal PC - SB 721 balcony inspection deadline: what owners must know in 2026",
+          "url": "https://baylegal.com/sb-721-balcony-inspection-deadline-what-california-property-owners-must-know-in-2026/",
+          "date": "2026"
+        },
+        {
+          "title": "Dr. Balcony - California SB 721 inspection deadline extended to January 1, 2026",
+          "url": "https://drbalcony.com/california-balcony-inspections-deadline-extended-to-january-1-2026/",
+          "date": "2024-12"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "high",
+      "verify": "I found no 'SB 2100' extension; AB 2579 was the extension bill. Check whether the city where the property sits has its own SB 721 filing or registration program.",
+      "drills": [
+        {
+          "q": "What was the initial SB 721 inspection deadline after AB 2579?",
+          "choices": [
+            "January 1, 2024",
+            "January 1, 2025",
+            "January 1, 2026",
+            "January 1, 2027"
+          ],
+          "answer": 2,
+          "explain": "AB 2579 extended the deadline from January 1, 2025 to January 1, 2026 for apartment buildings."
+        },
+        {
+          "q": "Which element must be inspected under SB 721?",
+          "choices": [
+            "A concrete ground-level patio",
+            "A wood-framed second-floor balcony 9 feet above grade",
+            "A steel fire escape on a 2-unit building",
+            "Interior stairs"
+          ],
+          "answer": 1,
+          "explain": "Covered elements are wood-supported, exterior, more than 6 feet above ground, in buildings with 3+ units."
+        },
+        {
+          "q": "How often must SB 721 inspections be repeated?",
+          "choices": [
+            "Every 3 years",
+            "Every 6 years",
+            "Every 9 years",
+            "Only at sale"
+          ],
+          "answer": 1,
+          "explain": "Repeat inspections are due every six years. SB 326 for condos uses a nine-year cycle."
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "summary": "Rental owners must give federal lead-paint disclosures and the EPA pamphlet for pre-1978 housing, and must treat visible mold and lead hazards as habitability problems. They must also keep smoke alarms working (checked at each new tenancy), install CO alarms in units with gas appliances, fireplaces or attached garages, and brace every residential water heater against earthquakes.",
+      "answer": "### Lead-based paint\n- **Federal disclosure (pre-1978 housing):** before a lease or sale, disclose any known lead paint or hazards, give the EPA pamphlet *Protect Your Family From Lead in Your Home*, and include the lead warning statement. Keep the records.\n- **EPA RRP rule:** renovation that disturbs painted surfaces in pre-1978 housing must be done by certified firms using lead-safe practices.\n- **California:** lead hazards make a unit substandard (H&S § 17920.10) and untenantable (Civil Code § 1941.1).\n\n### Mold\n- **Visible mold growth** that endangers health is a substandard condition under H&S § 17920.3. It is treated like any other habitability defect.\n- Fix the moisture source, not just the stain.\n\n### Smoke alarms (H&S § 13113.7)\n- **Coverage:** apartments, one- and two-unit dwellings, condos and similar.\n- **Owner duties:** test and maintain alarms in rented units, and **make sure they work when each new tenancy starts**.\n- **Tenant duty:** report alarms that don't work.\n- **Upgrades:** owners had to add alarms to meet current building standards by 2016.\n- **Penalty:** an infraction, up to $200 per violation.\n\n### Carbon monoxide (H&S § 17926)\n- **Required in** each dwelling unit with a fossil-fuel heater or appliance, a fireplace, or an attached garage.\n- **Deadline for multifamily:** **January 1, 2013**.\n- **Penalty:** $200 per violation, after a 30-day notice to correct.\n\n### Water heaters (H&S § 19211)\n- **All residential water heaters**, new, replacement and existing, must be **braced, anchored or strapped** for earthquakes.\n- **Sellers** must certify compliance to buyers in writing.\n- A non-compliant unit is a nuisance.\n\n### Due diligence checklist\n- Lead disclosure forms in leases for pre-1978 buildings\n- Smoke and CO alarms in every unit\n- Water heater straps (a quick fix that inspectors flag constantly)\n- Any mold history or open code cases\n\n*Educational summary, not legal advice. Confirm specific situations with a California landlord-tenant attorney.*",
+      "keyPoints": [
+        "Pre-1978 housing: federal lead disclosure plus the EPA pamphlet at lease and sale",
+        "Visible mold and lead hazards = substandard/untenantable conditions",
+        "Smoke alarms: owner tests and maintains, and must be operable at each new tenancy",
+        "CO devices required in multifamily units with gas, fireplaces or attached garages since Jan 1, 2013",
+        "All residential water heaters must be braced; sellers certify in writing"
+      ],
+      "sources": [
+        {
+          "title": "California Public Law - Health & Safety Code § 13113.7 (smoke alarms)",
+          "url": "https://california.public.law/codes/health_and_safety_code_section_13113.7",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Public Law - Health & Safety Code § 17926 (carbon monoxide devices)",
+          "url": "https://california.public.law/codes/health_and_safety_code_section_17926",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Public Law - Health & Safety Code § 19211 (water heater bracing)",
+          "url": "https://california.public.law/codes/health_and_safety_code_section_19211",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Public Law - Civil Code § 1941.1 (habitability)",
+          "url": "https://california.public.law/codes/civil_code_section_1941.1",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Federal lead rules (24 CFR Part 35 / 40 CFR Part 745) and H&S §§ 17920.3 and 17920.10 were not opened directly. Confirm the RRP thresholds and the mold language on EPA.gov and leginfo.",
+      "drills": [
+        {
+          "q": "Which units need a carbon monoxide device under H&S § 17926?",
+          "choices": [
+            "Only units built after 2013",
+            "Units with a fossil-fuel appliance, fireplace or attached garage",
+            "Only single-family homes",
+            "Only units with natural gas water heaters over 50 gallons"
+          ],
+          "answer": 1,
+          "explain": "The trigger is a fossil-fuel burning heater or appliance, a fireplace, or an attached garage."
+        },
+        {
+          "q": "When must a landlord make sure smoke alarms are operable?",
+          "choices": [
+            "Only at sale",
+            "At the time each new tenancy is created",
+            "Once every 5 years",
+            "Only after a tenant complaint"
+          ],
+          "answer": 1,
+          "explain": "§ 13113.7 requires owners to ensure alarms work when a new tenancy is created, and to fix reported deficiencies."
+        },
+        {
+          "q": "Which housing triggers federal lead-based paint disclosure?",
+          "choices": [
+            "Housing built before 1978",
+            "Housing built before 1995",
+            "All housing",
+            "Only single-family homes"
+          ],
+          "answer": 0,
+          "explain": "Federal lead disclosure rules apply to pre-1978 'target housing.'"
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "summary": "Prop 13 limits property tax to about 1% of assessed value, plus voter-approved debt, and limits assessed-value growth to 2% a year. Property is reassessed to market on a change in ownership or new construction. Prop 19 (2021) ended the parent-to-child exclusion for rental property, so an inherited apartment building is reassessed at market value.",
+      "answer": "### Prop 13 (1978) basics\n- **Rate:** the base tax is **1% of assessed value**, plus voter-approved bonds and direct assessments that vary by tax rate area.\n- **Annual growth:** assessed value can rise at most **2% a year** while ownership stays the same.\n- **Reassessment** to market value happens on a **change in ownership** or completion of new construction.\n- **Legal entities:** a deed doesn't have to change for property to be reassessed.\n  - A **change in control** happens when one person or entity gets **more than 50%** of an LLC or partnership.\n  - A reassessment also happens when, cumulatively, **more than 50%** of the original co-owners' interests transfer.\n  - Entities must file **BOE-100-B** with the Board of Equalization **within 90 days**. Penalties apply for failing to file.\n\n### Prop 19 (effective February 16, 2021 and April 1, 2021)\n- **Parent-child and grandparent-grandchild exclusion:**\n  - It now covers only a **family home** that becomes the child's principal residence (or a family farm).\n  - The exclusion is limited to the parent's taxable value **plus $1,044,586** (the figure for Feb 16, 2025 to Feb 15, 2027).\n  - **Rental property is not excluded.** Under the old Prop 58, a parent could pass up to $1M of assessed value in other real estate, such as apartments, without reassessment. That is gone.\n- **Base-year value transfers:** homeowners who are 55+, severely disabled or wildfire/disaster victims can move their low tax base to a replacement **primary residence** anywhere in California, up to three times. Apartments don't qualify.\n\n### Why it matters in Ventura County multifamily\n- Many long-held Ventura County buildings carry 1980s–1990s assessed values. When heirs inherit, the tax bill can jump several-fold. That is a main driver of **estate and trust sales** (see Section 7).\n- Buyers should underwrite taxes at **purchase price × the full local rate**, plus special assessments, and never the seller's current bill.\n- In **partnership and LLC deals**, track cumulative transfers. A buyout of a partner can quietly trigger reassessment.\n\n*Educational summary, not legal advice. Confirm specific situations with a California landlord-tenant attorney.*",
+      "keyPoints": [
+        "Prop 13: 1% base rate + voter debt; assessed value growth capped at 2%/yr",
+        "Reassessment on change in ownership or >50% change in control of an entity",
+        "BOE-100-B due within 90 days of an entity change in control or ownership",
+        "Prop 19: parent-child exclusion limited to family home or farm; rentals are reassessed",
+        "Family-home exclusion cap: taxable value + $1,044,586 (Feb 16, 2025 to Feb 15, 2027)"
+      ],
+      "sources": [
+        {
+          "title": "California State Board of Equalization - Proposition 19",
+          "url": "https://www.boe.ca.gov/prop19/",
+          "date": "2026-10"
+        },
+        {
+          "title": "California State Board of Equalization - Legal Entity Ownership Program",
+          "url": "https://www.boe.ca.gov/proptaxes/leop.htm",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "high",
+      "verify": "Confirm the property's actual tax rate area and direct assessments on the Ventura County Treasurer-Tax Collector bill. The R&T Code § 64(c)/(d) entity rules should be reviewed with tax counsel for any entity deal.",
+      "drills": [
+        {
+          "q": "An apartment building passes from a parent to a child at death in 2026. What happens to its assessed value under Prop 19?",
+          "choices": [
+            "It keeps the parent's base year value",
+            "It is reassessed to market value, because rental property no longer qualifies",
+            "It keeps the parent's value up to $1M",
+            "It is exempt if the child is over 55"
+          ],
+          "answer": 1,
+          "explain": "Prop 19 limits the parent-child exclusion to a family home or farm. Rental property is reassessed."
+        },
+        {
+          "q": "Within how many days must a legal entity file BOE-100-B after a change in control?",
+          "choices": [
+            "30",
+            "60",
+            "90",
+            "180"
+          ],
+          "answer": 2,
+          "explain": "BOE requires filing within 90 days of the change in control or ownership."
+        },
+        {
+          "q": "What is the maximum annual increase in assessed value under Prop 13 absent a change in ownership?",
+          "choices": [
+            "1%",
+            "2%",
+            "3%",
+            "CPI with no cap"
+          ],
+          "answer": 1,
+          "explain": "Prop 13 caps annual inflationary increases in assessed value at 2%."
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "summary": "FEHA is California's Fair Employment and Housing Act. It bars housing discrimination on a long list of protected traits, broader than federal law, including source of income, which covers Section 8. It covers owners, managers and real estate agents, and it requires reasonable accommodations for disability. Discriminatory ads are illegal even where an exemption applies. Complaints can be filed with CRD within one year.",
+      "answer": "### Protected characteristics under FEHA (Gov. Code § 12955 et seq.)\n**Mandatory, list form:**\n- race, color, ancestry, national origin, citizenship, immigration status, primary language\n- religion\n- sex, gender, gender identity, gender expression, sexual orientation\n- marital status, familial status\n- disability, genetic information\n- **source of income**, military or veteran status, age\n\nThis list is broader than the federal Fair Housing Act.\n\n### Who is covered\n- Landlords, owners, property managers, **real estate agents and brokers**, screening companies, lenders, HOAs and housing authorities.\n- **Narrow exception:** an owner-occupant renting to one boarder can choose tenants. Even they **cannot publish discriminatory ads**.\n\n### Core obligations\n- **Source of income:** you cannot refuse vouchers, advertise \"No Section 8,\" or charge voucher holders more.\n- **Reasonable accommodations and modifications** for disability:\n  - Requests need not be in writing.\n  - Respond promptly and engage in an interactive process.\n  - You may ask for reliable verification of the disability-related need, but **not** for a diagnosis or medical records.\n  - Emotional support animals are a common issue.\n- **Criminal history:** follow CRD's Fair Chance rules. No blanket bans, and an individualized assessment is required.\n- **Harassment:** owners must act on harassment by staff and, where they have authority, by other tenants or contractors.\n- **Advertising:** no statements that show a preference. Steering and \"adults only\" language are classic violations.\n- Local governments cannot require crime-free housing programs that push evictions (AB 1418, 2024).\n\n### Enforcement\n- File with the **Civil Rights Department within 1 year** of the act.\n- A court action can be filed within 2 years, with the clock paused while CRD is processing the complaint.\n- Remedies include actual and punitive damages, civil penalties and attorney's fees.\n\n### For agents\nDRE license renewal includes fair housing and implicit bias training. A brokerage can be liable for agents' statements in listings and showings.\n\n*Educational summary, not legal advice. Confirm specific situations with a California landlord-tenant attorney.*",
+      "keyPoints": [
+        "FEHA protects more classes than federal law, including source of income, immigration status, primary language",
+        "Section 8 vouchers are protected source of income; 'No Section 8' is illegal",
+        "Owners, managers, agents and screening companies are all covered",
+        "Reasonable accommodation: interactive process; no diagnosis or medical record demands",
+        "CRD complaint deadline: 1 year; civil action within 2 years"
+      ],
+      "sources": [
+        {
+          "title": "California Civil Rights Department - Housing",
+          "url": "https://calcivilrights.ca.gov/housing/",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "I did not open the AB 1418 citation (crime-free housing, Gov. Code § 53165) or the DRE implicit-bias renewal requirement directly; confirm them on leginfo and dre.ca.gov.",
+      "drills": [
+        {
+          "q": "Which characteristic is protected under California FEHA but not the federal Fair Housing Act?",
+          "choices": [
+            "Race",
+            "Familial status",
+            "Source of income",
+            "National origin"
+          ],
+          "answer": 2,
+          "explain": "FEHA adds source of income (including vouchers) and other classes beyond federal law."
+        },
+        {
+          "q": "What is the deadline to file a housing discrimination complaint with the CA Civil Rights Department?",
+          "choices": [
+            "90 days",
+            "180 days",
+            "1 year",
+            "3 years"
+          ],
+          "answer": 2,
+          "explain": "CRD complaints must be filed within one year of the alleged discriminatory act."
+        },
+        {
+          "q": "A tenant asks verbally for an assigned accessible parking space due to a mobility impairment. What is the proper response?",
+          "choices": [
+            "Deny it because it wasn't in writing",
+            "Require medical records showing the diagnosis",
+            "Engage promptly in the interactive process; reliable verification of need may be requested",
+            "Charge a fee for the accommodation"
+          ],
+          "answer": 2,
+          "explain": "Requests need not be in writing, and providers may not demand a diagnosis or medical records."
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "summary": "In a 5+ unit sale, the statutory Transfer Disclosure Statement and the agent's mandatory visual-inspection duty don't apply. Those are for 1–4 units. Sellers and agents still must disclose known material facts, the hazard zones required by separate statutes, federal lead-paint information for pre-1978 buildings, water heater bracing, and anything else that affects value. Your protection is a thorough disclosure package plus buyer due diligence.",
+      "answer": "### What applies by property size\n| Requirement | 1–4 units | 5+ units |\n|---|---|---|\n| Transfer Disclosure Statement (Civ. § 1102) | Yes | No |\n| Natural Hazard Disclosure form (Civ. § 1103) | Yes | No form, but underlying zone disclosures still apply |\n| Agent's visual inspection duty (Civ. § 2079) | Yes | No statutory duty; common-law duties remain |\n| Federal lead paint (pre-1978 housing) | Yes | Yes |\n| Water heater bracing certification (H&S § 19211) | Yes | Yes |\n| Earthquake fault zone (PRC § 2621.9) | Yes | Yes, for any real property in a mapped zone |\n\n### Common-law duty\nCalifornia courts require a seller who knows a fact that **materially affects value or desirability**, and that the buyer can't readily discover, to disclose it. Agents can be liable for misrepresentation or concealment. For apartments, the usual material items are:\n- **Rent roll accuracy,** concessions, delinquencies and deposits (confirm with **estoppels**)\n- **Unpermitted units** or conversions (see Q185)\n- **SB 721** balcony report status and needed repairs\n- Open **code cases**, habitability complaints and pending unlawful detainers\n- **Rent-control status:** AB 1482 exemption notices, plus Oxnard or Ojai registration (Section 10)\n- Known **defects:** roofs, plumbing, foundations, drainage, mold, past fire or flood losses and insurance claims\n- **Hazard zones:** FEMA flood (A/V), very high fire hazard severity, earthquake fault and seismic hazard zones (most brokers order an NHD report anyway)\n\n### Practical tips\n- Use a commercial purchase agreement with a clear due diligence period and seller document delivery list.\n- Provide a written seller disclosure questionnaire, even though it isn't statutorily required.\n- Don't let \"as-is\" language lull you. It does not excuse concealing known material facts.\n- Agency disclosure forms still apply. Document every disclosure in writing.\n\n*Educational summary, not legal advice. Confirm specific situations with a California landlord-tenant attorney.*",
+      "keyPoints": [
+        "TDS (Civ. § 1102) and agent visual inspection (§ 2079) are 1-4 unit rules",
+        "Common-law duty: disclose known material facts the buyer can't readily discover",
+        "Federal lead disclosure applies to pre-1978 housing of any size",
+        "Water heater bracing certification applies to any real property sale with a water heater",
+        "Use estoppels, SB 721 reports, permit and code records, and an NHD report in apartment deals"
+      ],
+      "sources": [
+        {
+          "title": "California Public Law - Civil Code § 1102 (Transfer Disclosure Statement scope)",
+          "url": "https://california.public.law/codes/civil_code_section_1102",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Public Law - Civil Code § 1103 (Natural Hazard Disclosure)",
+          "url": "https://california.public.law/codes/civil_code_section_1103",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Public Law - Civil Code § 2079 (agent visual inspection duty)",
+          "url": "https://california.public.law/codes/civil_code_section_2079",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Public Law - Public Resources Code § 2621.9 (earthquake fault zone disclosure)",
+          "url": "https://california.public.law/codes/public_resources_code_section_2621.9",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Public Law - Health & Safety Code § 19211 (water heater bracing)",
+          "url": "https://california.public.law/codes/health_and_safety_code_section_19211",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Geological Survey - Alquist-Priolo Earthquake Fault Zones",
+          "url": "https://www.conservation.ca.gov/cgs/alquist-priolo",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Confirm with a real estate attorney or CAR legal which hazard-zone statutes (Gov. Code §§ 8589.3, 8589.4, 51183.5; PRC § 2694) apply to 5+ unit sales. The statute summaries I accessed describe §§ 1102 and 1103 as single-family residential (1–4 units) rules.",
+      "drills": [
+        {
+          "q": "Is a statutory Transfer Disclosure Statement required for the sale of a 12-unit apartment building?",
+          "choices": [
+            "Yes, always",
+            "No, the TDS statute covers 1-4 unit residential property",
+            "Only if built before 1978",
+            "Only in fire zones"
+          ],
+          "answer": 1,
+          "explain": "Civil Code § 1102 applies to 1-4 unit residential property. Common-law disclosure duties still apply to larger buildings."
+        },
+        {
+          "q": "Which disclosure applies to a 1965 20-unit building regardless of unit count?",
+          "choices": [
+            "TDS",
+            "Federal lead-based paint disclosure",
+            "Agent visual inspection under § 2079",
+            "Seller Property Questionnaire required by statute"
+          ],
+          "answer": 1,
+          "explain": "Federal lead disclosure covers pre-1978 target housing of any size."
+        },
+        {
+          "q": "What best protects a buyer against rent roll misrepresentations?",
+          "choices": [
+            "The NHD report",
+            "Tenant estoppel certificates",
+            "The water heater certification",
+            "The agency disclosure form"
+          ],
+          "answer": 1,
+          "explain": "Estoppels have tenants confirm rent, deposits, term and concessions in writing."
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "summary": "The Mobilehome Residency Law (Civil Code § 798 et seq.) governs the relationship between park owners and residents who own their homes but rent the space. It covers written agreements, 90-day rent increase notices, limited grounds and procedures for terminating a tenancy, park rules, and resale rights. In Ventura County, mobile home space rents are mostly regulated **locally**, through the county ordinance for unincorporated parks and several city ordinances, so park investors must underwrite local rent control.",
+      "answer": "### What the MRL covers\nThe Mobilehome Residency Law is Civil Code §§ 798–799.11. It applies when a homeowner owns the coach but rents the **space** in a park. Key rules:\n- **Written rental agreement** required; residents may choose a 12-month or shorter term.\n- **Rent increases** need at least **90 days' written notice** (§ 798.30).\n- **Termination** is allowed only for specified reasons, such as nonpayment, rule violations, nuisance or change of use, with at least **60 days' notice** (§§ 798.55–798.56).\n- **Selling in place:** residents can sell the home in the park, subject to limits on buyer approval and on requiring removal of older homes.\n- **Change of use, closure or conversion** requires advance notice. Local governments require a relocation impact report (Gov. Code § 65863.7).\n\n### Rent caps\n- **AB 1482 doesn't apply** to mobilehome homeowners' space rents (§ 1947.12(j)). It does cover a coach that is rented out as a dwelling.\n- The state's own space-rent cap (§ 798.30.5) is **narrow**:\n  - It is the lesser of 3% + CPI or 5%.\n  - It applies only to parks located in, and governed by, **two or more cities**.\n  - It sunsets January 1, 2030.\n- In practice, **local ordinances control.**\n\n### Where parks matter in Ventura County\n- **Unincorporated county:** a mobilehome park rent control ordinance (Ord. 4620, per Section 10) covers about 25 parks. Increases track the Social Security COLA within a 2–8% band. The county's **Mobile Home Park Rent Review Board** held hearings in November 2025.\n- **Cities:** Thousand Oaks and Santa Paula have space-rent programs. Camarillo reportedly adopted one in 2026, which is unverified (see Section 10).\n\n### So what for park investors\n- Rent upside usually depends on **vacancy decontrol rules**, capital-improvement pass-throughs and fair-return petitions under the local ordinance. It does not track market rent.\n- Due diligence should include the ordinance, rent board history, the infrastructure age of utilities and roads, and Title 25 compliance with HCD.\n\n*Educational summary, not legal advice. Confirm specific situations with a California landlord-tenant attorney.*",
+      "keyPoints": [
+        "MRL = Civil Code § 798 et seq.; governs park/homeowner space tenancies",
+        "Space rent increases require 90 days' written notice (§ 798.30)",
+        "Termination only for specified causes, with at least 60 days' notice",
+        "AB 1482 excludes mobilehome homeowners' space rents; the state cap (§ 798.30.5) covers only parks in 2+ cities",
+        "Ventura County unincorporated parks are under county rent control with a Rent Review Board"
+      ],
+      "sources": [
+        {
+          "title": "California Public Law - Civil Code § 798.30.5 (mobilehome space rent cap)",
+          "url": "https://california.public.law/codes/civil_code_section_798.30.5",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Public Law - Civil Code § 1947.12 (rent cap)",
+          "url": "https://california.public.law/codes/civil_code_section_1947.12",
+          "date": "2026-10"
+        },
+        {
+          "title": "County of Ventura RMA - Mobile Home Park Rent Review Board, Nov. 19, 2025 hearing materials",
+          "url": "https://rmadocs.venturacounty.gov/planning/hearings/mobile-home-park-rent-review-board/2025/2025-11-19-mobile-home-park-rent-review-board-item-8-exhibit-2-public-comment-james-koehler.pdf",
+          "date": "2025-11"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Confirm which Ventura County cities currently have mobile home rent control (Section 10 lists Thousand Oaks and Santa Paula, and Camarillo as unverified) and the vacancy-control terms of each. I did not open §§ 798.30, 798.55–798.56 and Gov. Code § 65863.7 directly; check them on leginfo.",
+      "drills": [
+        {
+          "q": "How much notice must a park give before raising a mobilehome space rent under the MRL?",
+          "choices": [
+            "30 days",
+            "60 days",
+            "90 days",
+            "120 days"
+          ],
+          "answer": 2,
+          "explain": "Civil Code § 798.30 requires at least 90 days' written notice."
+        },
+        {
+          "q": "Does AB 1482's rent cap apply to a homeowner's space rent in a Ventura County mobilehome park?",
+          "choices": [
+            "Yes, at 5% + CPI",
+            "No; AB 1482 excludes mobilehome homeowners, so local rent control governs",
+            "Only if the park has 50+ spaces",
+            "Yes, but only for parks built before 1995"
+          ],
+          "answer": 1,
+          "explain": "§ 1947.12(j) excludes mobilehome homeowners. The narrow state cap in § 798.30.5 applies only to parks in two or more cities."
+        },
+        {
+          "q": "Which body hears mobile home space rent matters for unincorporated Ventura County parks?",
+          "choices": [
+            "The Coastal Commission",
+            "The county's Mobile Home Park Rent Review Board",
+            "HCD's Codes and Standards Division",
+            "The Ventura Superior Court only"
+          ],
+          "answer": 1,
+          "explain": "The county operates a Mobile Home Park Rent Review Board under its rent control ordinance."
+        }
+      ]
+    }
+  ]
+}
