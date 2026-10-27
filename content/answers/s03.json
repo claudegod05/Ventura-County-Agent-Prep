@@ -1,0 +1,872 @@
+{
+  "section": 3,
+  "answers": [
+    {
+      "id": 30,
+      "summary": "Ventura County completes only a few hundred to roughly 1,900 apartment units a year; 2024 was the peak (about 1,900 units in 5+ unit buildings), and 2025 fell back to roughly 900. Deliveries have now dropped sharply, with zero CBRE-tracked completions in Q2 2026.",
+      "answer": "### What the state permit data shows\nEvery city reports certificates of occupancy (COs) to HCD in its Housing Element Annual Progress Report (APR). Summing Table A2 for all 11 Ventura County jurisdictions gives this:\n\n| Year | Units completed in 5+ unit buildings | of which deed-restricted affordable | ADUs completed | All housing completed |\n|---|---|---|---|---|\n| 2021 | 395 | 17 | 133 | 1,185 |\n| 2022 | 583 | 182 | 323 | 2,046 |\n| 2023 | 354 | 95 | 426 | 1,098 |\n| 2024 | 1,888 | 746 | 409 | 2,637 |\n| 2025 | 887 | 502 | 559 | 1,942 |\n\nThe 2024 spike came from the City of Ventura (727 units, including the 306-unit Willows on Johnson Dr.), unincorporated county (680, mostly Anacapa Canyon near CSUCI), Oxnard (210) and Simi Valley (271, Alamo Street Apartments). In 2025 the largest completions were in Oxnard: the 333-unit Panorama at 2700 N. Ventura Rd. and several 100% affordable projects.\n\n### What brokers' data shows\n- **CBRE** tracks about 42,000 large market-rate units. It counted 637 completions over the four quarters of 2025, then 585 in Q1 2026 (385 in Camarillo, 200 in Simi Valley/Moorpark) and **0 in Q2 2026**.\n- **Matthews** (CoStar data) reported 1,431 units delivered over the trailing 12 months to mid-2026. It called 2025 the county's highest completion year in five years.\n\nThe sources disagree because they count different things. CBRE leaves out affordable and small properties. APR counts are by permit year, and Santa Paula had not filed its 2025 APR.\n\n**So what:** A typical year adds about 1-2% to a stock of roughly 40,000 market-rate units. A spike year like 2024 is enough to push lease-up concessions, but supply is now falling off.",
+      "keyPoints": [
+        "APR completions in 5+ unit buildings: 395 (2021), 583 (2022), 354 (2023), 1,888 (2024), 887 (2025)",
+        "2024 was the five-year peak, led by Ventura (727) and the Anacapa Canyon / CSUCI project in unincorporated county (680)",
+        "CBRE: 637 market-rate completions in 2025, 585 in Q1 2026, 0 in Q2 2026",
+        "Matthews/CoStar: 1,431 units delivered in the 12 months to mid-2026",
+        "ADU completions rose from 133 (2021) to 559 (2025)"
+      ],
+      "sources": [
+        {
+          "title": "California HCD (data.ca.gov) - Housing Element APR Table A2 (permits and certificates of occupancy by project, 2018-2025)",
+          "url": "https://publish.data.ca.gov/dataset/81b0841f-2802-403e-b48e-2ef4b751f77c/resource/fe505d9b-8c36-42ba-ba30-08bc4f34e022/download/tablea2.csv",
+          "date": "2026-10"
+        },
+        {
+          "title": "CBRE Research - Ventura Multifamily Figures Q4 2025",
+          "url": "https://mktgdocs.cbre.com/2299/934d1e30-5d49-4bf9-a85b-09bc71ae6ddc-366174246/Ventura_Multifamily_Snapshot_Q.pdf",
+          "date": "2026-01"
+        },
+        {
+          "title": "CBRE Research - Ventura Multifamily Figures Q1 2026",
+          "url": "https://mktgdocs.cbre.com/2299/ab862b9f-1e9a-44f0-a3ad-58310f164d96-224289790/Ventura_Multifamily_Snapshot_Q.pdf",
+          "date": "2026-04"
+        },
+        {
+          "title": "CBRE Research - Ventura Multifamily Figures Q2 2026",
+          "url": "https://mktgdocs.cbre.com/2299/dec75ad2-1739-499f-b76f-559255509b56-27776285/Ventura_Multifamily_Snapshot_Q.pdf",
+          "date": "2026-07"
+        },
+        {
+          "title": "Matthews - Ventura County Multifamily Market Report H1 2026",
+          "url": "https://www.matthews.com/insights/ventura-county-multifamily-market-report-h1-2026-rents-vacancy-sales-trends",
+          "date": "2026-08"
+        },
+        {
+          "title": "CorporateHousing.com - Panorama Riverpark, 2700 N Ventura Rd, Oxnard (listing)",
+          "url": "https://www.corporatehousing.com/ca/oxnard/panorama-riverpark/n6pshkp",
+          "date": "2026"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "APR totals are self-reported by permit year and Santa Paula's 2025 APR is missing. Cross-check against CoStar's annual deliveries for the county (properties with 5+ units) and HCD's APR dashboard once Santa Paula files.",
+      "drills": [
+        {
+          "q": "In the HCD APR data, which year had the most completions in Ventura County 5+ unit buildings from 2021 to 2025?",
+          "choices": [
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "answer": 2,
+          "explain": "2024 had about 1,888 completions in 5+ unit buildings, led by Ventura's Willows project and the Anacapa Canyon project near CSUCI."
+        },
+        {
+          "q": "How many units did CBRE count as completed in Ventura County in Q2 2026?",
+          "choices": [
+            "0",
+            "214",
+            "333",
+            "585"
+          ],
+          "answer": 0,
+          "explain": "CBRE reported no deliveries in Q2 2026, after 585 in Q1 2026."
+        },
+        {
+          "q": "Why do CBRE's delivery counts run lower than HCD APR completion counts?",
+          "choices": [
+            "CBRE includes ADUs",
+            "APR counts only market-rate units",
+            "CBRE tracks large market-rate properties and leaves out most affordable and small properties",
+            "CBRE counts permits, not completions"
+          ],
+          "answer": 2,
+          "explain": "CBRE's roughly 42,000-unit inventory is large market-rate product. APR counts every completed unit, including 100% affordable projects."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "summary": "The market-rate pipeline is thin: about 500 units under construction, 1.3% of inventory, as of mid-2026. Most of the active building is 100% affordable work in Oxnard and Moorpark, plus MBK's 218-unit Sanctuary in Newbury Park.",
+      "answer": "### Headline numbers\n- **Matthews (CoStar), H1 2026:** 502 units under construction, **1.3% of inventory**, against 2.7% nationally. That is down from 844 units in Q3 2025.\n- Large lease-ups just finished: **Calixa Apartment Homes**, Camarillo (385 units, delivered Q1 2026 per CBRE), **Panorama**, Oxnard (333 units, opened Q3 2025), and **Valentine Road Apartments**, Ventura (136 affordable units, fully occupied June 2026).\n\n### Permitted but not yet finaled, per 2025 APRs\n| City | Project / address | Units | Notes |\n|---|---|---|---|\n| Thousand Oaks | Sanctuary at Thousand Oaks (MBK Rental Living), Newbury Rd | 218 | ~12% affordable. Permits issued Apr and Dec 2025, so expect 2026-27 delivery |\n| Oxnard | 2152 Lockwood St | 193 | 192 deed-restricted |\n| Oxnard | 2001 Outlet Center Dr | 183 | 182 deed-restricted |\n| Oxnard | Cypress Place, 5536 Cypress Rd | 90 | 89 deed-restricted |\n| Simi Valley | The Churchill, 1850 Heywood St | 91 | permit May 2025 |\n| Moorpark | High Street Station, 80-250 High St | 79 | permit Apr 2024 |\n| Ventura | Front & Kalorama, 935 E. Front St | 88 | permit Nov 2023 |\n\nLeap of Faith Partners' 125-unit modular mixed-use project at 2055 N. Ventura Ave. closed $52.4M of construction financing in 2022. Confirm whether it has delivered.\n\nThe APR list includes affordable deals, which CoStar's 502 largely leaves out. That is why the two lists differ.\n\n**So what:** Near-term competition for a market-rate owner comes mainly from the Sanctuary in Newbury Park and the tail of the Camarillo and Oxnard lease-ups. The 100% affordable Oxnard projects pull from a different, income-qualified tenant pool.",
+      "keyPoints": [
+        "Matthews/CoStar: 502 units under construction in mid-2026 (1.3% of stock vs 2.7% U.S.)",
+        "MBK's Sanctuary at Thousand Oaks: 218 units on Newbury Rd, permits issued 2025",
+        "Oxnard has about 466 permitted 100% affordable units in progress (Lockwood 193, Outlet Center 183, Cypress Place 90)",
+        "Recent big deliveries: Calixa Camarillo 385 (Q1 2026), Panorama Oxnard 333 (Q3 2025)"
+      ],
+      "sources": [
+        {
+          "title": "Matthews - Ventura County Multifamily Market Report H1 2026",
+          "url": "https://www.matthews.com/insights/ventura-county-multifamily-market-report-h1-2026-rents-vacancy-sales-trends",
+          "date": "2026-08"
+        },
+        {
+          "title": "Matthews - Ventura, CA Multifamily Market Report Q3 2025",
+          "url": "https://www.matthews.com/insights/ventura-ca-multifamily-market-report-q3-2025",
+          "date": "2025-10"
+        },
+        {
+          "title": "California HCD (data.ca.gov) - Housing Element APR Table A2 (permits and certificates of occupancy by project, 2018-2025)",
+          "url": "https://publish.data.ca.gov/dataset/81b0841f-2802-403e-b48e-2ef4b751f77c/resource/fe505d9b-8c36-42ba-ba30-08bc4f34e022/download/tablea2.csv",
+          "date": "2026-10"
+        },
+        {
+          "title": "CBRE Research - Ventura Multifamily Figures Q1 2026",
+          "url": "https://mktgdocs.cbre.com/2299/ab862b9f-1e9a-44f0-a3ad-58310f164d96-224289790/Ventura_Multifamily_Snapshot_Q.pdf",
+          "date": "2026-04"
+        },
+        {
+          "title": "Conejo Valley Guide - The Sanctuary at Thousand Oaks Luxury Apartments Planned for Early 2026",
+          "url": "https://conejovalleyguide.com/local-buzz/the-sanctuary-at-thousand-oaks-luxury-apartments-in-newbury-park-planned-for-early-2026",
+          "date": "2024-10"
+        },
+        {
+          "title": "IREI - Mixed-use development in Ventura, Calif. receives $52M construction financing (Leap of Faith Partners)",
+          "url": "https://irei.com/news/mixed-use-development-ventura-calif-receives-52m-construction-financing/",
+          "date": "2022-09"
+        },
+        {
+          "title": "City of Ventura - Valentine Road Apartments reach full occupancy (press release)",
+          "url": "https://www.cityofventura.ca.gov/DocumentCenter/View/50451/06012026_Valentine-Road-Apartments-reach-full-occupancy",
+          "date": "2026-06"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "APR shows permits issued through 12/31/2025 only. Confirm 2026 construction status and expected delivery dates with each city's building division or CoStar's under-construction list. Verify Leap of Faith (2055 N. Ventura Ave.), Front & Kalorama and The Churchill status.",
+      "drills": [
+        {
+          "q": "What share of existing inventory was under construction in Ventura County in mid-2026, according to Matthews?",
+          "choices": [
+            "0.5%",
+            "1.3%",
+            "2.7%",
+            "4.2%"
+          ],
+          "answer": 1,
+          "explain": "Matthews reported 502 units under construction, 1.3% of inventory, against 2.7% nationally."
+        },
+        {
+          "q": "Which developer is building the 218-unit Sanctuary at Thousand Oaks on Newbury Road?",
+          "choices": [
+            "Essex Property Trust",
+            "IMT Capital",
+            "High Street Residential",
+            "MBK Rental Living"
+          ],
+          "answer": 3,
+          "explain": "MBK Rental Living bought the 7.1-acre site in 2023 and is developing the 218 units."
+        },
+        {
+          "q": "Most of Oxnard's permitted-but-unfinished units at the end of 2025 were:",
+          "choices": [
+            "Luxury market-rate towers",
+            "100% deed-restricted affordable projects",
+            "Condominiums for sale",
+            "ADUs"
+          ],
+          "answer": 1,
+          "explain": "Lockwood St (192 of 193), Outlet Center Dr (182 of 183) and Cypress Place (89 of 90) are almost entirely deed-restricted."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "summary": "Ventura County has roughly 3,000+ market-rate-led apartment units approved and not started, concentrated in Thousand Oaks, Oxnard and Ventura. Most stall because land, construction and financing costs run ahead of flat rents (+0-2% a year) and 5%+ cap rates, so the projects don't pencil.",
+      "answer": "### Notable entitled projects with no building permit (per 2022-2025 APRs)\n| City | Project | Units | Entitled |\n|---|---|---|---|\n| Thousand Oaks | T.O. Ranch (IMT), 325/391 Hampshire Rd (former Kmart) | 420 | Jun 2022 |\n| Thousand Oaks | Latigo, 2150 W. Hillcrest Dr | 333 | Jul 2023 |\n| Thousand Oaks | High Street Residential (Trammell Crow), 500 E. Thousand Oaks Blvd | 328 | Nov 2024; land closed Mar 2025 |\n| Thousand Oaks | 1 Baxter Way (The Oaks mall area) | 264 | Jun 2022 |\n| Oxnard | 2801 N. Oxnard Blvd | 280 | May 2025 |\n| Oxnard | 2151 Lockwood St (market-rate phase) | 234 | Sep 2024 |\n| Oxnard | 1345 N. Oxnard Blvd | 138 | Aug 2023 |\n| Ventura | Arrive Ventura | 297 | Mar 2025 |\n| Ventura | Maple Court | 290 | Dec 2025 |\n| Santa Paula | Arrive Santa Paula / Red Tails, 18004 E. Telegraph Rd | 298 | Dec 2022 |\n\n### Why they stall\n1. **Yield on cost vs. cap rates.** Recent affordable and modular costs run about $490K-$700K per unit all-in (see Q36). Existing assets trade at about $450-520K per unit for new product (AMLI Camarillo, Tempo Riverpark) at cap rates near 5%. When a new build costs more than buying an existing one, construction lenders and equity hold back.\n2. **Flat rents.** CBRE shows rent growth of about 0% over the year to Q2 2026, and Matthews about +1.2%.\n3. **Inclusionary set-asides.** Typically 10-15% of units (e.g., 54 of 420 at T.O. Ranch, 44 of 328 at High Street) are income-restricted, which cuts revenue.\n4. **Insurance, impact fees and long lease-ups** after the 2024-26 delivery wave.\n5. **Affordable deals** wait on tax credits and bonds. Traded counts 9,500+ stalled affordable units across L.A. and Ventura counties combined.\n\n**So what:** Entitled sites become land plays or recapitalization targets. Use them to argue that future supply is capped, which supports existing-asset rents.",
+      "keyPoints": [
+        "T.O. Ranch (IMT, 420 units) was entitled in 2022 and still had no building permit at the end of 2025",
+        "High Street Residential closed on a 328-unit Thousand Oaks site in March 2025 (44 lower-income units)",
+        "Ventura approved Arrive Ventura (297) and Maple Court (290) in 2025",
+        "Main reason for stalls: all-in cost of about $500-700K/unit vs. existing trades of about $450-520K/unit at cap rates near 5%",
+        "Traded: more than 9,500 approved affordable units are stalled in L.A. and Ventura counties combined"
+      ],
+      "sources": [
+        {
+          "title": "California HCD (data.ca.gov) - Housing Element APR Table A2 (permits and certificates of occupancy by project, 2018-2025)",
+          "url": "https://publish.data.ca.gov/dataset/81b0841f-2802-403e-b48e-2ef4b751f77c/resource/fe505d9b-8c36-42ba-ba30-08bc4f34e022/download/tablea2.csv",
+          "date": "2026-10"
+        },
+        {
+          "title": "Ventura County Star via Yahoo News - Thousand Oaks commission recommends approval of huge T.O. Ranch project",
+          "url": "https://news.yahoo.com/thousand-oaks-commission-recommends-approval-130023769.html?fr=sycsrp_catchall",
+          "date": "2022"
+        },
+        {
+          "title": "The Registry SoCal - High Street Residential closes on six-acre Thousand Oaks site for 328-unit multifamily development",
+          "url": "https://theregistrysocal.com/high-street-residential-closes-on-six-acre-site-in-thousand-oaks-for-328-unit-multifamily-development",
+          "date": "2025-03"
+        },
+        {
+          "title": "Matthews - Ventura, CA Multifamily Market Report Q3 2025",
+          "url": "https://www.matthews.com/insights/ventura-ca-multifamily-market-report-q3-2025",
+          "date": "2025-10"
+        },
+        {
+          "title": "CBRE Research - Ventura Multifamily Figures Q1 2026",
+          "url": "https://mktgdocs.cbre.com/2299/ab862b9f-1e9a-44f0-a3ad-58310f164d96-224289790/Ventura_Multifamily_Snapshot_Q.pdf",
+          "date": "2026-04"
+        },
+        {
+          "title": "CBRE Research - Ventura Multifamily Figures Q4 2025",
+          "url": "https://mktgdocs.cbre.com/2299/934d1e30-5d49-4bf9-a85b-09bc71ae6ddc-366174246/Ventura_Multifamily_Snapshot_Q.pdf",
+          "date": "2026-01"
+        },
+        {
+          "title": "Traded - 40,000 affordable homes stalled across California as funding gaps freeze development pipeline",
+          "url": "https://traded.co/blog/40-000-affordable-homes-stalled-across-california-as-funding-gaps-freeze-development-pipeline/",
+          "date": "2026-03"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Status is as of the 2025 APRs. Some projects may have pulled permits in 2026. Check each city's current development project list (Thousand Oaks, Oxnard, Ventura) and county building permits. Confirm the developer behind the 'Arrive' projects, and whether 1 Baxter Way is part of The Oaks mall redevelopment.",
+      "drills": [
+        {
+          "q": "The 420-unit T.O. Ranch project on Hampshire Road replaces which former use?",
+          "choices": [
+            "A Kmart",
+            "A Sears",
+            "A movie theater",
+            "A hospital"
+          ],
+          "answer": 0,
+          "explain": "The nearly 12-acre site at 325/391 Hampshire Rd held a shuttered Kmart."
+        },
+        {
+          "q": "Which of these is the most direct reason entitled market-rate projects in Ventura County have not started?",
+          "choices": [
+            "Lack of entitled land",
+            "A countywide building moratorium",
+            "All-in development cost above the value of comparable existing assets, with flat rents",
+            "Too many tenants"
+          ],
+          "answer": 2,
+          "explain": "With all-in costs of about $500-700K/unit and existing new product trading around $450-520K/unit at about 5% caps, the yield on cost does not justify the risk."
+        },
+        {
+          "q": "High Street Residential's planned 328-unit Thousand Oaks project includes how many lower-income units?",
+          "choices": [
+            "44",
+            "26",
+            "0",
+            "100"
+          ],
+          "answer": 0,
+          "explain": "The Registry reported 44 units reserved for lower-income households."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "summary": "New supply in the county comes from a short list: national multifamily developers in East County and Camarillo (MBK Rental Living, IMT, Essex, Trammell Crow's High Street Residential), a few Southern California builders, and very active nonprofit and housing-authority developers (Many Mansions, Ventura Housing) on the affordable side.",
+      "answer": "### Market-rate and mixed-income developers (identified in public records)\n- **Essex Property Trust (NYSE: ESS):** Vendra Gardens on Casey Rd, Moorpark (200 units, permit Nov 2024; APR lists 198 deed-restricted). Essex is also a major long-term owner in the county.\n- **MBK Rental Living:** Sanctuary at Thousand Oaks, Newbury Rd (218 units, permits 2025).\n- **IMT Capital / IMT Residential:** T.O. Ranch, 325/391 Hampshire Rd (420 units, entitled 2022).\n- **High Street Residential (Trammell Crow Company):** 328 units at 500 E. Thousand Oaks Blvd (land closed March 2025).\n- **Leap of Faith Partners:** 125-unit modular mixed-use project at 2055 N. Ventura Ave., Ventura ($52.4M construction financing, 2022).\n- **Recent large projects (look up the sponsor):** Calixa (Camarillo, 385), Panorama (Oxnard, 333), Town Square at Wagon Wheel (Oxnard, 448 over two phases), The Willows (Ventura, 306), Arrive Santa Paula (298), Arrive Ventura (297).\n\n### Affordable and nonprofit developers\n- **Housing Authority of the City of San Buenaventura (Ventura Housing):** Valentine Road (136 units, adaptive reuse, full June 2026) and Westview Village.\n- **Many Mansions:** Central Terrace (Oxnard, 87), Vista Campanario (Camarillo), Mountain View (Fillmore), Rancho Sierra (near Camarillo), plus many Conejo Valley communities.\n- **Area-specific players:** Oxnard's 100% affordable pipeline (Lockwood, Outlet Center, Cypress Place) and farmworker housing in Somis.\n\n### How to keep this current\nPull Table A2 from the HCD APR dataset, filter to 5+ unit projects, and match addresses to CTCAC/CDLAC award lists and the Secretary of State's LLC filings to find the sponsor.\n\n**So what:** The East County sponsors (Essex, MBK, IMT, High Street) are also likely future buyers or sellers, and good relationship targets for a broker entering Ventura County.",
+      "keyPoints": [
+        "Essex: Vendra Gardens, Moorpark (200 units)",
+        "MBK Rental Living: Sanctuary at Thousand Oaks (218 units)",
+        "IMT: T.O. Ranch (420 units, entitled)",
+        "High Street Residential: 328 units, Thousand Oaks (land closed March 2025)",
+        "Many Mansions and Ventura Housing lead nonprofit and public affordable development"
+      ],
+      "sources": [
+        {
+          "title": "California HCD (data.ca.gov) - Housing Element APR Table A2 (permits and certificates of occupancy by project, 2018-2025)",
+          "url": "https://publish.data.ca.gov/dataset/81b0841f-2802-403e-b48e-2ef4b751f77c/resource/fe505d9b-8c36-42ba-ba30-08bc4f34e022/download/tablea2.csv",
+          "date": "2026-10"
+        },
+        {
+          "title": "Conejo Valley Guide - The Sanctuary at Thousand Oaks Luxury Apartments Planned for Early 2026",
+          "url": "https://conejovalleyguide.com/local-buzz/the-sanctuary-at-thousand-oaks-luxury-apartments-in-newbury-park-planned-for-early-2026",
+          "date": "2024-10"
+        },
+        {
+          "title": "Ventura County Star via Yahoo News - Thousand Oaks commission recommends approval of huge T.O. Ranch project",
+          "url": "https://news.yahoo.com/thousand-oaks-commission-recommends-approval-130023769.html?fr=sycsrp_catchall",
+          "date": "2022"
+        },
+        {
+          "title": "The Registry SoCal - High Street Residential closes on six-acre Thousand Oaks site for 328-unit multifamily development",
+          "url": "https://theregistrysocal.com/high-street-residential-closes-on-six-acre-site-in-thousand-oaks-for-328-unit-multifamily-development",
+          "date": "2025-03"
+        },
+        {
+          "title": "IREI - Mixed-use development in Ventura, Calif. receives $52M construction financing (Leap of Faith Partners)",
+          "url": "https://irei.com/news/mixed-use-development-ventura-calif-receives-52m-construction-financing/",
+          "date": "2022-09"
+        },
+        {
+          "title": "Many Mansions - Current Communities",
+          "url": "https://www.manymansions.org/recent-property-renovations/",
+          "date": "2026"
+        },
+        {
+          "title": "City of Ventura - Valentine Road Apartments reach full occupancy (press release)",
+          "url": "https://www.cityofventura.ca.gov/DocumentCenter/View/50451/06012026_Valentine-Road-Apartments-reach-full-occupancy",
+          "date": "2026-06"
+        },
+        {
+          "title": "CTCAC - Staff Report CA-24-150, Valentine Road Apartments (Ventura)",
+          "url": "https://www.treasurer.ca.gov/ctcac/meeting/2024/1002/staff/24-150.pdf",
+          "date": "2024-10"
+        },
+        {
+          "title": "Berkadia - Ventura Multifamily Quarterly Pipeline Report 4Q23",
+          "url": "https://www.berkadia.com/wp-content/uploads/2024/02/Berkadia-Q4-2023-Ventura-Construction-Pipeline-Report.pdf",
+          "date": "2024-01"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Sponsors were confirmed only where named in APR or press. Confirm the developers of Calixa, Panorama, Town Square at Wagon Wheel, The Willows and the Arrive projects through CoStar, building-permit applicant records or the Secretary of State's LLC search. Confirm Essex's role at Vendra Gardens (developer vs. partner).",
+      "drills": [
+        {
+          "q": "Which publicly traded REIT appears in Moorpark's APR as the sponsor of Vendra Gardens?",
+          "choices": [
+            "AvalonBay",
+            "Equity Residential",
+            "UDR",
+            "Essex Property Trust"
+          ],
+          "answer": 3,
+          "explain": "Moorpark's APR labels the 200-unit Casey Road project 'Essex / Vendra Gardens.'"
+        },
+        {
+          "q": "High Street Residential is the residential arm of which company?",
+          "choices": [
+            "Greystar",
+            "Trammell Crow Company",
+            "Related",
+            "Hines"
+          ],
+          "answer": 1,
+          "explain": "High Street Residential is Trammell Crow Company's residential subsidiary."
+        },
+        {
+          "q": "Which nonprofit developed Central Terrace in Oxnard and Vista Campanario in Camarillo?",
+          "choices": [
+            "LINC Housing",
+            "Habitat for Humanity",
+            "Mercy Housing",
+            "Many Mansions"
+          ],
+          "answer": 3,
+          "explain": "Both appear on Many Mansions' list of current communities."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "summary": "About half of what is being built and permitted now is deed-restricted affordable. Since 2024, 40-60% of new units in 5+ unit buildings have been income-restricted, and market-rate projects typically carry 10-15% inclusionary units.",
+      "answer": "### Share of new 5+ unit housing that is deed-restricted (HCD APR, all Ventura County jurisdictions)\n| Year | Completed (CO) | Deed-restricted | % | Permitted (BP) | Deed-restricted | % |\n|---|---|---|---|---|---|---|\n| 2021 | 395 | 17 | 4% | 941 | 176 | 19% |\n| 2022 | 583 | 182 | 31% | 766 | 447 | 58% |\n| 2023 | 354 | 95 | 27% | 816 | 391 | 48% |\n| 2024 | 1,888 | 746 | 40% | 1,914 | 1,156 | 60% |\n| 2025 | 887 | 502 | 57% | 1,404 | 719 | 51% |\n\n### Three kinds of projects\n- **100% affordable (tax credit / bond / housing authority):** Valentine Road (Ventura, 136), Alamo Street (Simi Valley, 268 of 271), Oxnard's Lockwood (192 of 193) and Outlet Center (182 of 183), Central Terrace (Oxnard, 86 of 87), Anacapa Canyon senior units.\n- **Market-rate with inclusionary set-asides (about 6-15%):** Panorama, Oxnard (50 of 333 = 15%); T.O. Ranch (54 of 420 = 13%); High Street, Thousand Oaks (44 of 328 = 13%); Sanctuary (~12%); The Willows, Ventura (19 of 306 = 6%).\n- **Genuinely mixed-income:** Arrive Santa Paula (166 of 298 deed-restricted) and Arrive Ventura (103 of 297).\n\n### Why the mix leans affordable\nPublic subsidy (LIHTC, state bonds, Homekey-style conversions) can absorb $500K+ per-unit costs that market-rate rents can't. Most cities' RHNA shortfalls are also in the lower-income categories (see Q40).\n\n**So what:** Raw \"units delivered\" figures overstate competition for a Class B/C market-rate owner. Strip out the deed-restricted units, which draw from income-qualified waitlists. Only about 400-1,100 market-rate units a year actually compete for your tenant.",
+      "keyPoints": [
+        "Deed-restricted share of completions in 5+ unit buildings: 40% (2024), 57% (2025)",
+        "Deed-restricted share of 5+ unit permits: 60% (2024), 51% (2025)",
+        "Market-rate projects typically carry 6-15% inclusionary units (Panorama 15%, T.O. Ranch 13%, Willows 6%)",
+        "100% affordable examples: Alamo Street Simi (271), Oxnard Lockwood (193) and Outlet Center (183)"
+      ],
+      "sources": [
+        {
+          "title": "California HCD (data.ca.gov) - Housing Element APR Table A2 (permits and certificates of occupancy by project, 2018-2025)",
+          "url": "https://publish.data.ca.gov/dataset/81b0841f-2802-403e-b48e-2ef4b751f77c/resource/fe505d9b-8c36-42ba-ba30-08bc4f34e022/download/tablea2.csv",
+          "date": "2026-10"
+        },
+        {
+          "title": "California HCD (data.ca.gov) - 6th Cycle RHNA Progress Report (CSV, APR data through reporting year 2025)",
+          "url": "https://publish.data.ca.gov/dataset/ff082e96-72f7-4443-9747-8b8dadc15671/resource/1e80a9cf-724c-432d-8374-e9708a6a92dc/download/rhna_progress_6.csv",
+          "date": "2026-10"
+        },
+        {
+          "title": "CTCAC - Staff Report CA-24-150, Valentine Road Apartments (Ventura)",
+          "url": "https://www.treasurer.ca.gov/ctcac/meeting/2024/1002/staff/24-150.pdf",
+          "date": "2024-10"
+        },
+        {
+          "title": "Many Mansions - Current Communities",
+          "url": "https://www.manymansions.org/recent-property-renovations/",
+          "date": "2026"
+        },
+        {
+          "title": "Ventura County Star via Yahoo News - Thousand Oaks commission recommends approval of huge T.O. Ranch project",
+          "url": "https://news.yahoo.com/thousand-oaks-commission-recommends-approval-130023769.html?fr=sycsrp_catchall",
+          "date": "2022"
+        },
+        {
+          "title": "The Registry SoCal - High Street Residential closes on six-acre Thousand Oaks site for 328-unit multifamily development",
+          "url": "https://theregistrysocal.com/high-street-residential-closes-on-six-acre-site-in-thousand-oaks-for-328-unit-multifamily-development",
+          "date": "2025-03"
+        },
+        {
+          "title": "Conejo Valley Guide - The Sanctuary at Thousand Oaks Luxury Apartments Planned for Early 2026",
+          "url": "https://conejovalleyguide.com/local-buzz/the-sanctuary-at-thousand-oaks-luxury-apartments-in-newbury-park-planned-for-early-2026",
+          "date": "2024-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "high",
+      "verify": "APR 'deed-restricted' counts depend on each city's coding. Spot-check a few projects against CTCAC award lists.",
+      "drills": [
+        {
+          "q": "Roughly what share of Ventura County's 2025 completions in 5+ unit buildings were deed-restricted affordable?",
+          "choices": [
+            "About 10%",
+            "About 25%",
+            "About 57%",
+            "About 90%"
+          ],
+          "answer": 2,
+          "explain": "502 of 887 completions in 2025 (57%) were deed-restricted."
+        },
+        {
+          "q": "What is a typical inclusionary set-aside in recent Ventura County market-rate projects?",
+          "choices": [
+            "6-15%",
+            "0%",
+            "25-35%",
+            "50%"
+          ],
+          "answer": 0,
+          "explain": "Examples: Panorama 15%, T.O. Ranch 13%, High Street 13%, Willows 6%."
+        },
+        {
+          "q": "Why should a Class C owner discount the deed-restricted share of new deliveries?",
+          "choices": [
+            "They are condos",
+            "They are not finished",
+            "They lease to income-qualified households from waitlists, a different tenant pool",
+            "They pay no property tax"
+          ],
+          "answer": 2,
+          "explain": "Deed-restricted units are rented to income-qualified households and mostly don't compete for market-rate tenants."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "summary": "The near-term pressure is in Camarillo, Moorpark and Oxnard's Riverpark/north Oxnard corridor, where 2025-26 lease-ups pushed CoStar vacancy to about 7-9% and brought 6-8 weeks free. Thousand Oaks/Newbury Park comes next as MBK's 218 units lease. Ventura and Port Hueneme face the least.",
+      "answer": "### Where the risk sits (mid-2026)\n| Submarket | Recent / near-term supply | Vacancy signal |\n|---|---|---|\n| **Camarillo** | Calixa (385, delivered Q1 2026), plus earlier Anacapa Canyon / CSUCI units | Matthews/CoStar 7.4%; CBRE stabilized 3.9% |\n| **Moorpark** | Vendra Gardens (200), High Street Station (79) | Matthews/CoStar **8.7%**, the county high |\n| **Oxnard (Riverpark / north)** | Panorama 333 (Q3 2025), Town Square at Wagon Wheel 448 (2023-24), plus about 466 affordable units under construction | CoStar 4.9%; listings advertise \"2 months free\" in Riverpark |\n| **Thousand Oaks / Newbury Park** | Sanctuary 218 (2026-27); T.O. Ranch 420, Latigo 333 and High Street 328 entitled | CBRE 4.2%; CoStar 4.4% |\n| **Simi Valley** | The Churchill 91 | 3.8-3.9% |\n| **Ventura** | Little market-rate under way | CBRE **3.2%**, the tightest |\n| **Port Hueneme / Oak Park** | Essentially none | CoStar 2.4% / 2.1% |\n\nCBRE and CoStar disagree because CoStar counts units still in lease-up while CBRE's figures lean toward stabilized occupancy. A gap like Camarillo's (3.9% vs 7.4%) is lease-up supply that the market hasn't absorbed yet.\n\n### Read-through for investors\n- Overall pressure is mild: the pipeline is 1.3% of stock vs 2.7% nationally. Absorption (575 units in H1 2026) outpaced deliveries (306).\n- Concessions sit mostly in new Class A product. Older Class B/C near a lease-up mainly feels it as slower renewals and longer days vacant, not cuts in asking rent.\n- When underwriting in Camarillo or Moorpark, hold year-1 rent growth near 0% and add 1-2 points of economic vacancy until the lease-ups stabilize, likely by mid-2027.",
+      "keyPoints": [
+        "CoStar vacancy, mid-2026: Moorpark 8.7%, Camarillo 7.4% (lease-up driven)",
+        "CBRE Q2 2026: Ventura tightest at 3.2%; county 3.9%",
+        "Countywide pipeline is 1.3% of stock vs 2.7% nationally",
+        "Riverpark (Oxnard) lease-ups advertise up to 2 months free"
+      ],
+      "sources": [
+        {
+          "title": "Matthews - Ventura County Multifamily Market Report H1 2026",
+          "url": "https://www.matthews.com/insights/ventura-county-multifamily-market-report-h1-2026-rents-vacancy-sales-trends",
+          "date": "2026-08"
+        },
+        {
+          "title": "CBRE Research - Ventura Multifamily Figures Q2 2026",
+          "url": "https://mktgdocs.cbre.com/2299/dec75ad2-1739-499f-b76f-559255509b56-27776285/Ventura_Multifamily_Snapshot_Q.pdf",
+          "date": "2026-07"
+        },
+        {
+          "title": "CBRE Research - Ventura Multifamily Figures Q1 2026",
+          "url": "https://mktgdocs.cbre.com/2299/ab862b9f-1e9a-44f0-a3ad-58310f164d96-224289790/Ventura_Multifamily_Snapshot_Q.pdf",
+          "date": "2026-04"
+        },
+        {
+          "title": "California HCD (data.ca.gov) - Housing Element APR Table A2 (permits and certificates of occupancy by project, 2018-2025)",
+          "url": "https://publish.data.ca.gov/dataset/81b0841f-2802-403e-b48e-2ef4b751f77c/resource/fe505d9b-8c36-42ba-ba30-08bc4f34e022/download/tablea2.csv",
+          "date": "2026-10"
+        },
+        {
+          "title": "Conejo Valley Guide - The Sanctuary at Thousand Oaks Luxury Apartments Planned for Early 2026",
+          "url": "https://conejovalleyguide.com/local-buzz/the-sanctuary-at-thousand-oaks-luxury-apartments-in-newbury-park-planned-for-early-2026",
+          "date": "2024-10"
+        },
+        {
+          "title": "Redfin - Riverpark (Oxnard) studio apartments for rent (search listing showing '2 MONTHS FREE')",
+          "url": "https://www.redfin.com/neighborhood/113760/CA/Oxnard/Riverpark/studio-apartments-for-rent",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Pull CoStar Q3 2026 submarket vacancy, and the share in lease-up, for Camarillo, Moorpark and Oxnard. Check current concession offers at Calixa, Panorama and Sanctuary.",
+      "drills": [
+        {
+          "q": "Which submarket had the highest CoStar vacancy in Matthews' H1 2026 report?",
+          "choices": [
+            "Ventura",
+            "Moorpark",
+            "Port Hueneme",
+            "Simi Valley"
+          ],
+          "answer": 1,
+          "explain": "Moorpark had 8.7% vacancy, driven by new lease-up supply."
+        },
+        {
+          "q": "Which CBRE submarket had the lowest vacancy in Q2 2026?",
+          "choices": [
+            "Camarillo (3.9%)",
+            "Thousand Oaks (4.2%)",
+            "Oxnard (4.0%)",
+            "Ventura (3.2%)"
+          ],
+          "answer": 3,
+          "explain": "Ventura was the tightest CBRE submarket at 3.2%."
+        },
+        {
+          "q": "Camarillo shows 3.9% vacancy in CBRE data but 7.4% in CoStar/Matthews data. What most likely explains the gap?",
+          "choices": [
+            "Different city boundaries",
+            "CoStar includes units still in lease-up, such as Calixa",
+            "CBRE includes ADUs",
+            "A typo"
+          ],
+          "answer": 1,
+          "explain": "Lease-up units (Calixa's 385 delivered Q1 2026) raise CoStar's vacancy, while CBRE's figures lean toward stabilized occupancy."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "summary": "All-in development cost in Ventura County now runs roughly $490K-$700K per unit, with hard costs of about $300-465 per square foot. Per-unit costs on public-subsidy deals rose from about $490K in 2021 to $550-700K. That is at or above what new existing assets sell for, which is why market-rate starts have dried up.",
+      "answer": "### Local data points (public filings)\n| Project | Type | Year | Total cost / unit | Construction $/SF |\n|---|---|---|---|---|\n| Goodman Street Apts, Ventura (104 units) | New construction, affordable | 2021 | **$487K** | $301 |\n| Westview Village II, Ventura (50 units) | New construction, affordable | 2021 | **$702K** | $464 |\n| Valentine Road Apts, Ventura (136 units) | Adaptive reuse (incl. $35.2M acquisition) | 2024 | **$566K** | $401 |\n| Leap of Faith, 2055 N. Ventura Ave. (125 units) | Modular, market-rate mixed use | 2022 | about **$535K** ($52.4M debt + $14.5M equity) | n/a |\n\nSources: CTCAC staff reports and IREI. The CTCAC figures include land, soft costs, financing and developer fee.\n\n### Compare with what buyers pay\n- AMLI Camarillo (213 units) sold for **$110.15M (about $517K/unit)** in Q4 2025.\n- Tempo Riverpark, Oxnard (235 units) sold for **$105M (about $447K/unit)** in Q1 2026.\n- Countywide averages: about $306K/unit (Matthews H1 2026), mostly older product.\n\n### Trend and drivers\n- Affordable per-unit costs moved from the high-$400Ks (2021) into the $550-700K range by 2024, with $400+/SF hard costs now common.\n- Drivers: prevailing wage on subsidized deals, Type V/podium construction, structured parking, coastal-zone and fire-code requirements, impact fees, insurance during construction, and higher construction-loan rates since 2022.\n- Market-rate builders cut costs with garden or wrap formats on cheaper East County or Camarillo land, or modular construction (Leap of Faith).\n\n**So what:** Replacement cost of about $500K+/unit puts a floor under Class A values and makes 1970s-80s stock at $250-350K/unit look cheap. Use this in buyer pitches.",
+      "keyPoints": [
+        "Goodman Street (2021): $487K/unit, $301/SF construction",
+        "Westview Village II (2021): $702K/unit, $464/SF",
+        "Valentine Road adaptive reuse (2024): $566K/unit",
+        "Leap of Faith modular (2022): about $535K/unit all-in",
+        "New-product trades: AMLI Camarillo about $517K/unit; Tempo Riverpark about $447K/unit"
+      ],
+      "sources": [
+        {
+          "title": "CTCAC - Staff Report CA-21-481, Goodman Street Apartments (Ventura)",
+          "url": "https://www.treasurer.ca.gov/ctcac/meeting/2021/20210428/staff/4/21-481.pdf",
+          "date": "2021-04"
+        },
+        {
+          "title": "CTCAC - Staff Report CA-21-117, Westview Village II (Ventura)",
+          "url": "https://www.treasurer.ca.gov/ctcac/meeting/2021/20211020/staff/6/21-117.pdf",
+          "date": "2021-10"
+        },
+        {
+          "title": "CTCAC - Staff Report CA-24-150, Valentine Road Apartments (Ventura)",
+          "url": "https://www.treasurer.ca.gov/ctcac/meeting/2024/1002/staff/24-150.pdf",
+          "date": "2024-10"
+        },
+        {
+          "title": "IREI - Mixed-use development in Ventura, Calif. receives $52M construction financing (Leap of Faith Partners)",
+          "url": "https://irei.com/news/mixed-use-development-ventura-calif-receives-52m-construction-financing/",
+          "date": "2022-09"
+        },
+        {
+          "title": "CBRE Research - Ventura Multifamily Figures Q4 2025",
+          "url": "https://mktgdocs.cbre.com/2299/934d1e30-5d49-4bf9-a85b-09bc71ae6ddc-366174246/Ventura_Multifamily_Snapshot_Q.pdf",
+          "date": "2026-01"
+        },
+        {
+          "title": "CBRE Research - Ventura Multifamily Figures Q1 2026",
+          "url": "https://mktgdocs.cbre.com/2299/ab862b9f-1e9a-44f0-a3ad-58310f164d96-224289790/Ventura_Multifamily_Snapshot_Q.pdf",
+          "date": "2026-04"
+        },
+        {
+          "title": "Matthews - Ventura County Multifamily Market Report H1 2026",
+          "url": "https://www.matthews.com/insights/ventura-county-multifamily-market-report-h1-2026-rents-vacancy-sales-trends",
+          "date": "2026-08"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Public cost data here comes mostly from subsidized deals, which run higher because of prevailing wage. Ask local general contractors or market-rate developers for 2026 hard-cost $/SF on garden and podium product. Check the RS Means or Cumming cost index for Ventura/Oxnard.",
+      "drills": [
+        {
+          "q": "What was the total development cost per unit of Goodman Street Apartments in Ventura (CTCAC, 2021)?",
+          "choices": [
+            "$487K",
+            "$287K",
+            "$702K",
+            "$900K"
+          ],
+          "answer": 0,
+          "explain": "The CTCAC staff report lists $487,244 per unit and $301/SF construction cost."
+        },
+        {
+          "q": "AMLI Camarillo traded in Q4 2025 at about what price per unit?",
+          "choices": [
+            "$306K",
+            "$447K",
+            "$517K",
+            "$700K"
+          ],
+          "answer": 2,
+          "explain": "CBRE lists AMLI Camarillo (213 units) at $110.15M, about $517K per unit."
+        },
+        {
+          "q": "Why does replacement cost matter for an older-asset buyer pitch?",
+          "choices": [
+            "If new construction costs about $500K+/unit, older stock at $250-350K/unit trades well below replacement",
+            "It sets the property tax",
+            "It caps rents under AB 1482",
+            "Lenders require it to be below price"
+          ],
+          "answer": 0,
+          "explain": "When replacement cost is well above the price of existing assets, new supply is held back and existing assets are protected."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "summary": "ADUs are now the county's single largest source of new permits: about 1,080 ADU permits and 559 ADU completions in 2025, led by Oxnard. That adds real but small-unit supply, equal to roughly 0.5% of renter households a year. Many ADUs house family members or are used as short-term rentals rather than going to the open market.",
+      "answer": "### Production (HCD APR, all Ventura County jurisdictions)\n| Year | ADU permits issued | ADUs completed |\n|---|---|---|\n| 2021 | 263 | 133 |\n| 2022 | 479 | 323 |\n| 2023 | 675 | 426 |\n| 2024 | 827 | 409 |\n| 2025 | 1,080 | 559 |\n\nIn 2025, ADUs made up about **37% of all housing permits** countywide (1,080 of 2,888).\n\n**By city (2025 permits):** Oxnard 497 (up from 64 in 2021), Ventura 136, Simi Valley 122, unincorporated county 98, Thousand Oaks 97, Port Hueneme 36, Camarillo 34, Moorpark 26.\n\n**Unincorporated county:** ADUs and JADUs make up about 56% of all permits this RHNA cycle. In 2025, 82% used the streamlined permit-only path, and production rose 43% over 2024 (County 2025 APR).\n\n### Does it matter for multifamily?\n- **Scale:** About 400-560 completions a year against roughly 99,000 renter households, or about 0.4-0.6% a year. That is less than the 5+ unit pipeline, but steady and spread across neighborhoods.\n- **Product:** Mostly studios and 1BRs, often with private entry and yard. They compete directly with small 1BR units in older 2-4 and 5-20 unit buildings.\n- **Affordability:** Cities count many ADUs as lower-income in RHNA reports based on owner-reported rents. Market ADU rents in Oxnard and Ventura typically run near local 1BR levels.\n- **Leakage:** A meaningful share are used by family members or as short-term rentals, so effective rental supply is lower than the permit count.\n\n**So what:** In Oxnard especially, ADUs weigh on 1BR rents in small older buildings. On the other side, state ADU law, including AB 2533's path to legalize pre-2020 unpermitted ADUs, makes it easier to add or legalize ADUs on a 2-4 unit lot, which is a value-add angle.",
+      "keyPoints": [
+        "2025: about 1,080 ADU permits and 559 ADU completions countywide",
+        "ADUs were about 37% of all 2025 housing permits",
+        "Oxnard issued 497 ADU permits in 2025, up from 64 in 2021",
+        "Unincorporated county: 82% of 2025 ADU/JADU permits used the streamlined path",
+        "Annual ADU completions equal only about 0.5% of renter households"
+      ],
+      "sources": [
+        {
+          "title": "California HCD (data.ca.gov) - Housing Element APR Table A2 (permits and certificates of occupancy by project, 2018-2025)",
+          "url": "https://publish.data.ca.gov/dataset/81b0841f-2802-403e-b48e-2ef4b751f77c/resource/fe505d9b-8c36-42ba-ba30-08bc4f34e022/download/tablea2.csv",
+          "date": "2026-10"
+        },
+        {
+          "title": "County of Ventura - 2025 State-Mandated Annual Housing Element Progress Report",
+          "url": "https://rmadocs.venturacounty.gov/planning/programs/housing/publications/2025-county-of-ventura-annual-housing-element-progress-report.pdf",
+          "date": "2026-03"
+        },
+        {
+          "title": "City of Oxnard - Notes from 2025 Annual Housing Element Workshop (held 4/20/2026)",
+          "url": "https://www.oxnard.gov/wp-content/uploads/pdfs/departments/community-development/long-range-planning/2025-notes-from-annual-he-and-prohousing-meeting-held-on-4-20-2026.pdf",
+          "date": "2026-04"
+        },
+        {
+          "title": "U.S. Census Bureau ACS 2020-2024 5-year, Table B25003 Tenure (via Census Reporter API)",
+          "url": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25003&geo_ids=05000US06111,16000US0654652,16000US0678582,16000US0672016,16000US0665042,16000US0610046,16000US0649270,16000US0670042,16000US0658296,16000US0624092,16000US0653476",
+          "date": "2025-12"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "high",
+      "verify": "Table A2 'ADU' rows may include JADUs depending on the city. Check Oxnard's 2025 ADU count against its HE workshop slides; residents asked how many ADUs were 'actually built.'",
+      "drills": [
+        {
+          "q": "Which Ventura County city issued the most ADU permits in 2025?",
+          "choices": [
+            "Thousand Oaks",
+            "Simi Valley",
+            "Camarillo",
+            "Oxnard"
+          ],
+          "answer": 3,
+          "explain": "Oxnard issued 497 ADU permits in 2025, far more than any other jurisdiction."
+        },
+        {
+          "q": "Roughly what share of all 2025 housing permits in the county were ADUs?",
+          "choices": [
+            "5%",
+            "37%",
+            "15%",
+            "75%"
+          ],
+          "answer": 1,
+          "explain": "1,080 of 2,888 permits, about 37%."
+        },
+        {
+          "q": "Which existing product competes most directly with new ADUs?",
+          "choices": [
+            "3BR townhomes",
+            "Luxury high-rise",
+            "Senior assisted living",
+            "Small 1BR units in older 2-20 unit buildings"
+          ],
+          "answer": 3,
+          "explain": "ADUs are mostly studios and 1BRs, so they compete with small units in older walk-up stock."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "summary": "The typical Ventura County apartment was built around 1985, so it is about 40 years old. Roughly 45% of renter-occupied units in 5+ unit buildings, and about 55% of all rental units, were built before 1980. Coastal and Heritage Valley cities are much older than Simi Valley and Moorpark.",
+      "answer": "### Countywide (ACS 2020-2024, renter-occupied units in 5+ unit buildings, n ≈ 39,400)\n| Vintage | Units | Share |\n|---|---|---|\n| 2020 or later | 752 | 2% |\n| 2000-2019 | 10,810 | 27% |\n| 1980-1999 | 10,233 | 26% |\n| 1960-1979 | 15,001 | **38%** |\n| 1940-1959 | 1,664 | 4% |\n| Before 1940 | 961 | 2% |\n\n- **Pre-1980 share: about 45%** (5+ unit buildings). Weighted average build year is about 1985, an average age of about 40 years.\n- 2-4 unit renter stock is older: about 58% built before 1980.\n- Across all rental units, including single-family rentals, about 55% were built before 1980.\n\n### By city (renter-occupied units in 5+ unit buildings built before 1980)\n| City | Pre-1980 | Built 2000+ |\n|---|---|---|\n| Port Hueneme | 67% | 8% |\n| Fillmore | 67% | 6% |\n| Ojai | 66% | 12% |\n| Santa Paula | 62% | 14% |\n| Oxnard | 52% | 35% |\n| Ventura | 51% (13% pre-1960) | 23% |\n| Thousand Oaks | 46% | 22% |\n| Camarillo | 37% | 43% |\n| Simi Valley | 17% | 34% |\n| Moorpark | 16% | 44% |\n\n### Why it matters\n- **1960s-70s** is the biggest vintage group. These are typically two-story wood-frame garden buildings with tuck-under or surface parking. Expect galvanized or cast-iron plumbing, older electrical panels, and possible soft-story risk.\n- **AB 1482** exempts only buildings less than 15 years old, so essentially every pre-1980 apartment is under the statewide rent cap and just-cause rules.\n- **Capex reserves** on pre-1980 stock should run $400-600 per unit per year or more, versus about $250-300 for post-2000 product.",
+      "keyPoints": [
+        "About 45% of rented units in 5+ unit buildings were built before 1980; about 38% were built 1960-1979",
+        "Average build year is about 1985 (about 40 years old)",
+        "Oldest: Port Hueneme, Fillmore, Ojai and Santa Paula at 62-67% pre-1980",
+        "Newest: Moorpark and Simi Valley at only 16-17% pre-1980",
+        "Only about 2% of the stock was built in 2020 or later"
+      ],
+      "sources": [
+        {
+          "title": "U.S. Census Bureau ACS 2020-2024 5-year, Table B25127 Tenure by Year Built by Units in Structure (via Census Reporter API)",
+          "url": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25127&geo_ids=05000US06111,16000US0654652,16000US0678582,16000US0672016,16000US0665042,16000US0610046,16000US0649270,16000US0670042,16000US0658296,16000US0624092,16000US0653476",
+          "date": "2025-12"
+        },
+        {
+          "title": "U.S. Census Bureau ACS 2020-2024 5-year, Moorpark city tables B25127/B25014 (via Census Reporter API)",
+          "url": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25127&geo_ids=16000US0649138",
+          "date": "2025-12"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "high",
+      "verify": "ACS reports occupied renter units by self-reported year built, so margins of error are large for small cities. For building-level vintage, pull CoStar multifamily inventory by year built for 5+ unit properties.",
+      "drills": [
+        {
+          "q": "Roughly what share of Ventura County renter units in 5+ unit buildings were built before 1980?",
+          "choices": [
+            "15%",
+            "30%",
+            "45%",
+            "70%"
+          ],
+          "answer": 2,
+          "explain": "ACS 2020-2024 shows about 45% built before 1980."
+        },
+        {
+          "q": "Which city has the youngest apartment stock, with only about 16% built before 1980?",
+          "choices": [
+            "Moorpark",
+            "Ventura",
+            "Port Hueneme",
+            "Santa Paula"
+          ],
+          "answer": 0,
+          "explain": "Moorpark (16%) and Simi Valley (17%) have the youngest stock."
+        },
+        {
+          "q": "Which decade group holds the largest share of the county's rented apartments in 5+ unit buildings?",
+          "choices": [
+            "1940-1959",
+            "1980-1999",
+            "1960-1979",
+            "2000-2019"
+          ],
+          "answer": 2,
+          "explain": "1960-1979 holds about 38%, or 15,001 units."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "summary": "Measured losses are small. City reports show only about 140 units demolished or destroyed in 2021-2025, and condo conversions have been negligible in recent years. The notable losses were fire-related, especially the Hawaiian Village apartments in Ventura lost in the 2017 Thomas Fire.",
+      "answer": "### What the data shows\n- **Demolished or destroyed units (HCD APR, all housing types, countywide):** 95 (2019), 15 (2020), 14 (2021), 114 (2022), 0 (2023), 6 (2024), 4 (2025). From 2021-2025, Oxnard accounts for 110 of the ~138 units, mostly sites cleared for redevelopment. Thousand Oaks accounts for 24.\n- **Fire:** The **Thomas Fire (December 2017)** burned hillside neighborhoods in the City of Ventura, including the Hawaiian Village apartment complex on Church St. Berkadia's 4Q23 pipeline shows a planned **52-unit \"Hawaiian Village Redevelopment\" at 998 Church St.** The 2018 Woolsey Fire (Oak Park / Bell Canyon edge) and the November 2024 Mountain Fire (Camarillo Heights / Somis) destroyed mostly single-family homes, not apartments.\n- **Condo conversions:** In this market a conversion now usually costs more value than it adds. Cities require a tentative tract map plus tenant-notice and relocation steps under the state Subdivision Map Act, and several have local conversion ordinances. No city APR or broker report shows meaningful conversion volume this cycle.\n- **Other quiet losses:** Units taken off the market for short-term rentals (mainly Ventura's beach areas, Oxnard Shores and Port Hueneme), units merged during renovations, and red-tagged unpermitted units.\n\n### So what for investors\n- The stock is shrinking only at the margin, so net supply is basically new deliveries (Q30).\n- **Fire is now a pricing variable, not a supply variable.** Properties in Very High Fire Hazard Severity Zones (Ventura hillsides, Ojai, Camarillo Heights, Simi Valley edges, Oak Park) carry higher insurance cost and harder underwriting (see Q48).\n- Under SB 330 (Housing Crisis Act) replacement rules, cities generally require replacing demolished rent-controlled or affordable units one-for-one, which limits redevelopment upside on older sites.",
+      "keyPoints": [
+        "APR: about 138 units demolished or destroyed countywide in 2021-2025 (110 in Oxnard)",
+        "Thomas Fire (Dec 2017) destroyed Ventura's Hawaiian Village apartments; 52-unit redevelopment planned at 998 Church St.",
+        "No measurable condo-conversion volume this cycle",
+        "SB 330 requires one-for-one replacement of demolished protected units"
+      ],
+      "sources": [
+        {
+          "title": "California HCD (data.ca.gov) - Housing Element APR Table A2 (permits and certificates of occupancy by project, 2018-2025)",
+          "url": "https://publish.data.ca.gov/dataset/81b0841f-2802-403e-b48e-2ef4b751f77c/resource/fe505d9b-8c36-42ba-ba30-08bc4f34e022/download/tablea2.csv",
+          "date": "2026-10"
+        },
+        {
+          "title": "Berkadia - Ventura Multifamily Quarterly Pipeline Report 4Q23",
+          "url": "https://www.berkadia.com/wp-content/uploads/2024/02/Berkadia-Q4-2023-Ventura-Construction-Pipeline-Report.pdf",
+          "date": "2024-01"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "Pull 2017-2018 Thomas Fire and Woolsey Fire damage inspection (DINS) data for multifamily structures destroyed in Ventura County. Check Ventura's Hawaiian Village unit count and rebuild status in the city's project list. Request condo-conversion map filings (2015-2026) from each city's planning department. Confirm the Mountain Fire's (Nov 2024) multifamily losses, if any.",
+      "drills": [
+        {
+          "q": "According to HCD APR data, roughly how many housing units were demolished or destroyed countywide in 2021-2025?",
+          "choices": [
+            "About 1,400",
+            "About 140",
+            "About 5,000",
+            "None"
+          ],
+          "answer": 1,
+          "explain": "APRs show about 138 units, 110 of them in Oxnard."
+        },
+        {
+          "q": "Which apartment complex lost in the 2017 Thomas Fire is planned for a 52-unit redevelopment?",
+          "choices": [
+            "Town Square at Wagon Wheel",
+            "Westview Village",
+            "The Willows",
+            "Hawaiian Village (998 Church St., Ventura)"
+          ],
+          "answer": 3,
+          "explain": "Berkadia's 4Q23 pipeline shows a planned 52-unit Hawaiian Village Redevelopment at 998 Church St."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "summary": "Ventura County's 6th-cycle RHNA (2021-2029) is 24,452 units. Halfway through, the county as a whole has permitted about 7,700 units, about 32%. Above-moderate (market-rate) units are on pace in a few places, but lower-income targets lag badly everywhere except unincorporated county.",
+      "answer": "### RHNA allocation vs. units permitted through 2025 (HCD 6th-cycle progress data)\n| Jurisdiction | RHNA total | Permitted 2021-25 | % | Very low-income progress | Above-moderate progress |\n|---|---|---|---|---|---|\n| Oxnard | 8,549 | 1,904 | 22% | 240 / 1,840 | 868 / 4,100 |\n| Ventura | 5,312 | 1,122 | 21% | 183 / 1,187 | 886 / 2,310 |\n| Simi Valley | 2,793 | 1,352 | 48% | 120 / 749 | 809 / 1,033 |\n| Thousand Oaks | 2,621 | 631 | 24% | 1 / 735 | 604 / 860 |\n| Camarillo | 1,376 | 862 | 63% | 57 / 353 | 616 / 508 |\n| Moorpark | 1,289 | 349 | 27% | 76 / 377 | 72 / 434 |\n| Unincorporated | 1,262 | 1,180 | 94% | 246 / 319 | 215 / 468 |\n| Santa Paula | 657 | 0 (no 2025 APR) | n/a | n/a | n/a |\n| Fillmore | 415 | 165 | 40% | 4 / 73 | 158 / 209 |\n| Port Hueneme | 125 | 50 | 40% | 0 / 26 | 33 / 65 |\n| Ojai | 53 | 97 | 183% | 1 / 13 | 81 / 21 |\n| **County total** | **24,452** | **7,712** | **32%** | | |\n\nNote: Santa Paula shows zero in HCD's dataset. It had not filed a 2025 APR, so treat this as a reporting gap, not a true zero.\n\n### How to read it\n- The cycle runs **Oct 15, 2021 to Oct 15, 2029**. By the end of 2025 about 53% of the time had passed. Any city well below that pace is behind.\n- **Oxnard (22%), Ventura (21%) and Thousand Oaks (24%)** are furthest behind in absolute terms. Thousand Oaks has permitted 1 of 735 very-low-income units.\n- Camarillo has already exceeded its above-moderate target (616 vs 508).\n\n### Why investors care\nCities behind on RHNA lose discretion. **SB 35 / SB 423 streamlining** makes infill entitlements easier, so watch Oxnard, Ventura and Thousand Oaks for ministerial approvals.",
+      "keyPoints": [
+        "6th-cycle RHNA: 24,452 units countywide; Oxnard 8,549 and Ventura 5,312 are the largest",
+        "About 32% permitted through 2025 with about 53% of the cycle elapsed",
+        "Furthest behind: Ventura 21%, Oxnard 22%, Thousand Oaks 24%",
+        "Ahead: Camarillo 63%, unincorporated county 94%, Ojai 183%",
+        "Lower-income categories lag everywhere (Thousand Oaks: 1 of 735 very-low-income units)"
+      ],
+      "sources": [
+        {
+          "title": "California HCD (data.ca.gov) - 6th Cycle RHNA Progress Report (CSV, APR data through reporting year 2025)",
+          "url": "https://publish.data.ca.gov/dataset/ff082e96-72f7-4443-9747-8b8dadc15671/resource/1e80a9cf-724c-432d-8374-e9708a6a92dc/download/rhna_progress_6.csv",
+          "date": "2026-10"
+        },
+        {
+          "title": "County of Ventura RMA - Housing Element Update FAQ (SCAG 6th Cycle Final RHNA table, March 4, 2021)",
+          "url": "https://rma.venturacounty.gov/wp-content/uploads/2024/02/housing-element-update-frequently-asked-questions.pdf",
+          "date": "2024-02"
+        },
+        {
+          "title": "SCAG - SCAG Adopts Final Allocation Plan for 6th Cycle RHNA",
+          "url": "https://scag.ca.gov/press-release/scag-adopts-final-allocation-plan-6th-cycle-regional-housing-needs-assessment",
+          "date": "2021-03"
+        },
+        {
+          "title": "County of Ventura - 2025 State-Mandated Annual Housing Element Progress Report",
+          "url": "https://rmadocs.venturacounty.gov/planning/programs/housing/publications/2025-county-of-ventura-annual-housing-element-progress-report.pdf",
+          "date": "2026-03"
+        },
+        {
+          "title": "California HCD - Housing Element Annual Progress Reports",
+          "url": "https://hcd.ca.gov/planning-and-community-development/annual-progress-reports",
+          "date": "2026"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "high",
+      "verify": "HCD progress counts building permits issued through the 2025 APR. Santa Paula's zero reflects a missing filing; check Santa Paula's APR directly. Check each city's current SB 35 determination on HCD's Housing Element Open Data / SB 35 page.",
+      "drills": [
+        {
+          "q": "What is Ventura County's total 6th-cycle RHNA allocation, all jurisdictions combined?",
+          "choices": [
+            "24,452",
+            "12,000",
+            "8,549",
+            "41,488"
+          ],
+          "answer": 0,
+          "explain": "SCAG's final 6th-cycle allocation for the county and its 10 cities totals 24,452 units."
+        },
+        {
+          "q": "Which jurisdiction has the largest RHNA allocation in Ventura County?",
+          "choices": [
+            "Ventura",
+            "Simi Valley",
+            "Oxnard",
+            "Thousand Oaks"
+          ],
+          "answer": 2,
+          "explain": "Oxnard's allocation is 8,549 units."
+        },
+        {
+          "q": "Through 2025, which city had already permitted more above-moderate units than its above-moderate RHNA target?",
+          "choices": [
+            "Camarillo",
+            "Ventura",
+            "Oxnard",
+            "Moorpark"
+          ],
+          "answer": 0,
+          "explain": "Camarillo permitted 616 above-moderate units against a 508-unit target."
+        }
+      ]
+    }
+  ]
+}

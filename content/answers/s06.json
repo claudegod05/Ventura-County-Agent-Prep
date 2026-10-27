@@ -72,33 +72,33 @@
           "q": "Which buyer closed four Ventura County deals through IPA totaling about $324.5M between Dec 2023 and Feb 2024?",
           "choices": [
             "Raintree Partners",
-            "FPA Multifamily",
             "Hines",
+            "FPA Multifamily",
             "Jackson Square Properties"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "Commercial Observer reported FPA's Feb 2024 Oakview/Biltmore buy as its fourth county deal with IPA since December, totaling $324.5M."
         },
         {
           "q": "Who bought Tempo at Riverpark in Oxnard for $105M in January 2026?",
           "choices": [
+            "Hines",
             "Morgan Stanley",
             "BlackRock",
-            "Afton Properties",
-            "Hines"
+            "Afton Properties"
           ],
-          "answer": 3,
+          "answer": 0,
           "explain": "A Hines-led venture (Hines U.S. Property Partners) bought the 235-unit property from a Bascom venture."
         },
         {
           "q": "Why can't you name a full top-20 buyer list from public news alone?",
           "choices": [
             "Ventura County deeds are confidential",
-            "Most small and mid-size buyers are private and their deals aren't press-released",
             "Institutions buy only through REITs",
-            "CoStar does not cover Ventura County"
+            "CoStar does not cover Ventura County",
+            "Most small and mid-size buyers are private and their deals aren't press-released"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "Public coverage captures mainly $50M+ institutional trades. Private small-deal buyers show up only in CoStar or recorded deed data."
         }
       ]
@@ -228,23 +228,23 @@
         {
           "q": "Where is Raintree Partners, buyer of Cypress Point in Ventura, based?",
           "choices": [
+            "Dana Point (Orange County)",
             "San Francisco",
             "Houston",
-            "Dana Point (Orange County)",
             "Westlake Village"
           ],
-          "answer": 2,
+          "answer": 0,
           "explain": "Commercial Observer describes Raintree as Dana Point-based. It's the Orange County example of out-of-area capital."
         },
         {
           "q": "Which pair of Ventura County buyers is based in San Francisco?",
           "choices": [
             "Hines and Afton",
-            "FPA Multifamily and Jackson Square Properties",
             "Raintree and Hanes",
-            "BlackRock and Morgan Stanley"
+            "BlackRock and Morgan Stanley",
+            "FPA Multifamily and Jackson Square Properties"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "FPA Multifamily and Jackson Square Properties are both San Francisco-based."
         }
       ]
@@ -300,33 +300,33 @@
           "q": "For a City of LA sale recording after July 1, 2026, what ULA rate applies at a $12M price?",
           "choices": [
             "0%",
-            "4% on the amount over $10.9M",
             "5.5% on the full $12M",
+            "4% on the amount over $10.9M",
             "4% on the full $12M"
           ],
-          "answer": 2,
+          "answer": 1,
           "explain": "At $10.9M or more, the 5.5% rate applies to the entire price, so $660,000 on $12M."
         },
         {
           "q": "What happened to the Howard Jarvis statewide measure that would have capped transfer taxes and nullified ULA?",
           "choices": [
             "It passed in June 2026",
-            "It was pulled in late June 2026 in a Sacramento deal",
             "It's on the November 2026 ballot unchanged",
+            "It was pulled in late June 2026 in a Sacramento deal",
             "Courts struck it down in 2025"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "Bisnow (June 30, 2026) reported HJTA agreed to pull the proposal in a last-minute deal."
         },
         {
           "q": "Which CBRE broker was quoted saying clients are also looking to Ventura County and San Diego?",
           "choices": [
-            "Kamran Paydar",
             "Kadie Presley Wilson",
+            "Kamran Paydar",
             "Jonathan Merhaut",
             "J.C. Casillas"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Kadie Presley Wilson cited 'more opportunity with less restriction' in Ventura County and San Diego."
         }
       ]
@@ -387,10 +387,10 @@
           "choices": [
             "Raintree Partners",
             "FPA Multifamily",
-            "Jackson Square Properties",
-            "Hines"
+            "Hines",
+            "Jackson Square Properties"
           ],
-          "answer": 2,
+          "answer": 3,
           "explain": "Jackson Square Properties (San Francisco) bought it from Nuveen with M&T Realty Capital bridge financing."
         },
         {
@@ -456,22 +456,22 @@
           "q": "Based on public deal coverage, how significant are international buyers in Ventura County multifamily?",
           "choices": [
             "They account for about a third of volume",
-            "No meaningful foreign buyers are identified; named buyers are U.S.-based",
             "Canadian REITs dominate Oxnard",
+            "No meaningful foreign buyers are identified; named buyers are U.S.-based",
             "Asian buyers lead the Conejo Valley"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "Every named large-deal buyer from 2023 to 2026 is U.S.-based. Matthews also says most investors are U.S.-based."
         },
         {
           "q": "How does foreign capital most often reach a market like Ventura County?",
           "choices": [
-            "Direct purchases by foreign individuals",
             "Through U.S. funds or separate accounts run by U.S. managers",
+            "Direct purchases by foreign individuals",
             "Through city housing authorities",
             "Only through 1031 exchanges"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Foreign pensions and sovereign funds usually invest through U.S.-managed vehicles, which show up as domestic buyers."
         }
       ]
@@ -541,22 +541,22 @@
           "q": "Per Matthews, roughly what did smaller Ventura County multifamily assets trade for per unit in Q2 2026?",
           "choices": [
             "$155K",
-            "$270K",
             "$420K",
-            "$517K"
+            "$517K",
+            "$270K"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "Matthews reported about $9.9M of smaller-asset volume averaging roughly $270K per unit in Q2 2026."
         },
         {
           "q": "Which buyer made two Ojai multifamily purchases in Q4 2025?",
           "choices": [
             "GEOLIV Investment",
-            "Hanes Investment Realty",
             "Driven Capital Partners",
+            "Hanes Investment Realty",
             "Palos Verdes Developers"
           ],
-          "answer": 2,
+          "answer": 1,
           "explain": "MSCI RCA data in CBRE's Q4 2025 snapshot lists Driven Capital Partners as buyer of two Ojai properties."
         }
       ]
@@ -648,11 +648,11 @@
           "q": "What was notable about BlackRock's $83M Santal Thousand Oaks purchase?",
           "choices": [
             "It was a 1031 exchange",
-            "It was the first unleveraged pension-fund purchase in Ventura County multifamily, per Newmark",
             "It was an affordable housing conversion",
-            "It was bought at auction"
+            "It was bought at auction",
+            "It was the first unleveraged pension-fund purchase in Ventura County multifamily, per Newmark"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "Newmark's Jonathan Merhaut called it the first deployment of unleveraged pension fund capital into the county's multifamily market."
         }
       ]
@@ -728,11 +728,11 @@
           "q": "What financing did Hanes Investment Realty use on Lynn Villa?",
           "choices": [
             "All cash",
-            "A 65% LTV, 5-year fixed, interest-only Aetna loan",
             "An 80% LTV bridge loan",
+            "A 65% LTV, 5-year fixed, interest-only Aetna loan",
             "A HUD 223(f) loan"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "Berkadia arranged $17.5M from Aetna Life Insurance: 5-year fixed, interest-only, 65% LTV."
         }
       ]
@@ -781,23 +781,23 @@
         {
           "q": "What type of property has FPA Multifamily repeatedly bought in Ventura County?",
           "choices": [
-            "New Class A mid-rise in Oxnard",
             "1960s to 1970s Conejo Valley garden properties for value-add",
+            "New Class A mid-rise in Oxnard",
             "Affordable LIHTC properties",
             "Small 5-unit buildings in Ojai"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Stonepine (1979), Los Robles (1972), Retreat (1966), Oakview (1970) and Biltmore (1965) are all older garden properties FPA renovates."
         },
         {
           "q": "What's the best first step to identify local repeat buyers in a specific city?",
           "choices": [
             "Read press releases",
-            "Filter CoStar sales by city and flag buyers with 2+ purchases, then roll LLCs up to true owners",
             "Call the city planning department",
-            "Search Zillow rentals"
+            "Search Zillow rentals",
+            "Filter CoStar sales by city and flag buyers with 2+ purchases, then roll LLCs up to true owners"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "Private repeat buyers rarely issue releases. Deed and CoStar data, rolled up to true owners, find them."
         }
       ]
@@ -849,11 +849,11 @@
           "q": "Which relinquished property type best fits the 'push' story for exchange buyers coming into Ventura County?",
           "choices": [
             "New Class A buildings in Houston",
-            "City of LA rent-controlled buildings facing ULA on sale",
             "Ventura County affordable housing",
+            "City of LA rent-controlled buildings facing ULA on sale",
             "Bay Area office towers only"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "LA RSO owners face ULA and regulatory fatigue, so trading into Ventura County is a common pattern."
         }
       ]
@@ -916,10 +916,10 @@
           "choices": [
             "Oak Park",
             "Port Hueneme",
-            "Moorpark",
-            "Ventura"
+            "Ventura",
+            "Moorpark"
           ],
-          "answer": 2,
+          "answer": 3,
           "explain": "Moorpark showed 8.7% vacancy, the highest in the table. Camarillo was 7.4%."
         }
       ]
@@ -986,22 +986,22 @@
           "q": "How do value-add buyers capture loss-to-lease in rent-capped buildings?",
           "choices": [
             "Immediate rent increases to market",
-            "Mostly through unit turnover and renovations on vacated units",
             "By converting to condos",
+            "Mostly through unit turnover and renovations on vacated units",
             "Through rent board petitions"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "Increases on in-place tenants are capped, so the move to market comes mainly on turnover."
         },
         {
           "q": "Why have core institutions in Ventura County mostly bought 2010s+ product?",
           "choices": [
-            "Older product cannot be financed",
             "Newer buildings are largely exempt from the AB 1482 cap until they turn 15",
+            "Older product cannot be financed",
             "Cities prohibit institutional ownership of older buildings",
             "Older buildings have higher cap rates that institutions avoid"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Buildings under 15 years old aren't covered by the AB 1482 rent cap, which suits core underwriting."
         }
       ]
@@ -1151,22 +1151,22 @@
           "q": "What did the Housing Authority of the City of San Buenaventura convert using about $32M in Homekey funds?",
           "choices": [
             "A Days Inn in Camarillo",
-            "The former La Quinta hotel into Valentine Road Apartments",
             "Tempo at Riverpark",
+            "The former La Quinta hotel into Valentine Road Apartments",
             "A Thousand Oaks office building"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "Valentine Road Apartments converts the 142-room ex-La Quinta into 134 studio apartments."
         },
         {
           "q": "Which Homekey hotel conversion was dropped?",
           "choices": [
+            "Days Inn, Camarillo",
             "Valentine Road, Ventura",
             "Vagabond Inn, Oxnard",
-            "Days Inn, Camarillo",
             "Quality Inn, Thousand Oaks"
           ],
-          "answer": 2,
+          "answer": 0,
           "explain": "Camarillo dropped the plan to convert the 82-room Days Inn with Jamboree Housing."
         }
       ]
@@ -1211,11 +1211,11 @@
           "q": "Which Ventura County conversion is the county's largest Homekey project?",
           "choices": [
             "Days Inn, Camarillo",
-            "Valentine Road Apartments (ex-La Quinta), Ventura",
             "Tempo at Riverpark, Oxnard",
-            "Santal, Thousand Oaks"
+            "Santal, Thousand Oaks",
+            "Valentine Road Apartments (ex-La Quinta), Ventura"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "Valentine Road converts a 142-room hotel into 134 studios with about $32M of Homekey funds."
         },
         {
@@ -1282,23 +1282,23 @@
         {
           "q": "At a 5.37% cap with a 60% interest-only loan at 6.25%, what's the approximate year-1 cash-on-cash on a $10M deal?",
           "choices": [
-            "About 1%",
             "About 4%",
+            "About 1%",
             "About 7%",
             "About 10%"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "NOI is about $537K, interest about $375K, so roughly $162K on $4M of equity, about 4.0%."
         },
         {
           "q": "What does 'negative leverage' mean in this context?",
           "choices": [
             "The loan-to-value exceeds 100%",
-            "The interest rate on debt exceeds the property's cap rate",
             "The lender charges negative interest",
-            "The building has negative NOI"
+            "The building has negative NOI",
+            "The interest rate on debt exceeds the property's cap rate"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "When the cost of debt (~6.25%) is above the cap rate (~5.37%), adding debt lowers the cash yield on equity."
         }
       ]
@@ -1370,11 +1370,11 @@
           "q": "Why do many Ventura County buyers end up below the agency maximum LTV?",
           "choices": [
             "Agencies stopped lending in California",
-            "Debt service coverage tests bind first when cap rates are near or below loan rates",
             "State law caps LTV at 50%",
+            "Debt service coverage tests bind first when cap rates are near or below loan rates",
             "Appraisals come in above contract"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "With caps near 5.4% and rates around 6.25%, DSCR constraints limit loan proceeds to roughly 50 to 65%."
         }
       ]
@@ -1418,23 +1418,23 @@
         {
           "q": "How fast did Matthews close the 35-unit Tuscania sale in Ventura?",
           "choices": [
-            "30 days",
             "60 days",
+            "30 days",
             "120 days",
             "180 days"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Matthews reported a 60-day close with over 10 offers."
         },
         {
           "q": "Which contract structure best limits retrade risk?",
           "choices": [
             "Long, open-ended due diligence",
-            "Deposits that go hard after a short contingency period, plus backup offers",
             "No deposit to attract more buyers",
-            "Seller-carry financing only"
+            "Seller-carry financing only",
+            "Deposits that go hard after a short contingency period, plus backup offers"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "Short contingency windows, non-refundable deposits and backup offers reduce the buyer's leverage to retrade."
         }
       ]
@@ -1505,11 +1505,11 @@
           "q": "Which field is most useful for predicting a deal falling apart late?",
           "choices": [
             "Preferred unit mix",
-            "Retrade history",
             "Office location",
+            "Retrade history",
             "Fund vintage year"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "A logged retrade history shows which buyers re-price after contract."
         }
       ]

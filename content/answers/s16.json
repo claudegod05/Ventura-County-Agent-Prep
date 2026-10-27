@@ -1,0 +1,732 @@
+{
+  "section": 16,
+  "answers": [
+    {
+      "id": 194,
+      "summary": "Marcus & Millichap's Institutional Property Advisors (IPA) team leads Ventura County's large multifamily deals by volume: Kevin Green, Joseph Grabiec and Gregory Harris. Newmark (Jonathan Merhaut's group) and Berkadia are the other institutional players. Matthews (Daniel Withers) and Marcus & Millichap's private-client agents are most visible on $5M to $20M deals. No public league table ranks brokers by deal count.",
+      "answer": "### Large deals ($25M+), public record 2023 to 2026\n| Firm / team | Ventura County deals |\n|---|---|\n| **IPA (Marcus & Millichap)**: Kevin Green, Joseph Grabiec, Gregory Harris | Cypress Point $100M (2025, procured Raintree); Los Robles + Retreat $171.25M (2023); Oakview + Biltmore $153M (2024); four FPA deals totaling $324.5M |\n| **Newmark**: Jonathan Merhaut, Geoff Boler, Joseph Smolen, Eugene Chong, Blake Matsuda | Santal Thousand Oaks $83M (2025); Allure at Camarillo $69.5M (2026, for Nuveen); The Hills, TO, $18.2M (for FPA) |\n| **Berkadia**: Adrienne Barr (sales), George Spadier / Keith Rosso (financing) | Lynn Villa, TO, $27.4M sale plus $17.5M loan (2025). Earlier: Artisan at East Village $92.25M (2020), Stonepine $33.8M (2019) |\n\n### Mid-size and small deals\n- **Matthews:**\n  - Daniel Withers sold Tuscania (35 units, $10.1M) in Ventura.\n  - Withers is also listing the Kalthom (45 units, $19.285M, October 2026) with **Jeff Louks of Marcus & Millichap**.\n- **KW Commercial SoCal:** Ryan Rembert sold a 160-unit, $41.8M five-property Oxnard portfolio and represented both sides (2024).\n- **Radius Commercial Real Estate:** Steve Golis listed 48 units on Hill St in Oxnard.\n\n### Ranking by count\nNo firm publishes broker rankings for Ventura County. IPA has the most visible dollar volume. For deal count, especially sub-$5M trades, you'll need CoStar's broker fields.\n\n**So what:** On institutional listings you're competing with IPA and Newmark, which are national platforms with local teams. The opening for a newer broker is the **$2M to $20M private-client segment**, where Matthews, Marcus & Millichap agents and local firms compete on relationships.",
+      "keyPoints": [
+        "IPA (Green, Grabiec, Harris): Cypress Point $100M, Decron/FPA $171.25M, Oakview/Biltmore $153M",
+        "Newmark (Merhaut, Boler, Smolen): Santal $83M (2025), Allure $69.5M (2026)",
+        "Berkadia: Lynn Villa $27.4M sale + $17.5M loan (2025)",
+        "Matthews' Daniel Withers + M&M's Jeff Louks co-listing the Kalthom, $19.285M (Oct 2026)",
+        "No public league table exists. Use CoStar broker fields for deal counts"
+      ],
+      "sources": [
+        {
+          "title": "Commercial Observer - Raintree Partners pays $100M for Cypress Point, Ventura",
+          "url": "https://commercialobserver.com/2025/08/raintree-partners-calif-cypress-point-ventura-multifamily-investment/",
+          "date": "2025-08"
+        },
+        {
+          "title": "Marcus & Millichap IR - IPA brokers $171 million Ventura County multifamily portfolio sale",
+          "url": "https://ir.marcusmillichap.com/news-events/press-releases/detail/334/institutional-property-advisors-brokers-171-million",
+          "date": "2023-12"
+        },
+        {
+          "title": "Commercial Observer - FPA Multifamily now owns a big chunk of Ventura County's apartment market",
+          "url": "https://commercialobserver.com/2024/02/calif-fpa-multifamily-ventura-county-multifamily-sale/",
+          "date": "2024-02"
+        },
+        {
+          "title": "Bisnow - BlackRock-run account buys Thousand Oaks apartments for $83M",
+          "url": "https://www.bisnow.com/news/los-angeles/multifamily/thousand-oaks-apartments-blackrock-latigo-group-131569",
+          "date": "2025-10"
+        },
+        {
+          "title": "The Registry SoCal - Jackson Square Properties acquires 165-unit Allure at Camarillo for $69.5MM",
+          "url": "https://theregistrysocal.com/jackson-square-properties-acquires-165-unit-allure-at-camarillo-for-69-5mm-closing-nuveens-eight-year-hold/",
+          "date": "2026-03"
+        },
+        {
+          "title": "Berkadia - Lynn Villa Apartments, Thousand Oaks, sold and financed by Berkadia",
+          "url": "https://berkadia.com/news/lynn-villa-apartments-thousand-oaks-ca-sold-and-financed-by-berkadia-2025/",
+          "date": "2025-07"
+        },
+        {
+          "title": "Matthews - Matthews brokers $10.1M sale of beach-side California apartments (Tuscania, Ventura)",
+          "url": "https://www.matthews.com/press-release/matthews-brokers-10-1m-sale-of-beach-side-california-apartments",
+          "date": "2022-07"
+        },
+        {
+          "title": "Matthews - Ventura's only Class A multifamily opportunity hits the market for $19.28M",
+          "url": "https://www.matthews.com/press-release/venturas-only-class-a-multifamily-opportunity-hits-the-market-for-19-28m",
+          "date": "2026-10"
+        },
+        {
+          "title": "Pacific Coast Business Times - Five-property, 160-unit Oxnard portfolio sells for $41.8M",
+          "url": "https://www.pacbiztimes.com/?p=92604",
+          "date": "2024-03"
+        },
+        {
+          "title": "CityFeet - 450, 508 & 516 Hill St, Oxnard (Radius Commercial Real Estate listing)",
+          "url": "https://www.cityfeet.com/cont/listing/oxnard-ca/cs40899939",
+          "date": "2026"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Run a CoStar sales report for Ventura County multifamily (5+ units, 36 months) with Listing Broker and Buyer Broker fields. Rank firms and agents by count and by volume, and separately for deals under $5M.",
+      "drills": [
+        {
+          "q": "Which team brokered the $100M Cypress Point sale in Ventura and procured the buyer?",
+          "choices": [
+            "Newmark's Merhaut team",
+            "Berkadia's Barr",
+            "IPA's Green, Grabiec and Harris",
+            "Matthews' Withers"
+          ],
+          "answer": 2,
+          "explain": "IPA (Marcus & Millichap) represented seller County Center LP and procured buyer Raintree Partners."
+        },
+        {
+          "q": "Which firm advised on both Santal Thousand Oaks (2025) and Allure at Camarillo (2026)?",
+          "choices": [
+            "Newmark",
+            "Berkadia",
+            "CBRE",
+            "KW Commercial"
+          ],
+          "answer": 0,
+          "explain": "Newmark's Merhaut, Boler and Smolen group handled both."
+        },
+        {
+          "q": "Who is co-listing the Kalthom in Ventura with Matthews' Daniel Withers?",
+          "choices": [
+            "Ryan Rembert (KW Commercial)",
+            "Adrienne Barr (Berkadia)",
+            "Steve Golis (Radius)",
+            "Jeff Louks (Marcus & Millichap)"
+          ],
+          "answer": 3,
+          "explain": "Matthews' October 2026 release names Jeff Louks of Marcus & Millichap as co-listing broker."
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "summary": "Deal size divides the market more than geography does. IPA, Newmark and Berkadia handle $25M+ institutional deals countywide, with the most activity in the Conejo Valley (Thousand Oaks/Westlake) and Camarillo/Ventura. Matthews and Marcus & Millichap private-client agents work $5M to $20M deals in Ventura and the coastal cities. Local firms like Radius and KW Commercial, and MLS agents, cover Oxnard and the smaller deals.",
+      "answer": "### By deal size\n| Size | Who dominates | Evidence |\n|---|---|---|\n| $50M+ | IPA (Marcus & Millichap), Newmark | Cypress Point $100M; Decron/FPA $171.25M; Oakview/Biltmore $153M; Santal $83M; Allure $69.5M |\n| $20M to $50M | Berkadia, IPA, KW Commercial | Lynn Villa $27.4M (Berkadia); 160-unit Oxnard portfolio $41.8M (KW Commercial) |\n| $5M to $20M | Matthews, Marcus & Millichap agents | Tuscania $10.1M; Kalthom $19.285M listing |\n| Under $5M | Local commercial firms and residential MLS agents | Mostly unpublicized; check CoStar |\n\n### By submarket (directional)\n- **Thousand Oaks / Westlake Village / Newbury Park:** IPA and Newmark (FPA and BlackRock deals), plus Berkadia. Marcus & Millichap is headquartered near here (Calabasas/Westlake Village), which gives it a home-court edge.\n- **Camarillo:** Newmark (Allure). AMLI Camarillo's broker isn't confirmed in public sources.\n- **Ventura:** IPA (Cypress Point), Matthews and Marcus & Millichap (Tuscania, Kalthom).\n- **Oxnard / Port Hueneme:** a mix. Berkadia (Artisan, 2020), Marcus & Millichap (Newport Landing), KW Commercial (2024 portfolio), Radius (Hill St listing).\n- **Simi Valley / Moorpark:** IPA (Landing at Arroyo, $95M, 2024).\n- **Ojai / Santa Paula / Fillmore:** small deals with little public coverage. Assume local agents.\n\n### Takeaway\nA Santa Barbara-based broker's natural lanes are:\n1. **Ventura and Oxnard** under $20M, closest to Santa Barbara and least dominated by the Conejo Valley institutional teams.\n2. Santa Barbara owners exchanging into Ventura County.\n\nConfirm with a CoStar broker split by city before telling a client \"we dominate X.\" ",
+      "keyPoints": [
+        "$50M+: IPA and Newmark dominate",
+        "$20M to $50M: Berkadia, IPA, KW Commercial (Oxnard portfolio)",
+        "$5M to $20M: Matthews and Marcus & Millichap agents (Tuscania, Kalthom)",
+        "Conejo Valley is institutional-broker territory; Ventura/Oxnard is more open"
+      ],
+      "sources": [
+        {
+          "title": "Commercial Observer - Raintree Partners pays $100M for Cypress Point, Ventura",
+          "url": "https://commercialobserver.com/2025/08/raintree-partners-calif-cypress-point-ventura-multifamily-investment/",
+          "date": "2025-08"
+        },
+        {
+          "title": "Marcus & Millichap IR - IPA brokers $171 million Ventura County multifamily portfolio sale",
+          "url": "https://ir.marcusmillichap.com/news-events/press-releases/detail/334/institutional-property-advisors-brokers-171-million",
+          "date": "2023-12"
+        },
+        {
+          "title": "Commercial Observer - FPA Multifamily now owns a big chunk of Ventura County's apartment market",
+          "url": "https://commercialobserver.com/2024/02/calif-fpa-multifamily-ventura-county-multifamily-sale/",
+          "date": "2024-02"
+        },
+        {
+          "title": "Bisnow - BlackRock-run account buys Thousand Oaks apartments for $83M",
+          "url": "https://www.bisnow.com/news/los-angeles/multifamily/thousand-oaks-apartments-blackrock-latigo-group-131569",
+          "date": "2025-10"
+        },
+        {
+          "title": "The Registry SoCal - Jackson Square Properties acquires 165-unit Allure at Camarillo for $69.5MM",
+          "url": "https://theregistrysocal.com/jackson-square-properties-acquires-165-unit-allure-at-camarillo-for-69-5mm-closing-nuveens-eight-year-hold/",
+          "date": "2026-03"
+        },
+        {
+          "title": "Berkadia - Lynn Villa Apartments, Thousand Oaks, sold and financed by Berkadia",
+          "url": "https://berkadia.com/news/lynn-villa-apartments-thousand-oaks-ca-sold-and-financed-by-berkadia-2025/",
+          "date": "2025-07"
+        },
+        {
+          "title": "Pacific Coast Business Times - Five-property, 160-unit Oxnard portfolio sells for $41.8M",
+          "url": "https://www.pacbiztimes.com/?p=92604",
+          "date": "2024-03"
+        },
+        {
+          "title": "Matthews - Matthews brokers $10.1M sale of beach-side California apartments (Tuscania, Ventura)",
+          "url": "https://www.matthews.com/press-release/matthews-brokers-10-1m-sale-of-beach-side-california-apartments",
+          "date": "2022-07"
+        },
+        {
+          "title": "Matthews - Ventura's only Class A multifamily opportunity hits the market for $19.28M",
+          "url": "https://www.matthews.com/press-release/venturas-only-class-a-multifamily-opportunity-hits-the-market-for-19-28m",
+          "date": "2026-10"
+        },
+        {
+          "title": "Pacific Coast Business Times - Large multifamily property in Simi nets $95M in sale",
+          "url": "https://www.pacbiztimes.com/2024/08/29/large-multifamily-property-in-simi-nets-95m-in-sale/",
+          "date": "2024-08"
+        },
+        {
+          "title": "CityFeet - 450, 508 & 516 Hill St, Oxnard (Radius Commercial Real Estate listing)",
+          "url": "https://www.cityfeet.com/cont/listing/oxnard-ca/cs40899939",
+          "date": "2026"
+        },
+        {
+          "title": "Berkadia - Berkadia completes $92 million sale of multifamily property in Oxnard",
+          "url": "https://berkadia.com/news/berkadia-completes-92-million-sale-of-multifamily-property-in-oxnard-california/",
+          "date": "2020-05"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "Run a CoStar broker-by-city report (Ventura County multifamily, 36 months): listing broker firm by city and price band (<$5M, $5M to $20M, $20M to $50M, $50M+). Confirm the broker on AMLI Camarillo (Q4 2025) and Tempo at Riverpark (Jan 2026).",
+      "drills": [
+        {
+          "q": "Which brokerage handled the 160-unit, $41.8M Oxnard portfolio sale in 2024?",
+          "choices": [
+            "IPA",
+            "KW Commercial SoCal",
+            "Newmark",
+            "Matthews"
+          ],
+          "answer": 1,
+          "explain": "Ryan Rembert of KW Commercial SoCal represented both seller and buyer."
+        },
+        {
+          "q": "Which price band is the most realistic entry lane for a newer Santa Barbara-based broker?",
+          "choices": [
+            "$100M+ institutional portfolios",
+            "Conejo Valley core trades",
+            "$2M to $20M private-client deals in Ventura/Oxnard",
+            "REIT dispositions"
+          ],
+          "answer": 2,
+          "explain": "Institutional deals are concentrated with IPA and Newmark. The private-client segment is relationship-driven and more open."
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "summary": "The most active buyers mostly come through the institutional platforms. IPA procured FPA Multifamily on four Ventura County deals ($324.5M) and procured Raintree on Cypress Point. Berkadia represented FPA as buyer on Stonepine, and Newmark sold FPA The Hills. Many private small-deal buyers represent themselves or work through their own deal networks.",
+      "answer": "### Buyer-to-broker links in the record\n| Buyer | Broker relationship |\n|---|---|\n| FPA Multifamily | **IPA** procured FPA on Los Robles + Retreat ($171.25M) and Oakview + Biltmore ($153M); four county deals total. **Berkadia** (Vince and Eric Norris) represented FPA on Stonepine (2019). **Newmark** handled FPA's purchase of The Hills ($18.2M) |\n| Raintree Partners | **IPA** procured the buyer on Cypress Point ($100M, 2025) |\n| Hanes Investment Realty | **Berkadia** sale and financing team on Lynn Villa ($27.4M, 2025) |\n| Jackson Square | Bought through **Newmark's** sale process for Nuveen (Allure, 2026) |\n| BlackRock account | Bought through **Newmark's** process for Latigo (Santal, 2025) |\n| Interstate Equities (2021) | **IPA** procured the buyer on Ocean Villas |\n| Undisclosed CA private buyer | Represented itself on Artisan at East Village ($92.25M, 2020) |\n\n### Patterns\n1. **\"Procured the buyer\" is the IPA model.** One team runs the seller's process and brings its own buyer relationships. That's why IPA's repeat buyers keep coming back.\n2. **Institutions buy through the seller's broker.** BlackRock and Hines mostly don't hire a buy-side broker; they bid in marketed processes.\n3. **Private buyers often self-represent** on large off-market deals, like CGI+ on Alturas in 2021 and the Artisan buyer in 2020.\n\n### What to do\n- Approach FPA, Raintree and Jackson Square **directly** with off-market sellers. They already work with IPA, Newmark and Berkadia, so you have to offer an inventory edge (Santa Barbara owners, unlisted Ventura properties).\n- For private 1031 buyers, the buy-side broker often matters more. Build relationships with the San Fernando Valley and LA agents who bring LA exchangers north.",
+      "keyPoints": [
+        "IPA procured FPA on four Ventura County deals ($324.5M) and Raintree on Cypress Point",
+        "Berkadia represented FPA as buyer on Stonepine (2019) and sold and financed Lynn Villa for Hanes (2025)",
+        "Institutions (BlackRock, Jackson Square) bought through Newmark-run sale processes",
+        "Large private buyers sometimes self-represent (Artisan 2020; CGI+ off-market 2021)"
+      ],
+      "sources": [
+        {
+          "title": "Marcus & Millichap IR - IPA brokers $171 million Ventura County multifamily portfolio sale",
+          "url": "https://ir.marcusmillichap.com/news-events/press-releases/detail/334/institutional-property-advisors-brokers-171-million",
+          "date": "2023-12"
+        },
+        {
+          "title": "Commercial Observer - FPA Multifamily now owns a big chunk of Ventura County's apartment market",
+          "url": "https://commercialobserver.com/2024/02/calif-fpa-multifamily-ventura-county-multifamily-sale/",
+          "date": "2024-02"
+        },
+        {
+          "title": "Commercial Observer - Raintree Partners pays $100M for Cypress Point, Ventura",
+          "url": "https://commercialobserver.com/2025/08/raintree-partners-calif-cypress-point-ventura-multifamily-investment/",
+          "date": "2025-08"
+        },
+        {
+          "title": "Berkadia - Berkadia completes nearly $34 million sale near Los Angeles (Stonepine, Thousand Oaks)",
+          "url": "https://berkadia.com/news/berkadia-completes-nearly-34-million-sale-of-multifamily-property-near-los-angeles/",
+          "date": "2019-11"
+        },
+        {
+          "title": "Berkadia - Lynn Villa Apartments, Thousand Oaks, sold and financed by Berkadia",
+          "url": "https://berkadia.com/news/lynn-villa-apartments-thousand-oaks-ca-sold-and-financed-by-berkadia-2025/",
+          "date": "2025-07"
+        },
+        {
+          "title": "The Registry SoCal - Jackson Square Properties acquires 165-unit Allure at Camarillo for $69.5MM",
+          "url": "https://theregistrysocal.com/jackson-square-properties-acquires-165-unit-allure-at-camarillo-for-69-5mm-closing-nuveens-eight-year-hold/",
+          "date": "2026-03"
+        },
+        {
+          "title": "Bisnow - BlackRock-run account buys Thousand Oaks apartments for $83M",
+          "url": "https://www.bisnow.com/news/los-angeles/multifamily/thousand-oaks-apartments-blackrock-latigo-group-131569",
+          "date": "2025-10"
+        },
+        {
+          "title": "The Real Deal - Oxnard apartment complex trades hands for $39.8M (Ocean Villas)",
+          "url": "https://therealdeal.com/la/2021/11/24/oxnard-apartment-complex-trades-hands-for-39-8m",
+          "date": "2021-11"
+        },
+        {
+          "title": "Berkadia - Berkadia completes $92 million sale of multifamily property in Oxnard",
+          "url": "https://berkadia.com/news/berkadia-completes-92-million-sale-of-multifamily-property-in-oxnard-california/",
+          "date": "2020-05"
+        },
+        {
+          "title": "The Real Deal - CGI buys Ventura County apartment complex (off-market Alturas, Oxnard)",
+          "url": "https://therealdeal.com/la/2021/11/17/cgi-buys-ventura-county-apartment-complex/",
+          "date": "2021-11"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "In CoStar, filter Ventura County multifamily sales (36 months) by buyer and show the Buyer Broker field. List each repeat buyer's buy-side broker. Ask IPA, Newmark and Berkadia agents which buyers they 'procured' on recent county deals.",
+      "drills": [
+        {
+          "q": "Which brokerage procured FPA Multifamily on four Ventura County deals totaling about $324.5M?",
+          "choices": [
+            "IPA (Marcus & Millichap)",
+            "Berkadia",
+            "Newmark",
+            "Matthews"
+          ],
+          "answer": 0,
+          "explain": "IPA's Green/Grabiec/Harris team closed four county deals with FPA between Dec 2023 and Feb 2024."
+        },
+        {
+          "q": "How do institutional buyers like BlackRock typically acquire in Ventura County?",
+          "choices": [
+            "Through their own buy-side brokers on MLS",
+            "Only through auctions",
+            "Through 1031 intermediaries",
+            "By bidding in seller-broker-run marketed processes"
+          ],
+          "answer": 3,
+          "explain": "BlackRock bought Santal through Newmark's process for Latigo, the developer."
+        }
+      ]
+    },
+    {
+      "id": 197,
+      "summary": "Large deals are marketed through confidential offering memorandums and the brokerage's own buyer databases (IPA, Newmark, Berkadia, Matthews), with press releases at closing. Small and mid-size deals also run on Crexi, LoopNet/CoStar and CRMLS, the MLS that VCCAR provides. A meaningful share of deals trade off-market.",
+      "answer": "### Channels by deal type\n| Channel | Used for | Ventura County examples |\n|---|---|---|\n| Brokerage proprietary databases / OM blasts | $10M+ | Matthews sourced Tuscania's buyer \"through its proprietary database\"; IPA \"procured the buyer\" on Cypress Point |\n| Crexi | $2M to $20M | Radius listed 450-516 Hill St, Oxnard (48 units) on Crexi |\n| LoopNet / CoStar | All sizes | CoStar is the comp system of record; LoopNet is its listing platform |\n| CityFeet and other portals | Small to mid | Same Hill St listing on CityFeet ($11.75M) |\n| CRMLS (via VCCAR) | 2 to 4 units and small 5+ | VCCAR offers CRMLS service and training |\n| Press / trade releases | Launch and closing | Matthews' Kalthom launch (Oct 2026); Newmark/IPA closing releases |\n| Off-market / direct | Any size | CGI+ bought Alturas off-market (2021); the Artisan buyer self-represented (2020) |\n\n### How a typical marketed deal runs\n1. **Pre-marketing calls** to the top 20 to 50 likely buyers.\n2. **Launch:**\n   - OM email blast plus the brokerage database\n   - Crexi/LoopNet posting (smaller deals)\n   - a co-listing to widen reach (Matthews + Marcus & Millichap on the Kalthom)\n3. **Tours and call for offers** in 3 to 6 weeks.\n4. **Best-and-final round**, then selection. Tuscania drew 10+ offers and went 10% above the final list price.\n\n### Pricing transparency note\nWatch for list-price changes between platforms. The Hill St listing showed $11.75M on CityFeet and $12.25M on Crexi. Always confirm the current ask with the listing broker.\n\n### For you\nBuild your own **email list**: Tier A/B buyers (Q94), 1031 buyers, and LA/SFV/Santa Barbara co-op brokers. Use Crexi for reach on sub-$15M listings. Proprietary lists are what win the biggest deals here.",
+      "keyPoints": [
+        "Large deals: confidential OMs + brokerage databases; release on closing",
+        "Small/mid deals: Crexi, LoopNet/CoStar, CityFeet, CRMLS (via VCCAR)",
+        "Matthews sourced Tuscania's buyer from its proprietary database; 10+ offers",
+        "Off-market examples: CGI+ Alturas (2021), self-represented Artisan buyer (2020)",
+        "Always reconcile platform pricing (Hill St: $11.75M CityFeet vs. $12.25M Crexi)"
+      ],
+      "sources": [
+        {
+          "title": "Matthews - Matthews brokers $10.1M sale of beach-side California apartments (Tuscania, Ventura)",
+          "url": "https://www.matthews.com/press-release/matthews-brokers-10-1m-sale-of-beach-side-california-apartments",
+          "date": "2022-07"
+        },
+        {
+          "title": "Commercial Observer - Raintree Partners pays $100M for Cypress Point, Ventura",
+          "url": "https://commercialobserver.com/2025/08/raintree-partners-calif-cypress-point-ventura-multifamily-investment/",
+          "date": "2025-08"
+        },
+        {
+          "title": "Crexi - 450-508-516 Hill Street, Oxnard listing",
+          "url": "https://www.crexi.com/properties/2568204/california-450-508-516-hill-street",
+          "date": "2026"
+        },
+        {
+          "title": "CityFeet - 450, 508 & 516 Hill St, Oxnard (Radius Commercial Real Estate listing)",
+          "url": "https://www.cityfeet.com/cont/listing/oxnard-ca/cs40899939",
+          "date": "2026"
+        },
+        {
+          "title": "Ventura County Coastal Association of REALTORS - home page",
+          "url": "https://www.vcrealtors.com/",
+          "date": "2026-10"
+        },
+        {
+          "title": "Matthews - Ventura's only Class A multifamily opportunity hits the market for $19.28M",
+          "url": "https://www.matthews.com/press-release/venturas-only-class-a-multifamily-opportunity-hits-the-market-for-19-28m",
+          "date": "2026-10"
+        },
+        {
+          "title": "The Real Deal - CGI buys Ventura County apartment complex (off-market Alturas, Oxnard)",
+          "url": "https://therealdeal.com/la/2021/11/17/cgi-buys-ventura-county-apartment-complex/",
+          "date": "2021-11"
+        },
+        {
+          "title": "Berkadia - Berkadia completes $92 million sale of multifamily property in Oxnard",
+          "url": "https://berkadia.com/news/berkadia-completes-92-million-sale-of-multifamily-property-in-oxnard-california/",
+          "date": "2020-05"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Count current Ventura County 5+ unit listings on Crexi, LoopNet and CRMLS on the same day to see which platform carries the most inventory. Ask 3 local brokers what share of their 2025 to 2026 closings were off-market.",
+      "drills": [
+        {
+          "q": "How did Matthews say it found the buyer for Tuscania in Ventura?",
+          "choices": [
+            "Through the MLS",
+            "Through its proprietary database",
+            "Through a public auction",
+            "Through a city housing program"
+          ],
+          "answer": 1,
+          "explain": "Matthews' release says the buyer was sourced through its proprietary database."
+        },
+        {
+          "q": "Which MLS does VCCAR provide to its members?",
+          "choices": [
+            "Bright MLS",
+            "NWMLS",
+            "CRMLS",
+            "CoStar"
+          ],
+          "answer": 2,
+          "explain": "VCCAR offers CRMLS service, support and training."
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "summary": "No local survey publishes multifamily commission rates for Ventura County, so treat these as market norms to confirm. They're commonly around 3 to 5% of price on sub-$5M deals, about 1.5 to 3% on $5M to $20M deals, and about 1% or less on large institutional deals. The fee is usually paid by the seller and split with any buyer's broker.",
+      "answer": "### Typical structures (industry norms, not a published Ventura County survey)\n| Deal size | Typical total fee | Notes |\n|---|---|---|\n| Under $2M (5 to 10 units) | ~4 to 5% | Minimum dollar fees are common |\n| $2M to $5M | ~3 to 4% | Usually split 50/50 with a cooperating broker |\n| $5M to $20M | ~1.5 to 3% | Tiered or negotiated; a co-broke may get a fixed share |\n| $20M to $50M | ~1 to 1.5% | Often a sliding scale |\n| $50M+ institutional | ~0.5 to 1% | Incentives above a target price are common |\n\n### Common structures\n- **Tiered or \"kicker\" fees:** a base rate up to a target price, then a higher percentage on the excess.\n- **Co-broke split:** the listing broker offers part of the fee to a buyer's broker. On large IPA/Newmark-style processes, many buyers come unrepresented or are \"procured\" by the listing team, which keeps the whole fee (see Q196).\n- **Dual agency:** allowed in California with written disclosure and consent. KW Commercial represented both sides of the 2024 $41.8M Oxnard portfolio.\n- **Buyer-paid fees:** occasional in 1031 or off-market sourcing deals, where the buyer engages a broker to find inventory.\n- **Financing fees:** debt placement (e.g., Berkadia arranging Lynn Villa's $17.5M loan) is a separate fee, typically paid by the borrower.\n- **Referral fees:** typically 20 to 35% of the referring broker's side, by agreement. Useful when you hand off a Conejo Valley institutional lead.\n\n### Practical points\n1. Put the fee, the co-broke offer and any **protected buyer list** in the listing agreement.\n2. California requires **agency disclosure** forms.\n3. Under DRE rules, compensation can be paid only to licensees.\n4. Don't quote a \"market rate\" to a client as fixed. Commissions are negotiable, and saying otherwise raises antitrust issues.",
+      "keyPoints": [
+        "No published Ventura County commission survey; figures are industry norms",
+        "Rough bands: ~4 to 5% under $2M, ~1.5 to 3% at $5M to $20M, ~0.5 to 1% at $50M+",
+        "Seller usually pays; listing broker offers a co-broke split",
+        "Dual agency is legal in California with written disclosure and consent",
+        "Commissions are always negotiable; never present a 'standard rate'"
+      ],
+      "sources": [
+        {
+          "title": "Pacific Coast Business Times - Five-property, 160-unit Oxnard portfolio sells for $41.8M",
+          "url": "https://www.pacbiztimes.com/?p=92604",
+          "date": "2024-03"
+        },
+        {
+          "title": "Berkadia - Lynn Villa Apartments, Thousand Oaks, sold and financed by Berkadia",
+          "url": "https://berkadia.com/news/lynn-villa-apartments-thousand-oaks-ca-sold-and-financed-by-berkadia-2025/",
+          "date": "2025-07"
+        },
+        {
+          "title": "Marcus & Millichap IR - IPA brokers $171 million Ventura County multifamily portfolio sale",
+          "url": "https://ir.marcusmillichap.com/news-events/press-releases/detail/334/institutional-property-advisors-brokers-171-million",
+          "date": "2023-12"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "Ask your own brokerage's managing broker for its fee schedule. Survey 3 to 5 Ventura County multifamily brokers on fees at $3M, $10M and $30M. Review recent listing agreements (CAR commercial forms or AIR CRE forms) to confirm co-broke norms.",
+      "drills": [
+        {
+          "q": "In general, how does the commission percentage change as deal size grows?",
+          "choices": [
+            "It falls",
+            "It rises",
+            "It stays at 6% regardless",
+            "It's fixed by state law"
+          ],
+          "answer": 0,
+          "explain": "Larger deals carry lower percentage fees; institutional deals often run 1% or less."
+        },
+        {
+          "q": "Which statement about commissions is correct?",
+          "choices": [
+            "California sets a standard 3% rate",
+            "Buyers always pay the fee",
+            "Dual agency is illegal in California",
+            "Commissions are negotiable and shouldn't be presented as a fixed standard"
+          ],
+          "answer": 3,
+          "explain": "Fees are negotiable. Quoting a 'standard rate' is inaccurate and risky."
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "summary": "The advantage is access to Santa Barbara capital: owners and 1031 exchangers who want more yield and inventory than Santa Barbara offers, plus a coastal Central Coast identity that fits Ventura and Oxnard. The perceived disadvantage is being an outsider, especially in the Conejo Valley, which looks toward LA and where Marcus & Millichap's IPA and Newmark already own the big relationships.",
+      "answer": "### Advantages\n1. **Capital flowing south.** Santa Barbara owners holding appreciated, low-yield property are natural 1031 buyers for Ventura County. The county averaged about **$306K/unit and 5.37% caps** in H1 2026 (Matthews), with ~42,000 units in CBRE's survey set.\n2. **Proximity and fit with coastal Ventura and Oxnard.** Ventura and Oxnard sit next to Santa Barbara County, and the regional business press covers both counties.\n3. **Regional platforms already span the line.**\n   - Radius Commercial Real Estate lists Ventura County multifamily from its Oxnard office (48 units on Hill St).\n   - It acquired the Ventura County-focused Hagelis Group in August 2025.\n   - A Santa Barbara-based firm that tracks Ventura deeds and deals is credible locally. Pacific Coast Business Times cites Radius's tracking of recorded transactions.\n4. **A less crowded lane.** The $2M to $20M private-client segment in Ventura and Oxnard isn't dominated by the institutional teams.\n\n### Perceived disadvantages\n1. **Outsider label.** Local owners may prefer brokers they see at VCCAR pre-tours and city meetings.\n2. **The Conejo Valley looks toward LA.** Thousand Oaks, Westlake and Simi are tied to the San Fernando Valley. Marcus & Millichap is headquartered at the county line, and IPA/Newmark run that area's big deals.\n3. **Distance.** Thousand Oaks and Simi are an hour-plus from Santa Barbara at peak times, which is a factor for tours and city meetings.\n4. **Less local data.** You need Ventura-specific comps, ordinances and city contacts.\n\n### How to neutralize it\n- Join **VCCAR** and attend pre-tours. Join a Southern California **CCIM** chapter. Get involved with the **EDC** (Camarillo).\n- Publish a quarterly Ventura County multifamily note.\n- Start in Ventura, Oxnard and Camarillo, and add the Conejo Valley through co-brokerage.",
+      "keyPoints": [
+        "Advantage: Santa Barbara owners and 1031 exchangers seeking Ventura County yield (~5.37% caps, ~$306K/unit)",
+        "Radius lists Ventura County multifamily from Oxnard and acquired Hagelis Group (Aug 2025)",
+        "Disadvantage: outsider label; the Conejo Valley looks to LA and is IPA/Newmark territory",
+        "Mitigate: VCCAR pre-tours, CCIM, EDC, a quarterly Ventura market note, a Ventura/Oxnard focus first"
+      ],
+      "sources": [
+        {
+          "title": "Matthews - Ventura County Multifamily Market Report H1 2026",
+          "url": "https://www.matthews.com/insights/ventura-county-multifamily-market-report-h1-2026-rents-vacancy-sales-trends",
+          "date": "2026-08"
+        },
+        {
+          "title": "CBRE Research - Ventura Multifamily Figures Q2 2026",
+          "url": "https://mktgdocs.cbre.com/2299/dec75ad2-1739-499f-b76f-559255509b56-27776285/Ventura_Multifamily_Snapshot_Q.pdf",
+          "date": "2026-07"
+        },
+        {
+          "title": "CityFeet - 450, 508 & 516 Hill St, Oxnard (Radius Commercial Real Estate listing)",
+          "url": "https://www.cityfeet.com/cont/listing/oxnard-ca/cs40899939",
+          "date": "2026"
+        },
+        {
+          "title": "Pacific Coast Business Times - Monte Vista Townhomes, Ventura, $12.3M (largest Ventura CRE deal of 2026)",
+          "url": "https://www.pacbiztimes.com/?p=98952",
+          "date": "2026-08"
+        },
+        {
+          "title": "Ventura County Coastal Association of REALTORS - home page",
+          "url": "https://www.vcrealtors.com/",
+          "date": "2026-10"
+        },
+        {
+          "title": "Economic Development Collaborative - home page",
+          "url": "https://edcollaborative.com/",
+          "date": "2026-10"
+        },
+        {
+          "title": "Commercial Observer - FPA Multifamily now owns a big chunk of Ventura County's apartment market",
+          "url": "https://commercialobserver.com/2024/02/calif-fpa-multifamily-ventura-county-multifamily-sale/",
+          "date": "2024-02"
+        },
+        {
+          "title": "Bisnow - BlackRock-run account buys Thousand Oaks apartments for $83M",
+          "url": "https://www.bisnow.com/news/los-angeles/multifamily/thousand-oaks-apartments-blackrock-latigo-group-131569",
+          "date": "2025-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "Interview 5 Ventura County owners or property managers about how they view Santa Barbara-based brokers. Check what share of your firm's Santa Barbara clients own or want Ventura County apartments. Confirm Radius's Hagelis Group acquisition date and scope from the firm's own announcement.",
+      "drills": [
+        {
+          "q": "What's the strongest structural advantage of a Santa Barbara-based broker in Ventura County?",
+          "choices": [
+            "Lower commissions",
+            "Access to Santa Barbara owners and 1031 exchangers seeking Ventura County yield",
+            "Exclusive MLS access",
+            "Institutional buyer relationships in the Conejo Valley"
+          ],
+          "answer": 1,
+          "explain": "Santa Barbara capital chasing higher yield and more inventory is the natural edge."
+        },
+        {
+          "q": "Which Ventura County submarket is hardest for a Santa Barbara broker to break into?",
+          "choices": [
+            "Ventura",
+            "Oxnard",
+            "Conejo Valley (Thousand Oaks/Westlake)",
+            "Port Hueneme"
+          ],
+          "answer": 2,
+          "explain": "The Conejo Valley looks toward LA, and IPA and Newmark run its institutional deals."
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "summary": "You need a bench of: a landlord-tenant/AB 1482 attorney, a real estate transactional attorney, a CPA fluent in 1031 and cost segregation, 1 or 2 qualified intermediaries, agency and bank/credit-union lenders, local property managers, MAI appraisers, an insurance broker who can place wildfire-zone risk, escrow and title, and city housing staff.",
+      "answer": "### The bench, and why each matters here\n| Role | Why in Ventura County | Starting points |\n|---|---|---|\n| Landlord-tenant attorney | AB 1482 caps/just cause plus city ordinances; relocation rules shape value-add | CAA helpline; local bar referrals |\n| Transactional / land-use attorney | PSAs, LLC structures, housing-element rezoning, CEQA | County and city bar directories |\n| CPA (real estate) | 1031s, cost segregation, Prop 13 reassessment, FTB clawback filings | Ask exchangers' CPAs you meet |\n| Qualified intermediary (QI) | 45/180-day deadlines; California's 3⅓% withholding and FTB reporting | Get 2 QIs so you can refer either |\n| Lenders | Agency (Berkadia placed Lynn Villa's $17.5M Aetna loan); bridge (M&T Realty Capital on Allure); local banks and credit unions for sub-$5M | Collect current quote sheets monthly |\n| Property managers | Know real rents, turnover and who's selling; often first to hear about sales | Managers of 5 to 50 unit portfolios in Oxnard/Ventura |\n| MAI appraisers | Lenders and estates need credible values; 1031 and estate work | Appraisal Institute directory |\n| Insurance broker | Wildfire and coastal risk (Thomas and Woolsey fires) drive premiums and availability | Brokers who place California surplus-lines coverage |\n| Escrow / title | Timelines, transfer tax, 1031 coordination | Local escrow officers |\n| Housing Trust Fund Ventura County / EDC | Affordable and nonprofit deal flow; economic data | Housing Trust Fund VC; EDC in Camarillo |\n| City housing and planning staff | Ordinances, pipeline, rezoning | Oxnard, Ventura, TO, Camarillo, Simi |\n\n### Prioritize in the first 8 weeks\n1. **Two property managers** in Oxnard and Ventura. They're your best source of seller leads.\n2. **Two lenders:** one agency/DUS and one local bank or credit union, so you can underwrite on the spot.\n3. **One QI and one CPA** who regularly handle Santa Barbara-to-Ventura exchanges.\n4. **One landlord-tenant attorney** for AB 1482 and just-cause questions.\n\nTrack each contact in your CRM with the date met and the referrals given and received.",
+      "keyPoints": [
+        "Legal: landlord-tenant (AB 1482/just cause) plus a transactional/land-use attorney",
+        "Tax: a 1031/cost-seg CPA and two QIs (3⅓% California withholding, FTB clawback)",
+        "Debt: agency/DUS (e.g., Berkadia), bridge (M&T Realty Capital), local banks/credit unions",
+        "Property managers are the top early source of off-market leads",
+        "Insurance brokers who can place wildfire/coastal risk are essential"
+      ],
+      "sources": [
+        {
+          "title": "Berkadia - Lynn Villa Apartments, Thousand Oaks, sold and financed by Berkadia",
+          "url": "https://berkadia.com/news/lynn-villa-apartments-thousand-oaks-ca-sold-and-financed-by-berkadia-2025/",
+          "date": "2025-07"
+        },
+        {
+          "title": "Traded - 390 Paseo Camarillo sale record",
+          "url": "https://traded.co/deals/california/multifamily/sale/390-paseo-camarillo/",
+          "date": "2026-03"
+        },
+        {
+          "title": "Realized - Are there specific rules for 1031 exchanges in California?",
+          "url": "https://www.realized1031.com/blog/are-there-specific-rules-for-1031-exchanges-in-california-to-be-aware-of",
+          "date": "2025"
+        },
+        {
+          "title": "California Apartment Association - home page",
+          "url": "https://www.caanet.org/",
+          "date": "2026-10"
+        },
+        {
+          "title": "Pacific Coast Business Times - VC Housing Trust announces $12M for affordable housing",
+          "url": "https://www.pacbiztimes.com/2024/05/03/vc-housing-trust-announces-12m-for-affordable-housing/",
+          "date": "2024-05"
+        },
+        {
+          "title": "Economic Development Collaborative - home page",
+          "url": "https://edcollaborative.com/",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Ask your firm's top producers and two local property managers for their go-to attorney, CPA, QI and lender names in Ventura County. Verify licenses (State Bar, CBA, DRE/NMLS) before referring anyone.",
+      "drills": [
+        {
+          "q": "Who arranged the $17.5M acquisition loan on Lynn Villa?",
+          "choices": [
+            "Berkadia (Aetna Life as lender)",
+            "M&T Realty Capital",
+            "Housing Trust Fund Ventura County",
+            "FHFA"
+          ],
+          "answer": 0,
+          "explain": "Berkadia arranged a $17.5M Aetna Life Insurance loan at 65% LTV."
+        },
+        {
+          "q": "Which relationship is often the best early source of off-market seller leads?",
+          "choices": [
+            "MAI appraisers",
+            "Title officers",
+            "State regulators",
+            "Local property managers"
+          ],
+          "answer": 3,
+          "explain": "Property managers know which owners are tired, aging or planning exits."
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "summary": "Join VCCAR (Oxnard-based, CRMLS access and weekly pre-tour meetings) and a Southern California CCIM chapter, and engage with the Economic Development Collaborative in Camarillo. Add the California Apartment Association for landlord-side law and forms, and follow the Pacific Coast Business Times for deal flow.",
+      "answer": "### Core memberships\n| Organization | What you get | Priority |\n|---|---|---|\n| **Ventura County Coastal Association of REALTORS (VCCAR)**, Oxnard | CRMLS access and training; **weekly pre-tour meetings** for networking and new listings; committees | Join now |\n| **CCIM Institute chapter** | Commercial investment network and education. The CCIM site lists **Los Angeles**, **Southern California**, Northern California and San Diego chapters, with no Ventura or Central Coast chapter | Join LA or SoCal (confirm which covers Ventura County) |\n| **Economic Development Collaborative (EDC)**, 4001 Mission Oaks Blvd, Camarillo | Has served Ventura and Santa Barbara counties since 1996: business advising, SBDC, EDC LOAN, regional profiles and research | Attend events; sponsor later |\n| **California Apartment Association (CAA)** | Rental forms, landlord-tenant helpline, legal updates, statewide and local advocacy | Join for owner-client credibility |\n\n### Also worth it\n- **Apartment Association of Greater Los Angeles (AAGLA):** useful for LA owners exchanging into Ventura County. Confirm its coverage of Ventura County.\n- **Pacific Coast Business Times events and deal coverage:** Santa Barbara, Ventura and SLO. Its CRE section tracks Ventura County deals.\n- **City-level groups:** chambers of commerce (Oxnard, Ventura, Camarillo, Conejo Valley). Attend housing or planning commission meetings on housing-element rezonings.\n\n### 8-week plan\n1. **Week 1:** join VCCAR and register for CRMLS training.\n2. **Weeks 2 to 8:** attend a weekly pre-tour or meeting.\n3. **Week 2:** sign up for CCIM chapter events.\n4. **Week 3:** attend an EDC event and download its regional profile.\n5. **Week 4:** join CAA.\n6. **Ongoing:** subscribe to Pacific Coast Business Times.\n\n**Goal:** 3 new owner or broker contacts per event, logged in your CRM.",
+      "keyPoints": [
+        "VCCAR (Oxnard): CRMLS access plus weekly pre-tour meetings",
+        "CCIM lists LA and Southern California chapters; no Ventura/Central Coast chapter",
+        "EDC: Camarillo-based, serving Ventura and Santa Barbara counties since 1996 (SBDC, EDC LOAN, research)",
+        "CAA: forms, landlord-tenant helpline, advocacy"
+      ],
+      "sources": [
+        {
+          "title": "Ventura County Coastal Association of REALTORS - home page",
+          "url": "https://www.vcrealtors.com/",
+          "date": "2026-10"
+        },
+        {
+          "title": "CCIM Institute - Find a chapter",
+          "url": "https://www.ccim.com/membership-and-tools/find-chapter",
+          "date": "2026-10"
+        },
+        {
+          "title": "Economic Development Collaborative - home page",
+          "url": "https://edcollaborative.com/",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Apartment Association - home page",
+          "url": "https://www.caanet.org/",
+          "date": "2026-10"
+        },
+        {
+          "title": "Pacific Coast Business Times - New supply reshapes Ventura County's multifamily market (NAI Capital Q4 2025)",
+          "url": "https://www.pacbiztimes.com/2026/02/13/cre-new-supply-reshapes-ventura-countys-multifamily-market/",
+          "date": "2026-02"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Call VCCAR (805-981-2100) about commercial-member programs and dues. Ask the CCIM LA and Southern California chapters which one covers Ventura County. Check AAGLA's site for Ventura County coverage and whether a local rental housing association serves Ventura County owners.",
+      "drills": [
+        {
+          "q": "Where is the Economic Development Collaborative located?",
+          "choices": [
+            "Oxnard",
+            "Camarillo",
+            "Ventura",
+            "Thousand Oaks"
+          ],
+          "answer": 1,
+          "explain": "EDC is at 4001 Mission Oaks Blvd., Suite A-1, Camarillo."
+        },
+        {
+          "q": "Which VCCAR offering is most useful for meeting local agents and hearing about new listings weekly?",
+          "choices": [
+            "Annual gala",
+            "Ethics training",
+            "Pre-tour meetings",
+            "Board elections"
+          ],
+          "answer": 2,
+          "explain": "VCCAR's weekly pre-tour meetings are open to all members for networking and listing and buyer updates."
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "summary": "For comps and ownership, use CoStar plus MSCI Real Capital Analytics (the source behind CBRE's tables), checked against Ventura County Clerk-Recorder deeds and Assessor owner records. For rents and occupancy, triangulate CoStar, CBRE Econometric Advisors, Yardi Matrix and live listings. The sources disagree, so always cite which one and which period.",
+      "answer": "### Source map\n| Need | Best sources | Caveats |\n|---|---|---|\n| Sales comps | **CoStar** (all sizes); **MSCI RCA** (larger deals, via CBRE snapshots); Traded.co (deal records) | RCA undercounts small deals; CoStar can lag on price confirmation |\n| Small 2 to 4 unit and some 5+ | **CRMLS** (via VCCAR) | Only MLS-listed sales |\n| Ownership / true owner | **County Assessor** (owner and mailing address), **Clerk-Recorder** (grant deeds, deeds of trust), CA Secretary of State (LLC managers) | LLCs hide principals |\n| Rents and occupancy | **CBRE Econometric Advisors** (~42,000-unit survey set), CoStar, Yardi Matrix, Matthews reports, live listings | Asking vs. effective rents; different inventories |\n| Market narrative | CBRE, Matthews, NAI Capital (J.C. Casillas), Berkadia mid-year reports | Brokerage marketing; check the period covered |\n| Deal news | Pacific Coast Business Times, The Registry SoCal, Commercial Observer, Bisnow, VC Star | Paywalls; recycled dates |\n\n### Why triangulate: sources disagree\n- **Rents:** CBRE says **$2,769** avg rent (Q2 2026). Matthews says **$2,487** asking (H1 2026).\n- **Vacancy:** CBRE 3.9% vs. Matthews 4.2%.\n- **Volume:** CBRE/RCA logged **$194.2M in Q1 2026 and $0 in Q2 2026**. Matthews counted **11 trades and about $199M** for H1 2026.\n- **Q3 2025:** CBRE's own snapshot says \"$2.0 billion\" in the text, but its sales table totals **$202.3M**. Read the tables, not just the bullets.\n\n### Workflow\n1. Pull comps from CoStar.\n2. Check them against RCA (via a CBRE/Newmark contact) and recorded deeds.\n3. Confirm price and terms with the listing broker.\n4. Cite the source, period and unit basis on every figure you give a client.\n\n### Free and low-cost\n- Assessor parcel viewer and Recorder index\n- CBRE quarterly snapshot PDFs\n- Matthews market reports\n- Pacific Coast Business Times (subscription)\n- CRMLS (via VCCAR membership)",
+      "keyPoints": [
+        "CoStar + MSCI RCA for comps; RCA misses many small deals",
+        "Assessor + Clerk-Recorder + Secretary of State to find true owners behind LLCs",
+        "CBRE Q2 2026: $2,769 avg rent vs. Matthews $2,487 asking; always cite the source and period",
+        "CBRE/RCA: $194.2M in Q1 2026, $0 in Q2 2026; Matthews: 11 trades, ~$199M in H1 2026",
+        "CRMLS via VCCAR covers MLS-listed small properties"
+      ],
+      "sources": [
+        {
+          "title": "CBRE Research - Ventura Multifamily Figures Q2 2026",
+          "url": "https://mktgdocs.cbre.com/2299/dec75ad2-1739-499f-b76f-559255509b56-27776285/Ventura_Multifamily_Snapshot_Q.pdf",
+          "date": "2026-07"
+        },
+        {
+          "title": "CBRE Research - Ventura Multifamily Figures Q3 2025 (MSCI RCA sales table)",
+          "url": "https://mktgdocs.cbre.com/2299/2ab718ae-9afb-4fd8-815d-533c2613358f-169660741/Ventura_Multifamily_Snapshot_Q.pdf",
+          "date": "2025-10"
+        },
+        {
+          "title": "Matthews - Ventura County Multifamily Market Report H1 2026",
+          "url": "https://www.matthews.com/insights/ventura-county-multifamily-market-report-h1-2026-rents-vacancy-sales-trends",
+          "date": "2026-08"
+        },
+        {
+          "title": "Ventura County Coastal Association of REALTORS - home page",
+          "url": "https://www.vcrealtors.com/",
+          "date": "2026-10"
+        },
+        {
+          "title": "Pacific Coast Business Times - New supply reshapes Ventura County's multifamily market (NAI Capital Q4 2025)",
+          "url": "https://www.pacbiztimes.com/2026/02/13/cre-new-supply-reshapes-ventura-countys-multifamily-market/",
+          "date": "2026-02"
+        },
+        {
+          "title": "Traded - 390 Paseo Camarillo sale record",
+          "url": "https://traded.co/deals/california/multifamily/sale/390-paseo-camarillo/",
+          "date": "2026-03"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "high",
+      "verify": "Confirm your firm's CoStar and RCA access. Bookmark the Ventura County Assessor parcel search and Clerk-Recorder official records index. Each quarter, compare CBRE vs. Matthews vs. CoStar figures and note the gaps.",
+      "drills": [
+        {
+          "q": "Which data source sits behind the sales tables in CBRE's Ventura multifamily snapshots?",
+          "choices": [
+            "MSCI Real Capital Analytics",
+            "Yardi Matrix",
+            "CRMLS",
+            "Zillow"
+          ],
+          "answer": 0,
+          "explain": "CBRE's sales volume and largest-transaction tables cite MSCI Real Capital Analytics."
+        },
+        {
+          "q": "CBRE reports $2,769 avg rent for Q2 2026 and Matthews reports $2,487. What's the right response?",
+          "choices": [
+            "Average the two",
+            "Use whichever is higher",
+            "Ignore both and use Zillow",
+            "Cite the source and period, and note they measure different inventories and rent types"
+          ],
+          "answer": 3,
+          "explain": "Sources differ in inventory and asking vs. average rent. Cite the source and explain the difference."
+        },
+        {
+          "q": "Where do you find who's behind an LLC that bought a Ventura County apartment building?",
+          "choices": [
+            "CRMLS",
+            "CA Secretary of State filings, plus Assessor mailing addresses and Recorder deeds",
+            "CBRE snapshot",
+            "HUD"
+          ],
+          "answer": 1,
+          "explain": "Roll the LLC up through Secretary of State manager filings and the deed and tax-roll addresses."
+        }
+      ]
+    }
+  ]
+}
