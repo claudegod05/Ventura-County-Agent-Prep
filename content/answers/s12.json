@@ -1,0 +1,994 @@
+{
+  "section": 12,
+  "answers": [
+    {
+      "id": 157,
+      "summary": "Right now nothing is pending in Sacramento. The 2025-26 session ended August 31, 2026, the governor's sign/veto deadline passed September 30, and every bill that didn't make it is dead. The next fights start when the 2027-28 Legislature convenes in December 2026, and the live action until then is the November 3 ballot.",
+      "answer": "### Where things stand (October 27, 2026)\nCalifornia runs two-year sessions. The **2025-26 session ended August 31, 2026**. Governor Newsom's last day to sign or veto was **September 30, 2026**, and he used it. CAA reports he signed SB 1365, the emergency rent-cap expansion, on that final day. So in a technical sense **no housing or landlord-tenant bill is \"pending\" today**. Anything that didn't reach his desk, including two-year bills like **AB 1157 (Kalra)**, is dead and would have to be reintroduced.\n\n### What carries over in practice\n- **New session:** The 2027-28 Legislature convenes in early December 2026 for its organizational session, and bill introductions follow. Expect the tenant-side ideas that died in 2026 to come back under new numbers: a lower AB 1482 cap, coverage of single-family homes and condos, and removing the 2030 sunset.\n- **The ballot:** On November 3 voters decide **Prop 1** (an $11.25B housing bond), **Prop 43** (a two-thirds vote for citizen-initiated local special taxes), **Prop 45** (a CEQA fast track) and **Prop 37** (CalHFA middle-income home loans). See Q159.\n- **Implementation:** Most 2026 enactments take effect **January 1, 2027**. SB 1296's pet-policy disclosure rule becomes operative **April 1, 2027**. See Q158.\n\n### Watch list for 2027\n1. An **AB 1482 sunset extension**. The law expires January 1, 2030, so 2027-29 is when an extension or rewrite gets negotiated.\n2. Follow-ups to **SB 1365**, the price-gouging caps on long leases after an emergency declaration.\n3. **Transfer-tax** reform after the Howard Jarvis initiative was withdrawn and replaced by Prop 43.\n\n**So what:** For owners, today's risk is not a pending bill but the **January 1, 2027 compliance changes** and the **2027 bill-introduction wave**. Re-check leginfo.legislature.ca.gov in late February 2027, after the bill-introduction deadline.",
+      "keyPoints": [
+        "2025-26 session ended Aug 31, 2026; governor's sign/veto deadline was Sept 30, 2026",
+        "Bills that missed the deadline (e.g., AB 1157) are dead and must be reintroduced",
+        "2027-28 Legislature convenes in early December 2026",
+        "Most 2026 enactments take effect Jan 1, 2027; SB 1296 is operative Apr 1, 2027",
+        "AB 1482 sunsets Jan 1, 2030, which sets up a 2027-29 extension fight"
+      ],
+      "sources": [
+        {
+          "title": "California Apartment Association - Governor signs bill expanding emergency rent caps to long-term leases",
+          "url": "https://caanet.org/governor-signs-bill-expanding-emergency-rent-caps-to-long-term-leases/",
+          "date": "2026-10"
+        },
+        {
+          "title": "Oakland Voices - California rent control bill dies in Assembly committee (AB 1157)",
+          "url": "https://oaklandvoices.us/2026/01/27/california-rent-control-dies-state-assembly/",
+          "date": "2026-01"
+        },
+        {
+          "title": "ResideAct - New California housing laws signed by Gavin Newsom in 2026 (roundup of signed and vetoed bills)",
+          "url": "https://resideact.org/new-california-housing-laws",
+          "date": "2026-10"
+        },
+        {
+          "title": "California Today - 2026 California propositions master guide",
+          "url": "https://californiatoday.com/guides/elections/2026-california-propositions-master-guide/",
+          "date": "2026-10"
+        },
+        {
+          "title": "LegiScan - CA SB1296 (2025-2026), rental housing pet policies",
+          "url": "https://legiscan.com/CA/bill/SB1296/2172",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Confirm the exact 2027-28 organizational session date and the bill-introduction deadline on the Assembly and Senate calendars (assembly.ca.gov / senate.ca.gov). After introductions open, search leginfo.legislature.ca.gov for new AB 1482, Costa-Hawkins and transfer-tax bills.",
+      "drills": [
+        {
+          "q": "As of late October 2026, what is the status of a California housing bill that did not reach the governor by the end of the 2025-26 session?",
+          "choices": [
+            "It carries over automatically into 2027",
+            "It is dead and must be reintroduced in the 2027-28 session",
+            "It goes to the November ballot",
+            "It becomes law without a signature"
+          ],
+          "answer": 1,
+          "explain": "The two-year session ended Aug 31, 2026. Unpassed bills die and must be reintroduced in the new session."
+        },
+        {
+          "q": "What was the governor's last day to sign or veto 2026 bills?",
+          "choices": [
+            "August 31, 2026",
+            "September 15, 2026",
+            "September 30, 2026",
+            "October 15, 2026"
+          ],
+          "answer": 2,
+          "explain": "Sept 30, 2026 was the final sign/veto day. CAA reports SB 1365 was signed that day."
+        },
+        {
+          "q": "Why is 2027-2029 a key window for AB 1482?",
+          "choices": [
+            "It requires renewal every two years",
+            "It sunsets January 1, 2030 unless extended",
+            "Its cap resets in 2027",
+            "Costa-Hawkins expires in 2028"
+          ],
+          "answer": 1,
+          "explain": "AB 1482 sunsets Jan 1, 2030, so any extension or rewrite will be fought in the next session."
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "summary": "The big landlord bill of 2026 is **SB 1365**, signed September 30. Starting January 1, 2027 it extends the 10% post-emergency price-gouging cap to rentals with leases longer than a year. Also new: a written pet-policy rule (SB 1296, operative April 1, 2027), disclosure of digitally altered listing photos (AB 2025), and a large pro-supply package (density bonus, ADUs, tentative maps, CEQA). Nearly all of it takes effect January 1, 2027.",
+      "answer": "### Landlord-tenant bills signed in 2026\n| Bill | What it does | Signed | Effective |\n|---|---|---|---|\n| **SB 1365** (Allen) | Extends Penal Code 396 (10% cap on increases after an emergency declaration) to rentals with initial leases over 1 year; adds defenses for pre-agreed increases and recent capital work | Sept 30 | Jan 1, 2027 |\n| **SB 1296** | Landlords must keep a written pet policy, post it in ads and give it with applications; application fee refunds if the policy disqualifies | Sept 30 | Operative Apr 1, 2027 |\n| **AB 2025** | Disclose digitally altered rental photos | Sept 27 | Jan 1, 2027 |\n| **SB 1160** | Eviction data reported by ZIP code | Sept 27 | Jan 1, 2027 |\n| **AB 1957** (Pacheco) | Foreclosure-sale bidding window limited to tenants and nonprofits | Sept 18 | Jan 1, 2027 |\n\nCAA opposed SB 1365 and asked for a veto. Violations of PC 396 are misdemeanors with fines of up to $10,000.\n\n### Supply-side package (signed Sept 29-30, mostly effective Jan 1, 2027)\n- **AB 2433:** Density Bonus Law overhaul.\n- **AB 1751:** Missing Middle Townhome Act. Ministerial approval for up to 150 units; bars demolishing rent-controlled or tenant-occupied housing.\n- **SB 1169:** Tentative maps last 48 months instead of 24.\n- **AB 1621:** No more than two plan-check rounds.\n- **SB 958:** Height alone is not a significant CEQA impact for qualifying infill projects.\n- **AB 956 / SB 1117:** Two detached ADUs per lot; ADU impact fees apply only above 750 sq ft.\n- **AB 1732:** CEQA housing exemption extended to 2037.\n\n### Affordable-housing items\n- **AB 2270:** Farmworker housing gets credit in tax-credit scoring.\n- **SB 1091:** A buy-and-rehab affordability program.\n- **AB 750:** Funding for at-risk affordable developments.\n- **SB 417:** Signed June 25; placed Prop 1 on the ballot.\n\n### Vetoed\nNewsom vetoed AB 2166 on Sept 18 (backstop financing for housing factories), plus AB 1165, AB 1997, AB 2012, AB 306, AB 2439 and SB 1238.\n\n**So what:** In wildfire-prone Ventura County, emergency declarations happen often. After January 1, 2027, a **12-month or longer lease no longer escapes the 10% cap**, so build that into post-fire renewals.",
+      "keyPoints": [
+        "SB 1365: PC 396 10% emergency cap now covers leases over 1 year, effective Jan 1, 2027 (CAA opposed)",
+        "SB 1296: written pet policy in ads and applications, operative Apr 1, 2027",
+        "AB 2025: disclose digitally altered rental photos, effective Jan 1, 2027",
+        "SB 1169 doubles tentative map life to 48 months; AB 956 allows 2 detached ADUs",
+        "Vetoes included AB 2166 (Sept 18) and AB 1165, AB 1997 (Sept 30)"
+      ],
+      "sources": [
+        {
+          "title": "California Apartment Association - Governor signs bill expanding emergency rent caps to long-term leases",
+          "url": "https://caanet.org/governor-signs-bill-expanding-emergency-rent-caps-to-long-term-leases/",
+          "date": "2026-10"
+        },
+        {
+          "title": "LegiScan - CA SB1296 (2025-2026), rental housing pet policies",
+          "url": "https://legiscan.com/CA/bill/SB1296/2172",
+          "date": "2026-10"
+        },
+        {
+          "title": "Multifamily Executive - California enacts pet policy transparency law for rental housing",
+          "url": "https://www.multifamilyexecutive.com/property-management/california-enacts-pet-policy-transparency-law-rental-housing",
+          "date": "2026-10"
+        },
+        {
+          "title": "Office of the Governor - Legislative update 9.18.26",
+          "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-legislative-update-9-18-26/",
+          "date": "2026-09"
+        },
+        {
+          "title": "ResideAct - New California housing laws signed by Gavin Newsom in 2026 (roundup of signed and vetoed bills)",
+          "url": "https://resideact.org/new-california-housing-laws",
+          "date": "2026-10"
+        },
+        {
+          "title": "Brownstein Hyatt Farber Schreck - California enacts another wave of 2026 housing bills",
+          "url": "https://www.bhfs.com/insight/california-enacts-another-wave-of-2026-housing-bills/",
+          "date": "2026-10"
+        },
+        {
+          "title": "Office of the Governor - Governor Newsom signs historic housing bond set for voters on the November ballot",
+          "url": "https://www.gov.ca.gov/2026/06/25/governor-newsom-signs-historic-housing-bond-set-for-voters-on-the-november-ballot/",
+          "date": "2026-06"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "SB 1365 (CAA) and AB 1957/AB 2166 (governor's 9/18 release) are confirmed by primary or trade sources. Several other items (AB 2025, SB 1160, AB 2270, SB 1091, AB 750 and most vetoes) come from a secondary roundup (resideact.org). Confirm each chaptered or vetoed status on leginfo.legislature.ca.gov and in the governor's Sept 29-30 legislative updates before quoting to clients.",
+      "drills": [
+        {
+          "q": "Under SB 1365 (2026), what changes on January 1, 2027?",
+          "choices": [
+            "Statewide rent cap drops to 5%",
+            "The 10% post-emergency price-gouging cap now applies to rentals with leases over one year",
+            "Costa-Hawkins is repealed",
+            "Security deposits are capped at one month"
+          ],
+          "answer": 1,
+          "explain": "SB 1365 removes the exclusion for initial lease terms over one year from Penal Code 396, effective Jan 1, 2027."
+        },
+        {
+          "q": "When does SB 1296's written pet-policy requirement become operative?",
+          "choices": [
+            "January 1, 2027",
+            "July 1, 2026",
+            "April 1, 2027",
+            "January 1, 2028"
+          ],
+          "answer": 2,
+          "explain": "SB 1296 was signed Sept 30, 2026 but is operative April 1, 2027."
+        },
+        {
+          "q": "Which 2026 bill extends tentative subdivision map life from 24 to 48 months?",
+          "choices": [
+            "SB 1169",
+            "AB 1751",
+            "SB 958",
+            "AB 2433"
+          ],
+          "answer": 0,
+          "explain": "SB 1169 extends tentative map life to 48 months for maps unexpired as of Dec 31, 2026."
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "summary": "No rent-control or transfer-tax measure is on any Ventura County ballot on November 3, 2026. The housing-relevant items are statewide: **Prop 1** ($11.25B housing bond), **Prop 43** (two-thirds vote for citizen-initiated local special taxes), **Prop 45** (CEQA fast track) and **Prop 37** (CalHFA home loans). Locally there's Oxnard's Measure E sales-tax extension, Simi Valley's hotel-tax hike and several bonds.",
+      "answer": "### Statewide propositions that matter to multifamily\n| Prop | What it does | Placed by | Why owners care |\n|---|---|---|---|\n| **1** | $11.25B bond: $10B GO for affordable housing plus $1.25B CalVet revenue bonds (SB 417) | Legislature | $5.1B for MHP, $750M Portfolio Reinvestment, $200M to buy and restrict unrestricted units, $450M farmworker housing. More nonprofit buyers and competing new supply. CAA supports it. |\n| **43** | Two-thirds vote for citizen-initiated local special taxes starting 2027 (ACA 22) | Legislature (deal with HJTA) | Makes a ULA-style transfer tax by initiative much harder; existing taxes untouched |\n| **45** | Optional faster CEQA track for \"essential\" projects, including housing | Petition (CalChamber) | Shorter entitlement and litigation risk for development and value-add |\n| **37** | Up to $25B in CalHFA revenue bonds for second loans to middle-income buyers of new homes | Petition | Could pull some renters into ownership |\n\nAlso on the ballot: Prop 3 (makes high-income tax rates permanent), Prop 40 (one-time billionaire tax, which excludes real estate), Props 41-42 (tax audits; ban on new personal-property taxes) and Prop 2 (reserves). **No statewide rent control, Costa-Hawkins or split-roll measure is on the ballot.**\n\n### Ventura County local measures\n- **Measure A (Simi Valley):** Hotel tax rises from 10% to 12%.\n- **Measure E (Oxnard):** Extends the half-cent sales tax with no rate increase, about $20M a year.\n- **Measure D (United Water Conservation District):** $350M water bond; needs 2/3.\n- **Measure B (Rio School District):** $78M bond.\n- **Measure C (Santa Paula Unified):** $48.6M bond.\n- **Measure H (Allan Hancock):** College bond.\n- **Measure LV (Las Virgenes Unified):** Parcel tax renewal.\n\nThe City of Ventura voted **4-3 on June 2, 2026 not to place a 1% sales tax** on this ballot.\n\n**So what:** Nothing on the local ballot touches rents or transfer costs directly. Watch Prop 1, which funds acquisition competition, and Prop 43, a shield against citizen-initiative transfer taxes.",
+      "keyPoints": [
+        "Prop 1 = $11.25B (SB 417): $10B GO + $1.25B CalVet; $5.1B to MHP",
+        "Prop 43 = ACA 22: two-thirds vote for citizen-initiated local special taxes from Jan 1, 2027",
+        "Prop 45 = CalChamber CEQA fast track, includes housing",
+        "No rent-control or transfer-tax measure on any Ventura County ballot",
+        "Local: Oxnard Measure E (half-cent extension), Simi Valley Measure A (TOT 10% to 12%)"
+      ],
+      "sources": [
+        {
+          "title": "California Today - 2026 California propositions master guide",
+          "url": "https://californiatoday.com/guides/elections/2026-california-propositions-master-guide/",
+          "date": "2026-10"
+        },
+        {
+          "title": "KPBS - Proposition 1: Borrow $11.25 billion for housing",
+          "url": "https://www.kpbs.org/news/politics/2026/10/02/proposition-1-borrow-11-25-billion-for-housing",
+          "date": "2026-10"
+        },
+        {
+          "title": "CA Secretary of State - SB 417 (Veterans and Affordable Housing Bond Act of 2026), chaptered text",
+          "url": "https://elections.cdn.sos.ca.gov/ballot-measures/pdf/sb-417.pdf",
+          "date": "2026-06"
+        },
+        {
+          "title": "CA Secretary of State Official Voter Guide - Proposition 43",
+          "url": "https://voterguide.sos.ca.gov/propositions/43/",
+          "date": "2026-10"
+        },
+        {
+          "title": "Aleshire & Wynder - Proposition 43 (ACA 22) could reshape local tax initiatives",
+          "url": "https://www.awattorneys.com/client-updates/proposition-43-aca-22-could-reshape-local-tax-initiatives-what-california-cities-should-know-before-2027/",
+          "date": "2026"
+        },
+        {
+          "title": "CA Secretary of State Official Voter Guide - Proposition 45",
+          "url": "https://voterguide.sos.ca.gov/propositions/45/",
+          "date": "2026-10"
+        },
+        {
+          "title": "VC Reporter - VC Election 2026: water infrastructure, school funding and taxes focus of bond measures on the November ballot",
+          "url": "https://www.vcreporter.com/news/vc-election-2026-water-infrastructure-school-funding-and-taxes-focus-of-bond-measures-on-the/article_843b7ce7-42aa-4525-999b-d6a069ecdd34.html",
+          "date": "2026-09"
+        },
+        {
+          "title": "C-P-M - Private property rights voter guide: how Ventura County owners should vote on November 3, 2026",
+          "url": "https://www.c-p-m.com/blog/the-private-property-rights-voter-guide-how-ventura-county-owners-should-vote-on-november-3-2026",
+          "date": "2026-10"
+        },
+        {
+          "title": "KCLU - Ventura City Council rejects a proposal to ask residents to approve a sales tax hike",
+          "url": "https://www.kclu.org/2026-06-03/ventura-city-council-rejects-a-proposal-to-ask-residents-to-approve-a-sales-tax-hike",
+          "date": "2026-06"
+        },
+        {
+          "title": "Ventura County Clerk-Recorder - 2026 measures",
+          "url": "https://clerkrecorder.venturacounty.gov/elections/2026-measures/",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "high",
+      "verify": "Results come after November 3. Check the SOS Statement of Vote for Props 1, 37, 43 and 45, and the Ventura County Clerk-Recorder's results page for Measures A-E. Also confirm there are no late-qualified city measures in the County's official measure list.",
+      "drills": [
+        {
+          "q": "How is the $11.25 billion Prop 1 housing bond split?",
+          "choices": [
+            "All general obligation bonds for homeless housing",
+            "$10B general obligation for affordable housing plus $1.25B CalVet revenue bonds",
+            "$5B for rent relief and $6.25B for homeownership",
+            "$11.25B in CalHFA revenue bonds"
+          ],
+          "answer": 1,
+          "explain": "SB 417 authorizes $10B in GO bonds for affordable housing programs and $1.25B in self-supporting revenue bonds for CalVet home loans."
+        },
+        {
+          "q": "Which Ventura County measure on the Nov 3, 2026 ballot directly changes apartment rents or transfer taxes?",
+          "choices": [
+            "Oxnard Measure E",
+            "Simi Valley Measure A",
+            "UWCD Measure D",
+            "None of them"
+          ],
+          "answer": 3,
+          "explain": "Local measures are sales, hotel and bond measures. None address rent control or transfer taxes."
+        },
+        {
+          "q": "What does Prop 43 (ACA 22) do?",
+          "choices": [
+            "Repeals Measure ULA",
+            "Requires a two-thirds vote for citizen-initiated local special taxes starting in 2027",
+            "Caps all transfer taxes at 0.11%",
+            "Creates split-roll reassessment"
+          ],
+          "answer": 1,
+          "explain": "Prop 43 raises the threshold for citizen-initiated special taxes to two-thirds without invalidating existing taxes."
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "summary": "Voters have rejected Costa-Hawkins repeal three times, each time with about 59-62% voting no: Prop 10 (2018), Prop 21 (2020) and Prop 33 (2024). There is no rent-control initiative on the 2026 ballot. Prop 34 (2024) limits the main funder's spending, so a 2028 attempt is possible but harder to bankroll.",
+      "answer": "### The track record\n| Measure | Year | What it would have done | Result |\n|---|---|---|---|\n| **Prop 10** | 2018 | Repeal Costa-Hawkins; let cities regulate any rental, including post-1995 buildings and SFRs, and impose vacancy control | Failed, about 59% no |\n| **Prop 21** | 2020 | Narrower: let cities regulate housing first occupied more than 15 years ago, with an exemption for small SFR owners | Failed, about 60% no |\n| **Prop 33** | 2024 | Repeal Costa-Hawkins outright (\"Justice for Renters Act\") | Failed, 60.0% no (certified) |\n\nThe AIDS Healthcare Foundation (AHF) bankrolled all three. CAA, CAR and allied groups funded the opposition.\n\n### Why another initiative is harder\n- **Prop 34 (2024) passed** at the same election. It restricts how certain health-care providers that rely on federal drug-discount revenue (in practice, AHF) can spend that money. That squeezes the main funding source. AHF has called Prop 34 unconstitutional, and the legal challenge is unresolved.\n- **Nothing on the November 2026 ballot.** None of the 14 statewide propositions is a rent-control measure.\n- The **legislative route also failed**. AB 1157, which would have tightened AB 1482's cap, died in Assembly Judiciary on January 13, 2026. Opponents cited Prop 33's 62% \"no\" margin.\n\n### Prospects\nTenant groups said after 2024 that they would keep going. The realistic paths are:\n1. A **2028 initiative**, harder to fund under Prop 34.\n2. A **legislative push tied to AB 1482's 2030 sunset**.\n3. **City-by-city ordinances** within Costa-Hawkins limits, as Oxnard and Ojai have done and Santa Barbara is doing.\n\n**So what:** For underwriting, vacancy decontrol and the exemptions for post-1995 buildings and SFRs remain the base case through at least 2028. The real local risk is a city ordinance, not a statewide repeal.",
+      "keyPoints": [
+        "Prop 10 (2018), Prop 21 (2020), Prop 33 (2024) all failed, each with about 59-62% no",
+        "Prop 33 certified result: 40.0% yes / 60.0% no",
+        "AHF funded all three; Prop 34 (2024) restricts its spending",
+        "No rent-control measure among the 14 props on the Nov 2026 ballot",
+        "Next realistic window: a 2028 initiative or the AB 1482 sunset fight before 2030"
+      ],
+      "sources": [
+        {
+          "title": "CalMatters - California election results: Prop 33 rent control",
+          "url": "https://calmatters.org/politics/2024/11/california-election-results-prop-33-rent-control/",
+          "date": "2024-11"
+        },
+        {
+          "title": "KQED - Californians reject rent control again in defeat of Proposition 21",
+          "url": "https://kqed.org/news/11844438/californians-reject-rent-control-again-in-defeat-of-proposition-21",
+          "date": "2020-11"
+        },
+        {
+          "title": "Bisnow - California rent control backers say they aren't giving up after latest election defeat",
+          "url": "https://www.bisnow.com/news/los-angeles/multifamily/proposition-33-california-rent-control-126991",
+          "date": "2024-11"
+        },
+        {
+          "title": "Oakland Voices - California rent control bill dies in Assembly committee (AB 1157)",
+          "url": "https://oaklandvoices.us/2026/01/27/california-rent-control-dies-state-assembly/",
+          "date": "2026-01"
+        },
+        {
+          "title": "California Today - 2026 California propositions master guide",
+          "url": "https://californiatoday.com/guides/elections/2026-california-propositions-master-guide/",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Exact Prop 10 and Prop 21 percentages are given as approximations; confirm in the SOS Statements of Vote for Nov 2018 and Nov 2020. Check the status of AHF's legal challenge to Prop 34 and the SOS 'initiatives in circulation' page for any 2028 rent-control filing.",
+      "drills": [
+        {
+          "q": "Which statewide rent-control measure was the narrower 'rolling 15-year' version?",
+          "choices": [
+            "Prop 10 (2018)",
+            "Prop 21 (2020)",
+            "Prop 33 (2024)",
+            "Prop 34 (2024)"
+          ],
+          "answer": 1,
+          "explain": "Prop 21 would have let cities regulate housing first occupied more than 15 years ago."
+        },
+        {
+          "q": "Roughly what share of voters rejected Prop 33 in 2024?",
+          "choices": [
+            "About 52%",
+            "About 55%",
+            "About 60%",
+            "About 70%"
+          ],
+          "answer": 2,
+          "explain": "Certified results show 40.0% yes and 60.0% no."
+        },
+        {
+          "q": "Why does Prop 34 (2024) matter to future rent-control initiatives?",
+          "choices": [
+            "It repealed Costa-Hawkins",
+            "It restricts spending by the main funder of past initiatives",
+            "It bans rent-control initiatives until 2030",
+            "It raised the signature threshold"
+          ],
+          "answer": 1,
+          "explain": "Prop 34 limits how certain providers (in practice AHF) can spend federal drug-program revenue, which squeezes the main funding source."
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "summary": "No bill to repeal or amend Costa-Hawkins advanced in the 2025-26 session; I found no such bill introduced. The last serious legislative try, SB 466 (Wahab), died February 1, 2024. The 2025-26 rent fight targeted AB 1482 (AB 1157), not Costa-Hawkins, and it also died.",
+      "answer": "### What Costa-Hawkins does (1995)\n- **New buildings:** Exempts housing first occupied after February 1, 1995 from local rent control.\n- **Single-family homes and condos:** Exempts separately alienable single-family homes and condos.\n- **Vacancy decontrol:** Guarantees it. When a tenant leaves a rent-controlled unit, the owner resets to market.\n\nThose three features are why Oxnard's and Ojai's 4% caps only reach older apartment buildings.\n\n### Recent legislative attempts\n| Bill | Session | Idea | Outcome |\n|---|---|---|---|\n| AB 1506 (Bloom) | 2019 | Full repeal | Failed in Assembly Housing Committee |\n| **SB 466 (Wahab)** | 2023-24 | Rolling exemption, first 15 years, later amended; keep the SFR/condo exemption | Failed on the Senate floor (15-16) and died February 1, 2024 under Joint Rule 56 |\n| AB 1157 (Kalra) | 2025-26 | Lower the **AB 1482** cap and extend it to SFRs and condos (not Costa-Hawkins) | Died in Assembly Judiciary January 13, 2026 (4 aye, 3 no, 5 abstain; needed 7) |\n\nI found **no 2025-26 bill amending Costa-Hawkins**. The ballot route also failed three times (see Q160). With the session over, nothing is pending.\n\n### What to expect\nThe idea most likely to return is a **rolling new-construction exemption**, for example 15 or 20 years, like Prop 21 and the original SB 466. A full repeal is less likely. Developers and CAA oppose rolling dates because they put future rent control on today's new construction. The Legislature has repeatedly declined to move these bills, and several Democrats abstained on AB 1157.\n\n**So what:** For a buyer of a post-1995 Ventura County building, the exemption from local rent control is intact for now. AB 1482 (5% + CPI, max 10%) still applies unless the owner qualifies for its 15-year new-construction exemption. Price **some tail risk** that a rolling-exemption bill passes before you exit.",
+      "keyPoints": [
+        "Costa-Hawkins: post-Feb 1, 1995 buildings and SFRs/condos exempt; vacancy decontrol",
+        "SB 466 (2023-24) died Feb 1, 2024 after failing 15-16 on the Senate floor",
+        "No Costa-Hawkins bill found in the 2025-26 session",
+        "AB 1157 (2025-26) targeted AB 1482, not Costa-Hawkins, and died Jan 13, 2026",
+        "Most likely future proposal: a rolling (e.g., 15-year) new-construction exemption"
+      ],
+      "sources": [
+        {
+          "title": "California Apartment Association - Bill to expand California rent control to additional housing types officially halted (SB 466)",
+          "url": "https://caanet.org/bill-to-expand-california-rent-control-to-additional-housing-types-officially-halted/",
+          "date": "2024-02"
+        },
+        {
+          "title": "CalMatters Digital Democracy - SB 466 (2023-2024)",
+          "url": "https://calmatters.digitaldemocracy.org/bills/ca_202320240sb466",
+          "date": "2024-02"
+        },
+        {
+          "title": "Oakland Voices - California rent control bill dies in Assembly committee (AB 1157)",
+          "url": "https://oaklandvoices.us/2026/01/27/california-rent-control-dies-state-assembly/",
+          "date": "2026-01"
+        },
+        {
+          "title": "California Apartment Association - Rent control resurfaces in 2026 after stalling last year",
+          "url": "https://caanet.org/rent-control-resurfaces-in-2026-after-stalling-last-year/",
+          "date": "2026-01"
+        },
+        {
+          "title": "CalMatters - California election results: Prop 33 rent control",
+          "url": "https://calmatters.org/politics/2024/11/california-election-results-prop-33-rent-control/",
+          "date": "2024-11"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "The absence of a 2025-26 Costa-Hawkins bill is based on trade and press coverage. Confirm with a leginfo.legislature.ca.gov keyword search for 'Costa-Hawkins' / Civil Code 1954.50-1954.535 in the 2025-26 session, and watch 2027 introductions.",
+      "drills": [
+        {
+          "q": "Which of these is NOT a feature of Costa-Hawkins?",
+          "choices": [
+            "Exempts housing first occupied after Feb 1, 1995",
+            "Guarantees vacancy decontrol",
+            "Caps statewide rent increases at 5% + CPI",
+            "Exempts separately alienable single-family homes and condos"
+          ],
+          "answer": 2,
+          "explain": "The 5% + CPI cap is AB 1482 (Tenant Protection Act), not Costa-Hawkins."
+        },
+        {
+          "q": "What happened to SB 466 (Wahab), the last major Costa-Hawkins reform bill?",
+          "choices": [
+            "Signed in 2024",
+            "Died Feb 1, 2024 after failing on the Senate floor",
+            "Placed on the 2026 ballot",
+            "Vetoed in 2025"
+          ],
+          "answer": 1,
+          "explain": "SB 466 got 15 of the 21 votes needed and died on Feb 1, 2024 under Joint Rule 56."
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "summary": "The main 2025-26 attempt was AB 1157 (Kalra). It would have cut AB 1482's cap to 2% + CPI (max 5%), covered single-family homes and condos, and deleted the 2030 sunset. It died in Assembly Judiciary on January 13, 2026. AB 1482 is unchanged at 5% + CPI (max 10%) and expires January 1, 2030 unless extended.",
+      "answer": "### AB 1482 today (Civil Code 1947.12 / 1946.2)\n- **Cap:** 5% plus regional CPI, maximum **10%** in any 12 months.\n- **Just cause:** Required after 12 months of tenancy.\n- **Key exemptions:**\n  - Buildings issued a certificate of occupancy within the past **15 years** (rolling).\n  - SFRs and condos owned by individuals, with the required lease notice.\n  - Deed-restricted affordable units.\n  - An owner-occupied duplex.\n- **Sunset:** **January 1, 2030.** The statute requires an LAO report on the law's effects by then.\n- SB 567 (2023) tightened the no-fault just-cause rules starting April 1, 2024.\n\n### The 2025-26 attempt: AB 1157\n| Proposal | Current law | AB 1157 |\n|---|---|---|\n| Cap | 5% + CPI, max 10% | 2% + CPI, max 5% |\n| SFRs, condos, ADUs | Exempt (with notice) | Covered |\n| Sunset | Jan 1, 2030 | Removed (permanent) |\n\nOutcome: AB 1157 cleared Assembly Housing in 2025 but stalled in Judiciary. On **January 13, 2026** it got **4 ayes, 3 noes and 5 abstentions** when it needed 7, and it died. CAA and CAR opposed it, and ACCE and PICO rallied for it.\n\nI found no other 2025-26 bill that changed AB 1482's cap, sunset or exemptions. A separate bill, **SB 1365**, extends the emergency **price-gouging** cap (PC 396) to leases over a year starting January 1, 2027 (see Q158). It is not an AB 1482 amendment.\n\n### What's next\nThe **2030 sunset forces the issue**. Expect an extension bill in 2027-29, likely paired with tenant-side asks: a lower cap, SFR coverage and permanence. Industry will push for a straight extension.\n\n**So what:** Underwrite 5% + CPI (max 10%) on covered units through 2029. Sensitivity-test a 2%-5% cap scenario after 2030. Track when the **15-year exemption expires** on newer Ventura County buildings you sell or buy.",
+      "keyPoints": [
+        "AB 1482: 5% + CPI, max 10%; just cause after 12 months; sunsets Jan 1, 2030",
+        "Rolling exemption for buildings with a certificate of occupancy in the last 15 years",
+        "AB 1157 sought 2% + CPI (max 5%), SFR/condo coverage and no sunset",
+        "AB 1157 died Jan 13, 2026 in Asm. Judiciary: 4 aye, 3 no, 5 abstain (needed 7)",
+        "Expect an extension fight in 2027-29 ahead of the 2030 sunset"
+      ],
+      "sources": [
+        {
+          "title": "California Apartment Association - Rent control resurfaces in 2026 after stalling last year",
+          "url": "https://caanet.org/rent-control-resurfaces-in-2026-after-stalling-last-year/",
+          "date": "2026-01"
+        },
+        {
+          "title": "Oakland Voices - California rent control bill dies in Assembly committee (AB 1157)",
+          "url": "https://oaklandvoices.us/2026/01/27/california-rent-control-dies-state-assembly/",
+          "date": "2026-01"
+        },
+        {
+          "title": "California Apartment Association - Governor signs bill expanding emergency rent caps to long-term leases",
+          "url": "https://caanet.org/governor-signs-bill-expanding-emergency-rent-caps-to-long-term-leases/",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "high",
+      "verify": "Watch for 2027 introductions amending Civil Code 1946.2 / 1947.12 on leginfo.legislature.ca.gov. Confirm the current CPI used for the Aug 1 regional cap (Los Angeles-area CPI for Ventura County) each year.",
+      "drills": [
+        {
+          "q": "What cap did AB 1157 propose to replace AB 1482's 5% + CPI (max 10%)?",
+          "choices": [
+            "3% flat",
+            "2% + CPI, max 5%",
+            "CPI only, max 7%",
+            "4% + CPI, max 8%"
+          ],
+          "answer": 1,
+          "explain": "AB 1157 would have lowered the cap to 2% plus inflation, capped at 5%."
+        },
+        {
+          "q": "When does AB 1482 sunset unless extended?",
+          "choices": [
+            "January 1, 2027",
+            "January 1, 2028",
+            "January 1, 2030",
+            "It is permanent"
+          ],
+          "answer": 2,
+          "explain": "The Tenant Protection Act sunsets January 1, 2030."
+        },
+        {
+          "q": "How did AB 1157 fail?",
+          "choices": [
+            "Vetoed by the governor",
+            "Lost on the Senate floor",
+            "Fell short of 7 votes in Assembly Judiciary on Jan 13, 2026",
+            "Withdrawn by the author in 2025"
+          ],
+          "answer": 2,
+          "explain": "It got 4 ayes, 3 noes and 5 abstentions in Assembly Judiciary, where it needed 7 votes."
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "summary": "The active fronts are Oxnard, which is building out its 2022 4% rent cap (fair-return rules in February 2026, a new program-fee study in mid-2026), and the City of Ventura, which rejected rent stabilization in May 2025 but adopted an anti-harassment ordinance in early 2026. Ojai has had a 4% cap since 2023. Elsewhere the action is on mobile-home space rents (Santa Paula forums in 2026).",
+      "answer": "### City by city (as of October 2026)\n| Jurisdiction | Apartments | 2025-26 activity |\n|---|---|---|\n| **Oxnard** | 4% cap on pre-Feb 1995 buildings; just cause (adopted April 2022) | Fair-return petition rules adopted Feb 2026. Draft fee study (June 2026, proposed $70/$140 per unit, not yet adopted) with community meetings in summer 2026 |\n| **Ojai** | 4% cap, Ord. 937 (2023) | In force |\n| **City of Ventura** | No rent cap | Council rejected rent stabilization, a registry, TOPA and deposit limits on May 27, 2025. Kept working on anti-harassment, relocation and legal aid; anti-harassment ordinance adopted Feb 2026 |\n| **Santa Paula** | None | 2026 community forums on a *mobile home* rent ordinance |\n| **Unincorporated county** | None | Mobile home park rent control only (2.8% allowed for 2026) |\n| Thousand Oaks, Camarillo, Simi Valley, Moorpark, Fillmore, Port Hueneme | None found beyond legacy or mobile-home programs | No active apartment study found |\n\n### Who is pushing\nTenant groups (CAUSE, based in Ventura and active in Oxnard, Ventura and Santa Paula) push \"Housing for All\" protections. Apartment associations (CAA, AAGLA) track and fight each step.\n\n### Read-across from Santa Barbara\nSanta Barbara adopted a stricter ordinance in late September 2026 (see Section 10). Ventura County councils will hear it cited as a model in 2027.\n\n**So what:**\n- **Oxnard and Ojai:** The 4% cap and registry/fee costs are real underwriting inputs.\n- **City of Ventura:** Rent stabilization was voted down in 2025, but the council keeps adding tenant rules. Expect it to resurface after council turnover. Four council seats were on the November 2026 ballot.\n- **Everywhere else:** AB 1482 is the ceiling for now.",
+      "keyPoints": [
+        "Oxnard: 4% cap (pre-Feb 1995 buildings) since 2022; fair-return rules Feb 2026; fee study mid-2026",
+        "Ojai: 4% cap under Ord. 937 (2023)",
+        "City of Ventura rejected rent stabilization and a registry on May 27, 2025; anti-harassment ordinance Feb 2026",
+        "Santa Paula: 2026 forums on mobile-home rent rules only",
+        "County: mobile-home park rent control only, 2.8% for 2026"
+      ],
+      "sources": [
+        {
+          "title": "City of Oxnard - RSO/Just Cause proposed annual program fee and study (community meeting presentation)",
+          "url": "https://www.oxnard.gov/wp-content/uploads/pdfs/departments/housing/oxnard-fee-study-community-meeting-presentation-july-2026.pdf",
+          "date": "2026-07"
+        },
+        {
+          "title": "California Apartment Association - Oxnard council OKs 4% rent cap, stricter than staff advised",
+          "url": "https://caanet.org/oxnard-council-oks-4-rent-cap-stricter-than-staff-advised/",
+          "date": "2022-04"
+        },
+        {
+          "title": "City of Ojai - Rent Stabilization (Ord. 937)",
+          "url": "https://ojai.ca.gov/582/Rent-Stabilization",
+          "date": "2026"
+        },
+        {
+          "title": "AAGLA - Victory alert: Ventura City Council rejects 4 out of 7 policies",
+          "url": "https://members.aagla.org/news/victory-alert-ventura-city-council-rejects-4-out-of-7-bad-policies",
+          "date": "2025-05"
+        },
+        {
+          "title": "Ventura County RMA - Mobile Home Park Rent Control Program",
+          "url": "https://rma.venturacounty.gov/programs/mobile-home-park-rent-control-program",
+          "date": "2026"
+        },
+        {
+          "title": "City of Santa Paula (Zencity Engage) - Mobile home rent control ordinance project",
+          "url": "https://engage.zencity.io/santa-paula-ca/en-US/projects/mobile-home-rent-control-ordinance",
+          "date": "2026"
+        },
+        {
+          "title": "CAUSE - Central Coast Alliance United for a Sustainable Economy",
+          "url": "https://causenow.org/",
+          "date": "2026"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Check Oxnard City Council agendas for adoption of the RSO program fee (proposed $70/$140) and any cap changes. Check Ventura City Council agendas after the Nov 2026 election for renewed rent-stabilization or relocation items. For Thousand Oaks, confirm the scope of its legacy rent stabilization ordinance (TOMC Title 5).",
+      "drills": [
+        {
+          "q": "What did the Ventura City Council do on May 27, 2025?",
+          "choices": [
+            "Adopted a 4% rent cap",
+            "Rejected rent stabilization and a rental registry",
+            "Placed rent control on the ballot",
+            "Repealed just-cause protections"
+          ],
+          "answer": 1,
+          "explain": "The council rejected rent stabilization, a registry, TOPA and extra deposit limits, while keeping anti-harassment and related items alive."
+        },
+        {
+          "q": "Which Ventura County cities have a 4% annual cap on older apartments?",
+          "choices": [
+            "Oxnard and Ojai",
+            "Ventura and Oxnard",
+            "Thousand Oaks and Simi Valley",
+            "Camarillo and Ojai"
+          ],
+          "answer": 0,
+          "explain": "Oxnard (2022) and Ojai (2023, Ord. 937) both cap increases at 4%."
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "summary": "No. I found no ULA-style transfer tax proposed or on the ballot in any Ventura County city. Sellers pay the standard county documentary transfer tax of $1.10 per $1,000. If Prop 43 passes, any future citizen-initiative transfer tax would need a two-thirds vote starting in 2027.",
+      "answer": "### Current state\n- **County documentary transfer tax:** $1.10 per $1,000 of value (0.11%), the standard California county rate.\n- **City transfer taxes:** Only charter cities can levy one above the county rate. I found none in Ventura County comparable to LA's Measure ULA, which charges 4% above about $5.4M and 5.5% above about $10.9M for closings after June 30, 2026.\n- **November 3, 2026 ballot:** No local transfer-tax measure. The Ventura County measures are a hotel tax (Simi Valley A), a sales-tax extension (Oxnard E), and school and water bonds.\n\n### Statewide backdrop that limits future attempts\n1. **The Howard Jarvis initiative was withdrawn** in June 2026. It would have capped transfer taxes at 0.11% statewide and voided some taxes passed by majority vote, such as ULA.\n2. In exchange, the Legislature put **Prop 43 (ACA 22)** on the ballot. It requires a **two-thirds vote for citizen-initiated local special taxes** starting January 1, 2027, and it leaves existing taxes, ULA included, in place. ULA itself passed by citizen initiative with a simple majority.\n3. In LA, the council in June 2026 directed drafting of a possible ULA exemption for new multifamily. Reform there remains unsettled.\n\n### Revenue pressure is real, though\nThe City of Ventura considered a 1% sales tax (about $36M a year) and voted 4-3 on June 2, 2026 not to place it on the ballot. One councilmember said it could return in 2028 or 2030. Cities looking for revenue will look at sales, hotel and parcel taxes first.\n\n**So what:** For Ventura County dispositions, budget roughly 0.11% county transfer tax, plus any city tax only after checking the specific city's code. The ULA-style risk is low near term. A council-placed (not citizen-initiated) general tax would still need only a majority even if Prop 43 passes.",
+      "keyPoints": [
+        "Ventura County documentary transfer tax: $1.10 per $1,000 (0.11%)",
+        "No ULA-style transfer tax proposed in any Ventura County city; none on the Nov 2026 ballot",
+        "HJTA's 0.11% transfer-tax cap initiative was withdrawn in June 2026 in exchange for Prop 43",
+        "Prop 43: two-thirds vote for citizen-initiated special taxes from Jan 1, 2027",
+        "Ventura rejected a 1% sales tax 4-3 on June 2, 2026 (could return 2028 or 2030)"
+      ],
+      "sources": [
+        {
+          "title": "WFG National Title - California city transfer tax list",
+          "url": "https://wfgtitle.com/wp-content/uploads/2021/03/City-Transfer-Tax-List.pdf",
+          "date": "2021-03"
+        },
+        {
+          "title": "CP&DR - News briefs June 30, 2026: transfer taxes, state housing bond",
+          "url": "https://www.cp-dr.com/post/cp-dr-news-briefs-june-30-2026-transfer-taxes-state-housing-bond-ca-forever-shipyard-and-more",
+          "date": "2026-06"
+        },
+        {
+          "title": "Aleshire & Wynder - Proposition 43 (ACA 22) could reshape local tax initiatives",
+          "url": "https://www.awattorneys.com/client-updates/proposition-43-aca-22-could-reshape-local-tax-initiatives-what-california-cities-should-know-before-2027/",
+          "date": "2026"
+        },
+        {
+          "title": "California Special Districts Association - Legislature cuts deal with vote threshold proponents",
+          "url": "https://www.csda.net/blogs/morgan-leskody/2026/06/29/legislature-cuts-deal-with-vote-threshold-proponen",
+          "date": "2026-06"
+        },
+        {
+          "title": "Hanson Bridgett - Measure ULA ordinance update (June 2026)",
+          "url": "https://www.hansonbridgett.com/publication/260701_7087_ula_ordinance_update_june",
+          "date": "2026-07"
+        },
+        {
+          "title": "C-P-M - Private property rights voter guide: how Ventura County owners should vote on November 3, 2026",
+          "url": "https://www.c-p-m.com/blog/the-private-property-rights-voter-guide-how-ventura-county-owners-should-vote-on-november-3-2026",
+          "date": "2026-10"
+        },
+        {
+          "title": "KCLU - Ventura City Council rejects a proposal to ask residents to approve a sales tax hike",
+          "url": "https://www.kclu.org/2026-06-03/ventura-city-council-rejects-a-proposal-to-ask-residents-to-approve-a-sales-tax-hike",
+          "date": "2026-06"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Confirm whether any Ventura County charter city (check municipal codes, e.g., San Buenaventura) levies its own real property transfer tax, and confirm current county DTT practice with the Ventura County Clerk-Recorder. Check Prop 43 results after Nov 3.",
+      "drills": [
+        {
+          "q": "What is the standard Ventura County documentary transfer tax?",
+          "choices": [
+            "$0.55 per $1,000",
+            "$1.10 per $1,000",
+            "$4.00 per $1,000",
+            "1.5% of price"
+          ],
+          "answer": 1,
+          "explain": "The county rate is $1.10 per $1,000 of value, or 0.11%."
+        },
+        {
+          "q": "What did the Legislature give Howard Jarvis in exchange for withdrawing its transfer-tax-cap initiative?",
+          "choices": [
+            "Repeal of Measure ULA",
+            "Prop 43, requiring two-thirds for citizen-initiated special taxes",
+            "A statewide 0.11% cap",
+            "A split-roll ban"
+          ],
+          "answer": 1,
+          "explain": "ACA 22, now Prop 43, raises the threshold for citizen-initiated special taxes to two-thirds going forward."
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "summary": "No split-roll or Prop 13 reassessment measure is on the 2026 ballot or advanced in the Legislature. The last split-roll attempt, Prop 15 in 2020, narrowly failed. The 2026 tax measures cut the other way: Prop 43 (two-thirds for citizen-initiated special taxes) and Prop 42 (no new personal-property taxes). Only small, targeted property-tax tweaks passed in 2026.",
+      "answer": "### Prop 13 basics for multifamily\n- **Rate and assessment:** 1% base rate plus voter-approved debt, roughly 1.1% in much of Ventura County. Assessed value resets to purchase price at a change in ownership, then rises no more than 2% a year.\n- **Entity transfers:** Matter. A more-than-50% change in control of a legal entity triggers reassessment (R&T Code 64).\n\n### Split roll: where it stands\n| Effort | Year | Outcome |\n|---|---|---|\n| Prop 15 (\"Schools and Communities First,\" commercial and industrial split roll; residential, including apartments, excluded) | 2020 | Failed narrowly |\n| Any 2025-26 split-roll bill or ACA | 2025-26 | None advanced, as far as I could find |\n| Nov 2026 ballot | 2026 | No split-roll or Prop 13 measure among the 14 props |\n\nEven Prop 15 **excluded residential property, including apartments**. A future split roll would most likely target commercial and industrial property first.\n\n### What did move in 2026\n- **Prop 43 (on the ballot):** Two-thirds vote for citizen-initiated local special taxes, including parcel taxes.\n- **Prop 42 (on the ballot):** Bars new state taxes on personal property such as financial assets. It does not cover real estate.\n- **Prop 40 (on the ballot):** One-time 5% billionaire tax. Real estate is excluded from its base.\n- **AB 1294 (reported signed Sept 29, 2026):** A pilot partial welfare exemption for qualifying nonprofit-owned middle-income rentals (up to 120% AMI) in Alameda County, Sacramento County and San Francisco only, for lien dates 2027-2029.\n- **SB 296:** A partial exemption for disabled veterans' homes.\n\n**So what:** Prop 13 protection for apartments is stable. Buyers still face full reassessment at purchase, and that drives the classic \"low-basis long-term owner\" seller profile in Ventura County. Watch for a 2028 split-roll initiative. Labor and education coalitions have tried before.",
+      "keyPoints": [
+        "No split-roll or Prop 13 measure on the Nov 2026 ballot",
+        "Prop 15 (2020) split roll failed narrowly and excluded residential, including apartments",
+        "Prop 13: 1% base plus bonds; 2%/yr assessment cap; reset on change in ownership",
+        "Prop 43 and Prop 42 on the 2026 ballot tighten tax limits rather than loosen them",
+        "AB 1294 welfare-exemption pilot covers only Alameda, Sacramento and SF"
+      ],
+      "sources": [
+        {
+          "title": "California Today - 2026 California propositions master guide",
+          "url": "https://californiatoday.com/guides/elections/2026-california-propositions-master-guide/",
+          "date": "2026-10"
+        },
+        {
+          "title": "C-P-M - Private property rights voter guide: how Ventura County owners should vote on November 3, 2026",
+          "url": "https://www.c-p-m.com/blog/the-private-property-rights-voter-guide-how-ventura-county-owners-should-vote-on-november-3-2026",
+          "date": "2026-10"
+        },
+        {
+          "title": "CA Secretary of State Official Voter Guide - Proposition 43",
+          "url": "https://voterguide.sos.ca.gov/propositions/43/",
+          "date": "2026-10"
+        },
+        {
+          "title": "Board of Equalization - AB 1294 bill analysis (welfare exemption pilot)",
+          "url": "https://www.boe.ca.gov/legdiv/pdf/1294ab061526rd.pdf",
+          "date": "2026-07"
+        },
+        {
+          "title": "ResideAct - New California housing laws signed by Gavin Newsom in 2026 (roundup of signed and vetoed bills)",
+          "url": "https://resideact.org/new-california-housing-laws",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "Prop 15 (2020) is described as failing narrowly (roughly 52% no); confirm the exact figure in the SOS Nov 2020 Statement of Vote. Confirm AB 1294's chaptered status on leginfo (one tracker still showed it pending). Check the SOS initiatives-in-circulation list for any 2028 split-roll filing.",
+      "drills": [
+        {
+          "q": "How did Prop 15 (2020) treat apartment buildings?",
+          "choices": [
+            "Reassessed them annually",
+            "Excluded residential property, including apartments",
+            "Reassessed only buildings over 50 units",
+            "Applied only to apartments built after 1995"
+          ],
+          "answer": 1,
+          "explain": "Prop 15 targeted commercial and industrial property and excluded residential, including apartments."
+        },
+        {
+          "q": "Which statement about the November 2026 ballot is correct?",
+          "choices": [
+            "It includes a split-roll measure",
+            "It repeals Prop 13's 2% cap",
+            "It has no split-roll or Prop 13 reassessment measure",
+            "It reassesses entity transfers annually"
+          ],
+          "answer": 2,
+          "explain": "None of the 14 statewide propositions is a split-roll or Prop 13 reassessment measure."
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "summary": "The 2025 reconciliation law (P.L. 119-21, signed July 4, 2025) made **100% bonus depreciation permanent** for property acquired after January 19, 2025, **expanded LIHTC** (a permanent 12% boost to 9% credits and a lower bond test), and **left 1031 alone**. For agency debt, FHFA set 2026 caps at $88B each for Fannie and Freddie. Further LIHTC expansion (AHCIA) has no clear path in 2026.",
+      "answer": "### Already law (One Big Beautiful Bill Act, P.L. 119-21)\n| Item | Change | Multifamily angle |\n|---|---|---|\n| **Bonus depreciation** | Permanent **100%** for qualified property acquired after January 19, 2025 | Cost segregation on acquisitions front-loads write-offs from the 5-, 7- and 15-year components |\n| **Section 179** | Limit raised to $2.5M (phase-out at $4M) | Useful for smaller owners' equipment and improvements |\n| **LIHTC (9%)** | Permanent **12%** increase in state allocations from 2026 | California's 2026 ceiling uses **$3.416 per capita** (Rev. Proc. 2025-32) |\n| **LIHTC (4%)** | The 50% tax-exempt bond test is permanently lowered (to 25% for bonds issued after 2025) | Stretches California's scarce bond cap to more 4% deals |\n| **Opportunity Zones** | Program extended; rural QOZ substantial-improvement test cut to 50% | New designation rounds |\n| **Section 1031** | **No change** | Like-kind exchanges of real property remain intact |\n\n### Proposed or pending\n- **AHCIA** (the rest of the LIHTC wish list): The ACTION Campaign says there is \"no clear path\" for tax legislation in 2026; a lame-duck deal is possible.\n- **Other introduced bills, no action:** FIXER Act (H.R. 9906, preservation bonds outside the volume cap) and S. 5553 (a 30% bigger bond cap and transit basis boosts).\n- **ROAD to Housing Act:** Contains LIHTC-related provisions; final status unconfirmed.\n\n### Agency lending\nFHFA's **2026 caps are $88B each** for Fannie Mae and Freddie Mac ($176B total), released November 24, 2025. At least **50%** must be mission-driven affordable, and workforce-housing loans are excluded from the cap. FHFA said it would not lower the caps mid-year.\n\n**So what:**\n- **Sellers:** 1031 is safe, so the exchange-buyer pool stays intact.\n- **Buyers:** 100% bonus depreciation improves after-tax returns on value-add deals.\n- **Affordable developers:** More 9% and 4% capacity means more LIHTC competition for sites and acquisitions in Ventura County.",
+      "keyPoints": [
+        "P.L. 119-21 enacted July 4, 2025",
+        "100% bonus depreciation made permanent for property acquired after Jan 19, 2025",
+        "LIHTC: permanent 12% boost to 9% credits; 2026 CA ceiling based on $3.416 per capita",
+        "1031 like-kind exchanges unchanged",
+        "FHFA 2026 caps: $88B each for Fannie and Freddie; 50% mission-driven"
+      ],
+      "sources": [
+        {
+          "title": "IRS - One, Big, Beautiful Bill provisions (P.L. 119-21)",
+          "url": "https://www.irs.gov/newsroom/one-big-beautiful-bill-provisions",
+          "date": "2026"
+        },
+        {
+          "title": "IRS - Working Families Tax Cuts: businesses (bonus depreciation, Sec. 179)",
+          "url": "https://www.irs.gov/newsroom/working-families-tax-cuts-businesses",
+          "date": "2026"
+        },
+        {
+          "title": "IRS - Rev. Proc. 2025-32 (2026 inflation adjustments incl. state housing credit ceiling)",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+          "date": "2025-10"
+        },
+        {
+          "title": "ACTION Campaign - Congress expands the Housing Credit in budget reconciliation",
+          "url": "https://rentalhousingaction.org/congress-expands-the-housing-credit-in-budget-reconciliation-2/",
+          "date": "2025-07"
+        },
+        {
+          "title": "ACTION Campaign - October 2026 newsletter: AHCIA advocacy and housing credit news",
+          "url": "https://rentalhousingaction.org/2026/09/october-2026-monthly-newsletter-ahcia-advocacy-strategies-other-housing-credit-news/",
+          "date": "2026-09"
+        },
+        {
+          "title": "FHFA - 2026 multifamily loan purchase caps for Fannie Mae and Freddie Mac",
+          "url": "https://www.fhfa.gov/news/news-release/u.s.-federal-housing-announces-2026-multifamily-loan-purchase-caps-for-fannie-mae-and-freddie-mac",
+          "date": "2025-11"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "The 25% bond-test figure and its 'bonds issued after Dec 31, 2025' effective date come from my knowledge of OBBBA Sec. 70422(b), not a fetched primary source. Confirm in the statute or a Novogradac summary. Confirm the status of the ROAD to Housing Act on congress.gov and FHFA's 2027 cap announcement (usually November).",
+      "drills": [
+        {
+          "q": "Under the 2025 reconciliation law, what bonus depreciation applies to qualified property acquired after Jan 19, 2025?",
+          "choices": [
+            "40%, phasing down",
+            "60%",
+            "100%, permanent",
+            "None; repealed"
+          ],
+          "answer": 2,
+          "explain": "The law made 100% first-year bonus depreciation permanent for property acquired after Jan 19, 2025."
+        },
+        {
+          "q": "What did the 2025 law do to Section 1031 like-kind exchanges?",
+          "choices": [
+            "Capped gains at $500,000",
+            "Repealed them for real estate",
+            "Left them unchanged",
+            "Limited them to opportunity zones"
+          ],
+          "answer": 2,
+          "explain": "1031 was not changed."
+        },
+        {
+          "q": "What are FHFA's 2026 multifamily purchase caps?",
+          "choices": [
+            "$50B each",
+            "$70B each",
+            "$88B each ($176B total)",
+            "No caps in 2026"
+          ],
+          "answer": 2,
+          "explain": "FHFA set $88B for each Enterprise, with at least half mission-driven."
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "summary": "The owner side is led by the **California Apartment Association**, CAR and its local REALTOR boards, plus AAGLA and Howard Jarvis on taxes. They fought AB 1157 and SB 1365 and back Props 1 and 43. The tenant side is led locally by **CAUSE** (Ventura and Oxnard), with ACCE, PICO and Tenants Together statewide. Their focus is AB 1482 expansion, local rent caps and anti-harassment rules.",
+      "answer": "### Owner and industry side\n| Group | 2025-26 positions on record |\n|---|---|\n| **California Apartment Association (CAA)** | Opposed AB 1157 (it died Jan 2026). Opposed SB 1365 and asked for a veto (signed anyway). **Supports Prop 1**. Tracks Oxnard's RSO closely. |\n| **California Association of REALTORS (CAR)** and local boards | Opposed AB 1157. Local boards weigh in on city ordinances. |\n| **AAGLA** | Reports on and lobbies Ventura County councils, e.g., the May 2025 rejection of rent stabilization in Ventura. |\n| **Howard Jarvis Taxpayers Assn.** | Withdrew its transfer-tax-cap initiative for Prop 43. Recommends YES on 41, 42, 43, 45 and NO on Props 1-5, 37, 38, 40, 44. |\n| **CalChamber** | Sponsor of Prop 45 (CEQA fast track). |\n\n### Tenant side\n| Group | Focus |\n|---|---|\n| **CAUSE** (Central Coast Alliance United for a Sustainable Economy; Ventura office, active in Oxnard, Ventura and Santa Paula) | \"Housing for All\" campaigns, tenant know-your-rights, and support for local protections |\n| **ACCE** and **PICO** | Rallied at the Capitol for AB 1157 the day before its January 2026 vote |\n| **Tenants Together** | Statewide tenant network; tracks local rent ordinances |\n| **AIDS Healthcare Foundation** | Funded Props 10, 21 and 33; constrained by Prop 34 |\n| **Courage California** | Progressive voter guide; flagged CAA PAC money to AD 38 incumbent Steve Bennett as \"problematic\" |\n\n### What each side is pushing in 2027\n- **Tenant side:**\n  - Revive AB 1157-type limits: a lower cap, SFR coverage and no sunset.\n  - More local caps or registries (Ventura City after council turnover).\n  - Relocation payments.\n  - Anti-harassment rules.\n- **Owner side:**\n  - A clean AB 1482 extension, or a lapse.\n  - Pass Prop 1 and Prop 43.\n  - Fair-return protections in Oxnard and Ojai.\n  - Resist post-emergency rent rules.\n\n**So what:** Join CAA's alerts and your local REALTOR board's government-affairs list. Local ordinance fights are won or lost in 2-3 council meetings with little notice.",
+      "keyPoints": [
+        "CAA opposed AB 1157 and SB 1365 and supports Prop 1",
+        "CAR also opposed AB 1157; HJTA backs Props 41, 42, 43, 45",
+        "CAUSE (Ventura-based) is the main local tenant organizer: Oxnard, Ventura, Santa Paula",
+        "ACCE and PICO rallied for AB 1157 in January 2026",
+        "CalChamber sponsors Prop 45; AHF funded Props 10, 21, 33"
+      ],
+      "sources": [
+        {
+          "title": "Oakland Voices - California rent control bill dies in Assembly committee (AB 1157)",
+          "url": "https://oaklandvoices.us/2026/01/27/california-rent-control-dies-state-assembly/",
+          "date": "2026-01"
+        },
+        {
+          "title": "California Apartment Association - Governor signs bill expanding emergency rent caps to long-term leases",
+          "url": "https://caanet.org/governor-signs-bill-expanding-emergency-rent-caps-to-long-term-leases/",
+          "date": "2026-10"
+        },
+        {
+          "title": "KPBS - Proposition 1: Borrow $11.25 billion for housing",
+          "url": "https://www.kpbs.org/news/politics/2026/10/02/proposition-1-borrow-11-25-billion-for-housing",
+          "date": "2026-10"
+        },
+        {
+          "title": "CAUSE - Central Coast Alliance United for a Sustainable Economy",
+          "url": "https://causenow.org/",
+          "date": "2026"
+        },
+        {
+          "title": "AAGLA - Victory alert: Ventura City Council rejects 4 out of 7 policies",
+          "url": "https://members.aagla.org/news/victory-alert-ventura-city-council-rejects-4-out-of-7-bad-policies",
+          "date": "2025-05"
+        },
+        {
+          "title": "Courage California Progressive Voters Guide - Ventura County, November 2026",
+          "url": "https://www.progressivevotersguide.com/california/2026/general/county/ventura?ad=38th",
+          "date": "2026-10"
+        },
+        {
+          "title": "CalChamber Alert - Voters strongly support CalChamber's Prop 45",
+          "url": "https://calchamberalert.com/2026/07/31/voters-strongly-support-calchambers-prop-45/",
+          "date": "2026-07"
+        },
+        {
+          "title": "CP&DR - News briefs June 30, 2026: transfer taxes, state housing bond",
+          "url": "https://www.cp-dr.com/post/cp-dr-news-briefs-june-30-2026-transfer-taxes-state-housing-bond-ca-forever-shipyard-and-more",
+          "date": "2026-06"
+        },
+        {
+          "title": "Madera Tribune - Opinion: propositions on the November ballot (HJTA recommendations)",
+          "url": "https://maderatribune.com/opinion-propositions-november-ballot/",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "medium",
+      "verify": "The HJTA recommendation list comes from a search-result summary citing the Madera Tribune opinion piece; confirm on hjta.org. Confirm which CAA region and staff cover Ventura County and the names of the local REALTOR associations' government-affairs directors. 'CCEJ' (named in the assignment) could not be identified or confirmed; check what organization is meant before citing it.",
+      "drills": [
+        {
+          "q": "Which group is the main Ventura County-based tenant organizer named here?",
+          "choices": [
+            "AAGLA",
+            "CAUSE",
+            "CalChamber",
+            "HJTA"
+          ],
+          "answer": 1,
+          "explain": "CAUSE (Central Coast Alliance United for a Sustainable Economy) is based in Ventura and active in Oxnard, Ventura and Santa Paula."
+        },
+        {
+          "q": "What was CAA's position on SB 1365 (emergency rent caps on long leases)?",
+          "choices": [
+            "Sponsored it",
+            "Neutral",
+            "Opposed it and asked for a veto",
+            "Supported it after amendments"
+          ],
+          "answer": 2,
+          "explain": "CAA and allied groups opposed SB 1365 and asked the governor to veto it; he signed it Sept 30, 2026."
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "summary": "Ventura County is covered mainly by **Assembly District 38** (Steve Bennett, D: Ventura, Oxnard and the west county) and **AD 42** (Jacqui Irwin, D: Conejo/east county; an open seat in November 2026), and by **Senate District 21** (Monique Limón, D, now Senate President pro Tem) and **SD 27** (Henry Stern, D). Limón co-led the $11.25B Prop 1 housing bond.",
+      "answer": "### Current roster (official rosters, October 2026)\n| Seat | Member | Rough Ventura County coverage | November 2026 |\n|---|---|---|---|\n| **AD 38** | Steve Bennett (D) | West and central county: City of Ventura, most of Oxnard, Santa Clara River Valley, Ojai area | Bennett vs. Michael MacDonald (D) |\n| **AD 42** | Jacqui Irwin (D) | East county / Conejo: Thousand Oaks area and neighbors | **Open seat:** Deborah Klein Lopez (D) vs. Ted Nordblum (R) |\n| **SD 21** | Monique Limón (D), **Senate President pro Tem** | Santa Barbara County plus parts of Ventura and SLO counties; Oxnard district office | Not up |\n| **SD 27** | Henry Stern (D) | \"From Los Angeles to Ventura County\": Conejo and Simi corridor | Not up |\n\nOther nearby members whose lines may clip the county edges: AD 37 Gregg Hart (D, Santa Barbara), AD 40 Pilar Schiavo (D), AD 44 Nick Schultz (D), SD 23 Suzette Martinez Valladares (R). Confirm exact city splits before relying on them.\n\n### Housing record (public actions only)\n- **Limón:** Co-lead with Speaker Rivas on **SB 417**, the Prop 1 bond (signed June 25, 2026). She spoke at the bond rollout. As Pro Tem she controls which bills reach the Senate floor.\n- **Bennett:** Courage California's guide flags a CAA PAC contribution to his campaign. That is a funding fact, not a vote.\n- **Irwin:** Leaving the Assembly. She was first elected in 2014, which reaches the 12-year limit; she is not on the 2026 ballot.\n- **Stern:** His office reports all nine of his 2026 bills were signed. I found no major landlord-tenant bill among them.\n- **AB 1157:** None of these members sat on Assembly Judiciary for the January 2026 vote, so there is no recorded AB 1157 committee vote from them.\n\n**So what:** For a client in Oxnard or Ventura, the Bennett and Limón offices matter. For Thousand Oaks and Simi Valley, Stern and the AD 42 winner matter. Limón's Pro Tem role makes SD 21 unusually influential on any 2027 rent bill.",
+      "keyPoints": [
+        "AD 38 Steve Bennett (D): west and central county",
+        "AD 42 Jacqui Irwin (D): east county; open seat Nov 2026 (Klein Lopez vs. Nordblum)",
+        "SD 21 Monique Limón (D): Senate President pro Tem; co-led SB 417 / Prop 1",
+        "SD 27 Henry Stern (D): Conejo/Simi corridor into LA",
+        "Check district maps; city splits matter (e.g., Oxnard and Camarillo)"
+      ],
+      "sources": [
+        {
+          "title": "California State Assembly - Assemblymembers roster",
+          "url": "https://www.assembly.ca.gov/assemblymembers",
+          "date": "2026-10"
+        },
+        {
+          "title": "California State Senate - Senators roster",
+          "url": "https://www.senate.ca.gov/senators",
+          "date": "2026-10"
+        },
+        {
+          "title": "Senate District 21 - Senate President pro Tempore Monique Limon",
+          "url": "https://sd21.senate.ca.gov/",
+          "date": "2026-10"
+        },
+        {
+          "title": "Senate District 27 - Senator Henry Stern",
+          "url": "https://sd27.senate.ca.gov/",
+          "date": "2026-10"
+        },
+        {
+          "title": "Office of the Governor - California leaders announce Veterans and Affordable Housing Bond Act of 2026",
+          "url": "https://www.gov.ca.gov/2026/06/22/california-leaders-announce-historic-veterans-and-affordable-housing-bond-act-of-2026/",
+          "date": "2026-06"
+        },
+        {
+          "title": "Courage California Progressive Voters Guide - Ventura County, November 2026",
+          "url": "https://www.progressivevotersguide.com/california/2026/general/county/ventura?ad=38th",
+          "date": "2026-10"
+        },
+        {
+          "title": "Oakland Voices - California rent control bill dies in Assembly committee (AB 1157)",
+          "url": "https://oaklandvoices.us/2026/01/27/california-rent-control-dies-state-assembly/",
+          "date": "2026-01"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "District boundaries by city were not confirmed from an official map. Use findyourrep.legislature.ca.gov or the 2021 Citizens Redistricting Commission maps to confirm which AD/SD covers Camarillo, Simi Valley, Moorpark, Port Hueneme and Santa Paula. Confirm Irwin's term-limit status and the AD 42 / AD 38 results after Nov 3. For housing stances, pull votes on key 2026 bills (SB 1365, AB 2433, SB 1169) from leginfo vote histories.",
+      "drills": [
+        {
+          "q": "Which Ventura County-area legislator is Senate President pro Tempore and co-led the Prop 1 housing bond?",
+          "choices": [
+            "Henry Stern",
+            "Monique Limón",
+            "Steve Bennett",
+            "Jacqui Irwin"
+          ],
+          "answer": 1,
+          "explain": "Monique Limón (SD 21) is Senate President pro Tem and co-led SB 417 with Speaker Rivas."
+        },
+        {
+          "q": "Which Assembly seat covering east Ventura County is open in November 2026?",
+          "choices": [
+            "AD 38",
+            "AD 37",
+            "AD 42",
+            "AD 44"
+          ],
+          "answer": 2,
+          "explain": "AD 42 (Irwin) is open; the general election pits Deborah Klein Lopez (D) against Ted Nordblum (R)."
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "summary": "The five supervisors are believed to be Matt LaVere (D1), Jeff Gorell (D2), Kelly Long (D3), Janice Parvin (D4) and Vianey Lopez (D5), but I could not confirm the roster or recent housing votes from an official source this session. The county's direct rental role is narrow: unincorporated areas have no apartment rent control, only a 1983 mobile home park program (2.8% cap for 2026).",
+      "answer": "### Roster (needs confirmation)\n| District | Supervisor (as of last confirmed) | General area |\n|---|---|---|\n| 1 | Matt LaVere | City of Ventura, Ojai Valley, west county |\n| 2 | Jeff Gorell | Thousand Oaks, Conejo Valley, part of Camarillo, coast |\n| 3 | Kelly Long | Camarillo, Santa Paula, Fillmore, Piru, part of Oxnard plain |\n| 4 | Janice Parvin | Simi Valley, Moorpark |\n| 5 | Vianey Lopez | Oxnard, Port Hueneme, El Rio |\n\nDistricts 2 and 4 were on the 2026 cycle. I could not confirm whether they were decided in the June primary. **Verify the current roster, 2026 chair and district lines before quoting.**\n\n### Where the Board actually touches multifamily\n- **Unincorporated rentals:** No apartment rent control or local just-cause ordinance. AB 1482 applies.\n- **Mobile home parks:** A 1983 rent control ordinance covers about 1,390 spaces in 25 parks. The 2026 ministerial increase is **2.8%**, overseen by a five-member Rent Review Board.\n- **Growth limits:** SOAR (Save Open Space and Agricultural Resources) requires voter approval to rezone agricultural or open-space land in the unincorporated county. It was extended by voters to 2050. That pushes most multifamily into the cities.\n- **Funding and partners:** The County partners with the Area Housing Authority, the Housing Trust Fund Ventura County and the Homekey projects (see Section 15). Farmworker housing in the unincorporated area (e.g., Somis Ranch) runs through county land-use approvals.\n\n### Voting record\nI did not find a reliable, sourced summary of individual supervisors' 2025-26 housing votes, such as housing element rezoning, farmworker housing ordinances or inclusionary rules. Rather than characterize anyone, pull the minutes.\n\n**So what:** For apartment investors, the Board matters mostly for **unincorporated land use**, **farmworker and affordable financing** and **mobile home parks**. City councils set rent rules for the vast majority of the county's apartments.",
+      "keyPoints": [
+        "Roster (verify): LaVere D1, Gorell D2, Long D3, Parvin D4, Lopez D5",
+        "Unincorporated county: no apartment rent control; AB 1482 applies",
+        "County mobile home park rent control: about 1,390 spaces in 25 parks; 2.8% for 2026",
+        "SOAR requires a public vote to convert ag/open space (extended to 2050)",
+        "City councils, not the Board, set rent rules for most apartments"
+      ],
+      "sources": [
+        {
+          "title": "Ventura County RMA - Mobile Home Park Rent Control Program",
+          "url": "https://rma.venturacounty.gov/programs/mobile-home-park-rent-control-program",
+          "date": "2026"
+        },
+        {
+          "title": "Ventura County Clerk-Recorder - 2026 measures",
+          "url": "https://clerkrecorder.venturacounty.gov/elections/2026-measures/",
+          "date": "2026-10"
+        }
+      ],
+      "lastVerified": "2026-10-27",
+      "confidence": "low",
+      "verify": "The county website was blocked during research. Confirm the current five supervisors, 2026 chair and June 2026 primary results for D2 and D4 at venturacounty.gov/board-of-supervisors and the Clerk-Recorder election results. Pull 2025-26 Board minutes (Legistar) for votes on housing element rezoning, farmworker housing, inclusionary/affordable housing, Homekey and tenant protections. Confirm SOAR's 2050 sunset on the County Planning site.",
+      "drills": [
+        {
+          "q": "What rent regulation applies to apartments in unincorporated Ventura County?",
+          "choices": [
+            "County 4% cap",
+            "Only state AB 1482",
+            "Full vacancy control",
+            "County 2.8% cap"
+          ],
+          "answer": 1,
+          "explain": "The County has no apartment rent control. Its 2.8% figure applies only to regulated mobile home park spaces."
+        },
+        {
+          "q": "Why does SOAR matter for multifamily supply in Ventura County?",
+          "choices": [
+            "It caps rents in unincorporated areas",
+            "It requires voter approval to rezone ag/open space, pushing development into cities",
+            "It exempts apartments from CEQA",
+            "It funds farmworker housing"
+          ],
+          "answer": 1,
+          "explain": "SOAR requires a public vote to convert agricultural or open-space land, so most multifamily growth happens inside city limits."
+        }
+      ]
+    }
+  ]
+}
